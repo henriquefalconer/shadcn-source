@@ -10,8 +10,8 @@ cd shadcn
 ./bootstrap.sh
 ```
 
-The first run takes a few minutes and about 200 MB. Nothing is stored in this
-repo; the script downloads it all from the upstream projects.
+The first run takes a few minutes and loads shadcn resources locally. Nothing is
+stored in this repo; the script downloads it all from the upstream projects.
 
 ```bash
 ./bootstrap.sh --check   # anything missing or stale?
