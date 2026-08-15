@@ -24,7 +24,7 @@ changed. Needs node.
 ## What you end up with
 
 ```
-registry/shadcn/<style>/    2,098 items across 27 styles
+registry/shadcn/<style>/    components, blocks and examples
 registry/react-bits/        also magicui, animate-ui, ai-elements
 assets/                     fonts, images, icons, media
 docs/                       per-component docs
