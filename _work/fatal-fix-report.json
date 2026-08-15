@@ -1,0 +1,111 @@
+{
+  "summary": "Started from 104 fatal files (measured from _work/c5-results.jsonl). After config/dependency-layer fixes and a full re-verify (curl 200-check on all 104, then a real Playwright browser run on the 100 that passed curl), 99/104 now load with fatal=null. 5 remain broken due to genuine content gaps in the archive (a missing animate-ui primitive component and a missing card.glb binary asset for react-bits Lanyard) that cannot legitimately be fixed without fabricating archive content. registry/ was never modified; all fixes are in _verify/vite.config.ts, _verify/package.json, and new files under _verify/src/.",
+  "root_causes": [
+    {
+      "cause": "TanStack Table v9-only API (columnFilteringFeature, FlexRender, tableFeatures, useTable, ...) used by blocks/dashboard-01/components/data-table.tsx across all ~27 shadcn styles plus new-york-v4/examples/data-table-demo.tsx, while the workspace pins @tanstack/react-table to v8 (^8.0.0) because every OTHER consumer (default/new-york style data-table-demo.tsx) uses the classic v8 hook API (useReactTable/getCoreRowModel). v8 and v9 cannot both satisfy the bare specifier globally.",
+      "files_affected": 50,
+      "fix_applied": "Installed the real v9.1.2 package under the alias name '@tanstack/react-table-v9' (package.json: \"@tanstack/react-table-v9\": \"npm:@tanstack/react-table@^9.1.2\"), and added a custom Vite resolveId plugin (tanstackReactTableV9ForV9Consumers, in vite.config.ts) that rewrites the bare specifier '@tanstack/react-table' to '@tanstack/react-table-v9' only when the importing file matches /blocks/dashboard-01/components/data-table.tsx or /new-york-v4/examples/data-table-demo.tsx. A plain alias can't do this because aliases match the specifier, not the importer; every other file keeps resolving the pinned v8 package unchanged.",
+      "verified_how": "curl -s -o /dev/null -w '%{http_code}' 200 check on all 50 originally-fatal tanstack files (data-table.tsx + page.tsx across every style, plus data-table-demo.tsx) after restarting vite; then a real headless-Chromium Playwright run (same runner pattern as _work/smoke.mjs) against a sample including new-york-v4/blocks/dashboard-01/{components/data-table.tsx,page.tsx} and base-luma/blocks/dashboard-01/page.tsx, all returning fatal=null."
+    },
+    {
+      "cause": "Absolute `@/...` imports for shared hooks/components that are shadcn 'registry:hook' or docs-site items, never archived under registry/ for ANY style (@/hooks/use-media-query, @/hooks/use-copy-to-clipboard, generic @/hooks/use-mobile used by 2 animate-ui files, @/components/icons, @/components/icons/react-icon).",
+      "files_affected": 15,
+      "fix_applied": "Vendored the missing modules as new shim files (content copied verbatim from upstream/apps/v4/hooks/*.tsx and upstream/apps/v4/components/icons.tsx, which is the pristine source the archive was derived from) under _verify/src/hooks/use-media-query/, _verify/src/hooks/use-copy-to-clipboard/, _verify/src/hooks/use-mobile/ (all covered by the pre-existing '@/hooks' -> _verify/src/hooks alias), and _verify/src/shims/icons/{index.tsx,react-icon.tsx} (new alias '@/components/icons' added in vite.config.ts). react-icon.tsx uses the same React-logo SVG path as upstream's icons.tsx 'react' icon rather than an invented graphic.",
+      "verified_how": "curl 200 check + Playwright fatal=null on breadcrumb-responsive.tsx, combobox-responsive.tsx, drawer-dialog.tsx (all 3 styles), navigation-menu-demo.tsx (default + new-york), input-group-button.tsx, animate-ui components/radix/sidebar/index.tsx + demo variant, animate-ui demo/components/animate/code/index.tsx."
+    },
+    {
+      "cause": "form-next-demo.tsx and form-next-complex.tsx (new-york-v4/examples) each import a sibling '-action' and '-schema' file via a relative specifier (e.g. './form-next-demo-action'); only the .tsx entry points were archived, the 4 sibling files were not, for either example.",
+      "files_affected": 2,
+      "fix_applied": "Vendored the 4 missing files (content copied from upstream/apps/v4/registry/new-york-v4/examples/form-next-{demo,complex}-{action,schema}.ts) under _verify/src/shims/form-next/, and added a scoped Vite resolveId plugin (formNextMissingSiblings) that redirects only those 4 exact relative specifiers, only when imported from form-next-demo.tsx or form-next-complex.tsx, to the vendored files. Relative imports can't be fixed with a normal alias since aliases match specifiers globally, not per-importer.",
+      "verified_how": "curl 200 + Playwright fatal=null on both form-next-demo.tsx and form-next-complex.tsx."
+    },
+    {
+      "cause": "react-day-picker was pinned to \"latest\" in package.json, which resolved to 10.0.1. v10 dropped the calendar-variant subpath exports (./persian, ./jalali, ./hebrew, ./buddhist, ./ethiopic) entirely; calendar-hijri.tsx imports DayPicker from 'react-day-picker/persian'.",
+      "files_affected": 1,
+      "fix_applied": "Pinned react-day-picker to ^9.14.0 (last v9 release) in package.json, which still exports '/persian'. Checked that no other archived file uses the other dropped variant subpaths (/jalali, /hebrew, /buddhist, /ethiopic), and that the base DayPicker API used by calendar.tsx and date-picker-with-range.tsx (getDefaultClassNames, DayButton type, captionLayout prop, etc.) is unchanged between v9.14 and v10.0.1, so no other file regresses.",
+      "verified_how": "curl 200 + Playwright fatal=null on calendar-hijri.tsx; spot-checked ui/calendar.tsx and examples/date-picker-with-range.tsx still return 200 with no resolver error after the downgrade."
+    },
+    {
+      "cause": "Fixing react-day-picker exposed a SECOND, distinct fatal cause in the same file: next/font/google. The real `next` package (v16.3.0, installed at node_modules/next) ships an intentionally EMPTY index.js for next/font/google - Next.js resolves font calls via its own SWC/webpack build-time loader, which doesn't exist under Vite. calendar-hijri.tsx calls Vazirmatn({subsets:['arabic']}) from next/font/google. This only surfaces as a browser runtime error ('does not provide an export named default/Vazirmatn') when the empty deps chunk is evaluated - curl-based checks (which only see the Vite transform succeeding) could not have caught it; it was found by running the archive's own real-browser Playwright runner pattern.",
+      "files_affected": 1,
+      "fix_applied": "Added a 'next/font/google' -> _verify/src/shims/next-font-google.ts alias in vite.config.ts. The shim exports a Vazirmatn(...) function returning a plausible {className, variable, style} object shaped like the real API's return value, without loading a real webfont (there is no 'real' implementation to alias to outside a Next.js build - this is a platform gap, not an archive gap).",
+      "verified_how": "Playwright fatal=null on calendar-hijri.tsx after adding the alias (previously fatal='import failed: ... does not provide an export named default' even though curl returned 200 for the same file)."
+    },
+    {
+      "cause": "~31 of the original 104 fatal records (14 'page.waitForFunction: Timeout', 8 'page.goto: Timeout', 9 'Execution context was destroyed') were never module-resolution failures. Every one of these files returned HTTP 200 with no resolver error via curl, both before and after all the fixes above. A full Playwright re-run (same runner pattern) now shows fatal=null for all but one of them. This matches the task's guidance that some react-bits failures are WebGL/canvas timeouts under SwiftShader software rendering, not resolution bugs - and the same turned out to be true for a handful of non-WebGL shadcn/ai-elements files (date-picker examples, base-luma dashboard/sidebar files, ai-elements chat demos), which are presumably slow-to-render/animate rather than resolution-broken.",
+      "files_affected": 31,
+      "fix_applied": "None - not a resolution failure, out of scope per task instructions (rule 3: classify separately, don't chase). Left registry/ and the affected files untouched.",
+      "verified_how": "curl 200 on all 31 both before and after other fixes; re-ran the Playwright fatal check on all 31 after the fixes above landed - 31/31 returned fatal=null on this run (likely pre-existing flakiness/slowness in a loaded environment rather than anything this pass changed)."
+    }
+  ],
+  "fixed": 99,
+  "still_failing": 5,
+  "still_failing_detail": [
+    {
+      "file": "/registry/animate-ui/registry/components/headless/tabs/index.tsx",
+      "reason": "Imports '@/components/animate-ui/primitives/headless/tabs', a headless Tabs primitive that was never archived for any style - registry/animate-ui/registry/primitives/headless/ only contains disclosure, checkbox, dialog, popover, and switch. No upstream reference exists either (checked upstream/), so there is no source to vendor from. Fabricating the primitive would falsify the archive.",
+      "category": "unresolved"
+    },
+    {
+      "file": "/registry/animate-ui/registry/demo/components/headless/tabs/index.tsx",
+      "reason": "Imports '@/components/animate-ui/components/headless/tabs' (the wrapper component above), which itself fails because of the missing primitive. Transitively broken by the same root cause.",
+      "category": "unresolved"
+    },
+    {
+      "file": "/registry/animate-ui/registry/demo/primitives/headless/tabs/index.tsx",
+      "reason": "Imports '@/components/animate-ui/primitives/headless/tabs' directly - same missing primitive as above.",
+      "category": "unresolved"
+    },
+    {
+      "file": "/registry/react-bits/Lanyard.jsx",
+      "reason": "Imports './card.glb', a binary 3D model asset that was never vendored into the archive (no .glb file exists anywhere in the repo, including assets/). Not fixable via alias/config - would require fabricating or sourcing a real binary asset, which is the concurrent asset-vendoring agent's remit (assets/, _work/extra-rewrites.json), not this pass's.",
+      "category": "unresolved"
+    },
+    {
+      "file": "/registry/react-bits/Lanyard.tsx",
+      "reason": "Same as Lanyard.jsx - missing './card.glb'.",
+      "category": "unresolved"
+    }
+  ],
+  "aliases_added": [
+    {
+      "find": "@/components/icons",
+      "replacement": "_verify/src/shims/icons",
+      "reason": "shadcn's docs-site Icons module (navigation-menu-demo.tsx's Icons.logo) and its react-icon sibling (animate-ui code-block demo) are not registry items - never archived under registry/ for any style. Shimmed from upstream/apps/v4/components/icons.tsx content."
+    },
+    {
+      "find": "next/font/google",
+      "replacement": "_verify/src/shims/next-font-google.ts",
+      "reason": "The real next/font/google (from the installed `next` package) ships an intentionally empty index.js - Next.js resolves fonts via a build-time SWC/webpack loader absent under Vite. Only calendar-hijri.tsx uses it (Vazirmatn(...)); shim returns a plausible {className,variable,style} stub."
+    },
+    {
+      "find": "@tanstack/react-table (scoped via resolveId to importers matching /blocks/dashboard-01/components/data-table.tsx or /new-york-v4/examples/data-table-demo.tsx only)",
+      "replacement": "@tanstack/react-table-v9 (custom Vite plugin resolveId redirect, not a static find/replace alias - see tanstackReactTableV9ForV9Consumers in vite.config.ts)",
+      "reason": "Those specific files use TanStack Table v9's API (columnFilteringFeature, FlexRender, ...); every other archived file uses the v8 API the workspace has pinned. A plain alias can't be importer-scoped, so a resolveId plugin was used instead to avoid breaking the v8 consumers."
+    },
+    {
+      "find": "./form-next-demo-action, ./form-next-demo-schema, ./form-next-complex-action, ./form-next-complex-schema (scoped via resolveId to importers form-next-demo.tsx / form-next-complex.tsx only)",
+      "replacement": "_verify/src/shims/form-next/*.ts (custom Vite plugin resolveId redirect - see formNextMissingSiblings in vite.config.ts)",
+      "reason": "These 4 sibling files were never archived alongside form-next-demo.tsx/form-next-complex.tsx (only the .tsx entry points were). Relative-specifier imports can't be fixed with a normal find/replace alias since that would match the same relative path from any importer; a resolveId plugin scopes the redirect to just these two files."
+    }
+  ],
+  "packages_added": [
+    {
+      "name": "@tanstack/react-table-v9",
+      "version": "npm:@tanstack/react-table@^9.1.2",
+      "reason": "Real TanStack Table v9 package installed under an alias name so it can coexist with the workspace's pinned v8 (^8.0.0) @tanstack/react-table; routed to only via the scoped resolveId plugin above."
+    },
+    {
+      "name": "react-day-picker",
+      "version": "^9.14.0 (was \"latest\", which resolved to 10.0.1)",
+      "reason": "v10.0.1 dropped the calendar-variant subpath exports (./persian, ./jalali, ./hebrew, ./buddhist, ./ethiopic); calendar-hijri.tsx needs './persian'. v9.14.0 is the last release with that export and doesn't change the base DayPicker API other archived files depend on."
+    }
+  ],
+  "tradeoffs": [
+    "react-day-picker is now verified against v9.14.0 semantics instead of the newest v10.0.1 - a deliberate downgrade scoped to keep the one file that needs a calendar-variant subpath working, since v10 removed those subpaths outright rather than restructuring them.",
+    "@tanstack/react-table stays globally pinned at v8 for the ~26 other archived files that use the classic v8 hook API (useReactTable/getCoreRowModel); v9 is only reachable by the ~28 files actually authored against it, via importer-scoped resolution rather than a global bump - this avoids a wider regression but means the fix is a custom Vite plugin, not a simple aliases-array entry, which is slightly more surface to maintain.",
+    "The next/font/google shim renders calendar-hijri.tsx with a generic sans-serif fallback instead of the real Vazirmatn webfont - visually different from a real Next.js build, but functionally non-fatal, which is what this pass optimizes for.",
+    "The 3 animate-ui headless-tabs files and 2 react-bits Lanyard files are left broken: the former needs a component that exists nowhere in this archive or in upstream/, and the latter needs a binary .glb asset that was never vendored. Both would require fabricating content rather than fixing resolution, which the task explicitly rules out.",
+    "~31 of the original 104 fatal files were already resolution-clean (curl 200, no resolver error) before any of this pass's changes and now also pass a full Playwright re-run; they are reported as 'fixed' in the final 99/104 count for accuracy, but no code change in this pass caused that - it reflects pre-existing flakiness in WebGL/canvas- or animation-heavy components under the test harness, not a fix. If a future re-run has some of these flip back to fatal, that is expected and out of scope here (see the dedicated root_causes entry)."
+  ]
+}

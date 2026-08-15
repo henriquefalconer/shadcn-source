@@ -1,0 +1,1098 @@
+{
+  "pagination": {
+    "total": 136,
+    "offset": 0,
+    "limit": 5000,
+    "hasMore": false
+  },
+  "items": [
+    {
+      "name": "agent",
+      "title": "Agent",
+      "type": "registry:component",
+      "description": "AI-powered agent component.",
+      "registry": "@ai-elements",
+      "addCommandArgument": "@ai-elements/agent"
+    },
+    {
+      "name": "artifact",
+      "title": "Artifact",
+      "type": "registry:component",
+      "description": "AI-powered artifact component.",
+      "registry": "@ai-elements",
+      "addCommandArgument": "@ai-elements/artifact"
+    },
+    {
+      "name": "attachments",
+      "title": "Attachments",
+      "type": "registry:component",
+      "description": "AI-powered attachments component.",
+      "registry": "@ai-elements",
+      "addCommandArgument": "@ai-elements/attachments"
+    },
+    {
+      "name": "audio-player",
+      "title": "Audio Player",
+      "type": "registry:component",
+      "description": "AI-powered audio player component.",
+      "registry": "@ai-elements",
+      "addCommandArgument": "@ai-elements/audio-player"
+    },
+    {
+      "name": "canvas",
+      "title": "Canvas",
+      "type": "registry:component",
+      "description": "AI-powered canvas component.",
+      "registry": "@ai-elements",
+      "addCommandArgument": "@ai-elements/canvas"
+    },
+    {
+      "name": "chain-of-thought",
+      "title": "Chain Of Thought",
+      "type": "registry:component",
+      "description": "AI-powered chain of-thought component.",
+      "registry": "@ai-elements",
+      "addCommandArgument": "@ai-elements/chain-of-thought"
+    },
+    {
+      "name": "checkpoint",
+      "title": "Checkpoint",
+      "type": "registry:component",
+      "description": "AI-powered checkpoint component.",
+      "registry": "@ai-elements",
+      "addCommandArgument": "@ai-elements/checkpoint"
+    },
+    {
+      "name": "code-block",
+      "title": "Code Block",
+      "type": "registry:component",
+      "description": "AI-powered code block component.",
+      "registry": "@ai-elements",
+      "addCommandArgument": "@ai-elements/code-block"
+    },
+    {
+      "name": "commit",
+      "title": "Commit",
+      "type": "registry:component",
+      "description": "AI-powered commit component.",
+      "registry": "@ai-elements",
+      "addCommandArgument": "@ai-elements/commit"
+    },
+    {
+      "name": "confirmation",
+      "title": "Confirmation",
+      "type": "registry:component",
+      "description": "AI-powered confirmation component.",
+      "registry": "@ai-elements",
+      "addCommandArgument": "@ai-elements/confirmation"
+    },
+    {
+      "name": "connection",
+      "title": "Connection",
+      "type": "registry:component",
+      "description": "AI-powered connection component.",
+      "registry": "@ai-elements",
+      "addCommandArgument": "@ai-elements/connection"
+    },
+    {
+      "name": "context",
+      "title": "Context",
+      "type": "registry:component",
+      "description": "AI-powered context component.",
+      "registry": "@ai-elements",
+      "addCommandArgument": "@ai-elements/context"
+    },
+    {
+      "name": "controls",
+      "title": "Controls",
+      "type": "registry:component",
+      "description": "AI-powered controls component.",
+      "registry": "@ai-elements",
+      "addCommandArgument": "@ai-elements/controls"
+    },
+    {
+      "name": "conversation",
+      "title": "Conversation",
+      "type": "registry:component",
+      "description": "AI-powered conversation component.",
+      "registry": "@ai-elements",
+      "addCommandArgument": "@ai-elements/conversation"
+    },
+    {
+      "name": "edge",
+      "title": "Edge",
+      "type": "registry:component",
+      "description": "AI-powered edge component.",
+      "registry": "@ai-elements",
+      "addCommandArgument": "@ai-elements/edge"
+    },
+    {
+      "name": "environment-variables",
+      "title": "Environment Variables",
+      "type": "registry:component",
+      "description": "AI-powered environment variables component.",
+      "registry": "@ai-elements",
+      "addCommandArgument": "@ai-elements/environment-variables"
+    },
+    {
+      "name": "file-tree",
+      "title": "File Tree",
+      "type": "registry:component",
+      "description": "AI-powered file tree component.",
+      "registry": "@ai-elements",
+      "addCommandArgument": "@ai-elements/file-tree"
+    },
+    {
+      "name": "image",
+      "title": "Image",
+      "type": "registry:component",
+      "description": "AI-powered image component.",
+      "registry": "@ai-elements",
+      "addCommandArgument": "@ai-elements/image"
+    },
+    {
+      "name": "inline-citation",
+      "title": "Inline Citation",
+      "type": "registry:component",
+      "description": "AI-powered inline citation component.",
+      "registry": "@ai-elements",
+      "addCommandArgument": "@ai-elements/inline-citation"
+    },
+    {
+      "name": "jsx-preview",
+      "title": "Jsx Preview",
+      "type": "registry:component",
+      "description": "AI-powered jsx preview component.",
+      "registry": "@ai-elements",
+      "addCommandArgument": "@ai-elements/jsx-preview"
+    },
+    {
+      "name": "message",
+      "title": "Message",
+      "type": "registry:component",
+      "description": "AI-powered message component.",
+      "registry": "@ai-elements",
+      "addCommandArgument": "@ai-elements/message"
+    },
+    {
+      "name": "mic-selector",
+      "title": "Mic Selector",
+      "type": "registry:component",
+      "description": "AI-powered mic selector component.",
+      "registry": "@ai-elements",
+      "addCommandArgument": "@ai-elements/mic-selector"
+    },
+    {
+      "name": "model-selector",
+      "title": "Model Selector",
+      "type": "registry:component",
+      "description": "AI-powered model selector component.",
+      "registry": "@ai-elements",
+      "addCommandArgument": "@ai-elements/model-selector"
+    },
+    {
+      "name": "node",
+      "title": "Node",
+      "type": "registry:component",
+      "description": "AI-powered node component.",
+      "registry": "@ai-elements",
+      "addCommandArgument": "@ai-elements/node"
+    },
+    {
+      "name": "open-in-chat",
+      "title": "Open In Chat",
+      "type": "registry:component",
+      "description": "AI-powered open in-chat component.",
+      "registry": "@ai-elements",
+      "addCommandArgument": "@ai-elements/open-in-chat"
+    },
+    {
+      "name": "package-info",
+      "title": "Package Info",
+      "type": "registry:component",
+      "description": "AI-powered package info component.",
+      "registry": "@ai-elements",
+      "addCommandArgument": "@ai-elements/package-info"
+    },
+    {
+      "name": "panel",
+      "title": "Panel",
+      "type": "registry:component",
+      "description": "AI-powered panel component.",
+      "registry": "@ai-elements",
+      "addCommandArgument": "@ai-elements/panel"
+    },
+    {
+      "name": "persona",
+      "title": "Persona",
+      "type": "registry:component",
+      "description": "AI-powered persona component.",
+      "registry": "@ai-elements",
+      "addCommandArgument": "@ai-elements/persona"
+    },
+    {
+      "name": "plan",
+      "title": "Plan",
+      "type": "registry:component",
+      "description": "AI-powered plan component.",
+      "registry": "@ai-elements",
+      "addCommandArgument": "@ai-elements/plan"
+    },
+    {
+      "name": "prompt-input",
+      "title": "Prompt Input",
+      "type": "registry:component",
+      "description": "AI-powered prompt input component.",
+      "registry": "@ai-elements",
+      "addCommandArgument": "@ai-elements/prompt-input"
+    },
+    {
+      "name": "queue",
+      "title": "Queue",
+      "type": "registry:component",
+      "description": "AI-powered queue component.",
+      "registry": "@ai-elements",
+      "addCommandArgument": "@ai-elements/queue"
+    },
+    {
+      "name": "reasoning",
+      "title": "Reasoning",
+      "type": "registry:component",
+      "description": "AI-powered reasoning component.",
+      "registry": "@ai-elements",
+      "addCommandArgument": "@ai-elements/reasoning"
+    },
+    {
+      "name": "sandbox",
+      "title": "Sandbox",
+      "type": "registry:component",
+      "description": "AI-powered sandbox component.",
+      "registry": "@ai-elements",
+      "addCommandArgument": "@ai-elements/sandbox"
+    },
+    {
+      "name": "schema-display",
+      "title": "Schema Display",
+      "type": "registry:component",
+      "description": "AI-powered schema display component.",
+      "registry": "@ai-elements",
+      "addCommandArgument": "@ai-elements/schema-display"
+    },
+    {
+      "name": "shimmer",
+      "title": "Shimmer",
+      "type": "registry:component",
+      "description": "AI-powered shimmer component.",
+      "registry": "@ai-elements",
+      "addCommandArgument": "@ai-elements/shimmer"
+    },
+    {
+      "name": "snippet",
+      "title": "Snippet",
+      "type": "registry:component",
+      "description": "AI-powered snippet component.",
+      "registry": "@ai-elements",
+      "addCommandArgument": "@ai-elements/snippet"
+    },
+    {
+      "name": "sources",
+      "title": "Sources",
+      "type": "registry:component",
+      "description": "AI-powered sources component.",
+      "registry": "@ai-elements",
+      "addCommandArgument": "@ai-elements/sources"
+    },
+    {
+      "name": "speech-input",
+      "title": "Speech Input",
+      "type": "registry:component",
+      "description": "AI-powered speech input component.",
+      "registry": "@ai-elements",
+      "addCommandArgument": "@ai-elements/speech-input"
+    },
+    {
+      "name": "stack-trace",
+      "title": "Stack Trace",
+      "type": "registry:component",
+      "description": "AI-powered stack trace component.",
+      "registry": "@ai-elements",
+      "addCommandArgument": "@ai-elements/stack-trace"
+    },
+    {
+      "name": "suggestion",
+      "title": "Suggestion",
+      "type": "registry:component",
+      "description": "AI-powered suggestion component.",
+      "registry": "@ai-elements",
+      "addCommandArgument": "@ai-elements/suggestion"
+    },
+    {
+      "name": "task",
+      "title": "Task",
+      "type": "registry:component",
+      "description": "AI-powered task component.",
+      "registry": "@ai-elements",
+      "addCommandArgument": "@ai-elements/task"
+    },
+    {
+      "name": "terminal",
+      "title": "Terminal",
+      "type": "registry:component",
+      "description": "AI-powered terminal component.",
+      "registry": "@ai-elements",
+      "addCommandArgument": "@ai-elements/terminal"
+    },
+    {
+      "name": "test-results",
+      "title": "Test Results",
+      "type": "registry:component",
+      "description": "AI-powered test results component.",
+      "registry": "@ai-elements",
+      "addCommandArgument": "@ai-elements/test-results"
+    },
+    {
+      "name": "tool",
+      "title": "Tool",
+      "type": "registry:component",
+      "description": "AI-powered tool component.",
+      "registry": "@ai-elements",
+      "addCommandArgument": "@ai-elements/tool"
+    },
+    {
+      "name": "toolbar",
+      "title": "Toolbar",
+      "type": "registry:component",
+      "description": "AI-powered toolbar component.",
+      "registry": "@ai-elements",
+      "addCommandArgument": "@ai-elements/toolbar"
+    },
+    {
+      "name": "transcription",
+      "title": "Transcription",
+      "type": "registry:component",
+      "description": "AI-powered transcription component.",
+      "registry": "@ai-elements",
+      "addCommandArgument": "@ai-elements/transcription"
+    },
+    {
+      "name": "voice-selector",
+      "title": "Voice Selector",
+      "type": "registry:component",
+      "description": "AI-powered voice selector component.",
+      "registry": "@ai-elements",
+      "addCommandArgument": "@ai-elements/voice-selector"
+    },
+    {
+      "name": "web-preview",
+      "title": "Web Preview",
+      "type": "registry:component",
+      "description": "AI-powered web preview component.",
+      "registry": "@ai-elements",
+      "addCommandArgument": "@ai-elements/web-preview"
+    },
+    {
+      "name": "example-agent",
+      "title": "Agent Example",
+      "type": "registry:block",
+      "description": "Example implementation of agent.",
+      "registry": "@ai-elements",
+      "addCommandArgument": "@ai-elements/example-agent"
+    },
+    {
+      "name": "example-artifact",
+      "title": "Artifact Example",
+      "type": "registry:block",
+      "description": "Example implementation of artifact.",
+      "registry": "@ai-elements",
+      "addCommandArgument": "@ai-elements/example-artifact"
+    },
+    {
+      "name": "example-attachments-inline",
+      "title": "Attachments Inline Example",
+      "type": "registry:block",
+      "description": "Example implementation of attachments inline.",
+      "registry": "@ai-elements",
+      "addCommandArgument": "@ai-elements/example-attachments-inline"
+    },
+    {
+      "name": "example-attachments-list",
+      "title": "Attachments List Example",
+      "type": "registry:block",
+      "description": "Example implementation of attachments list.",
+      "registry": "@ai-elements",
+      "addCommandArgument": "@ai-elements/example-attachments-list"
+    },
+    {
+      "name": "example-attachments",
+      "title": "Attachments Example",
+      "type": "registry:block",
+      "description": "Example implementation of attachments.",
+      "registry": "@ai-elements",
+      "addCommandArgument": "@ai-elements/example-attachments"
+    },
+    {
+      "name": "example-audio-player-remote",
+      "title": "Audio Player Remote Example",
+      "type": "registry:block",
+      "description": "Example implementation of audio player-remote.",
+      "registry": "@ai-elements",
+      "addCommandArgument": "@ai-elements/example-audio-player-remote"
+    },
+    {
+      "name": "example-audio-player",
+      "title": "Audio Player Example",
+      "type": "registry:block",
+      "description": "Example implementation of audio player.",
+      "registry": "@ai-elements",
+      "addCommandArgument": "@ai-elements/example-audio-player"
+    },
+    {
+      "name": "example-chain-of-thought",
+      "title": "Chain Of Thought Example",
+      "type": "registry:block",
+      "description": "Example implementation of chain of-thought.",
+      "registry": "@ai-elements",
+      "addCommandArgument": "@ai-elements/example-chain-of-thought"
+    },
+    {
+      "name": "example-chatbot",
+      "title": "Chatbot Example",
+      "type": "registry:block",
+      "description": "Example implementation of chatbot.",
+      "registry": "@ai-elements",
+      "addCommandArgument": "@ai-elements/example-chatbot"
+    },
+    {
+      "name": "example-checkpoint",
+      "title": "Checkpoint Example",
+      "type": "registry:block",
+      "description": "Example implementation of checkpoint.",
+      "registry": "@ai-elements",
+      "addCommandArgument": "@ai-elements/example-checkpoint"
+    },
+    {
+      "name": "example-code-block-dark",
+      "title": "Code Block Dark Example",
+      "type": "registry:block",
+      "description": "Example implementation of code block-dark.",
+      "registry": "@ai-elements",
+      "addCommandArgument": "@ai-elements/example-code-block-dark"
+    },
+    {
+      "name": "example-code-block",
+      "title": "Code Block Example",
+      "type": "registry:block",
+      "description": "Example implementation of code block.",
+      "registry": "@ai-elements",
+      "addCommandArgument": "@ai-elements/example-code-block"
+    },
+    {
+      "name": "example-commit",
+      "title": "Commit Example",
+      "type": "registry:block",
+      "description": "Example implementation of commit.",
+      "registry": "@ai-elements",
+      "addCommandArgument": "@ai-elements/example-commit"
+    },
+    {
+      "name": "example-confirmation-accepted",
+      "title": "Confirmation Accepted Example",
+      "type": "registry:block",
+      "description": "Example implementation of confirmation accepted.",
+      "registry": "@ai-elements",
+      "addCommandArgument": "@ai-elements/example-confirmation-accepted"
+    },
+    {
+      "name": "example-confirmation-rejected",
+      "title": "Confirmation Rejected Example",
+      "type": "registry:block",
+      "description": "Example implementation of confirmation rejected.",
+      "registry": "@ai-elements",
+      "addCommandArgument": "@ai-elements/example-confirmation-rejected"
+    },
+    {
+      "name": "example-confirmation-request",
+      "title": "Confirmation Request Example",
+      "type": "registry:block",
+      "description": "Example implementation of confirmation request.",
+      "registry": "@ai-elements",
+      "addCommandArgument": "@ai-elements/example-confirmation-request"
+    },
+    {
+      "name": "example-confirmation",
+      "title": "Confirmation Example",
+      "type": "registry:block",
+      "description": "Example implementation of confirmation.",
+      "registry": "@ai-elements",
+      "addCommandArgument": "@ai-elements/example-confirmation"
+    },
+    {
+      "name": "example-context",
+      "title": "Context Example",
+      "type": "registry:block",
+      "description": "Example implementation of context.",
+      "registry": "@ai-elements",
+      "addCommandArgument": "@ai-elements/example-context"
+    },
+    {
+      "name": "example-conversation",
+      "title": "Conversation Example",
+      "type": "registry:block",
+      "description": "Example implementation of conversation.",
+      "registry": "@ai-elements",
+      "addCommandArgument": "@ai-elements/example-conversation"
+    },
+    {
+      "name": "example-demo-chatgpt",
+      "title": "Demo Chatgpt Example",
+      "type": "registry:block",
+      "description": "Example implementation of demo chatgpt.",
+      "registry": "@ai-elements",
+      "addCommandArgument": "@ai-elements/example-demo-chatgpt"
+    },
+    {
+      "name": "example-demo-claude",
+      "title": "Demo Claude Example",
+      "type": "registry:block",
+      "description": "Example implementation of demo claude.",
+      "registry": "@ai-elements",
+      "addCommandArgument": "@ai-elements/example-demo-claude"
+    },
+    {
+      "name": "example-demo-cursor",
+      "title": "Demo Cursor Example",
+      "type": "registry:block",
+      "description": "Example implementation of demo cursor.",
+      "registry": "@ai-elements",
+      "addCommandArgument": "@ai-elements/example-demo-cursor"
+    },
+    {
+      "name": "example-demo-grok",
+      "title": "Demo Grok Example",
+      "type": "registry:block",
+      "description": "Example implementation of demo grok.",
+      "registry": "@ai-elements",
+      "addCommandArgument": "@ai-elements/example-demo-grok"
+    },
+    {
+      "name": "example-demo-workflow",
+      "title": "Demo Workflow Example",
+      "type": "registry:block",
+      "description": "Example implementation of demo workflow.",
+      "registry": "@ai-elements",
+      "addCommandArgument": "@ai-elements/example-demo-workflow"
+    },
+    {
+      "name": "example-environment-variables",
+      "title": "Environment Variables Example",
+      "type": "registry:block",
+      "description": "Example implementation of environment variables.",
+      "registry": "@ai-elements",
+      "addCommandArgument": "@ai-elements/example-environment-variables"
+    },
+    {
+      "name": "example-file-tree-basic",
+      "title": "File Tree Basic Example",
+      "type": "registry:block",
+      "description": "Example implementation of file tree-basic.",
+      "registry": "@ai-elements",
+      "addCommandArgument": "@ai-elements/example-file-tree-basic"
+    },
+    {
+      "name": "example-file-tree-expanded",
+      "title": "File Tree Expanded Example",
+      "type": "registry:block",
+      "description": "Example implementation of file tree-expanded.",
+      "registry": "@ai-elements",
+      "addCommandArgument": "@ai-elements/example-file-tree-expanded"
+    },
+    {
+      "name": "example-file-tree-selection",
+      "title": "File Tree Selection Example",
+      "type": "registry:block",
+      "description": "Example implementation of file tree-selection.",
+      "registry": "@ai-elements",
+      "addCommandArgument": "@ai-elements/example-file-tree-selection"
+    },
+    {
+      "name": "example-file-tree",
+      "title": "File Tree Example",
+      "type": "registry:block",
+      "description": "Example implementation of file tree.",
+      "registry": "@ai-elements",
+      "addCommandArgument": "@ai-elements/example-file-tree"
+    },
+    {
+      "name": "example-image",
+      "title": "Image Example",
+      "type": "registry:block",
+      "description": "Example implementation of image.",
+      "registry": "@ai-elements",
+      "addCommandArgument": "@ai-elements/example-image"
+    },
+    {
+      "name": "example-inline-citation",
+      "title": "Inline Citation Example",
+      "type": "registry:block",
+      "description": "Example implementation of inline citation.",
+      "registry": "@ai-elements",
+      "addCommandArgument": "@ai-elements/example-inline-citation"
+    },
+    {
+      "name": "example-jsx-preview",
+      "title": "Jsx Preview Example",
+      "type": "registry:block",
+      "description": "Example implementation of jsx preview.",
+      "registry": "@ai-elements",
+      "addCommandArgument": "@ai-elements/example-jsx-preview"
+    },
+    {
+      "name": "example-message",
+      "title": "Message Example",
+      "type": "registry:block",
+      "description": "Example implementation of message.",
+      "registry": "@ai-elements",
+      "addCommandArgument": "@ai-elements/example-message"
+    },
+    {
+      "name": "example-mic-selector",
+      "title": "Mic Selector Example",
+      "type": "registry:block",
+      "description": "Example implementation of mic selector.",
+      "registry": "@ai-elements",
+      "addCommandArgument": "@ai-elements/example-mic-selector"
+    },
+    {
+      "name": "example-model-selector",
+      "title": "Model Selector Example",
+      "type": "registry:block",
+      "description": "Example implementation of model selector.",
+      "registry": "@ai-elements",
+      "addCommandArgument": "@ai-elements/example-model-selector"
+    },
+    {
+      "name": "example-open-in-chat",
+      "title": "Open In Chat Example",
+      "type": "registry:block",
+      "description": "Example implementation of open in-chat.",
+      "registry": "@ai-elements",
+      "addCommandArgument": "@ai-elements/example-open-in-chat"
+    },
+    {
+      "name": "example-package-info",
+      "title": "Package Info Example",
+      "type": "registry:block",
+      "description": "Example implementation of package info.",
+      "registry": "@ai-elements",
+      "addCommandArgument": "@ai-elements/example-package-info"
+    },
+    {
+      "name": "example-persona-command",
+      "title": "Persona Command Example",
+      "type": "registry:block",
+      "description": "Example implementation of persona command.",
+      "registry": "@ai-elements",
+      "addCommandArgument": "@ai-elements/example-persona-command"
+    },
+    {
+      "name": "example-persona-glint",
+      "title": "Persona Glint Example",
+      "type": "registry:block",
+      "description": "Example implementation of persona glint.",
+      "registry": "@ai-elements",
+      "addCommandArgument": "@ai-elements/example-persona-glint"
+    },
+    {
+      "name": "example-persona-halo",
+      "title": "Persona Halo Example",
+      "type": "registry:block",
+      "description": "Example implementation of persona halo.",
+      "registry": "@ai-elements",
+      "addCommandArgument": "@ai-elements/example-persona-halo"
+    },
+    {
+      "name": "example-persona-mana",
+      "title": "Persona Mana Example",
+      "type": "registry:block",
+      "description": "Example implementation of persona mana.",
+      "registry": "@ai-elements",
+      "addCommandArgument": "@ai-elements/example-persona-mana"
+    },
+    {
+      "name": "example-persona-obsidian",
+      "title": "Persona Obsidian Example",
+      "type": "registry:block",
+      "description": "Example implementation of persona obsidian.",
+      "registry": "@ai-elements",
+      "addCommandArgument": "@ai-elements/example-persona-obsidian"
+    },
+    {
+      "name": "example-persona-opal",
+      "title": "Persona Opal Example",
+      "type": "registry:block",
+      "description": "Example implementation of persona opal.",
+      "registry": "@ai-elements",
+      "addCommandArgument": "@ai-elements/example-persona-opal"
+    },
+    {
+      "name": "example-plan",
+      "title": "Plan Example",
+      "type": "registry:block",
+      "description": "Example implementation of plan.",
+      "registry": "@ai-elements",
+      "addCommandArgument": "@ai-elements/example-plan"
+    },
+    {
+      "name": "example-prompt-input-cursor",
+      "title": "Prompt Input Cursor Example",
+      "type": "registry:block",
+      "description": "Example implementation of prompt input-cursor.",
+      "registry": "@ai-elements",
+      "addCommandArgument": "@ai-elements/example-prompt-input-cursor"
+    },
+    {
+      "name": "example-prompt-input-tooltip",
+      "title": "Prompt Input Tooltip Example",
+      "type": "registry:block",
+      "description": "Example implementation of prompt input-tooltip.",
+      "registry": "@ai-elements",
+      "addCommandArgument": "@ai-elements/example-prompt-input-tooltip"
+    },
+    {
+      "name": "example-prompt-input",
+      "title": "Prompt Input Example",
+      "type": "registry:block",
+      "description": "Example implementation of prompt input.",
+      "registry": "@ai-elements",
+      "addCommandArgument": "@ai-elements/example-prompt-input"
+    },
+    {
+      "name": "example-queue-prompt-input",
+      "title": "Queue Prompt Input Example",
+      "type": "registry:block",
+      "description": "Example implementation of queue prompt-input.",
+      "registry": "@ai-elements",
+      "addCommandArgument": "@ai-elements/example-queue-prompt-input"
+    },
+    {
+      "name": "example-queue",
+      "title": "Queue Example",
+      "type": "registry:block",
+      "description": "Example implementation of queue.",
+      "registry": "@ai-elements",
+      "addCommandArgument": "@ai-elements/example-queue"
+    },
+    {
+      "name": "example-reasoning",
+      "title": "Reasoning Example",
+      "type": "registry:block",
+      "description": "Example implementation of reasoning.",
+      "registry": "@ai-elements",
+      "addCommandArgument": "@ai-elements/example-reasoning"
+    },
+    {
+      "name": "example-sandbox",
+      "title": "Sandbox Example",
+      "type": "registry:block",
+      "description": "Example implementation of sandbox.",
+      "registry": "@ai-elements",
+      "addCommandArgument": "@ai-elements/example-sandbox"
+    },
+    {
+      "name": "example-schema-display-basic",
+      "title": "Schema Display Basic Example",
+      "type": "registry:block",
+      "description": "Example implementation of schema display-basic.",
+      "registry": "@ai-elements",
+      "addCommandArgument": "@ai-elements/example-schema-display-basic"
+    },
+    {
+      "name": "example-schema-display-body",
+      "title": "Schema Display Body Example",
+      "type": "registry:block",
+      "description": "Example implementation of schema display-body.",
+      "registry": "@ai-elements",
+      "addCommandArgument": "@ai-elements/example-schema-display-body"
+    },
+    {
+      "name": "example-schema-display-nested",
+      "title": "Schema Display Nested Example",
+      "type": "registry:block",
+      "description": "Example implementation of schema display-nested.",
+      "registry": "@ai-elements",
+      "addCommandArgument": "@ai-elements/example-schema-display-nested"
+    },
+    {
+      "name": "example-schema-display-params",
+      "title": "Schema Display Params Example",
+      "type": "registry:block",
+      "description": "Example implementation of schema display-params.",
+      "registry": "@ai-elements",
+      "addCommandArgument": "@ai-elements/example-schema-display-params"
+    },
+    {
+      "name": "example-schema-display",
+      "title": "Schema Display Example",
+      "type": "registry:block",
+      "description": "Example implementation of schema display.",
+      "registry": "@ai-elements",
+      "addCommandArgument": "@ai-elements/example-schema-display"
+    },
+    {
+      "name": "example-shimmer-duration",
+      "title": "Shimmer Duration Example",
+      "type": "registry:block",
+      "description": "Example implementation of shimmer duration.",
+      "registry": "@ai-elements",
+      "addCommandArgument": "@ai-elements/example-shimmer-duration"
+    },
+    {
+      "name": "example-shimmer-elements",
+      "title": "Shimmer Elements Example",
+      "type": "registry:block",
+      "description": "Example implementation of shimmer elements.",
+      "registry": "@ai-elements",
+      "addCommandArgument": "@ai-elements/example-shimmer-elements"
+    },
+    {
+      "name": "example-shimmer",
+      "title": "Shimmer Example",
+      "type": "registry:block",
+      "description": "Example implementation of shimmer.",
+      "registry": "@ai-elements",
+      "addCommandArgument": "@ai-elements/example-shimmer"
+    },
+    {
+      "name": "example-snippet-plain",
+      "title": "Snippet Plain Example",
+      "type": "registry:block",
+      "description": "Example implementation of snippet plain.",
+      "registry": "@ai-elements",
+      "addCommandArgument": "@ai-elements/example-snippet-plain"
+    },
+    {
+      "name": "example-snippet",
+      "title": "Snippet Example",
+      "type": "registry:block",
+      "description": "Example implementation of snippet.",
+      "registry": "@ai-elements",
+      "addCommandArgument": "@ai-elements/example-snippet"
+    },
+    {
+      "name": "example-sources-custom",
+      "title": "Sources Custom Example",
+      "type": "registry:block",
+      "description": "Example implementation of sources custom.",
+      "registry": "@ai-elements",
+      "addCommandArgument": "@ai-elements/example-sources-custom"
+    },
+    {
+      "name": "example-sources",
+      "title": "Sources Example",
+      "type": "registry:block",
+      "description": "Example implementation of sources.",
+      "registry": "@ai-elements",
+      "addCommandArgument": "@ai-elements/example-sources"
+    },
+    {
+      "name": "example-speech-input",
+      "title": "Speech Input Example",
+      "type": "registry:block",
+      "description": "Example implementation of speech input.",
+      "registry": "@ai-elements",
+      "addCommandArgument": "@ai-elements/example-speech-input"
+    },
+    {
+      "name": "example-stack-trace-collapsed",
+      "title": "Stack Trace Collapsed Example",
+      "type": "registry:block",
+      "description": "Example implementation of stack trace-collapsed.",
+      "registry": "@ai-elements",
+      "addCommandArgument": "@ai-elements/example-stack-trace-collapsed"
+    },
+    {
+      "name": "example-stack-trace-no-internal",
+      "title": "Stack Trace No Internal Example",
+      "type": "registry:block",
+      "description": "Example implementation of stack trace-no-internal.",
+      "registry": "@ai-elements",
+      "addCommandArgument": "@ai-elements/example-stack-trace-no-internal"
+    },
+    {
+      "name": "example-stack-trace",
+      "title": "Stack Trace Example",
+      "type": "registry:block",
+      "description": "Example implementation of stack trace.",
+      "registry": "@ai-elements",
+      "addCommandArgument": "@ai-elements/example-stack-trace"
+    },
+    {
+      "name": "example-suggestion-input",
+      "title": "Suggestion Input Example",
+      "type": "registry:block",
+      "description": "Example implementation of suggestion input.",
+      "registry": "@ai-elements",
+      "addCommandArgument": "@ai-elements/example-suggestion-input"
+    },
+    {
+      "name": "example-suggestion",
+      "title": "Suggestion Example",
+      "type": "registry:block",
+      "description": "Example implementation of suggestion.",
+      "registry": "@ai-elements",
+      "addCommandArgument": "@ai-elements/example-suggestion"
+    },
+    {
+      "name": "example-task",
+      "title": "Task Example",
+      "type": "registry:block",
+      "description": "Example implementation of task.",
+      "registry": "@ai-elements",
+      "addCommandArgument": "@ai-elements/example-task"
+    },
+    {
+      "name": "example-terminal-basic",
+      "title": "Terminal Basic Example",
+      "type": "registry:block",
+      "description": "Example implementation of terminal basic.",
+      "registry": "@ai-elements",
+      "addCommandArgument": "@ai-elements/example-terminal-basic"
+    },
+    {
+      "name": "example-terminal-clear",
+      "title": "Terminal Clear Example",
+      "type": "registry:block",
+      "description": "Example implementation of terminal clear.",
+      "registry": "@ai-elements",
+      "addCommandArgument": "@ai-elements/example-terminal-clear"
+    },
+    {
+      "name": "example-terminal-streaming",
+      "title": "Terminal Streaming Example",
+      "type": "registry:block",
+      "description": "Example implementation of terminal streaming.",
+      "registry": "@ai-elements",
+      "addCommandArgument": "@ai-elements/example-terminal-streaming"
+    },
+    {
+      "name": "example-terminal",
+      "title": "Terminal Example",
+      "type": "registry:block",
+      "description": "Example implementation of terminal.",
+      "registry": "@ai-elements",
+      "addCommandArgument": "@ai-elements/example-terminal"
+    },
+    {
+      "name": "example-test-results-basic",
+      "title": "Test Results Basic Example",
+      "type": "registry:block",
+      "description": "Example implementation of test results-basic.",
+      "registry": "@ai-elements",
+      "addCommandArgument": "@ai-elements/example-test-results-basic"
+    },
+    {
+      "name": "example-test-results-errors",
+      "title": "Test Results Errors Example",
+      "type": "registry:block",
+      "description": "Example implementation of test results-errors.",
+      "registry": "@ai-elements",
+      "addCommandArgument": "@ai-elements/example-test-results-errors"
+    },
+    {
+      "name": "example-test-results-suites",
+      "title": "Test Results Suites Example",
+      "type": "registry:block",
+      "description": "Example implementation of test results-suites.",
+      "registry": "@ai-elements",
+      "addCommandArgument": "@ai-elements/example-test-results-suites"
+    },
+    {
+      "name": "example-test-results",
+      "title": "Test Results Example",
+      "type": "registry:block",
+      "description": "Example implementation of test results.",
+      "registry": "@ai-elements",
+      "addCommandArgument": "@ai-elements/example-test-results"
+    },
+    {
+      "name": "example-tool-input-available",
+      "title": "Tool Input Available Example",
+      "type": "registry:block",
+      "description": "Example implementation of tool input-available.",
+      "registry": "@ai-elements",
+      "addCommandArgument": "@ai-elements/example-tool-input-available"
+    },
+    {
+      "name": "example-tool-input-streaming",
+      "title": "Tool Input Streaming Example",
+      "type": "registry:block",
+      "description": "Example implementation of tool input-streaming.",
+      "registry": "@ai-elements",
+      "addCommandArgument": "@ai-elements/example-tool-input-streaming"
+    },
+    {
+      "name": "example-tool-output-available",
+      "title": "Tool Output Available Example",
+      "type": "registry:block",
+      "description": "Example implementation of tool output-available.",
+      "registry": "@ai-elements",
+      "addCommandArgument": "@ai-elements/example-tool-output-available"
+    },
+    {
+      "name": "example-tool-output-error",
+      "title": "Tool Output Error Example",
+      "type": "registry:block",
+      "description": "Example implementation of tool output-error.",
+      "registry": "@ai-elements",
+      "addCommandArgument": "@ai-elements/example-tool-output-error"
+    },
+    {
+      "name": "example-tool",
+      "title": "Tool Example",
+      "type": "registry:block",
+      "description": "Example implementation of tool.",
+      "registry": "@ai-elements",
+      "addCommandArgument": "@ai-elements/example-tool"
+    },
+    {
+      "name": "example-transcription",
+      "title": "Transcription Example",
+      "type": "registry:block",
+      "description": "Example implementation of transcription.",
+      "registry": "@ai-elements",
+      "addCommandArgument": "@ai-elements/example-transcription"
+    },
+    {
+      "name": "example-v0-clone",
+      "title": "V0 Clone Example",
+      "type": "registry:block",
+      "description": "Example implementation of v0 clone.",
+      "registry": "@ai-elements",
+      "addCommandArgument": "@ai-elements/example-v0-clone"
+    },
+    {
+      "name": "example-voice-selector",
+      "title": "Voice Selector Example",
+      "type": "registry:block",
+      "description": "Example implementation of voice selector.",
+      "registry": "@ai-elements",
+      "addCommandArgument": "@ai-elements/example-voice-selector"
+    },
+    {
+      "name": "example-web-preview",
+      "title": "Web Preview Example",
+      "type": "registry:block",
+      "description": "Example implementation of web preview.",
+      "registry": "@ai-elements",
+      "addCommandArgument": "@ai-elements/example-web-preview"
+    },
+    {
+      "name": "example-workflow",
+      "title": "Workflow Example",
+      "type": "registry:block",
+      "description": "Example implementation of workflow.",
+      "registry": "@ai-elements",
+      "addCommandArgument": "@ai-elements/example-workflow"
+    }
+  ]
+}

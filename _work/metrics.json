@@ -1,0 +1,82 @@
+{
+  "pinned_at": "2026-08-12T22:23:11.957Z",
+  "upstream_commit": "ref: refs/heads/main",
+  "registries": {
+    "shadcn": {
+      "probed": 12717,
+      "ok": 4499,
+      "missing_404": 8218,
+      "errors": [],
+      "error_count": 0,
+      "name_coverage": {
+        "enumerated": 471,
+        "retrieved": 471,
+        "pct": 100,
+        "missing": []
+      }
+    },
+    "react-bits": {
+      "probed": 664,
+      "ok": 664,
+      "missing_404": 0,
+      "errors": [],
+      "error_count": 0,
+      "name_coverage": {
+        "enumerated": 664,
+        "retrieved": 664,
+        "pct": 100,
+        "missing": []
+      }
+    },
+    "magicui": {
+      "probed": 247,
+      "ok": 247,
+      "missing_404": 0,
+      "errors": [],
+      "error_count": 0,
+      "name_coverage": {
+        "enumerated": 247,
+        "retrieved": 247,
+        "pct": 100,
+        "missing": []
+      }
+    },
+    "animate-ui": {
+      "probed": 580,
+      "ok": 580,
+      "missing_404": 0,
+      "errors": [],
+      "error_count": 0,
+      "name_coverage": {
+        "enumerated": 580,
+        "retrieved": 580,
+        "pct": 100,
+        "missing": []
+      }
+    },
+    "ai-elements": {
+      "probed": 136,
+      "ok": 136,
+      "missing_404": 0,
+      "errors": [],
+      "error_count": 0,
+      "name_coverage": {
+        "enumerated": 136,
+        "retrieved": 136,
+        "pct": 100,
+        "missing": []
+      }
+    }
+  },
+  "C2": {
+    "checked": 6126,
+    "intact": 6126,
+    "pct": 100,
+    "failures": []
+  },
+  "extracted_files": {
+    "total": 7080,
+    "distinct_blobs": 6432,
+    "total_bytes": 26866539
+  }
+}

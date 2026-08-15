@@ -1,0 +1,86 @@
+Verbatim copyright notices for the font families bundled in assets/fonts/.
+Preserved as required by the SIL Open Font License 1.1 and the Apache License 2.0.
+
+DM Sans  [OFL-1.1]
+  Copyright 2014 The DM Sans Project Authors (https://github.com/googlefonts/dm-fonts)
+
+EB Garamond  [OFL-1.1]
+  Copyright 2017 The EB Garamond Project Authors (https://github.com/octaviopardo/EBGaramond12)
+
+Figtree  [OFL-1.1]
+  Copyright 2022 The Figtree Project Authors (https://github.com/erikdkennedy/figtree)
+
+Geist  [OFL-1.1]
+  Copyright 2024 The Geist Project Authors (https://github.com/vercel/geist-font.git)
+
+Geist Mono  [OFL-1.1]
+  Copyright 2024 The Geist Project Authors (https://github.com/vercel/geist-font.git)
+
+IBM Plex Mono  [OFL-1.1]
+  Copyright © 2017 IBM Corp. with Reserved Font Name "Plex"
+
+IBM Plex Sans  [OFL-1.1]
+  Copyright © 2017 IBM Corp. with Reserved Font Name "Plex"
+
+Instrument Sans  [OFL-1.1]
+  Copyright 2022 The Instrument Sans Project Authors (https://github.com/Instrument/instrument-sans)
+
+Instrument Serif  [OFL-1.1]
+  Copyright 2022 The Instrument Serif Project Authors (https://github.com/Instrument/instrument-serif)
+
+Inter  [OFL-1.1]
+  Copyright 2020 The Inter Project Authors (https://github.com/rsms/inter)
+
+JetBrains Mono  [OFL-1.1]
+  Copyright 2020 The JetBrains Mono Project Authors (https://github.com/JetBrains/JetBrainsMono)
+
+Lora  [OFL-1.1]
+  Copyright 2011 The Lora Project Authors (https://github.com/cyrealtype/Lora-Cyrillic), with Reserved Font Name "Lora".
+
+Manrope  [OFL-1.1]
+  Copyright 2018 The Manrope Project Authors (https://github.com/sharanda/manrope)
+
+Merriweather  [OFL-1.1]
+  Copyright 2020 The Merriweather Project Authors (https://github.com/EbenSorkin/Merriweather4) with Reserved Font Name "Merriweather".
+
+Montserrat  [OFL-1.1]
+  Copyright 2024 The Montserrat.Git Project Authors (https://github.com/JulietaUla/Montserrat.git)
+
+Noto Sans  [OFL-1.1]
+  Copyright 2022 The Noto Project Authors (https://github.com/notofonts/latin-greek-cyrillic)
+
+Noto Serif  [OFL-1.1]
+  Copyright 2022 The Noto Project Authors (https://github.com/notofonts/latin-greek-cyrillic)
+
+Nunito Sans  [OFL-1.1]
+  Copyright 2016 The Nunito Sans Project Authors (https://github.com/Fonthausen/NunitoSans)
+
+Outfit  [OFL-1.1]
+  Copyright 2021 The Outfit Project Authors (https://github.com/Outfitio/Outfit-Fonts)
+
+Oxanium  [OFL-1.1]
+  Copyright 2019 The Oxanium Project Authors (https://github.com/sevmeyer/oxanium)
+
+Playfair Display  [OFL-1.1]
+  Copyright 2017 The Playfair Display Project Authors (https://github.com/clauseggers/Playfair-Display), with Reserved Font Name "Playfair Display"
+
+Public Sans  [OFL-1.1]
+  Copyright 2015 The Public Sans Project Authors (https://github.com/uswds/public-sans)
+
+Raleway  [OFL-1.1]
+  Copyright 2010 The Raleway Project Authors (impallari@gmail.com), with Reserved Font Name "Raleway".
+
+Roboto  [OFL-1.1]
+  Copyright 2011 The Roboto Project Authors (https://github.com/googlefonts/roboto-classic)
+
+Roboto Flex  [OFL-1.1]
+  Copyright 2017 The Roboto Flex Project Authors (https://github.com/TypeNetwork/Roboto-Flex)
+
+Roboto Slab  [Apache-2.0]
+  Copyright 2018 The Roboto Slab Project Authors (https://github.com/googlefonts/robotoslab)
+
+Source Sans 3  [OFL-1.1]
+  Copyright 2010-2020 Adobe (http://www.adobe.com/), with Reserved Font Name 'Source'. All Rights Reserved. Source is a trademark of Adobe in the United States and/or other countries.
+
+Space Grotesk  [OFL-1.1]
+  Copyright 2020 The Space Grotesk Project Authors (https://github.com/floriankarsten/space-grotesk)

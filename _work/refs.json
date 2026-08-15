@@ -1,0 +1,3857 @@
+{
+  "generated_from": "raw registry item JSON",
+  "items": 6126,
+  "files_written": 7080,
+  "distinct_files": 6432,
+  "npm_declared": [
+    [
+      "motion",
+      397
+    ],
+    [
+      "ogl@^1.0.11",
+      180
+    ],
+    [
+      "lucide-react",
+      160
+    ],
+    [
+      "gsap@^3.13.0",
+      142
+    ],
+    [
+      "three@^0.180.0",
+      88
+    ],
+    [
+      "motion@^12.23.12",
+      80
+    ],
+    [
+      "class-variance-authority",
+      77
+    ],
+    [
+      "radix-ui",
+      71
+    ],
+    [
+      "@base-ui/react",
+      57
+    ],
+    [
+      "tw-animate-css",
+      52
+    ],
+    [
+      "zod",
+      51
+    ],
+    [
+      "shadcn",
+      50
+    ],
+    [
+      "next-themes",
+      35
+    ],
+    [
+      "embla-carousel-react",
+      28
+    ],
+    [
+      "clsx",
+      28
+    ],
+    [
+      "tailwind-merge",
+      28
+    ],
+    [
+      "@react-three/fiber@^9.3.0",
+      28
+    ],
+    [
+      "date-fns",
+      28
+    ],
+    [
+      "@dnd-kit/core",
+      27
+    ],
+    [
+      "@dnd-kit/modifiers",
+      27
+    ],
+    [
+      "@dnd-kit/sortable",
+      27
+    ],
+    [
+      "@dnd-kit/utilities",
+      27
+    ],
+    [
+      "input-otp",
+      27
+    ],
+    [
+      "sonner",
+      27
+    ],
+    [
+      "react-resizable-panels",
+      26
+    ],
+    [
+      "recharts@3.8.0",
+      25
+    ],
+    [
+      "@tanstack/react-table",
+      25
+    ],
+    [
+      "@shadcn/react",
+      25
+    ],
+    [
+      "nanoid",
+      24
+    ],
+    [
+      "ai",
+      23
+    ],
+    [
+      "react-day-picker@latest",
+      19
+    ],
+    [
+      "cmdk",
+      19
+    ],
+    [
+      "@base-ui-components/react",
+      17
+    ],
+    [
+      "@react-three/drei@^10.7.4",
+      16
+    ],
+    [
+      "postprocessing@^6.36.0",
+      16
+    ],
+    [
+      "react-aria-components",
+      16
+    ],
+    [
+      "@hookform/resolvers",
+      13
+    ],
+    [
+      "react-hook-form",
+      13
+    ],
+    [
+      "vaul",
+      11
+    ],
+    [
+      "react-icons@^5.5.0",
+      10
+    ],
+    [
+      "@radix-ui/react-slot",
+      10
+    ],
+    [
+      "@formisch/react",
+      9
+    ],
+    [
+      "valibot",
+      9
+    ],
+    [
+      "@tanstack/react-form",
+      9
+    ],
+    [
+      "@gsap/react@^2.1.2",
+      8
+    ],
+    [
+      "@xyflow/react",
+      7
+    ],
+    [
+      "@radix-ui/react-use-controllable-state",
+      6
+    ],
+    [
+      "shiki",
+      6
+    ],
+    [
+      "@headlessui/react",
+      6
+    ],
+    [
+      "@radix-ui/react-icons",
+      6
+    ],
+    [
+      "@radix-ui/react-dialog",
+      6
+    ],
+    [
+      "@react-three/postprocessing@^3.0.4",
+      4
+    ],
+    [
+      "@use-gesture/react@^10.2.27",
+      4
+    ],
+    [
+      "matter-js@^0.20.0",
+      4
+    ],
+    [
+      "maath@^0.10.8",
+      4
+    ],
+    [
+      "face-api.js@^0.22.2",
+      4
+    ],
+    [
+      "gl-matrix@^3.4.3",
+      4
+    ],
+    [
+      "react-router-dom@^6.30.1",
+      4
+    ],
+    [
+      "lucide-react@^0.542.0",
+      4
+    ],
+    [
+      "lenis@^1.3.13",
+      4
+    ],
+    [
+      "@radix-ui/react-label",
+      4
+    ],
+    [
+      "tailwindcss-animate",
+      4
+    ],
+    [
+      "@streamdown/cjk",
+      2
+    ],
+    [
+      "@streamdown/code",
+      2
+    ],
+    [
+      "@streamdown/math",
+      2
+    ],
+    [
+      "@streamdown/mermaid",
+      2
+    ],
+    [
+      "streamdown",
+      2
+    ],
+    [
+      "react-tweet",
+      2
+    ],
+    [
+      "rough-notation",
+      2
+    ],
+    [
+      "@chakra-ui/react@^3.20.0",
+      2
+    ],
+    [
+      "@radix-ui/react-accordion",
+      2
+    ],
+    [
+      "@radix-ui/react-alert-dialog",
+      2
+    ],
+    [
+      "@radix-ui/react-aspect-ratio",
+      2
+    ],
+    [
+      "@radix-ui/react-avatar",
+      2
+    ],
+    [
+      "recharts@2.15.4",
+      2
+    ],
+    [
+      "@radix-ui/react-checkbox",
+      2
+    ],
+    [
+      "@radix-ui/react-collapsible",
+      2
+    ],
+    [
+      "@radix-ui/react-context-menu",
+      2
+    ],
+    [
+      "@tanstack/react-table@^8.0.0",
+      2
+    ],
+    [
+      "@radix-ui/react-dropdown-menu",
+      2
+    ],
+    [
+      "@radix-ui/react-hover-card",
+      2
+    ],
+    [
+      "@radix-ui/react-menubar",
+      2
+    ],
+    [
+      "@radix-ui/react-navigation-menu",
+      2
+    ],
+    [
+      "@radix-ui/react-popover",
+      2
+    ],
+    [
+      "@radix-ui/react-progress",
+      2
+    ],
+    [
+      "@radix-ui/react-radio-group",
+      2
+    ],
+    [
+      "@radix-ui/react-scroll-area",
+      2
+    ],
+    [
+      "@radix-ui/react-select",
+      2
+    ],
+    [
+      "@radix-ui/react-separator",
+      2
+    ],
+    [
+      "@radix-ui/react-slider",
+      2
+    ],
+    [
+      "@radix-ui/react-switch",
+      2
+    ],
+    [
+      "@radix-ui/react-tabs",
+      2
+    ],
+    [
+      "@radix-ui/react-toggle-group",
+      2
+    ],
+    [
+      "@radix-ui/react-toggle",
+      2
+    ],
+    [
+      "@radix-ui/react-tooltip",
+      2
+    ],
+    [
+      "media-chrome",
+      1
+    ],
+    [
+      "tokenlens",
+      1
+    ],
+    [
+      "use-stick-to-bottom",
+      1
+    ],
+    [
+      "react-jsx-parser",
+      1
+    ],
+    [
+      "@rive-app/react-webgl2",
+      1
+    ],
+    [
+      "ansi-to-react",
+      1
+    ],
+    [
+      "embla-carousel",
+      1
+    ],
+    [
+      "@floating-ui/react",
+      1
+    ],
+    [
+      "react-use-measure",
+      1
+    ],
+    [
+      "canvas-confetti",
+      1
+    ],
+    [
+      "@types/canvas-confetti",
+      1
+    ],
+    [
+      "countries-list",
+      1
+    ],
+    [
+      "svg-dotted-map",
+      1
+    ],
+    [
+      "cobe@^0.6.4",
+      1
+    ],
+    [
+      "framer-motion",
+      1
+    ],
+    [
+      "@tabler/icons-react",
+      1
+    ],
+    [
+      "react-resizable-panels@^4",
+      1
+    ]
+  ],
+  "npm_imported_bare": [
+    [
+      "@base-ui/react",
+      31
+    ],
+    [
+      "@base-ui-components/react",
+      17
+    ],
+    [
+      "three",
+      8
+    ],
+    [
+      "gsap",
+      7
+    ],
+    [
+      "next",
+      5
+    ],
+    [
+      "react-icons",
+      3
+    ],
+    [
+      "recharts",
+      3
+    ],
+    [
+      "motion",
+      2
+    ],
+    [
+      "react-dom",
+      2
+    ],
+    [
+      "react-tweet",
+      2
+    ],
+    [
+      "rough-notation",
+      2
+    ],
+    [
+      "react-day-picker",
+      2
+    ],
+    [
+      "ai",
+      1
+    ],
+    [
+      "lucide-react",
+      1
+    ],
+    [
+      "react",
+      1
+    ],
+    [
+      "media-chrome",
+      1
+    ],
+    [
+      "@xyflow/react",
+      1
+    ],
+    [
+      "@radix-ui/react-use-controllable-state",
+      1
+    ],
+    [
+      "shiki",
+      1
+    ],
+    [
+      "tokenlens",
+      1
+    ],
+    [
+      "use-stick-to-bottom",
+      1
+    ],
+    [
+      "zod",
+      1
+    ],
+    [
+      "nanoid",
+      1
+    ],
+    [
+      "sonner",
+      1
+    ],
+    [
+      "@icons-pack/react-simple-icons",
+      1
+    ],
+    [
+      "react-jsx-parser",
+      1
+    ],
+    [
+      "@streamdown/cjk",
+      1
+    ],
+    [
+      "@streamdown/code",
+      1
+    ],
+    [
+      "@streamdown/math",
+      1
+    ],
+    [
+      "@streamdown/mermaid",
+      1
+    ],
+    [
+      "streamdown",
+      1
+    ],
+    [
+      "@rive-app/react-webgl2",
+      1
+    ],
+    [
+      "ansi-to-react",
+      1
+    ],
+    [
+      "next-themes",
+      1
+    ],
+    [
+      "class-variance-authority",
+      1
+    ],
+    [
+      "embla-carousel",
+      1
+    ],
+    [
+      "embla-carousel-react",
+      1
+    ],
+    [
+      "radix-ui",
+      1
+    ],
+    [
+      "@headlessui/react",
+      1
+    ],
+    [
+      "@floating-ui/react",
+      1
+    ],
+    [
+      "react-use-measure",
+      1
+    ],
+    [
+      ": colorFrom,\n          ",
+      1
+    ],
+    [
+      "@radix-ui/react-icons",
+      1
+    ],
+    [
+      "@app/(auth)",
+      1
+    ],
+    [
+      "@shikijs/transformers",
+      1
+    ],
+    [
+      "canvas-confetti",
+      1
+    ],
+    [
+      "countries-list",
+      1
+    ],
+    [
+      "svg-dotted-map",
+      1
+    ],
+    [
+      "@radix-ui/react-accordion",
+      1
+    ],
+    [
+      "cobe",
+      1
+    ],
+    [
+      "@radix-ui/react-slot",
+      1
+    ],
+    [
+      "clsx",
+      1
+    ],
+    [
+      "tailwind-merge",
+      1
+    ],
+    [
+      "ogl",
+      1
+    ],
+    [
+      "@react-three/fiber",
+      1
+    ],
+    [
+      "@react-three/drei",
+      1
+    ],
+    [
+      "@react-three/postprocessing",
+      1
+    ],
+    [
+      "postprocessing",
+      1
+    ],
+    [
+      "@use-gesture/react",
+      1
+    ],
+    [
+      "@chakra-ui/react",
+      1
+    ],
+    [
+      "matter-js",
+      1
+    ],
+    [
+      "maath",
+      1
+    ],
+    [
+      "face-api.js",
+      1
+    ],
+    [
+      "gl-matrix",
+      1
+    ],
+    [
+      "@react-three/rapier",
+      1
+    ],
+    [
+      "meshline",
+      1
+    ],
+    [
+      "react-router-dom",
+      1
+    ],
+    [
+      "lenis",
+      1
+    ],
+    [
+      "@gsap/react",
+      1
+    ],
+    [
+      "react-aria-components",
+      1
+    ],
+    [
+      "@tanstack/react-table",
+      1
+    ],
+    [
+      "input-otp",
+      1
+    ],
+    [
+      "@shadcn/react",
+      1
+    ],
+    [
+      "react-resizable-panels",
+      1
+    ],
+    [
+      "@internationalized/date",
+      1
+    ],
+    [
+      "cmdk",
+      1
+    ],
+    [
+      "@dnd-kit/core",
+      1
+    ],
+    [
+      "@dnd-kit/modifiers",
+      1
+    ],
+    [
+      "@dnd-kit/sortable",
+      1
+    ],
+    [
+      "@dnd-kit/utilities",
+      1
+    ],
+    [
+      "@radix-ui/react-alert-dialog",
+      1
+    ],
+    [
+      "@radix-ui/react-aspect-ratio",
+      1
+    ],
+    [
+      "@radix-ui/react-avatar",
+      1
+    ],
+    [
+      "embla-carousel-autoplay",
+      1
+    ],
+    [
+      "@radix-ui/react-checkbox",
+      1
+    ],
+    [
+      "@radix-ui/react-collapsible",
+      1
+    ],
+    [
+      "@radix-ui/react-dialog",
+      1
+    ],
+    [
+      "@radix-ui/react-context-menu",
+      1
+    ],
+    [
+      "date-fns",
+      1
+    ],
+    [
+      "vaul",
+      1
+    ],
+    [
+      "@radix-ui/react-dropdown-menu",
+      1
+    ],
+    [
+      "@radix-ui/react-label",
+      1
+    ],
+    [
+      "react-hook-form",
+      1
+    ],
+    [
+      "@radix-ui/react-hover-card",
+      1
+    ],
+    [
+      "@radix-ui/react-menubar",
+      1
+    ],
+    [
+      "@radix-ui/react-navigation-menu",
+      1
+    ],
+    [
+      "@radix-ui/react-popover",
+      1
+    ],
+    [
+      "@radix-ui/react-progress",
+      1
+    ],
+    [
+      "@radix-ui/react-radio-group",
+      1
+    ],
+    [
+      "@radix-ui/react-scroll-area",
+      1
+    ],
+    [
+      "@radix-ui/react-select",
+      1
+    ],
+    [
+      "@radix-ui/react-separator",
+      1
+    ],
+    [
+      "@radix-ui/react-slider",
+      1
+    ],
+    [
+      "@radix-ui/react-switch",
+      1
+    ],
+    [
+      "@radix-ui/react-tabs",
+      1
+    ],
+    [
+      "@radix-ui/react-toggle-group",
+      1
+    ],
+    [
+      "@radix-ui/react-toggle",
+      1
+    ],
+    [
+      "@radix-ui/react-tooltip",
+      1
+    ],
+    [
+      "@tabler/icons-react",
+      1
+    ],
+    [
+      "@formisch/react",
+      1
+    ],
+    [
+      "valibot",
+      1
+    ],
+    [
+      "@hookform/resolvers",
+      1
+    ],
+    [
+      "@tanstack/react-form",
+      1
+    ],
+    [
+      "react-textarea-autosize",
+      1
+    ]
+  ],
+  "registry_deps": [
+    [
+      "button",
+      791
+    ],
+    [
+      "separator",
+      491
+    ],
+    [
+      "card",
+      487
+    ],
+    [
+      "breadcrumb",
+      477
+    ],
+    [
+      "label",
+      476
+    ],
+    [
+      "sidebar",
+      459
+    ],
+    [
+      "input",
+      382
+    ],
+    [
+      "dropdown-menu",
+      325
+    ],
+    [
+      "collapsible",
+      260
+    ],
+    [
+      "@animate-ui/icons-icon",
+      259
+    ],
+    [
+      "field",
+      242
+    ],
+    [
+      "chart",
+      237
+    ],
+    [
+      "avatar",
+      195
+    ],
+    [
+      "input-group",
+      77
+    ],
+    [
+      "popover",
+      73
+    ],
+    [
+      "dialog",
+      70
+    ],
+    [
+      "calendar",
+      68
+    ],
+    [
+      "sheet",
+      60
+    ],
+    [
+      "select",
+      59
+    ],
+    [
+      "@animate-ui/lib-get-strict-context",
+      57
+    ],
+    [
+      "utils",
+      56
+    ],
+    [
+      "badge",
+      49
+    ],
+    [
+      "textarea",
+      48
+    ],
+    [
+      "toggle-group",
+      46
+    ],
+    [
+      "checkbox",
+      46
+    ],
+    [
+      "toggle",
+      45
+    ],
+    [
+      "tooltip",
+      44
+    ],
+    [
+      "switch",
+      41
+    ],
+    [
+      "drawer",
+      36
+    ],
+    [
+      "skeleton",
+      34
+    ],
+    [
+      "@animate-ui/hooks-use-controlled-state",
+      32
+    ],
+    [
+      "tabs",
+      31
+    ],
+    [
+      "sonner",
+      31
+    ],
+    [
+      "table",
+      30
+    ],
+    [
+      "use-mobile",
+      28
+    ],
+    [
+      "@animate-ui/primitives-animate-slot",
+      22
+    ],
+    [
+      "button-group",
+      20
+    ],
+    [
+      "carousel",
+      19
+    ],
+    [
+      "@animate-ui/hooks-use-is-in-view",
+      19
+    ],
+    [
+      "spinner",
+      17
+    ],
+    [
+      "command",
+      16
+    ],
+    [
+      "radio-group",
+      13
+    ],
+    [
+      "input-otp",
+      12
+    ],
+    [
+      "resizable",
+      12
+    ],
+    [
+      "https://elements.ai-sdk.dev/prompt-input.json",
+      11
+    ],
+    [
+      "@animate-ui/primitives-effects-highlight",
+      11
+    ],
+    [
+      "item",
+      10
+    ],
+    [
+      "https://elements.ai-sdk.dev/message.json",
+      9
+    ],
+    [
+      "@magicui/text-animate",
+      9
+    ],
+    [
+      "https://elements.ai-sdk.dev/attachments.json",
+      8
+    ],
+    [
+      "https://elements.ai-sdk.dev/conversation.json",
+      8
+    ],
+    [
+      "scroll-area",
+      8
+    ],
+    [
+      "@magicui/animated-theme-toggler",
+      8
+    ],
+    [
+      "@magicui/confetti",
+      8
+    ],
+    [
+      "@magicui/typing-animation",
+      8
+    ],
+    [
+      "hover-card",
+      7
+    ],
+    [
+      "alert",
+      7
+    ],
+    [
+      "https://elements.ai-sdk.dev/model-selector.json",
+      7
+    ],
+    [
+      "empty",
+      7
+    ],
+    [
+      "progress",
+      6
+    ],
+    [
+      "https://elements.ai-sdk.dev/code-block.json",
+      6
+    ],
+    [
+      "https://elements.ai-sdk.dev/sources.json",
+      6
+    ],
+    [
+      "https://elements.ai-sdk.dev/persona.json",
+      6
+    ],
+    [
+      "@animate-ui/components-buttons-button",
+      6
+    ],
+    [
+      "@magicui/animated-beam",
+      6
+    ],
+    [
+      "combobox",
+      6
+    ],
+    [
+      "https://elements.ai-sdk.dev/reasoning.json",
+      5
+    ],
+    [
+      "https://elements.ai-sdk.dev/suggestion.json",
+      5
+    ],
+    [
+      "https://elements.ai-sdk.dev/confirmation.json",
+      5
+    ],
+    [
+      "https://elements.ai-sdk.dev/file-tree.json",
+      5
+    ],
+    [
+      "https://elements.ai-sdk.dev/terminal.json",
+      5
+    ],
+    [
+      "https://elements.ai-sdk.dev/schema-display.json",
+      5
+    ],
+    [
+      "https://elements.ai-sdk.dev/tool.json",
+      5
+    ],
+    [
+      "@animate-ui/primitives-buttons-button",
+      5
+    ],
+    [
+      "@magicui/marquee",
+      5
+    ],
+    [
+      "kbd",
+      5
+    ],
+    [
+      "accordion",
+      4
+    ],
+    [
+      "https://elements.ai-sdk.dev/stack-trace.json",
+      4
+    ],
+    [
+      "https://elements.ai-sdk.dev/test-results.json",
+      4
+    ],
+    [
+      "@animate-ui/primitives-effects-particles",
+      4
+    ],
+    [
+      "@animate-ui/primitives-base-preview-card",
+      4
+    ],
+    [
+      "@animate-ui/primitives-radix-checkbox",
+      4
+    ],
+    [
+      "@animate-ui/primitives-effects-auto-height",
+      4
+    ],
+    [
+      "@magicui/border-beam",
+      4
+    ],
+    [
+      "@magicui/dia-text-reveal",
+      4
+    ],
+    [
+      "@magicui/hexagon-pattern",
+      4
+    ],
+    [
+      "@magicui/noise-texture",
+      4
+    ],
+    [
+      "@magicui/safari",
+      4
+    ],
+    [
+      "native-select",
+      4
+    ],
+    [
+      "https://elements.ai-sdk.dev/queue.json",
+      3
+    ],
+    [
+      "https://elements.ai-sdk.dev/shimmer.json",
+      3
+    ],
+    [
+      "@animate-ui/primitives-animate-tabs",
+      3
+    ],
+    [
+      "@animate-ui/components-buttons-copy",
+      3
+    ],
+    [
+      "@animate-ui/primitives-animate-tooltip",
+      3
+    ],
+    [
+      "@animate-ui/primitives-base-accordion",
+      3
+    ],
+    [
+      "@animate-ui/primitives-texts-sliding-number",
+      3
+    ],
+    [
+      "@animate-ui/primitives-radix-accordion",
+      3
+    ],
+    [
+      "@animate-ui/primitives-radix-hover-card",
+      3
+    ],
+    [
+      "@animate-ui/components-base-menu",
+      3
+    ],
+    [
+      "@animate-ui/components-radix-dropdown-menu",
+      3
+    ],
+    [
+      "@magicui/android",
+      3
+    ],
+    [
+      "@magicui/backlight",
+      3
+    ],
+    [
+      "@magicui/dock",
+      3
+    ],
+    [
+      "@magicui/dot-pattern",
+      3
+    ],
+    [
+      "@magicui/dotted-map",
+      3
+    ],
+    [
+      "@magicui/glare-hover",
+      3
+    ],
+    [
+      "@magicui/grid-pattern",
+      3
+    ],
+    [
+      "@magicui/icon-cloud",
+      3
+    ],
+    [
+      "@magicui/iphone",
+      3
+    ],
+    [
+      "@magicui/lens",
+      3
+    ],
+    [
+      "@magicui/number-ticker",
+      3
+    ],
+    [
+      "@magicui/striped-pattern",
+      3
+    ],
+    [
+      "@magicui/client-tweet-card",
+      3
+    ],
+    [
+      "@magicui/tweet-card",
+      3
+    ],
+    [
+      "alert-dialog",
+      3
+    ],
+    [
+      "aspect-ratio",
+      3
+    ],
+    [
+      "context-menu",
+      3
+    ],
+    [
+      "data-table",
+      3
+    ],
+    [
+      "menubar",
+      3
+    ],
+    [
+      "navigation-menu",
+      3
+    ],
+    [
+      "pagination",
+      3
+    ],
+    [
+      "slider",
+      3
+    ],
+    [
+      "https://elements.ai-sdk.dev/api/registry/code-block.json",
+      2
+    ],
+    [
+      "https://elements.ai-sdk.dev/audio-player.json",
+      2
+    ],
+    [
+      "https://elements.ai-sdk.dev/image.json",
+      2
+    ],
+    [
+      "https://elements.ai-sdk.dev/speech-input.json",
+      2
+    ],
+    [
+      "https://elements.ai-sdk.dev/checkpoint.json",
+      2
+    ],
+    [
+      "https://elements.ai-sdk.dev/plan.json",
+      2
+    ],
+    [
+      "https://elements.ai-sdk.dev/task.json",
+      2
+    ],
+    [
+      "https://elements.ai-sdk.dev/canvas.json",
+      2
+    ],
+    [
+      "https://elements.ai-sdk.dev/edge.json",
+      2
+    ],
+    [
+      "https://elements.ai-sdk.dev/node.json",
+      2
+    ],
+    [
+      "https://elements.ai-sdk.dev/snippet.json",
+      2
+    ],
+    [
+      "https://elements.ai-sdk.dev/web-preview.json",
+      2
+    ],
+    [
+      "https://elements.ai-sdk.dev/api/registry/shimmer.json",
+      2
+    ],
+    [
+      "@animate-ui/primitives-animate-avatar-group",
+      2
+    ],
+    [
+      "@animate-ui/primitives-animate-code-block",
+      2
+    ],
+    [
+      "@animate-ui/primitives-animate-cursor",
+      2
+    ],
+    [
+      "@animate-ui/primitives-texts-scrolling-number",
+      2
+    ],
+    [
+      "@animate-ui/primitives-base-alert-dialog",
+      2
+    ],
+    [
+      "@animate-ui/primitives-base-checkbox",
+      2
+    ],
+    [
+      "@animate-ui/primitives-base-dialog",
+      2
+    ],
+    [
+      "@animate-ui/primitives-base-files",
+      2
+    ],
+    [
+      "@animate-ui/primitives-base-menu",
+      2
+    ],
+    [
+      "@animate-ui/primitives-base-popover",
+      2
+    ],
+    [
+      "@animate-ui/primitives-base-progress",
+      2
+    ],
+    [
+      "@animate-ui/primitives-base-radio",
+      2
+    ],
+    [
+      "@animate-ui/primitives-base-switch",
+      2
+    ],
+    [
+      "@animate-ui/primitives-base-tabs",
+      2
+    ],
+    [
+      "@animate-ui/primitives-base-toggle-group",
+      2
+    ],
+    [
+      "@animate-ui/primitives-base-toggle",
+      2
+    ],
+    [
+      "@animate-ui/primitives-base-tooltip",
+      2
+    ],
+    [
+      "@animate-ui/primitives-buttons-flip",
+      2
+    ],
+    [
+      "@animate-ui/primitives-animate-github-stars",
+      2
+    ],
+    [
+      "@animate-ui/primitives-buttons-liquid",
+      2
+    ],
+    [
+      "@animate-ui/primitives-buttons-ripple",
+      2
+    ],
+    [
+      "@animate-ui/primitives-effects-theme-toggler",
+      2
+    ],
+    [
+      "@animate-ui/components-buttons-icon",
+      2
+    ],
+    [
+      "@animate-ui/components-animate-tooltip",
+      2
+    ],
+    [
+      "@animate-ui/primitives-headless-disclosure",
+      2
+    ],
+    [
+      "@animate-ui/primitives-headless-checkbox",
+      2
+    ],
+    [
+      "@animate-ui/primitives-headless-dialog",
+      2
+    ],
+    [
+      "@animate-ui/primitives-headless-popover",
+      2
+    ],
+    [
+      "@animate-ui/primitives-headless-switch",
+      2
+    ],
+    [
+      "@animate-ui/primitives-headless-tabs",
+      2
+    ],
+    [
+      "@animate-ui/primitives-radix-alert-dialog",
+      2
+    ],
+    [
+      "@animate-ui/primitives-radix-dialog",
+      2
+    ],
+    [
+      "@animate-ui/primitives-radix-dropdown-menu",
+      2
+    ],
+    [
+      "@animate-ui/primitives-radix-files",
+      2
+    ],
+    [
+      "@animate-ui/primitives-radix-popover",
+      2
+    ],
+    [
+      "@animate-ui/primitives-radix-preview-link-card",
+      2
+    ],
+    [
+      "@animate-ui/primitives-radix-progress",
+      2
+    ],
+    [
+      "@animate-ui/primitives-radix-radio-group",
+      2
+    ],
+    [
+      "@animate-ui/primitives-radix-sheet",
+      2
+    ],
+    [
+      "@animate-ui/primitives-radix-switch",
+      2
+    ],
+    [
+      "@animate-ui/primitives-radix-tabs",
+      2
+    ],
+    [
+      "@animate-ui/primitives-radix-toggle-group",
+      2
+    ],
+    [
+      "@animate-ui/components-radix-toggle",
+      2
+    ],
+    [
+      "@animate-ui/primitives-radix-toggle",
+      2
+    ],
+    [
+      "@animate-ui/primitives-radix-tooltip",
+      2
+    ],
+    [
+      "@animate-ui/components-backgrounds-fireworks",
+      2
+    ],
+    [
+      "@animate-ui/primitives-texts-rotating",
+      2
+    ],
+    [
+      "@animate-ui/primitives-texts-counting-number",
+      2
+    ],
+    [
+      "@animate-ui/primitives-texts-splitting",
+      2
+    ],
+    [
+      "@animate-ui/hooks-use-motion-value-state",
+      2
+    ],
+    [
+      "@animate-ui/hooks-use-data-state",
+      2
+    ],
+    [
+      "@magicui/animated-gradient-text",
+      2
+    ],
+    [
+      "@magicui/animated-list",
+      2
+    ],
+    [
+      "@magicui/avatar-circles",
+      2
+    ],
+    [
+      "@magicui/bento-grid",
+      2
+    ],
+    [
+      "@magicui/blur-fade",
+      2
+    ],
+    [
+      "@magicui/cool-mode",
+      2
+    ],
+    [
+      "@magicui/flickering-grid",
+      2
+    ],
+    [
+      "@magicui/hero-video-dialog",
+      2
+    ],
+    [
+      "@magicui/interactive-grid-pattern",
+      2
+    ],
+    [
+      "@magicui/magic-card",
+      2
+    ],
+    [
+      "@magicui/pulsating-button",
+      2
+    ],
+    [
+      "@magicui/rainbow-button",
+      2
+    ],
+    [
+      "@magicui/scroll-based-velocity",
+      2
+    ],
+    [
+      "@magicui/shine-border",
+      2
+    ],
+    [
+      "@magicui/spinning-text",
+      2
+    ],
+    [
+      "@magicui/terminal",
+      2
+    ],
+    [
+      "@magicui/text-3d-flip",
+      2
+    ],
+    [
+      "https://elements.ai-sdk.dev/agent.json",
+      1
+    ],
+    [
+      "https://elements.ai-sdk.dev/artifact.json",
+      1
+    ],
+    [
+      "https://elements.ai-sdk.dev/chain-of-thought.json",
+      1
+    ],
+    [
+      "https://elements.ai-sdk.dev/commit.json",
+      1
+    ],
+    [
+      "https://elements.ai-sdk.dev/context.json",
+      1
+    ],
+    [
+      "https://elements.ai-sdk.dev/connection.json",
+      1
+    ],
+    [
+      "https://elements.ai-sdk.dev/environment-variables.json",
+      1
+    ],
+    [
+      "https://elements.ai-sdk.dev/inline-citation.json",
+      1
+    ],
+    [
+      "https://elements.ai-sdk.dev/jsx-preview.json",
+      1
+    ],
+    [
+      "https://elements.ai-sdk.dev/mic-selector.json",
+      1
+    ],
+    [
+      "https://elements.ai-sdk.dev/open-in-chat.json",
+      1
+    ],
+    [
+      "https://elements.ai-sdk.dev/package-info.json",
+      1
+    ],
+    [
+      "https://elements.ai-sdk.dev/sandbox.json",
+      1
+    ],
+    [
+      "https://elements.ai-sdk.dev/transcription.json",
+      1
+    ],
+    [
+      "https://elements.ai-sdk.dev/voice-selector.json",
+      1
+    ],
+    [
+      "https://elements.ai-sdk.dev/api/registry/tool.json",
+      1
+    ],
+    [
+      "@animate-ui/components-animate-avatar-group",
+      1
+    ],
+    [
+      "@animate-ui/components-animate-code-tabs",
+      1
+    ],
+    [
+      "@animate-ui/components-animate-code",
+      1
+    ],
+    [
+      "@animate-ui/components-animate-cursor",
+      1
+    ],
+    [
+      "@animate-ui/components-animate-github-stars-wheel",
+      1
+    ],
+    [
+      "@animate-ui/components-animate-tabs",
+      1
+    ],
+    [
+      "@animate-ui/components-backgrounds-bubble",
+      1
+    ],
+    [
+      "@animate-ui/components-backgrounds-gradient",
+      1
+    ],
+    [
+      "@animate-ui/components-backgrounds-gravity-stars",
+      1
+    ],
+    [
+      "@animate-ui/components-backgrounds-hexagon",
+      1
+    ],
+    [
+      "@animate-ui/components-backgrounds-hole",
+      1
+    ],
+    [
+      "@animate-ui/components-backgrounds-stars",
+      1
+    ],
+    [
+      "@animate-ui/components-base-accordion",
+      1
+    ],
+    [
+      "@animate-ui/components-base-alert-dialog",
+      1
+    ],
+    [
+      "@animate-ui/components-base-checkbox",
+      1
+    ],
+    [
+      "@animate-ui/components-base-dialog",
+      1
+    ],
+    [
+      "@animate-ui/components-base-files",
+      1
+    ],
+    [
+      "@animate-ui/components-base-popover",
+      1
+    ],
+    [
+      "@animate-ui/components-base-preview-card",
+      1
+    ],
+    [
+      "@animate-ui/components-base-preview-link-card",
+      1
+    ],
+    [
+      "@animate-ui/components-base-progress",
+      1
+    ],
+    [
+      "@animate-ui/components-base-radio",
+      1
+    ],
+    [
+      "@animate-ui/components-base-switch",
+      1
+    ],
+    [
+      "@animate-ui/components-base-tabs",
+      1
+    ],
+    [
+      "@animate-ui/components-base-toggle-group",
+      1
+    ],
+    [
+      "@animate-ui/components-base-toggle",
+      1
+    ],
+    [
+      "@animate-ui/components-base-tooltip",
+      1
+    ],
+    [
+      "@animate-ui/components-buttons-flip",
+      1
+    ],
+    [
+      "@animate-ui/components-buttons-github-stars",
+      1
+    ],
+    [
+      "@animate-ui/components-buttons-liquid",
+      1
+    ],
+    [
+      "@animate-ui/components-buttons-ripple",
+      1
+    ],
+    [
+      "@animate-ui/components-buttons-theme-toggler",
+      1
+    ],
+    [
+      "@animate-ui/components-community-flip-card",
+      1
+    ],
+    [
+      "@animate-ui/components-community-management-bar",
+      1
+    ],
+    [
+      "@animate-ui/components-community-motion-carousel",
+      1
+    ],
+    [
+      "@animate-ui/components-community-notification-list",
+      1
+    ],
+    [
+      "@animate-ui/components-community-pin-list",
+      1
+    ],
+    [
+      "@animate-ui/components-community-playful-todolist",
+      1
+    ],
+    [
+      "@animate-ui/components-community-radial-intro",
+      1
+    ],
+    [
+      "@animate-ui/components-community-radial-menu",
+      1
+    ],
+    [
+      "@animate-ui/components-community-radial-nav",
+      1
+    ],
+    [
+      "@animate-ui/components-community-share-button",
+      1
+    ],
+    [
+      "@animate-ui/components-community-user-presence-avatar",
+      1
+    ],
+    [
+      "@animate-ui/components-headless-accordion",
+      1
+    ],
+    [
+      "@animate-ui/components-headless-checkbox",
+      1
+    ],
+    [
+      "@animate-ui/components-headless-dialog",
+      1
+    ],
+    [
+      "@animate-ui/components-headless-popover",
+      1
+    ],
+    [
+      "@animate-ui/components-headless-switch",
+      1
+    ],
+    [
+      "@animate-ui/components-headless-tabs",
+      1
+    ],
+    [
+      "@animate-ui/components-radix-accordion",
+      1
+    ],
+    [
+      "@animate-ui/components-radix-alert-dialog",
+      1
+    ],
+    [
+      "@animate-ui/components-radix-checkbox",
+      1
+    ],
+    [
+      "@animate-ui/components-radix-dialog",
+      1
+    ],
+    [
+      "@animate-ui/components-radix-files",
+      1
+    ],
+    [
+      "@animate-ui/components-radix-hover-card",
+      1
+    ],
+    [
+      "@animate-ui/components-radix-popover",
+      1
+    ],
+    [
+      "@animate-ui/components-radix-preview-link-card",
+      1
+    ],
+    [
+      "@animate-ui/components-radix-progress",
+      1
+    ],
+    [
+      "@animate-ui/components-radix-radio-group",
+      1
+    ],
+    [
+      "@animate-ui/components-radix-sheet",
+      1
+    ],
+    [
+      "@animate-ui/components-radix-sidebar",
+      1
+    ],
+    [
+      "@animate-ui/components-radix-switch",
+      1
+    ],
+    [
+      "@animate-ui/components-radix-tabs",
+      1
+    ],
+    [
+      "@animate-ui/components-radix-toggle-group",
+      1
+    ],
+    [
+      "@animate-ui/components-radix-tooltip",
+      1
+    ],
+    [
+      "@animate-ui/primitives-animate-motion-grid",
+      1
+    ],
+    [
+      "@animate-ui/primitives-animate-pinned-list",
+      1
+    ],
+    [
+      "@animate-ui/primitives-animate-scroll-progress",
+      1
+    ],
+    [
+      "@animate-ui/primitives-animate-spring",
+      1
+    ],
+    [
+      "@animate-ui/primitives-base-collapsible",
+      1
+    ],
+    [
+      "@animate-ui/primitives-base-preview-link-card",
+      1
+    ],
+    [
+      "@animate-ui/primitives-effects-blur",
+      1
+    ],
+    [
+      "@animate-ui/primitives-effects-click",
+      1
+    ],
+    [
+      "@animate-ui/primitives-effects-effect",
+      1
+    ],
+    [
+      "@animate-ui/primitives-effects-fade",
+      1
+    ],
+    [
+      "@animate-ui/primitives-effects-image-zoom",
+      1
+    ],
+    [
+      "@animate-ui/primitives-effects-magnetic",
+      1
+    ],
+    [
+      "@animate-ui/primitives-effects-shine",
+      1
+    ],
+    [
+      "@animate-ui/primitives-effects-slide",
+      1
+    ],
+    [
+      "@animate-ui/primitives-effects-tilt",
+      1
+    ],
+    [
+      "@animate-ui/primitives-effects-zoom",
+      1
+    ],
+    [
+      "@animate-ui/primitives-radix-collapsible",
+      1
+    ],
+    [
+      "@animate-ui/primitives-texts-gradient",
+      1
+    ],
+    [
+      "@animate-ui/primitives-texts-highlight",
+      1
+    ],
+    [
+      "@animate-ui/primitives-texts-morphing",
+      1
+    ],
+    [
+      "@animate-ui/primitives-texts-rolling",
+      1
+    ],
+    [
+      "@animate-ui/primitives-texts-shimmering",
+      1
+    ],
+    [
+      "@animate-ui/primitives-texts-typing",
+      1
+    ],
+    [
+      "@animate-ui/hooks-use-auto-height",
+      1
+    ],
+    [
+      "@magicui/animated-circular-progress-bar",
+      1
+    ],
+    [
+      "@magicui/animated-grid-pattern",
+      1
+    ],
+    [
+      "@magicui/animated-shiny-text",
+      1
+    ],
+    [
+      "@magicui/aurora-text",
+      1
+    ],
+    [
+      "@magicui/animated-beam-multiple-outputs",
+      1
+    ],
+    [
+      "@magicui/animated-list-demo",
+      1
+    ],
+    [
+      "@magicui/code-comparison",
+      1
+    ],
+    [
+      "@magicui/comic-text",
+      1
+    ],
+    [
+      "@magicui/file-tree",
+      1
+    ],
+    [
+      "@magicui/globe",
+      1
+    ],
+    [
+      "@magicui/glyph-matrix",
+      1
+    ],
+    [
+      "@magicui/highlighter",
+      1
+    ],
+    [
+      "@magicui/hyper-text",
+      1
+    ],
+    [
+      "@magicui/interactive-hover-button",
+      1
+    ],
+    [
+      "@magicui/kinetic-text",
+      1
+    ],
+    [
+      "@magicui/light-rays",
+      1
+    ],
+    [
+      "@magicui/line-shadow-text",
+      1
+    ],
+    [
+      "@magicui/meteors",
+      1
+    ],
+    [
+      "@magicui/morphing-text",
+      1
+    ],
+    [
+      "@magicui/neon-gradient-card",
+      1
+    ],
+    [
+      "@magicui/orbiting-circles",
+      1
+    ],
+    [
+      "@magicui/particles",
+      1
+    ],
+    [
+      "@magicui/pixel-image",
+      1
+    ],
+    [
+      "@magicui/pointer",
+      1
+    ],
+    [
+      "@magicui/progressive-blur",
+      1
+    ],
+    [
+      "@magicui/retro-grid",
+      1
+    ],
+    [
+      "@magicui/ripple-button",
+      1
+    ],
+    [
+      "@magicui/ripple",
+      1
+    ],
+    [
+      "@magicui/scroll-progress",
+      1
+    ],
+    [
+      "@magicui/shimmer-button",
+      1
+    ],
+    [
+      "@magicui/shiny-button",
+      1
+    ],
+    [
+      "@magicui/smooth-cursor",
+      1
+    ],
+    [
+      "@magicui/sparkles-text",
+      1
+    ],
+    [
+      "@magicui/text-reveal",
+      1
+    ],
+    [
+      "@magicui/video-text",
+      1
+    ],
+    [
+      "@magicui/warp-background",
+      1
+    ],
+    [
+      "@magicui/word-rotate",
+      1
+    ]
+  ],
+  "remote_urls": [
+    {
+      "url": "http://www.w3.org/2000/svg",
+      "count": 303,
+      "sample": [
+        "ai-elements/open-in-chat",
+        "animate-ui/components-animate-cursor",
+        "animate-ui/components-backgrounds-bubble"
+      ]
+    },
+    {
+      "url": "https://pbs.twimg.com/profile_images/1950218390741618688/72447Y7e_400x400.jpg",
+      "count": 6,
+      "sample": [
+        "animate-ui/demo-components-base-preview-card",
+        "animate-ui/demo-components-community-flip-card",
+        "animate-ui/demo-components-radix-hover-card"
+      ]
+    },
+    {
+      "url": "https://github.com/shadcn.png",
+      "count": 6,
+      "sample": [
+        "shadcn/avatar-demo",
+        "shadcn/empty-avatar-group",
+        "shadcn/empty-avatar"
+      ]
+    },
+    {
+      "url": "https://github.com/evilrabbit.png",
+      "count": 5,
+      "sample": [
+        "shadcn/avatar-demo",
+        "shadcn/empty-avatar-group",
+        "shadcn/item-avatar"
+      ]
+    },
+    {
+      "url": "https://github.com/maxleiter.png",
+      "count": 5,
+      "sample": [
+        "shadcn/avatar-demo",
+        "shadcn/empty-avatar-group",
+        "shadcn/item-avatar"
+      ]
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400&h=400&fit=crop",
+      "count": 4,
+      "sample": [
+        "ai-elements/example-attachments-inline",
+        "ai-elements/example-attachments-list",
+        "ai-elements/example-attachments"
+      ]
+    },
+    {
+      "url": "https://react.dev/reference/react",
+      "count": 4,
+      "sample": [
+        "ai-elements/example-chatbot",
+        "ai-elements/example-demo-chatgpt",
+        "ai-elements/example-demo-claude"
+      ]
+    },
+    {
+      "url": "https://react.dev/reference/react-dom",
+      "count": 4,
+      "sample": [
+        "ai-elements/example-chatbot",
+        "ai-elements/example-demo-chatgpt",
+        "ai-elements/example-demo-claude"
+      ]
+    },
+    {
+      "url": "https://react.dev/warnings/invalid-hook-call-warning",
+      "count": 4,
+      "sample": [
+        "ai-elements/example-chatbot",
+        "ai-elements/example-demo-chatgpt",
+        "ai-elements/example-demo-claude"
+      ]
+    },
+    {
+      "url": "https://react.dev/reference/react/useState",
+      "count": 4,
+      "sample": [
+        "ai-elements/example-chatbot",
+        "ai-elements/example-demo-chatgpt",
+        "ai-elements/example-demo-claude"
+      ]
+    },
+    {
+      "url": "https://react.dev/reference/react/useEffect",
+      "count": 4,
+      "sample": [
+        "ai-elements/example-chatbot",
+        "ai-elements/example-demo-chatgpt",
+        "ai-elements/example-demo-claude"
+      ]
+    },
+    {
+      "url": "https://pbs.twimg.com/profile_images/1948770261848756224/oPwqXMD6_400x400.jpg",
+      "count": 4,
+      "sample": [
+        "animate-ui/components-community-user-presence-avatar",
+        "animate-ui/demo-components-animate-avatar-group",
+        "animate-ui/demo-components-community-radial-intro"
+      ]
+    },
+    {
+      "url": "https://pbs.twimg.com/profile_images/1593304942210478080/TUYae5z7_400x400.jpg",
+      "count": 4,
+      "sample": [
+        "animate-ui/components-community-user-presence-avatar",
+        "animate-ui/demo-components-animate-avatar-group",
+        "animate-ui/demo-components-community-radial-intro"
+      ]
+    },
+    {
+      "url": "https://pbs.twimg.com/profile_images/1677042510839857154/Kq4tpySA_400x400.jpg",
+      "count": 4,
+      "sample": [
+        "animate-ui/components-community-user-presence-avatar",
+        "animate-ui/demo-components-animate-avatar-group",
+        "animate-ui/demo-components-community-radial-intro"
+      ]
+    },
+    {
+      "url": "https://pbs.twimg.com/profile_images/1783856060249595904/8TfcCN0r_400x400.jpg",
+      "count": 4,
+      "sample": [
+        "animate-ui/components-community-user-presence-avatar",
+        "animate-ui/demo-components-animate-avatar-group",
+        "animate-ui/demo-components-community-radial-intro"
+      ]
+    },
+    {
+      "url": "https://pbs.twimg.com/profile_images/1534700564810018816/anAuSfkp_400x400.jpg",
+      "count": 4,
+      "sample": [
+        "animate-ui/components-community-user-presence-avatar",
+        "animate-ui/demo-components-animate-avatar-group",
+        "animate-ui/demo-components-community-radial-intro"
+      ]
+    },
+    {
+      "url": "https://twitter.com/animate_ui",
+      "count": 4,
+      "sample": [
+        "animate-ui/demo-components-base-preview-card",
+        "animate-ui/demo-components-radix-hover-card",
+        "animate-ui/demo-primitives-base-preview-card"
+      ]
+    },
+    {
+      "url": "https://codepen.io/JuanFuentes/pen/eYEeoyE",
+      "count": 4,
+      "sample": [
+        "react-bits/ASCIIText-JS-CSS",
+        "react-bits/ASCIIText-JS-TW",
+        "react-bits/ASCIIText-TS-CSS"
+      ]
+    },
+    {
+      "url": "https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500;600&display=swap",
+      "count": 4,
+      "sample": [
+        "react-bits/ASCIIText-JS-CSS",
+        "react-bits/ASCIIText-JS-TW",
+        "react-bits/ASCIIText-TS-CSS"
+      ]
+    },
+    {
+      "url": "https://picsum.photos/id/1015/900/1200",
+      "count": 4,
+      "sample": [
+        "react-bits/AccordionGallery-JS-CSS",
+        "react-bits/AccordionGallery-JS-TW",
+        "react-bits/AccordionGallery-TS-CSS"
+      ]
+    },
+    {
+      "url": "https://picsum.photos/id/1018/900/1200",
+      "count": 4,
+      "sample": [
+        "react-bits/AccordionGallery-JS-CSS",
+        "react-bits/AccordionGallery-JS-TW",
+        "react-bits/AccordionGallery-TS-CSS"
+      ]
+    },
+    {
+      "url": "https://picsum.photos/id/1039/900/1200",
+      "count": 4,
+      "sample": [
+        "react-bits/AccordionGallery-JS-CSS",
+        "react-bits/AccordionGallery-JS-TW",
+        "react-bits/AccordionGallery-TS-CSS"
+      ]
+    },
+    {
+      "url": "https://picsum.photos/id/1043/900/1200",
+      "count": 4,
+      "sample": [
+        "react-bits/AccordionGallery-JS-CSS",
+        "react-bits/AccordionGallery-JS-TW",
+        "react-bits/AccordionGallery-TS-CSS"
+      ]
+    },
+    {
+      "url": "https://picsum.photos/id/1044/900/1200",
+      "count": 4,
+      "sample": [
+        "react-bits/AccordionGallery-JS-CSS",
+        "react-bits/AccordionGallery-JS-TW",
+        "react-bits/AccordionGallery-TS-CSS"
+      ]
+    },
+    {
+      "url": "https://i.pravatar.cc/300?img=8",
+      "count": 4,
+      "sample": [
+        "react-bits/ChromaGrid-JS-CSS",
+        "react-bits/ChromaGrid-JS-TW",
+        "react-bits/ChromaGrid-TS-CSS"
+      ]
+    },
+    {
+      "url": "https://github.com/",
+      "count": 4,
+      "sample": [
+        "react-bits/ChromaGrid-JS-CSS",
+        "react-bits/ChromaGrid-JS-TW",
+        "react-bits/ChromaGrid-TS-CSS"
+      ]
+    },
+    {
+      "url": "https://i.pravatar.cc/300?img=11",
+      "count": 4,
+      "sample": [
+        "react-bits/ChromaGrid-JS-CSS",
+        "react-bits/ChromaGrid-JS-TW",
+        "react-bits/ChromaGrid-TS-CSS"
+      ]
+    },
+    {
+      "url": "https://linkedin.com/in/",
+      "count": 4,
+      "sample": [
+        "react-bits/ChromaGrid-JS-CSS",
+        "react-bits/ChromaGrid-JS-TW",
+        "react-bits/ChromaGrid-TS-CSS"
+      ]
+    },
+    {
+      "url": "https://i.pravatar.cc/300?img=3",
+      "count": 4,
+      "sample": [
+        "react-bits/ChromaGrid-JS-CSS",
+        "react-bits/ChromaGrid-JS-TW",
+        "react-bits/ChromaGrid-TS-CSS"
+      ]
+    },
+    {
+      "url": "https://dribbble.com/",
+      "count": 4,
+      "sample": [
+        "react-bits/ChromaGrid-JS-CSS",
+        "react-bits/ChromaGrid-JS-TW",
+        "react-bits/ChromaGrid-TS-CSS"
+      ]
+    },
+    {
+      "url": "https://i.pravatar.cc/300?img=16",
+      "count": 4,
+      "sample": [
+        "react-bits/ChromaGrid-JS-CSS",
+        "react-bits/ChromaGrid-JS-TW",
+        "react-bits/ChromaGrid-TS-CSS"
+      ]
+    },
+    {
+      "url": "https://kaggle.com/",
+      "count": 4,
+      "sample": [
+        "react-bits/ChromaGrid-JS-CSS",
+        "react-bits/ChromaGrid-JS-TW",
+        "react-bits/ChromaGrid-TS-CSS"
+      ]
+    },
+    {
+      "url": "https://i.pravatar.cc/300?img=25",
+      "count": 4,
+      "sample": [
+        "react-bits/ChromaGrid-JS-CSS",
+        "react-bits/ChromaGrid-JS-TW",
+        "react-bits/ChromaGrid-TS-CSS"
+      ]
+    },
+    {
+      "url": "https://i.pravatar.cc/300?img=60",
+      "count": 4,
+      "sample": [
+        "react-bits/ChromaGrid-JS-CSS",
+        "react-bits/ChromaGrid-JS-TW",
+        "react-bits/ChromaGrid-TS-CSS"
+      ]
+    },
+    {
+      "url": "https://aws.amazon.com/",
+      "count": 4,
+      "sample": [
+        "react-bits/ChromaGrid-JS-CSS",
+        "react-bits/ChromaGrid-JS-TW",
+        "react-bits/ChromaGrid-TS-CSS"
+      ]
+    },
+    {
+      "url": "https://fonts.googleapis.com/css2?family=Figtree:wght@400;700&display=swap",
+      "count": 4,
+      "sample": [
+        "react-bits/CircularGallery-JS-CSS",
+        "react-bits/CircularGallery-JS-TW",
+        "react-bits/CircularGallery-TS-CSS"
+      ]
+    },
+    {
+      "url": "https://picsum.photos/seed/1/800/600?grayscale",
+      "count": 4,
+      "sample": [
+        "react-bits/CircularGallery-JS-CSS",
+        "react-bits/CircularGallery-JS-TW",
+        "react-bits/CircularGallery-TS-CSS"
+      ]
+    },
+    {
+      "url": "https://picsum.photos/seed/2/800/600?grayscale",
+      "count": 4,
+      "sample": [
+        "react-bits/CircularGallery-JS-CSS",
+        "react-bits/CircularGallery-JS-TW",
+        "react-bits/CircularGallery-TS-CSS"
+      ]
+    },
+    {
+      "url": "https://picsum.photos/seed/3/800/600?grayscale",
+      "count": 4,
+      "sample": [
+        "react-bits/CircularGallery-JS-CSS",
+        "react-bits/CircularGallery-JS-TW",
+        "react-bits/CircularGallery-TS-CSS"
+      ]
+    },
+    {
+      "url": "https://picsum.photos/seed/4/800/600?grayscale",
+      "count": 4,
+      "sample": [
+        "react-bits/CircularGallery-JS-CSS",
+        "react-bits/CircularGallery-JS-TW",
+        "react-bits/CircularGallery-TS-CSS"
+      ]
+    },
+    {
+      "url": "https://picsum.photos/seed/5/800/600?grayscale",
+      "count": 4,
+      "sample": [
+        "react-bits/CircularGallery-JS-CSS",
+        "react-bits/CircularGallery-JS-TW",
+        "react-bits/CircularGallery-TS-CSS"
+      ]
+    },
+    {
+      "url": "https://picsum.photos/seed/16/800/600?grayscale",
+      "count": 4,
+      "sample": [
+        "react-bits/CircularGallery-JS-CSS",
+        "react-bits/CircularGallery-JS-TW",
+        "react-bits/CircularGallery-TS-CSS"
+      ]
+    },
+    {
+      "url": "https://picsum.photos/seed/17/800/600?grayscale",
+      "count": 4,
+      "sample": [
+        "react-bits/CircularGallery-JS-CSS",
+        "react-bits/CircularGallery-JS-TW",
+        "react-bits/CircularGallery-TS-CSS"
+      ]
+    },
+    {
+      "url": "https://picsum.photos/seed/8/800/600?grayscale",
+      "count": 4,
+      "sample": [
+        "react-bits/CircularGallery-JS-CSS",
+        "react-bits/CircularGallery-JS-TW",
+        "react-bits/CircularGallery-TS-CSS"
+      ]
+    },
+    {
+      "url": "https://picsum.photos/seed/9/800/600?grayscale",
+      "count": 4,
+      "sample": [
+        "react-bits/CircularGallery-JS-CSS",
+        "react-bits/CircularGallery-JS-TW",
+        "react-bits/CircularGallery-TS-CSS"
+      ]
+    },
+    {
+      "url": "https://picsum.photos/seed/10/800/600?grayscale",
+      "count": 4,
+      "sample": [
+        "react-bits/CircularGallery-JS-CSS",
+        "react-bits/CircularGallery-JS-TW",
+        "react-bits/CircularGallery-TS-CSS"
+      ]
+    },
+    {
+      "url": "https://picsum.photos/seed/21/800/600?grayscale",
+      "count": 4,
+      "sample": [
+        "react-bits/CircularGallery-JS-CSS",
+        "react-bits/CircularGallery-JS-TW",
+        "react-bits/CircularGallery-TS-CSS"
+      ]
+    },
+    {
+      "url": "https://picsum.photos/seed/12/800/600?grayscale",
+      "count": 4,
+      "sample": [
+        "react-bits/CircularGallery-JS-CSS",
+        "react-bits/CircularGallery-JS-TW",
+        "react-bits/CircularGallery-TS-CSS"
+      ]
+    },
+    {
+      "url": "https://picsum.photos/300/400?grayscale",
+      "count": 4,
+      "sample": [
+        "react-bits/DecayCard-JS-CSS",
+        "react-bits/DecayCard-JS-TW",
+        "react-bits/DecayCard-TS-CSS"
+      ]
+    },
+    {
+      "url": "https://picsum.photos/seed/depth1/800/1000",
+      "count": 4,
+      "sample": [
+        "react-bits/DepthCarousel-JS-CSS",
+        "react-bits/DepthCarousel-JS-TW",
+        "react-bits/DepthCarousel-TS-CSS"
+      ]
+    },
+    {
+      "url": "https://picsum.photos/seed/depth2/800/1000",
+      "count": 4,
+      "sample": [
+        "react-bits/DepthCarousel-JS-CSS",
+        "react-bits/DepthCarousel-JS-TW",
+        "react-bits/DepthCarousel-TS-CSS"
+      ]
+    },
+    {
+      "url": "https://picsum.photos/seed/depth3/800/1000",
+      "count": 4,
+      "sample": [
+        "react-bits/DepthCarousel-JS-CSS",
+        "react-bits/DepthCarousel-JS-TW",
+        "react-bits/DepthCarousel-TS-CSS"
+      ]
+    },
+    {
+      "url": "https://picsum.photos/seed/depth4/800/1000",
+      "count": 4,
+      "sample": [
+        "react-bits/DepthCarousel-JS-CSS",
+        "react-bits/DepthCarousel-JS-TW",
+        "react-bits/DepthCarousel-TS-CSS"
+      ]
+    },
+    {
+      "url": "https://picsum.photos/seed/depth5/800/1000",
+      "count": 4,
+      "sample": [
+        "react-bits/DepthCarousel-JS-CSS",
+        "react-bits/DepthCarousel-JS-TW",
+        "react-bits/DepthCarousel-TS-CSS"
+      ]
+    },
+    {
+      "url": "https://picsum.photos/seed/depth6/800/1000",
+      "count": 4,
+      "sample": [
+        "react-bits/DepthCarousel-JS-CSS",
+        "react-bits/DepthCarousel-JS-TW",
+        "react-bits/DepthCarousel-TS-CSS"
+      ]
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1755331039789-7e5680e26e8f?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "count": 4,
+      "sample": [
+        "react-bits/DomeGallery-JS-CSS",
+        "react-bits/DomeGallery-JS-TW",
+        "react-bits/DomeGallery-TS-CSS"
+      ]
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1755569309049-98410b94f66d?q=80&w=772&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "count": 4,
+      "sample": [
+        "react-bits/DomeGallery-JS-CSS",
+        "react-bits/DomeGallery-JS-TW",
+        "react-bits/DomeGallery-TS-CSS"
+      ]
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1755497595318-7e5e3523854f?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "count": 4,
+      "sample": [
+        "react-bits/DomeGallery-JS-CSS",
+        "react-bits/DomeGallery-JS-TW",
+        "react-bits/DomeGallery-TS-CSS"
+      ]
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1755353985163-c2a0fe5ac3d8?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "count": 4,
+      "sample": [
+        "react-bits/DomeGallery-JS-CSS",
+        "react-bits/DomeGallery-JS-TW",
+        "react-bits/DomeGallery-TS-CSS"
+      ]
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1745965976680-d00be7dc0377?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "count": 4,
+      "sample": [
+        "react-bits/DomeGallery-JS-CSS",
+        "react-bits/DomeGallery-JS-TW",
+        "react-bits/DomeGallery-TS-CSS"
+      ]
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1752588975228-21f44630bb3c?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "count": 4,
+      "sample": [
+        "react-bits/DomeGallery-JS-CSS",
+        "react-bits/DomeGallery-JS-TW",
+        "react-bits/DomeGallery-TS-CSS"
+      ]
+    },
+    {
+      "url": "https://pbs.twimg.com/media/Gyla7NnXMAAXSo_?format=jpg&name=large",
+      "count": 4,
+      "sample": [
+        "react-bits/DomeGallery-JS-CSS",
+        "react-bits/DomeGallery-JS-TW",
+        "react-bits/DomeGallery-TS-CSS"
+      ]
+    },
+    {
+      "url": "https://picsum.photos/id/${ids[i",
+      "count": 4,
+      "sample": [
+        "react-bits/DriftWall-JS-CSS",
+        "react-bits/DriftWall-JS-TW",
+        "react-bits/DriftWall-TS-CSS"
+      ]
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/gh/justadudewhohacks/face-api.js@0.22.2/weights",
+      "count": 4,
+      "sample": [
+        "react-bits/GridScan-JS-CSS",
+        "react-bits/GridScan-JS-TW",
+        "react-bits/GridScan-TS-CSS"
+      ]
+    },
+    {
+      "url": "https://picsum.photos/seed/halftone-reveal/1200/800",
+      "count": 4,
+      "sample": [
+        "react-bits/HalftoneReveal-JS-CSS",
+        "react-bits/HalftoneReveal-JS-TW",
+        "react-bits/HalftoneReveal-TS-CSS"
+      ]
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1782977389500-dd7adad33ebe?q=80&w=600&h=600&fit=crop&sat=-100&auto=format",
+      "count": 4,
+      "sample": [
+        "react-bits/InfiniteMenu-JS-CSS",
+        "react-bits/InfiniteMenu-JS-TW",
+        "react-bits/InfiniteMenu-TS-CSS"
+      ]
+    },
+    {
+      "url": "https://google.com/",
+      "count": 4,
+      "sample": [
+        "react-bits/InfiniteMenu-JS-CSS",
+        "react-bits/InfiniteMenu-JS-TW",
+        "react-bits/InfiniteMenu-TS-CSS"
+      ]
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1782977389500-dd7adad33ebe?q=80&w=1600&auto=format&fit=crop",
+      "count": 4,
+      "sample": [
+        "react-bits/MorphSlider-JS-CSS",
+        "react-bits/MorphSlider-JS-TW",
+        "react-bits/MorphSlider-TS-CSS"
+      ]
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1781499455083-6ccc3beb20cd?q=80&w=1600&auto=format&fit=crop",
+      "count": 4,
+      "sample": [
+        "react-bits/MorphSlider-JS-CSS",
+        "react-bits/MorphSlider-JS-TW",
+        "react-bits/MorphSlider-TS-CSS"
+      ]
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1776394254711-4a0d7345269a?q=80&w=1600&auto=format&fit=crop",
+      "count": 4,
+      "sample": [
+        "react-bits/MorphSlider-JS-CSS",
+        "react-bits/MorphSlider-JS-TW",
+        "react-bits/MorphSlider-TS-CSS"
+      ]
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1781242629922-6f39cc3671cd?q=80&w=1600&auto=format&fit=crop",
+      "count": 4,
+      "sample": [
+        "react-bits/MorphSlider-JS-CSS",
+        "react-bits/MorphSlider-JS-TW",
+        "react-bits/MorphSlider-TS-CSS"
+      ]
+    },
+    {
+      "url": "https://x.com/dominikkoch",
+      "count": 4,
+      "sample": [
+        "react-bits/OrbitImages-JS-CSS",
+        "react-bits/OrbitImages-JS-TW",
+        "react-bits/OrbitImages-TS-CSS"
+      ]
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1782977389500-dd7adad33ebe?q=80&w=3416&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "count": 4,
+      "sample": [
+        "react-bits/RippleDistortion-JS-CSS",
+        "react-bits/RippleDistortion-JS-TW",
+        "react-bits/RippleDistortion-TS-CSS"
+      ]
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1480074568708-e7b720bb3f09?q=80&w=500&auto=format",
+      "count": 4,
+      "sample": [
+        "react-bits/Stack-JS-CSS",
+        "react-bits/Stack-JS-TW",
+        "react-bits/Stack-TS-CSS"
+      ]
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1449844908441-8829872d2607?q=80&w=500&auto=format",
+      "count": 4,
+      "sample": [
+        "react-bits/Stack-JS-CSS",
+        "react-bits/Stack-JS-TW",
+        "react-bits/Stack-TS-CSS"
+      ]
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1452626212852-811d58933cae?q=80&w=500&auto=format",
+      "count": 4,
+      "sample": [
+        "react-bits/Stack-JS-CSS",
+        "react-bits/Stack-JS-TW",
+        "react-bits/Stack-TS-CSS"
+      ]
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1572120360610-d971b9d7767c?q=80&w=500&auto=format",
+      "count": 4,
+      "sample": [
+        "react-bits/Stack-JS-CSS",
+        "react-bits/Stack-JS-TW",
+        "react-bits/Stack-TS-CSS"
+      ]
+    },
+    {
+      "url": "https://codepen.io/JuanFuentes/full/rgXKGQ",
+      "count": 4,
+      "sample": [
+        "react-bits/TextPressure-JS-CSS",
+        "react-bits/TextPressure-JS-TW",
+        "react-bits/TextPressure-TS-CSS"
+      ]
+    },
+    {
+      "url": "https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wdth,wght@8..144,25..151,100..1000&display=swap",
+      "count": 4,
+      "sample": [
+        "react-bits/TextPressure-JS-CSS",
+        "react-bits/TextPressure-JS-TW",
+        "react-bits/TextPressure-TS-CSS"
+      ]
+    },
+    {
+      "url": "https://pbs.twimg.com/profile_images/1927474594102784000/Al0g-I6o_400x400.jpg",
+      "count": 3,
+      "sample": [
+        "animate-ui/demo-components-animate-avatar-group",
+        "animate-ui/demo-components-community-radial-intro",
+        "animate-ui/demo-primitives-animate-avatar-group"
+      ]
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1736606355698-5efdb410fe93?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "count": 3,
+      "sample": [
+        "magicui/lens-demo-2",
+        "magicui/lens-demo-3",
+        "magicui/lens-demo"
+      ]
+    },
+    {
+      "url": "https://avatar.vercel.sh/jack",
+      "count": 3,
+      "sample": [
+        "magicui/marquee-3d",
+        "magicui/marquee-demo-vertical",
+        "magicui/marquee-demo"
+      ]
+    },
+    {
+      "url": "https://avatar.vercel.sh/jill",
+      "count": 3,
+      "sample": [
+        "magicui/marquee-3d",
+        "magicui/marquee-demo-vertical",
+        "magicui/marquee-demo"
+      ]
+    },
+    {
+      "url": "https://avatar.vercel.sh/john",
+      "count": 3,
+      "sample": [
+        "magicui/marquee-3d",
+        "magicui/marquee-demo-vertical",
+        "magicui/marquee-demo"
+      ]
+    },
+    {
+      "url": "https://ejiidnob33g9ap1r.public.blob.vercel-storage.com/ElevenLabs_2025-11-10T22_07_46_Hayden_pvc_sp108_s50_sb75_se0_b_m2.mp3",
+      "count": 2,
+      "sample": [
+        "ai-elements/example-audio-player-remote",
+        "ai-elements/example-audio-player"
+      ]
+    },
+    {
+      "url": "https://stripe.com/docs/api",
+      "count": 2,
+      "sample": [
+        "ai-elements/example-sources-custom",
+        "ai-elements/example-sources"
+      ]
+    },
+    {
+      "url": "https://docs.github.com/en/rest",
+      "count": 2,
+      "sample": [
+        "ai-elements/example-sources-custom",
+        "ai-elements/example-sources"
+      ]
+    },
+    {
+      "url": "https://docs.aws.amazon.com/sdk-for-javascript/",
+      "count": 2,
+      "sample": [
+        "ai-elements/example-sources-custom",
+        "ai-elements/example-sources"
+      ]
+    },
+    {
+      "url": "https://api.github.com/repos/${username}/${repo}",
+      "count": 2,
+      "sample": [
+        "animate-ui/components-animate-github-stars-wheel",
+        "animate-ui/primitives-animate-github-stars"
+      ]
+    },
+    {
+      "url": "https://pbs.twimg.com/profile_images/1897311929028255744/otxpL-ke_400x400.jpg",
+      "count": 2,
+      "sample": [
+        "animate-ui/components-community-user-presence-avatar",
+        "animate-ui/demo-components-community-radial-intro"
+      ]
+    },
+    {
+      "url": "https://api.microlink.io/?${buildQueryString({",
+      "count": 2,
+      "sample": [
+        "animate-ui/primitives-base-preview-link-card",
+        "animate-ui/primitives-radix-preview-link-card"
+      ]
+    },
+    {
+      "url": "https://avatars.githubusercontent.com/u/81306489",
+      "count": 2,
+      "sample": [
+        "magicui/cool-mode-custom",
+        "magicui/magic-card-demo-2"
+      ]
+    },
+    {
+      "url": "https://www.youtube.com/embed/qh3NGpYRG3I?si=4rb-zSdDkVK9qxxb",
+      "count": 2,
+      "sample": [
+        "magicui/hero-video-dialog-demo-top-in-bottom-out",
+        "magicui/hero-video-dialog-demo"
+      ]
+    },
+    {
+      "url": "https://startup-template-sage.vercel.app/hero-light.png",
+      "count": 2,
+      "sample": [
+        "magicui/hero-video-dialog-demo-top-in-bottom-out",
+        "magicui/hero-video-dialog-demo"
+      ]
+    },
+    {
+      "url": "https://startup-template-sage.vercel.app/hero-dark.png",
+      "count": 2,
+      "sample": [
+        "magicui/hero-video-dialog-demo-top-in-bottom-out",
+        "magicui/hero-video-dialog-demo"
+      ]
+    },
+    {
+      "url": "https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap",
+      "count": 2,
+      "sample": [
+        "react-bits/VariableProximity-JS-CSS",
+        "react-bits/VariableProximity-TS-CSS"
+      ]
+    },
+    {
+      "url": "https://react.dev",
+      "count": 1,
+      "sample": [
+        "ai-elements/example-attachments-inline"
+      ]
+    },
+    {
+      "url": "https://docs.example.com/api",
+      "count": 1,
+      "sample": [
+        "ai-elements/example-attachments-list"
+      ]
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1682687220742-aba13b6e50ba?w=400&h=400&fit=crop",
+      "count": 1,
+      "sample": [
+        "ai-elements/example-attachments"
+      ]
+    },
+    {
+      "url": "https://www.x.com",
+      "count": 1,
+      "sample": [
+        "ai-elements/example-chain-of-thought"
+      ]
+    },
+    {
+      "url": "https://www.instagram.com",
+      "count": 1,
+      "sample": [
+        "ai-elements/example-chain-of-thought"
+      ]
+    },
+    {
+      "url": "https://www.github.com",
+      "count": 1,
+      "sample": [
+        "ai-elements/example-chain-of-thought"
+      ]
+    },
+    {
+      "url": "https://www.dribbble.com",
+      "count": 1,
+      "sample": [
+        "ai-elements/example-chain-of-thought"
+      ]
+    },
+    {
+      "url": "https://example.com/nlp-advances",
+      "count": 1,
+      "sample": [
+        "ai-elements/example-inline-citation"
+      ]
+    },
+    {
+      "url": "https://mlnews.org/breakthroughs",
+      "count": 1,
+      "sample": [
+        "ai-elements/example-inline-citation"
+      ]
+    },
+    {
+      "url": "https://healthai.com/trends",
+      "count": 1,
+      "sample": [
+        "ai-elements/example-inline-citation"
+      ]
+    },
+    {
+      "url": "https://aiethics.org/overview",
+      "count": 1,
+      "sample": [
+        "ai-elements/example-inline-citation"
+      ]
+    },
+    {
+      "url": "https://deeplearninghub.com/scaling-models",
+      "count": 1,
+      "sample": [
+        "ai-elements/example-inline-citation"
+      ]
+    },
+    {
+      "url": "https://nlubenchmarks.com/latest",
+      "count": 1,
+      "sample": [
+        "ai-elements/example-inline-citation"
+      ]
+    },
+    {
+      "url": "https://github.com/haydenbleasel.png",
+      "count": 1,
+      "sample": [
+        "ai-elements/example-queue"
+      ]
+    },
+    {
+      "url": "https://github.com/user/repo",
+      "count": 1,
+      "sample": [
+        "ai-elements/example-snippet-plain"
+      ]
+    },
+    {
+      "url": "https://api.openai.com/v1/audio/transcriptions",
+      "count": 1,
+      "sample": [
+        "ai-elements/example-speech-input"
+      ]
+    },
+    {
+      "url": "https://api.example.com/data",
+      "count": 1,
+      "sample": [
+        "ai-elements/example-tool-output-error"
+      ]
+    },
+    {
+      "url": "https://ejiidnob33g9ap1r.public.blob.vercel-storage.com/ElevenLabs_2025-11-10T22_10_24_Hayden_pvc_sp110_s50_sb75_se0_b_m2.mp3",
+      "count": 1,
+      "sample": [
+        "ai-elements/example-transcription"
+      ]
+    },
+    {
+      "url": "https://skills.sh/",
+      "count": 1,
+      "sample": [
+        "ai-elements/example-v0-clone"
+      ]
+    },
+    {
+      "url": "https://ejiidnob33g9ap1r.public.blob.vercel-storage.com/ElevenLabs_2026-01-16T21_16_50_Liam%20-%20Energetic%2C%20Social%20Media%20Creator_pre_sp100_s50_sb75_se0_b_m2.mp3",
+      "count": 1,
+      "sample": [
+        "ai-elements/example-voice-selector"
+      ]
+    },
+    {
+      "url": "https://ejiidnob33g9ap1r.public.blob.vercel-storage.com/ElevenLabs_2026-01-16T21_17_00_Adam%20-%20Dominant%2C%20Firm_pre_sp100_s50_sb75_se0_b_m2.mp3",
+      "count": 1,
+      "sample": [
+        "ai-elements/example-voice-selector"
+      ]
+    },
+    {
+      "url": "https://ejiidnob33g9ap1r.public.blob.vercel-storage.com/ElevenLabs_2026-01-16T21_17_09_Alice%20-%20Clear%2C%20Engaging%20Educator_pre_sp100_s50_sb75_se0_b_m2.mp3",
+      "count": 1,
+      "sample": [
+        "ai-elements/example-voice-selector"
+      ]
+    },
+    {
+      "url": "https://ejiidnob33g9ap1r.public.blob.vercel-storage.com/ElevenLabs_2026-01-16T21_17_25_Bill%20-%20Wise%2C%20Mature%2C%20Balanced_pre_sp100_s50_sb75_se0_b_m2.mp3",
+      "count": 1,
+      "sample": [
+        "ai-elements/example-voice-selector"
+      ]
+    },
+    {
+      "url": "https://ejiidnob33g9ap1r.public.blob.vercel-storage.com/ElevenLabs_2026-01-16T21_17_50_Jessica%20-%20Playful%2C%20Bright%2C%20Warm_pre_sp100_s50_sb75_se0_b_m2.mp3",
+      "count": 1,
+      "sample": [
+        "ai-elements/example-voice-selector"
+      ]
+    },
+    {
+      "url": "https://ejiidnob33g9ap1r.public.blob.vercel-storage.com/ElevenLabs_2026-01-16T21_18_03_Lily%20-%20Velvety%20Actress_pre_sp100_s50_sb75_se0_b_m2.mp3",
+      "count": 1,
+      "sample": [
+        "ai-elements/example-voice-selector"
+      ]
+    },
+    {
+      "url": "https://preview-v0me-kzml7zc6fkcvbyhzrf47.vusercontent.net/",
+      "count": 1,
+      "sample": [
+        "ai-elements/example-web-preview"
+      ]
+    },
+    {
+      "url": "https://models.dev/logos/${provider}.svg",
+      "count": 1,
+      "sample": [
+        "ai-elements/model-selector"
+      ]
+    },
+    {
+      "url": "https://chatgpt.com/?${new",
+      "count": 1,
+      "sample": [
+        "ai-elements/open-in-chat"
+      ]
+    },
+    {
+      "url": "https://claude.ai/new?${new",
+      "count": 1,
+      "sample": [
+        "ai-elements/open-in-chat"
+      ]
+    },
+    {
+      "url": "https://cursor.com/link/prompt",
+      "count": 1,
+      "sample": [
+        "ai-elements/open-in-chat"
+      ]
+    },
+    {
+      "url": "https://scira.ai/?${new",
+      "count": 1,
+      "sample": [
+        "ai-elements/open-in-chat"
+      ]
+    },
+    {
+      "url": "https://t3.chat/new?${new",
+      "count": 1,
+      "sample": [
+        "ai-elements/open-in-chat"
+      ]
+    },
+    {
+      "url": "https://v0.app?${new",
+      "count": 1,
+      "sample": [
+        "ai-elements/open-in-chat"
+      ]
+    },
+    {
+      "url": "https://ejiidnob33g9ap1r.public.blob.vercel-storage.com/command-2.0.riv",
+      "count": 1,
+      "sample": [
+        "ai-elements/persona"
+      ]
+    },
+    {
+      "url": "https://ejiidnob33g9ap1r.public.blob.vercel-storage.com/glint-2.0.riv",
+      "count": 1,
+      "sample": [
+        "ai-elements/persona"
+      ]
+    },
+    {
+      "url": "https://ejiidnob33g9ap1r.public.blob.vercel-storage.com/halo-2.0.riv",
+      "count": 1,
+      "sample": [
+        "ai-elements/persona"
+      ]
+    },
+    {
+      "url": "https://ejiidnob33g9ap1r.public.blob.vercel-storage.com/mana-2.0.riv",
+      "count": 1,
+      "sample": [
+        "ai-elements/persona"
+      ]
+    },
+    {
+      "url": "https://ejiidnob33g9ap1r.public.blob.vercel-storage.com/obsidian-2.0.riv",
+      "count": 1,
+      "sample": [
+        "ai-elements/persona"
+      ]
+    },
+    {
+      "url": "https://ejiidnob33g9ap1r.public.blob.vercel-storage.com/orb-1.2.riv",
+      "count": 1,
+      "sample": [
+        "ai-elements/persona"
+      ]
+    },
+    {
+      "url": "https://linkedin.com",
+      "count": 1,
+      "sample": [
+        "animate-ui/demo-components-community-flip-card"
+      ]
+    },
+    {
+      "url": "https://github.com",
+      "count": 1,
+      "sample": [
+        "animate-ui/demo-components-community-flip-card"
+      ]
+    },
+    {
+      "url": "https://twitter.com",
+      "count": 1,
+      "sample": [
+        "animate-ui/demo-components-community-flip-card"
+      ]
+    },
+    {
+      "url": "https://pbs.twimg.com/profile_images/1602734731728142336/9Bppcs67_400x400.jpg",
+      "count": 1,
+      "sample": [
+        "animate-ui/demo-components-community-radial-intro"
+      ]
+    },
+    {
+      "url": "https://pbs.twimg.com/profile_images/1690345911149375488/wfD0Ai9j_400x400.jpg",
+      "count": 1,
+      "sample": [
+        "animate-ui/demo-components-community-radial-intro"
+      ]
+    },
+    {
+      "url": "https://pbs.twimg.com/profile_images/1909615404789506048/MTqvRsjo_400x400.jpg",
+      "count": 1,
+      "sample": [
+        "animate-ui/demo-components-radix-sidebar"
+      ]
+    },
+    {
+      "url": "https://images.pexels.com/photos/34293571/pexels-photo-34293571.jpeg",
+      "count": 1,
+      "sample": [
+        "animate-ui/demo-primitives-effects-image-zoom"
+      ]
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1730326405863-c6fa7e499a6e?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "count": 1,
+      "sample": [
+        "magicui/android-demo-2"
+      ]
+    },
+    {
+      "url": "https://videos.pexels.com/video-files/14993748/14993748-uhd_1296_2304_30fps.mp4",
+      "count": 1,
+      "sample": [
+        "magicui/android-demo-3"
+      ]
+    },
+    {
+      "url": "https://easings.net/#easeOutExpo",
+      "count": 1,
+      "sample": [
+        "magicui/animated-beam"
+      ]
+    },
+    {
+      "url": "https://avatars.githubusercontent.com/u/16860528",
+      "count": 1,
+      "sample": [
+        "magicui/avatar-circles-demo"
+      ]
+    },
+    {
+      "url": "https://github.com/dillionverma",
+      "count": 1,
+      "sample": [
+        "magicui/avatar-circles-demo"
+      ]
+    },
+    {
+      "url": "https://avatars.githubusercontent.com/u/20110627",
+      "count": 1,
+      "sample": [
+        "magicui/avatar-circles-demo"
+      ]
+    },
+    {
+      "url": "https://github.com/tomonarifeehan",
+      "count": 1,
+      "sample": [
+        "magicui/avatar-circles-demo"
+      ]
+    },
+    {
+      "url": "https://avatars.githubusercontent.com/u/106103625",
+      "count": 1,
+      "sample": [
+        "magicui/avatar-circles-demo"
+      ]
+    },
+    {
+      "url": "https://github.com/BankkRoll",
+      "count": 1,
+      "sample": [
+        "magicui/avatar-circles-demo"
+      ]
+    },
+    {
+      "url": "https://avatars.githubusercontent.com/u/59228569",
+      "count": 1,
+      "sample": [
+        "magicui/avatar-circles-demo"
+      ]
+    },
+    {
+      "url": "https://github.com/safethecode",
+      "count": 1,
+      "sample": [
+        "magicui/avatar-circles-demo"
+      ]
+    },
+    {
+      "url": "https://avatars.githubusercontent.com/u/59442788",
+      "count": 1,
+      "sample": [
+        "magicui/avatar-circles-demo"
+      ]
+    },
+    {
+      "url": "https://github.com/sanjay-mali",
+      "count": 1,
+      "sample": [
+        "magicui/avatar-circles-demo"
+      ]
+    },
+    {
+      "url": "https://avatars.githubusercontent.com/u/89768406",
+      "count": 1,
+      "sample": [
+        "magicui/avatar-circles-demo"
+      ]
+    },
+    {
+      "url": "https://github.com/itsarghyadas",
+      "count": 1,
+      "sample": [
+        "magicui/avatar-circles-demo"
+      ]
+    },
+    {
+      "url": "https://plus.unsplash.com/premium_photo-1672201106204-58e9af7a2888?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "count": 1,
+      "sample": [
+        "magicui/backlight-image-demo"
+      ]
+    },
+    {
+      "url": "https://www.youtube.com/embed/9CJLtzzUphU",
+      "count": 1,
+      "sample": [
+        "magicui/backlight-video-demo"
+      ]
+    },
+    {
+      "url": "https://picsum.photos/seed/${i",
+      "count": 1,
+      "sample": [
+        "magicui/blur-fade-demo"
+      ]
+    },
+    {
+      "url": "https://flagcdn.com/w80/${countryCode}.webp",
+      "count": 1,
+      "sample": [
+        "magicui/dotted-map-demo"
+      ]
+    },
+    {
+      "url": "https://flagpedia.net/download/api",
+      "count": 1,
+      "sample": [
+        "magicui/dotted-map-demo"
+      ]
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1720048171230-c60d162f93a0?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "count": 1,
+      "sample": [
+        "magicui/icon-cloud-demo-2"
+      ]
+    },
+    {
+      "url": "https://plus.unsplash.com/premium_photo-1675553988173-a5249b5815fe?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "count": 1,
+      "sample": [
+        "magicui/icon-cloud-demo-2"
+      ]
+    },
+    {
+      "url": "https://plus.unsplash.com/premium_photo-1675297844586-534b030564e0?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "count": 1,
+      "sample": [
+        "magicui/icon-cloud-demo-2"
+      ]
+    },
+    {
+      "url": "https://plus.unsplash.com/premium_photo-1675555581018-7f1a352ff9a6?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "count": 1,
+      "sample": [
+        "magicui/icon-cloud-demo-2"
+      ]
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1719937050517-68d4e2a1702e?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "count": 1,
+      "sample": [
+        "magicui/icon-cloud-demo-2"
+      ]
+    },
+    {
+      "url": "https://cdn.simpleicons.org/${slug}/${slug}",
+      "count": 1,
+      "sample": [
+        "magicui/icon-cloud-demo"
+      ]
+    },
+    {
+      "url": "https://placehold.co/900x1600?text=Hello+World",
+      "count": 1,
+      "sample": [
+        "magicui/iphone-demo-2"
+      ]
+    },
+    {
+      "url": "https://videos.pexels.com/video-files/8946986/8946986-uhd_1440_2732_25fps.mp4",
+      "count": 1,
+      "sample": [
+        "magicui/iphone-demo-3"
+      ]
+    },
+    {
+      "url": "https://github.com/Yeom-JinHo",
+      "count": 1,
+      "sample": [
+        "magicui/magic-card-demo-2"
+      ]
+    },
+    {
+      "url": "https://avatar.vercel.sh/jane",
+      "count": 1,
+      "sample": [
+        "magicui/marquee-demo"
+      ]
+    },
+    {
+      "url": "https://avatar.vercel.sh/jenny",
+      "count": 1,
+      "sample": [
+        "magicui/marquee-demo"
+      ]
+    },
+    {
+      "url": "https://avatar.vercel.sh/james",
+      "count": 1,
+      "sample": [
+        "magicui/marquee-demo"
+      ]
+    },
+    {
+      "url": "https://cdn.simpleicons.org/microsoft/000/fff",
+      "count": 1,
+      "sample": [
+        "magicui/marquee-logos"
+      ]
+    },
+    {
+      "url": "https://cdn.simpleicons.org/apple/000/fff",
+      "count": 1,
+      "sample": [
+        "magicui/marquee-logos"
+      ]
+    },
+    {
+      "url": "https://cdn.simpleicons.org/google/000/fff",
+      "count": 1,
+      "sample": [
+        "magicui/marquee-logos"
+      ]
+    },
+    {
+      "url": "https://cdn.simpleicons.org/facebook/000/fff",
+      "count": 1,
+      "sample": [
+        "magicui/marquee-logos"
+      ]
+    },
+    {
+      "url": "https://cdn.simpleicons.org/linkedin/000/fff",
+      "count": 1,
+      "sample": [
+        "magicui/marquee-logos"
+      ]
+    },
+    {
+      "url": "https://cdn.simpleicons.org/twitter/000/fff",
+      "count": 1,
+      "sample": [
+        "magicui/marquee-logos"
+      ]
+    },
+    {
+      "url": "https://placehold.co/1200x750?text=Hello+World",
+      "count": 1,
+      "sample": [
+        "magicui/safari-demo-2"
+      ]
+    },
+    {
+      "url": "https://videos.pexels.com/video-files/27180348/12091515_2560_1440_50fps.mp4",
+      "count": 1,
+      "sample": [
+        "magicui/safari-demo-3"
+      ]
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1749738456487-2af715ab65ea?q=80&w=2340&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "count": 1,
+      "sample": [
+        "magicui/scroll-based-velocity-images-demo"
+      ]
+    },
+    {
+      "url": "https://plus.unsplash.com/premium_photo-1720139288219-e20aa9c8895b?q=80&w=1810&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "count": 1,
+      "sample": [
+        "magicui/scroll-based-velocity-images-demo"
+      ]
+    },
+    {
+      "url": "https://cdn.magicui.design/ocean-small.webm",
+      "count": 1,
+      "sample": [
+        "magicui/video-text-demo"
+      ]
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1588345921523-c2dcdb7f1dcd?w=800&dpr=2&q=80",
+      "count": 1,
+      "sample": [
+        "shadcn/aspect-ratio-demo"
+      ]
+    },
+    {
+      "url": "https://ui.shadcn.com/docs/installation",
+      "count": 1,
+      "sample": [
+        "shadcn/dialog-close-button"
+      ]
+    },
+    {
+      "url": "https://github.com/vercel.png",
+      "count": 1,
+      "sample": [
+        "shadcn/hover-card-demo"
+      ]
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1465869185982-5a1a7522cbcb?auto=format&fit=crop&w=300&q=80",
+      "count": 1,
+      "sample": [
+        "shadcn/scroll-area-horizontal-demo"
+      ]
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1548516173-3cabfa4607e9?auto=format&fit=crop&w=300&q=80",
+      "count": 1,
+      "sample": [
+        "shadcn/scroll-area-horizontal-demo"
+      ]
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1494337480532-3725c85fd2ab?auto=format&fit=crop&w=300&q=80",
+      "count": 1,
+      "sample": [
+        "shadcn/scroll-area-horizontal-demo"
+      ]
+    },
+    {
+      "url": "https://github.com/shadcn-ui/ui/tree/main/apps/v4/app/(examples",
+      "count": 1,
+      "sample": [
+        "shadcn/dashboard-01"
+      ]
+    },
+    {
+      "url": "https://x.com/shadcn",
+      "count": 1,
+      "sample": [
+        "shadcn/input-group-button"
+      ]
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1650804068570-7fb2e3dbf888?q=80&w=640&auto=format&fit=crop",
+      "count": 1,
+      "sample": [
+        "shadcn/item-header"
+      ]
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1610280777472-54133d004c8c?q=80&w=640&auto=format&fit=crop",
+      "count": 1,
+      "sample": [
+        "shadcn/item-header"
+      ]
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1602146057681-08560aee8cde?q=80&w=640&auto=format&fit=crop",
+      "count": 1,
+      "sample": [
+        "shadcn/item-header"
+      ]
+    },
+    {
+      "url": "https://avatar.vercel.sh/${song.title}",
+      "count": 1,
+      "sample": [
+        "shadcn/item-image"
+      ]
+    }
+  ]
+}

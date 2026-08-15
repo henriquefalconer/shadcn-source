@@ -1,0 +1,514 @@
+{
+  "install_method_worked": true,
+  "install_method": "npx -y skills add shadcn/ui --all --copy (skills npm package v1.5.22) run non-interactively in _work/_skilltmp/proj, a scratch project pre-seeded with a minimal valid components.json (style: new-york, base ui/lucide, standard aliases). The command fanned the same two skill packages (shadcn, migrate-radix-to-base) out into ~80 agent-specific directories (.claude/skills, .agents/skills, .cursor, etc.) plus one generic skills/ directory; all copies were verified byte-identical (diff -rq).",
+  "canonical_source_confirmed": "https://github.com/shadcn-ui/ui/tree/main/skills (2026-08-12). Confirmed via skills.sh page HTML (links to /shadcn-ui/ui/shadcn and /shadcn-ui/ui/migrate-radix-to-base, and https://github.com/shadcn-ui/ui) and via GitHub Contents API (api.github.com/repos/shadcn-ui/ui/contents/skills). A sparse git clone of that path was byte-for-byte identical (diff -rq, exit 0) to the tree installed by npx skills add.",
+  "files": [
+    {
+      "path": "skills/shadcn-ui/migrate-radix-to-base/SKILL.md",
+      "bytes": 9313,
+      "sha256": "64c879f6f1eab0decc306ca52ad32d41327c05c4d2fb7e708335e956c61dadf8"
+    },
+    {
+      "path": "skills/shadcn-ui/migrate-radix-to-base/class-mapping.md",
+      "bytes": 2838,
+      "sha256": "c288738167c663c6188caf958cdac6d72061b0ce44d6bce14d9dc6d40b4e79f9"
+    },
+    {
+      "path": "skills/shadcn-ui/migrate-radix-to-base/consumer-props.md",
+      "bytes": 4482,
+      "sha256": "f6f62f7173b95350339e930eb6ff2c9496b4d5df3571deed78d5b0159f91b1d0"
+    },
+    {
+      "path": "skills/shadcn-ui/migrate-radix-to-base/disclosure.md",
+      "bytes": 20896,
+      "sha256": "f0962f90416ead3290f532b53a66b08a905d4a8fd6ea220b7df63521c9d993ce"
+    },
+    {
+      "path": "skills/shadcn-ui/migrate-radix-to-base/display-misc.md",
+      "bytes": 25693,
+      "sha256": "76dd486105df7f0412e8d526fbeec6fa485c866ff1bf781ddccdc4d87eace0c3"
+    },
+    {
+      "path": "skills/shadcn-ui/migrate-radix-to-base/form-controls.md",
+      "bytes": 29615,
+      "sha256": "66c69dd4077e3e8852a33348f7797bdb5e934192a0cc97ce8f1264ebd137b846"
+    },
+    {
+      "path": "skills/shadcn-ui/migrate-radix-to-base/menus.md",
+      "bytes": 33098,
+      "sha256": "44188b70c3221a7d18f782641dc7f1a954bc1fa6eb42b788a1935a6613f376d9"
+    },
+    {
+      "path": "skills/shadcn-ui/migrate-radix-to-base/overlays.md",
+      "bytes": 31466,
+      "sha256": "8d9fe2b05eb22a1664637b22e6112190de88a4368420d9cb36002adc108e8a03"
+    },
+    {
+      "path": "skills/shadcn-ui/migrate-radix-to-base/universal-patterns.md",
+      "bytes": 14502,
+      "sha256": "c520a81a21c9abd1135b52ad1ecc3d4a127904bbf33199f8d26ae389679346ce"
+    },
+    {
+      "path": "skills/shadcn-ui/migrate-radix-to-base/wrapper-shapes.md",
+      "bytes": 4742,
+      "sha256": "0bf31ea3e864a12bfa911f058ae135dc3f6f098cb0cc2aa5648b4a3d0bdd51cc"
+    },
+    {
+      "path": "skills/shadcn-ui/shadcn/SKILL.md",
+      "bytes": 19527,
+      "sha256": "deba6c5152d9835892fa7dffeb1fedbb689ddac7e59e14e57ec5eaf9463309e4"
+    },
+    {
+      "path": "skills/shadcn-ui/shadcn/cli.md",
+      "bytes": 17304,
+      "sha256": "a381e35bf36fe7bb851952c13707e01e82434fd7a4a4e53f6df26c6370838904"
+    },
+    {
+      "path": "skills/shadcn-ui/shadcn/customization.md",
+      "bytes": 6074,
+      "sha256": "84c1d47168c4b8adb5840e4af30a4e373ae3377c1110478c8974f398dd63f5ba"
+    },
+    {
+      "path": "skills/shadcn-ui/shadcn/mcp.md",
+      "bytes": 3510,
+      "sha256": "8d696b4e45b7d0e337367248513bd9acebe8f3bcfd7b748c775e5a337c8f38c8"
+    },
+    {
+      "path": "skills/shadcn-ui/shadcn/registry.md",
+      "bytes": 8817,
+      "sha256": "4f239be36bd2b58e17047db1ca80ab7da00e15a8b73242e5e4d50d113c4caa05"
+    },
+    {
+      "path": "skills/shadcn-ui/shadcn/agents/openai.yml",
+      "bytes": 238,
+      "sha256": "35db91b1eef58b2abe01da9b88577de5a44e233b740cd93d692ddeeadd2afe4d"
+    },
+    {
+      "path": "skills/shadcn-ui/shadcn/assets/shadcn-small.png",
+      "bytes": 1049,
+      "sha256": "0ecc62d682727f68fc4937eed19960c706714fa084d44f63028d611ae02bf3d7"
+    },
+    {
+      "path": "skills/shadcn-ui/shadcn/assets/shadcn.png",
+      "bytes": 3852,
+      "sha256": "7d60ad6fec4d89a0d44ba5a3c9283d2fea0047af5467f9227040e20d927d39b7"
+    },
+    {
+      "path": "skills/shadcn-ui/shadcn/evals/evals.json",
+      "bytes": 6330,
+      "sha256": "58aca2760b0cc5265bb575f76cd8eed344b88544314b8cb2cd53e0b8007dc936"
+    },
+    {
+      "path": "skills/shadcn-ui/shadcn/rules/base-vs-radix.md",
+      "bytes": 6954,
+      "sha256": "2b2deb47d004285220c1fc6b38bb2edc2d0ccbcdafd031b0b189d5d8ed0d1ba8"
+    },
+    {
+      "path": "skills/shadcn-ui/shadcn/rules/chat.md",
+      "bytes": 6948,
+      "sha256": "fcbc4eb29a3998fa3e24e9f7f1cbb2b9f33e98cb5b66a153eeccdb74e78f9612"
+    },
+    {
+      "path": "skills/shadcn-ui/shadcn/rules/composition.md",
+      "bytes": 4892,
+      "sha256": "f282df828d83a91132a846ddb62eea149a7c7c94822e9ca88cfddf85af01aa41"
+    },
+    {
+      "path": "skills/shadcn-ui/shadcn/rules/forms.md",
+      "bytes": 4857,
+      "sha256": "29593e14381e34626f8e0e9c15c59f3394b92a0623af6a6ec94585400123853c"
+    },
+    {
+      "path": "skills/shadcn-ui/shadcn/rules/icons.md",
+      "bytes": 1958,
+      "sha256": "d4a58266648872d9ee07d0c2368843a1cb88b8253b7f528dd7bda9d68b6c2535"
+    },
+    {
+      "path": "skills/shadcn-ui/shadcn/rules/styling.md",
+      "bytes": 4684,
+      "sha256": "47bd2c3b6216b96af0ab169063a83dfef7f80c58536cf69445a6f4d22753326c"
+    }
+  ],
+  "total_bytes": 273639,
+  "direct_http_sources_found": [
+    "https://skills.sh/shadcn/ui (HTTP 200, Next.js SPA shell only \u2014 no downloadable/raw content embedded; page links confirm the skill's GitHub home)",
+    "https://api.github.com/repos/shadcn-ui/ui/contents/skills (HTTP 200 \u2014 lists migrate-radix-to-base and shadcn dirs, confirming canonical location)",
+    "https://github.com/shadcn-ui/ui.git (git sparse-checkout of /skills \u2014 content byte-identical to the npx-installed copy; saved to skills/_direct/github-shadcn-ui-ui-skills/)"
+  ],
+  "direct_http_sources_ruled_out_or_noninformative": [
+    "https://registry.skills.sh/shadcn/ui -> 404 (per task facts, not retried)",
+    "https://skills.sh/api/shadcn/ui -> HTTP 200 but returns the identical Next.js SPA shell HTML as the main page (client-rendered app, not a raw content API)",
+    "https://skills.sh/raw/shadcn/ui -> HTTP 200 but also returns the same SPA shell HTML, not raw skill content",
+    "https://skills.sh/shadcn/ui.json -> 404"
+  ],
+  "notes": "The shadcn/ui skill package on skills.sh (and the `skills` npm CLI) actually distributes two separate skills from the shadcn-ui/ui monorepo: 'shadcn' (the main SKILL.md matching docs.skills.sh's description) and 'migrate-radix-to-base' (a Radix->Base UI migration skill). Both were captured. All ~80 per-agent copies produced by --all were verified identical via diff -rq against the canonical .claude/skills and skills/ copies, so only one canonical copy of each skill was retained under skills/shadcn-ui/. The GitHub clone under skills/_direct/github-shadcn-ui-ui-skills/ was trimmed to just the skills/ subtree plus LICENSE.md (repo scaffolding/lockfile removed) and diffed byte-identical against skills/shadcn-ui/.",
+  "network_dependencies": [
+    {
+      "file": "shadcn/SKILL.md",
+      "line": 17,
+      "text": "!`npx shadcn@latest info --json`",
+      "reason": "Frontmatter-style dynamic injection: CLI command executed to populate 'Current Project Context'; `info` itself is local, but this pattern signals the skill expects live CLI execution at activation time."
+    },
+    {
+      "file": "shadcn/SKILL.md",
+      "line": 20,
+      "text": "Use `npx shadcn@latest docs <component>` to get documentation and example URLs for any component.",
+      "reason": "docs command resolves and prints network URLs"
+    },
+    {
+      "file": "shadcn/SKILL.md",
+      "line": 24,
+      "text": "Use `npx shadcn@latest search` to check registries before writing custom UI. Check community registries too.",
+      "reason": "search hits registry endpoints over the network"
+    },
+    {
+      "file": "shadcn/SKILL.md",
+      "line": 89,
+      "text": "Use `npx shadcn@latest apply <code>` for existing projects, or `npx shadcn@latest init --preset <code>` when initializing.",
+      "reason": "apply/init --preset fetch preset data from ui.shadcn.com"
+    },
+    {
+      "file": "shadcn/SKILL.md",
+      "line": 169,
+      "text": "Run `npx shadcn@latest docs <component>` to get the URLs for a component's documentation, examples, and API reference. Fetch these URLs to get the actual content.",
+      "reason": "explicit instruction to fetch URLs"
+    },
+    {
+      "file": "shadcn/SKILL.md",
+      "line": 175,
+      "text": "always run `npx shadcn@latest docs` and fetch the URLs first",
+      "reason": "explicit instruction to fetch URLs"
+    },
+    {
+      "file": "shadcn/SKILL.md",
+      "line": 181,
+      "text": "**Find components** \u2014 `npx shadcn@latest search`.",
+      "reason": "network registry search"
+    },
+    {
+      "file": "shadcn/SKILL.md",
+      "line": 182,
+      "text": "run `npx shadcn@latest docs <component>` to get URLs, then fetch them. Use `npx shadcn@latest view` to browse registry items you haven't installed.",
+      "reason": "docs/view/add --diff all hit the network"
+    },
+    {
+      "file": "shadcn/SKILL.md",
+      "line": 190,
+      "text": "**Overwrite**: `npx shadcn@latest apply <code>`. Overwrites detected components, fonts, and CSS variables.",
+      "reason": "apply fetches preset/registry data"
+    },
+    {
+      "file": "shadcn/SKILL.md",
+      "line": 191,
+      "text": "**Partial**: `npx shadcn@latest apply <code> --only theme,font`.",
+      "reason": "apply fetches preset/registry data"
+    },
+    {
+      "file": "shadcn/SKILL.md",
+      "line": 192,
+      "text": "**Merge**: `npx shadcn@latest init --preset <code> --force --no-reinstall`, then run `npx shadcn@latest info` ... use `--dry-run` and `--diff`",
+      "reason": "init --preset and add --diff fetch remote registry/preset data"
+    },
+    {
+      "file": "shadcn/SKILL.md",
+      "line": 193,
+      "text": "**Skip**: `npx shadcn@latest init --preset <code> --force --no-reinstall`.",
+      "reason": "init --preset fetches remote preset data"
+    },
+    {
+      "file": "shadcn/SKILL.md",
+      "line": 198,
+      "text": "use `--dry-run` and `--diff` to intelligently merge. NEVER fetch raw files from GitHub manually \u2014 always use the CLI.",
+      "reason": "add --diff fetches upstream component source over the network (via the CLI, not raw curl, but still network I/O)"
+    },
+    {
+      "file": "shadcn/SKILL.md",
+      "lines": "212-260",
+      "text": "Quick Reference block: init/apply/preset decode/preset url/preset open/add/search/docs/view examples",
+      "reason": "Most listed commands (init --preset, apply, preset url/open, add of registry items, search, docs, view) contact ui.shadcn.com or configured registries"
+    },
+    {
+      "file": "shadcn/SKILL.md",
+      "line": 265,
+      "text": "**Preset codes:** ... from [ui.shadcn.com](https://ui.shadcn.com).",
+      "reason": "literal URL reference to ui.shadcn.com"
+    },
+    {
+      "file": "shadcn/cli.md",
+      "line": 61,
+      "text": "If no preset is provided, the CLI offers to open the custom preset builder on `ui.shadcn.com/create`.",
+      "reason": "opens a network URL (browser)"
+    },
+    {
+      "file": "shadcn/cli.md",
+      "line": 65,
+      "text": "ALWAYS use `npx shadcn@latest add <component> --dry-run`, `--diff`, or `--view`. NEVER fetch raw files from GitHub or other sources manually.",
+      "reason": "add --dry-run/--diff/--view resolve registry items over the network"
+    },
+    {
+      "file": "shadcn/cli.md",
+      "line": 107,
+      "text": "npx shadcn@latest add https://api.npoint.io/abc123 --dry-run",
+      "reason": "literal example URL fetched by the CLI's add command"
+    },
+    {
+      "file": "shadcn/cli.md",
+      "line": 124,
+      "text": "Prefer `npx shadcn@latest add --dry-run/--diff/--view` over `npx shadcn@latest view` ... `npx shadcn@latest view` only shows raw registry metadata.",
+      "reason": "view/add all query registries over the network"
+    },
+    {
+      "file": "shadcn/cli.md",
+      "line": 133,
+      "text": "npx shadcn@latest search [registries...] [options]",
+      "reason": "search command definition, network"
+    },
+    {
+      "file": "shadcn/cli.md",
+      "lines": "136-139",
+      "text": "search command description: fuzzy search across registries, public GitHub registry sources, registry catalog URLs",
+      "reason": "network registry access"
+    },
+    {
+      "file": "shadcn/cli.md",
+      "line": 153,
+      "text": "npx shadcn@latest view <items...> [options]",
+      "reason": "view command definition, network"
+    },
+    {
+      "file": "shadcn/cli.md",
+      "lines": "157-158",
+      "text": "`npx shadcn@latest view @shadcn/button`, `npx shadcn@latest view owner/repo/item`.",
+      "reason": "view fetches item data over network, including from GitHub"
+    },
+    {
+      "file": "shadcn/cli.md",
+      "line": 163,
+      "text": "npx shadcn@latest docs <components...> [options]",
+      "reason": "docs command, resolves network URLs"
+    },
+    {
+      "file": "shadcn/cli.md",
+      "line": 166,
+      "text": "Outputs resolved URLs for component documentation, examples, and API references. ... Fetch the URLs to get the actual content.",
+      "reason": "explicit fetch instruction"
+    },
+    {
+      "file": "shadcn/cli.md",
+      "lines": "168-180",
+      "text": "Example `docs` output containing literal URLs: https://ui.shadcn.com/docs/components/radix/input, https://raw.githubusercontent.com/.../examples/input-example.tsx, https://ui.shadcn.com/docs/components/radix/button, https://raw.githubusercontent.com/.../examples/button-example.tsx",
+      "reason": "literal remote URLs presented as expected output to fetch"
+    },
+    {
+      "file": "shadcn/cli.md",
+      "line": 236,
+      "text": "The `info` output includes a Links section with templated URLs for component docs, source, and examples.",
+      "reason": "URLs meant to be resolved/fetched"
+    },
+    {
+      "file": "shadcn/cli.md",
+      "line": 244,
+      "text": "npx shadcn@latest build [registry] [options]",
+      "reason": "build is local (no network) \u2014 included for completeness, NOT a network dependency itself"
+    },
+    {
+      "file": "shadcn/cli.md",
+      "line": 277,
+      "text": "**URL:** `--preset \"https://ui.shadcn.com/init?base=radix&style=nova&...\"`",
+      "reason": "literal preset URL fetched by init/apply"
+    },
+    {
+      "file": "shadcn/cli.md",
+      "line": 279,
+      "text": "pass them directly to `npx shadcn@latest init --preset <code>` and let the CLI handle resolution.",
+      "reason": "init --preset resolves preset code via network"
+    },
+    {
+      "file": "shadcn/cli.md",
+      "line": 280,
+      "text": "Use `npx shadcn@latest apply --preset <code>` when overwriting an existing project's preset.",
+      "reason": "apply fetches preset over network"
+    },
+    {
+      "file": "shadcn/cli.md",
+      "lines": "286-288",
+      "text": "Switching Presets: apply --preset <code> (Overwrite), init --preset <code> --force --no-reinstall (Merge/Skip)",
+      "reason": "all three fetch preset/registry data over the network"
+    },
+    {
+      "file": "shadcn/mcp.md",
+      "lines": "1-106 (whole file)",
+      "text": "shadcn MCP Server documentation",
+      "reason": "Documents an MCP server (`shadcn mcp`) whose tools (get_project_registries, list_items_in_registries, search_items_in_registries, view_items_in_registries, get_item_examples_from_registries, get_add_command_for_items) perform live registry network calls; requires a running MCP server process with network access"
+    },
+    {
+      "file": "shadcn/mcp.md",
+      "line": 92,
+      "text": "\"@acme\": \"https://acme.com/r/{name}.json\",",
+      "reason": "example registry URL \u2014 registries are fetched over HTTP at install time"
+    },
+    {
+      "file": "shadcn/mcp.md",
+      "line": 94,
+      "text": "\"url\": \"https://private.com/r/{name}.json\",",
+      "reason": "example registry URL"
+    },
+    {
+      "file": "shadcn/mcp.md",
+      "line": 105,
+      "text": "Community registry index: `https://ui.shadcn.com/r/registries.json`",
+      "reason": "literal URL fetched to discover community registries"
+    },
+    {
+      "file": "shadcn/registry.md",
+      "line": 29,
+      "text": "\"$schema\": \"https://ui.shadcn.com/schema/registry.json\",",
+      "reason": "$schema URL; typically only resolved by editor/validator tooling over network, low-risk but present"
+    },
+    {
+      "file": "shadcn/registry.md",
+      "line": 62,
+      "text": "\"$schema\": \"https://ui.shadcn.com/schema/registry.json\",",
+      "reason": "same as above, second occurrence"
+    },
+    {
+      "file": "shadcn/registry.md",
+      "line": 188,
+      "text": "`https://example.com/r/button.json` | url | Built registry item JSON at that URL.",
+      "reason": "documents URL-scheme registry items fetched over HTTP"
+    },
+    {
+      "file": "shadcn/registry.md",
+      "lines": "198-216",
+      "text": "GitHub Registries section: public GitHub repo acting as source registry via owner/repo addresses",
+      "reason": "GitHub-hosted registries are read over the network"
+    },
+    {
+      "file": "shadcn/registry.md",
+      "lines": "218-221",
+      "text": "When implementing GitHub registry fetching, resolve refs to a commit SHA before reading source files. Do not read moving refs directly from `raw.githubusercontent.com`, because branch-like refs can be cached for several minutes.",
+      "reason": "explicit raw.githubusercontent.com network fetch guidance"
+    },
+    {
+      "file": "shadcn/registry.md",
+      "lines": "225-231",
+      "text": "Preferred flow: owner/repo[#ref] -> resolve ref with git ls-remote -> commit SHA -> read https://raw.githubusercontent.com/{owner}/{repo}/{sha}/registry.json -> read includes and item files from the same SHA",
+      "reason": "explicit network fetch flow using git ls-remote and raw.githubusercontent.com"
+    },
+    {
+      "file": "shadcn/registry.md",
+      "lines": "250-266",
+      "text": "Build and Verify command examples: `npx shadcn@latest list @acme`, `search @acme -q \"login\"`, `view @acme/login-form`, `add @acme/login-form --dry-run`, `list owner/repo`, `search owner/repo -q \"login\"`, `view owner/repo/item`, `add owner/repo/item --dry-run`, `registry validate owner/repo`",
+      "reason": "list/search/view/add/validate against namespaced or GitHub registries all require network access"
+    },
+    {
+      "file": "shadcn/customization.md",
+      "line": 68,
+      "text": "npx shadcn@latest apply --preset a2r6bw",
+      "reason": "apply fetches preset data over network"
+    },
+    {
+      "file": "shadcn/customization.md",
+      "line": 71,
+      "text": "npx shadcn@latest apply a2r6bw",
+      "reason": "apply fetches preset data over network"
+    },
+    {
+      "file": "shadcn/customization.md",
+      "line": 74,
+      "text": "npx shadcn@latest apply --preset nova",
+      "reason": "apply fetches preset data over network"
+    },
+    {
+      "file": "shadcn/customization.md",
+      "line": 77,
+      "text": "npx shadcn@latest init --preset nova --force --no-reinstall",
+      "reason": "init --preset fetches preset data over network"
+    },
+    {
+      "file": "shadcn/customization.md",
+      "line": 80,
+      "text": "npx shadcn@latest apply --preset \"https://ui.shadcn.com/init?base=radix&style=nova&theme=blue&...\"",
+      "reason": "literal URL fetched by apply"
+    },
+    {
+      "file": "shadcn/customization.md",
+      "lines": "198-206",
+      "text": "Checking for Updates: `npx shadcn@latest add button --diff`, `add button --dry-run`, `add button --diff button.tsx`",
+      "reason": "add --diff/--dry-run fetch upstream component source over network"
+    },
+    {
+      "file": "migrate-radix-to-base/SKILL.md",
+      "line": 16,
+      "text": "`npx shadcn@latest info --json` (or the project's runner): gives the current base, STYLE ...",
+      "reason": "info is local, but listed as the preflight step whose output gates the network-dependent golden-pair fetches below"
+    },
+    {
+      "file": "migrate-radix-to-base/SKILL.md",
+      "line": 35,
+      "text": "using the components.json style VERBATIM in the URL (`https://ui.shadcn.com/r/styles/<style>/<component>.json`, files[0].content)",
+      "reason": "explicit HTTP fetch of registry style JSON by URL"
+    },
+    {
+      "file": "migrate-radix-to-base/SKILL.md",
+      "lines": "42-43",
+      "text": "fetch base variants directly by URL instead (`https://ui.shadcn.com/r/styles/base-<style>/<component>.json`)",
+      "reason": "explicit HTTP fetch of registry style JSON by URL"
+    },
+    {
+      "file": "migrate-radix-to-base/SKILL.md",
+      "lines": "48-50",
+      "text": "PRISTINE wrappers, whole-project mode: `shadcn add <component> --overwrite` delivers the base variant ... write the fetched base variant content to `<component>-base.tsx` instead.",
+      "reason": "shadcn add fetches registry component source over network; explicit 'fetched base variant content'"
+    },
+    {
+      "file": "migrate-radix-to-base/SKILL.md",
+      "line": 51,
+      "text": "CUSTOMIZED wrappers: fetch the base variant and replay the user's diff onto it",
+      "reason": "explicit network fetch of base variant"
+    },
+    {
+      "file": "migrate-radix-to-base/SKILL.md",
+      "line": 92,
+      "text": "golden-pair content fetched by URL, or transformed by hand, per the strategy above",
+      "reason": "explicit network fetch of golden-pair content by URL"
+    },
+    {
+      "file": "migrate-radix-to-base/overlays.md",
+      "line": 5,
+      "text": "Sources: radix-ui.com primitives docs (fetched 2026-07-02) and base-ui.com `/react/components/*.md` endpoints (fetched 2026-07-02).",
+      "reason": "provenance note only \u2014 the reference tables were built from a past fetch of radix-ui.com and base-ui.com; the file itself is static and does not re-fetch at runtime, but documents the endpoints as its data source"
+    },
+    {
+      "file": "migrate-radix-to-base/menus.md",
+      "line": 3,
+      "text": "Sources: radix-ui.com primitives docs (dropdown-menu, context-menu, menubar, navigation-menu) and base-ui.com `/react/components/{menu,context-menu,menubar,navigation-menu}.md`, fetched 2026-07-02.",
+      "reason": "provenance note only, static content, no runtime fetch"
+    },
+    {
+      "file": "migrate-radix-to-base/menus.md",
+      "line": 407,
+      "text": "types/defaults above were extracted from the pages' embedded type payloads ... all verified against the fetched HTML.",
+      "reason": "provenance note only, static content, no runtime fetch"
+    },
+    {
+      "file": "migrate-radix-to-base/menus.md",
+      "line": 409,
+      "text": "Base UI docs fetched from the `.md` endpoints reflect Base UI 1.x (repo currently pins 1.6.0).",
+      "reason": "provenance note only, static content, no runtime fetch"
+    },
+    {
+      "file": "migrate-radix-to-base/form-controls.md",
+      "line": 4,
+      "text": "Sources: radix-ui.com primitives docs and base-ui.com `/react/components/*.md` (fetched 2026-07-02).",
+      "reason": "provenance note only, static content, no runtime fetch"
+    },
+    {
+      "file": "migrate-radix-to-base/display-misc.md",
+      "line": 3,
+      "text": "Sources: radix-ui/website `data/primitives/docs/components/*.mdx` ... and base-ui.com `/react/components/{...}.md` (fetched 2026-07-02, ...).",
+      "reason": "provenance note only, static content, no runtime fetch"
+    }
+  ],
+  "network_dependencies_summary": "Both skills are fundamentally online-first: they are thin instruction layers around the `npx shadcn@latest` CLI, whose core verbs (init --preset, apply, add of non-local items, search, view, docs, build's schema resolution) contact ui.shadcn.com and/or configured/GitHub registries, plus an optional MCP server (shadcn mcp) whose six tools all perform live registry lookups. The migrate-radix-to-base skill additionally instructs fetching registry style JSON directly by URL (https://ui.shadcn.com/r/styles/<style>/<component>.json) as its preferred 'golden pair' strategy. None of this will work offline; only the static prose/tables (rules, class-mapping, prop tables, wrapper shapes, consumer-props, universal-patterns, evals.json) are usable without a network connection. The migrate-radix-to-base per-family reference files (overlays.md, menus.md, form-controls.md, display-misc.md) also carry 'fetched 2026-07-02' provenance notes pointing at radix-ui.com/base-ui.com, but that fetch already happened when the file was authored \u2014 it is not a runtime dependency of using the skill itself."
+}

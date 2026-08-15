@@ -1,0 +1,4648 @@
+{
+  "pagination": {
+    "total": 580,
+    "offset": 0,
+    "limit": 5000,
+    "hasMore": false
+  },
+  "items": [
+    {
+      "name": "index",
+      "type": "registry:style",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/index"
+    },
+    {
+      "name": "components-animate-avatar-group",
+      "title": "Avatar Group",
+      "type": "registry:ui",
+      "description": "An animated avatar group that displays overlapping user images and smoothly shifts each avatar forward on hover to highlight it.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/components-animate-avatar-group"
+    },
+    {
+      "name": "components-animate-code",
+      "title": "Code",
+      "type": "registry:ui",
+      "description": "A code component that animates the code as it is written.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/components-animate-code"
+    },
+    {
+      "name": "components-animate-code-tabs",
+      "title": "Code Tabs",
+      "type": "registry:ui",
+      "description": "A tabs component that displays code for different languages.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/components-animate-code-tabs"
+    },
+    {
+      "name": "components-animate-cursor",
+      "title": "Cursor",
+      "type": "registry:ui",
+      "description": "An animated cursor component that allows you to customize both the cursor and cursor follow elements with smooth animations.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/components-animate-cursor"
+    },
+    {
+      "name": "components-animate-github-stars-wheel",
+      "title": "GitHub Stars Wheel",
+      "type": "registry:ui",
+      "description": "A scrolling wheel that displays GitHub stars count.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/components-animate-github-stars-wheel"
+    },
+    {
+      "name": "components-animate-tabs",
+      "title": "Tabs",
+      "type": "registry:ui",
+      "description": "A set of layered sections of content—known as tab panels—that are displayed one at a time.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/components-animate-tabs"
+    },
+    {
+      "name": "components-animate-tooltip",
+      "title": "Tooltip",
+      "type": "registry:ui",
+      "description": "A tooltip is a small box that appears when hovering over an element.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/components-animate-tooltip"
+    },
+    {
+      "name": "components-backgrounds-bubble",
+      "title": "Bubble Background",
+      "type": "registry:ui",
+      "description": "An interactive background featuring smoothly animated gradient bubbles, creating a playful, dynamic, and visually engaging backdrop.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/components-backgrounds-bubble"
+    },
+    {
+      "name": "components-backgrounds-fireworks",
+      "title": "Fireworks Background",
+      "type": "registry:ui",
+      "description": "A background component that displays a fireworks animation.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/components-backgrounds-fireworks"
+    },
+    {
+      "name": "components-backgrounds-gradient",
+      "title": "Gradient Background",
+      "type": "registry:ui",
+      "description": "A background component featuring a subtle yet engaging animated gradient effect, smoothly transitioning colors to enhance visual depth.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/components-backgrounds-gradient"
+    },
+    {
+      "name": "components-backgrounds-gravity-stars",
+      "title": "Gravity Stars Background",
+      "type": "registry:ui",
+      "description": "A background component featuring a subtle yet engaging animated gravity stars effect.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/components-backgrounds-gravity-stars"
+    },
+    {
+      "name": "components-backgrounds-hexagon",
+      "title": "Hexagon Background",
+      "type": "registry:ui",
+      "description": "A background component featuring an interactive hexagon grid.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/components-backgrounds-hexagon"
+    },
+    {
+      "name": "components-backgrounds-hole",
+      "title": "Hole Background",
+      "type": "registry:ui",
+      "description": "A background component featuring an animated hole grid.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/components-backgrounds-hole"
+    },
+    {
+      "name": "components-backgrounds-stars",
+      "title": "Stars Background",
+      "type": "registry:ui",
+      "description": "An interactive background featuring animated dots of varying sizes and speeds, simulating a dynamic and immersive starry space effect.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/components-backgrounds-stars"
+    },
+    {
+      "name": "components-base-accordion",
+      "title": "Accordion",
+      "type": "registry:ui",
+      "description": "A set of collapsible panels with headings.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/components-base-accordion"
+    },
+    {
+      "name": "components-base-alert-dialog",
+      "title": "Alert Dialog",
+      "type": "registry:ui",
+      "description": "A dialog that requires user response to proceed.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/components-base-alert-dialog"
+    },
+    {
+      "name": "components-base-checkbox",
+      "title": "Checkbox",
+      "type": "registry:ui",
+      "description": "An easily stylable checkbox component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/components-base-checkbox"
+    },
+    {
+      "name": "components-base-dialog",
+      "title": "Dialog",
+      "type": "registry:ui",
+      "description": "A popup that opens on top of the entire page.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/components-base-dialog"
+    },
+    {
+      "name": "components-base-files",
+      "title": "Files",
+      "type": "registry:ui",
+      "description": "A component that allows you to display a list of files and folders.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/components-base-files"
+    },
+    {
+      "name": "components-base-menu",
+      "title": "Menu",
+      "type": "registry:ui",
+      "description": "A list of actions in a dropdown, enhanced with keyboard navigation.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/components-base-menu"
+    },
+    {
+      "name": "components-base-popover",
+      "title": "Popover",
+      "type": "registry:ui",
+      "description": "An accessible popup anchored to a button.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/components-base-popover"
+    },
+    {
+      "name": "components-base-preview-card",
+      "title": "Preview Card",
+      "type": "registry:ui",
+      "description": "A popup that appears when a link is hovered, showing a preview for sighted users.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/components-base-preview-card"
+    },
+    {
+      "name": "components-base-preview-link-card",
+      "title": "Preview Link Card",
+      "type": "registry:ui",
+      "description": "Displays a preview image of a link when hovered.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/components-base-preview-link-card"
+    },
+    {
+      "name": "components-base-progress",
+      "title": "Progress",
+      "type": "registry:ui",
+      "description": "Displays the status of a task that takes a long time.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/components-base-progress"
+    },
+    {
+      "name": "components-base-radio",
+      "title": "Base Radio",
+      "type": "registry:ui",
+      "description": "An easily stylable radio button component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/components-base-radio"
+    },
+    {
+      "name": "components-base-switch",
+      "title": "Switch",
+      "type": "registry:ui",
+      "description": "A control that indicates whether a setting is on or off.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/components-base-switch"
+    },
+    {
+      "name": "components-base-tabs",
+      "title": "Tabs",
+      "type": "registry:ui",
+      "description": "A component for toggling between related panels on the same page.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/components-base-tabs"
+    },
+    {
+      "name": "components-base-toggle",
+      "title": "Toggle",
+      "type": "registry:ui",
+      "description": "A two-state button that can be on or off.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/components-base-toggle"
+    },
+    {
+      "name": "components-base-toggle-group",
+      "title": "Toggle Group",
+      "type": "registry:ui",
+      "description": "Provides a shared state to a series of toggle buttons.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/components-base-toggle-group"
+    },
+    {
+      "name": "components-base-tooltip",
+      "title": "Tooltip",
+      "type": "registry:ui",
+      "description": "A popup that appears when an element is hovered or focused, showing a hint for sighted users.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/components-base-tooltip"
+    },
+    {
+      "name": "components-buttons-button",
+      "title": "Button",
+      "type": "registry:ui",
+      "description": "A button component with a variety of styles and animations.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/components-buttons-button"
+    },
+    {
+      "name": "components-buttons-copy",
+      "title": "Copy Button",
+      "type": "registry:ui",
+      "description": "A copy button component with a variety of styles and animations.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/components-buttons-copy"
+    },
+    {
+      "name": "components-buttons-flip",
+      "title": "Flip Button",
+      "type": "registry:ui",
+      "description": "A button that flips between two states on hover.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/components-buttons-flip"
+    },
+    {
+      "name": "components-buttons-github-stars",
+      "title": "GitHub Stars Button",
+      "type": "registry:ui",
+      "description": "A clickable button that links to a GitHub repository and displays the number of stars.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/components-buttons-github-stars"
+    },
+    {
+      "name": "components-buttons-icon",
+      "title": "Icon Button",
+      "type": "registry:ui",
+      "description": "An icon button component with a variety of styles and animations.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/components-buttons-icon"
+    },
+    {
+      "name": "components-buttons-liquid",
+      "title": "Liquid Button",
+      "type": "registry:ui",
+      "description": "A button that fills on hover.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/components-buttons-liquid"
+    },
+    {
+      "name": "components-buttons-ripple",
+      "title": "Ripple Button",
+      "type": "registry:ui",
+      "description": "A button that animates on tap with a ripple effect.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/components-buttons-ripple"
+    },
+    {
+      "name": "components-buttons-theme-toggler",
+      "title": "Theme Toggler Button",
+      "type": "registry:ui",
+      "description": "A button that toggles the theme gradually.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/components-buttons-theme-toggler"
+    },
+    {
+      "name": "components-community-flip-card",
+      "title": "Flip Card",
+      "type": "registry:ui",
+      "description": "A 3D animated card component that flips to reveal content on the back.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/components-community-flip-card"
+    },
+    {
+      "name": "components-community-management-bar",
+      "title": "Management Bar",
+      "type": "registry:ui",
+      "description": "A management bar for managing items.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/components-community-management-bar"
+    },
+    {
+      "name": "components-community-motion-carousel",
+      "title": "Motion Carousel",
+      "type": "registry:ui",
+      "description": "A carousel built on top of Embla Carousel with smooth Motion-powered animations. Each slide scales dynamically based on its active state, and the pagination uses animated pill-style dot buttons for an interactive, fluid experience.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/components-community-motion-carousel"
+    },
+    {
+      "name": "components-community-notification-list",
+      "title": "Notification List",
+      "type": "registry:ui",
+      "description": "A fun notification list with animated stacking and cards that expand as you interact.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/components-community-notification-list"
+    },
+    {
+      "name": "components-community-pin-list",
+      "title": "Pin List",
+      "type": "registry:ui",
+      "description": "A playful list for pinning and unpinning items, with smooth animated transitions as items move between groups.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/components-community-pin-list"
+    },
+    {
+      "name": "components-community-playful-todolist",
+      "title": "Playful Todolist",
+      "type": "registry:ui",
+      "description": "A playful todolist component with animated wavy strikethroughs for each completed task.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/components-community-playful-todolist"
+    },
+    {
+      "name": "components-community-radial-intro",
+      "title": "Radial Intro",
+      "type": "registry:ui",
+      "description": "A circular intro animation component that arranges elements in a radial layout, smoothly transitioning them into orbit with looping motion.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/components-community-radial-intro"
+    },
+    {
+      "name": "components-community-radial-menu",
+      "title": "Radial Menu",
+      "type": "registry:ui",
+      "description": "A circular context menu built with Base UI, displaying actions in a clean radial layout with full keyboard support and smooth interaction.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/components-community-radial-menu"
+    },
+    {
+      "name": "components-community-radial-nav",
+      "title": "Radial Nav",
+      "type": "registry:ui",
+      "description": "A circular navigation menu with animated pointer and expanding buttons for smooth interactive transitions.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/components-community-radial-nav"
+    },
+    {
+      "name": "components-community-share-button",
+      "title": "Share Button",
+      "type": "registry:ui",
+      "description": "This is a button for sharing.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/components-community-share-button"
+    },
+    {
+      "name": "components-community-user-presence-avatar",
+      "title": "User Presence Avatar",
+      "type": "registry:ui",
+      "description": "A compact avatar group for showing online and offline users, with smooth animated transitions when presence changes.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/components-community-user-presence-avatar"
+    },
+    {
+      "name": "components-headless-accordion",
+      "title": "Accordion",
+      "type": "registry:ui",
+      "description": "A vertically stacked set of interactive headings that each reveal an associated section of content.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/components-headless-accordion"
+    },
+    {
+      "name": "components-headless-checkbox",
+      "title": "Checkbox",
+      "type": "registry:ui",
+      "description": "Checkboxes provide the same functionality as native HTML checkboxes, without any of the styling, giving you a clean slate to design them however you'd like.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/components-headless-checkbox"
+    },
+    {
+      "name": "components-headless-dialog",
+      "title": "Dialog",
+      "type": "registry:ui",
+      "description": "A fully-managed, renderless dialog component jam-packed with accessibility and keyboard features, perfect for building completely custom dialogs and alerts.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/components-headless-dialog"
+    },
+    {
+      "name": "components-headless-popover",
+      "title": "Popover",
+      "type": "registry:ui",
+      "description": "Popovers are perfect for floating panels with arbitrary content like navigation menus, mobile menus and flyout menus.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/components-headless-popover"
+    },
+    {
+      "name": "components-headless-switch",
+      "title": "Switch",
+      "type": "registry:ui",
+      "description": "Switches are a pleasant interface for toggling a value between two states, and offer the same semantics and keyboard navigation as native checkbox elements.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/components-headless-switch"
+    },
+    {
+      "name": "components-headless-tabs",
+      "title": "Tabs",
+      "type": "registry:ui",
+      "description": "Easily create accessible, fully customizable tab interfaces, with robust focus management and keyboard navigation support.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/components-headless-tabs"
+    },
+    {
+      "name": "components-radix-accordion",
+      "title": "Accordion",
+      "type": "registry:ui",
+      "description": "A vertically stacked set of interactive headings that each reveal an associated section of content.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/components-radix-accordion"
+    },
+    {
+      "name": "components-radix-alert-dialog",
+      "title": "Alert Dialog",
+      "type": "registry:ui",
+      "description": "A modal dialog that interrupts the user with important content and expects a response.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/components-radix-alert-dialog"
+    },
+    {
+      "name": "components-radix-checkbox",
+      "title": "Checkbox",
+      "type": "registry:ui",
+      "description": "A control that allows the user to toggle between checked and not checked.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/components-radix-checkbox"
+    },
+    {
+      "name": "components-radix-dialog",
+      "title": "Dialog",
+      "type": "registry:ui",
+      "description": "A window overlaid on either the primary window or another dialog window, rendering the content underneath inert.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/components-radix-dialog"
+    },
+    {
+      "name": "components-radix-dropdown-menu",
+      "title": "Dropdown Menu",
+      "type": "registry:ui",
+      "description": "Displays a menu to the user — such as a set of actions or functions — triggered by a button.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/components-radix-dropdown-menu"
+    },
+    {
+      "name": "components-radix-files",
+      "title": "Files",
+      "type": "registry:ui",
+      "description": "A component that allows you to display a list of files and folders.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/components-radix-files"
+    },
+    {
+      "name": "components-radix-hover-card",
+      "title": "Hover Card",
+      "type": "registry:ui",
+      "description": "For sighted users to preview content available behind a link.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/components-radix-hover-card"
+    },
+    {
+      "name": "components-radix-popover",
+      "title": "Popover",
+      "type": "registry:ui",
+      "description": "Displays rich content in a portal, triggered by a button.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/components-radix-popover"
+    },
+    {
+      "name": "components-radix-preview-link-card",
+      "title": "Preview Link Card",
+      "type": "registry:ui",
+      "description": "Displays a preview image of a link when hovered.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/components-radix-preview-link-card"
+    },
+    {
+      "name": "components-radix-progress",
+      "title": "Progress",
+      "type": "registry:ui",
+      "description": "Displays an indicator showing the completion progress of a task, typically displayed as a progress bar.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/components-radix-progress"
+    },
+    {
+      "name": "components-radix-radio-group",
+      "title": "Radio Group",
+      "type": "registry:ui",
+      "description": "A set of checkable buttons—known as radio buttons—where no more than one of the buttons can be checked at a time.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/components-radix-radio-group"
+    },
+    {
+      "name": "components-radix-sheet",
+      "title": "Sheet",
+      "type": "registry:ui",
+      "description": "Extends the Dialog component to display content that complements the main content of the screen.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/components-radix-sheet"
+    },
+    {
+      "name": "components-radix-sidebar",
+      "title": "Sidebar",
+      "type": "registry:ui",
+      "description": "A composable, themeable and customizable sidebar component. Created by Shadcn and animated by Animate UI.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/components-radix-sidebar"
+    },
+    {
+      "name": "components-radix-switch",
+      "title": "Switch",
+      "type": "registry:ui",
+      "description": "A control that allows the user to toggle between checked and not checked.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/components-radix-switch"
+    },
+    {
+      "name": "components-radix-tabs",
+      "title": "Tabs",
+      "type": "registry:ui",
+      "description": "A set of layered sections of content—known as tab panels—that are displayed one at a time.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/components-radix-tabs"
+    },
+    {
+      "name": "components-radix-toggle",
+      "title": "Toggle",
+      "type": "registry:ui",
+      "description": "A two-state button that can be either on or off.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/components-radix-toggle"
+    },
+    {
+      "name": "components-radix-toggle-group",
+      "title": "Toggle Group",
+      "type": "registry:ui",
+      "description": "A set of two-state buttons that can be toggled on or off.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/components-radix-toggle-group"
+    },
+    {
+      "name": "components-radix-tooltip",
+      "title": "Tooltip",
+      "type": "registry:ui",
+      "description": "A popup that displays information related to an element when the element receives keyboard focus or the mouse hovers over it.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/components-radix-tooltip"
+    },
+    {
+      "name": "demo-components-animate-avatar-group",
+      "title": "Avatar Group Demo",
+      "type": "registry:ui",
+      "description": "Demo showing a avatar group.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/demo-components-animate-avatar-group"
+    },
+    {
+      "name": "demo-components-animate-code",
+      "title": "Code Demo",
+      "type": "registry:ui",
+      "description": "Demo showing a code.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/demo-components-animate-code"
+    },
+    {
+      "name": "demo-components-animate-code-tabs",
+      "title": "Code Tabs Demo",
+      "type": "registry:ui",
+      "description": "Demo showing a code tabs.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/demo-components-animate-code-tabs"
+    },
+    {
+      "name": "demo-components-animate-cursor",
+      "title": "Cursor Demo",
+      "type": "registry:ui",
+      "description": "Demo showing a cursor.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/demo-components-animate-cursor"
+    },
+    {
+      "name": "demo-components-animate-github-stars-wheel",
+      "title": "Animate GitHub Stars Wheel Demo",
+      "type": "registry:ui",
+      "description": "Demo showing an animated github stars wheel.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/demo-components-animate-github-stars-wheel"
+    },
+    {
+      "name": "demo-components-animate-tabs",
+      "title": "Animate Tabs Demo",
+      "type": "registry:ui",
+      "description": "Demo showing an animated tabs.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/demo-components-animate-tabs"
+    },
+    {
+      "name": "demo-components-animate-tooltip",
+      "title": "Animate Tooltip Demo",
+      "type": "registry:ui",
+      "description": "Demo showing an animated tooltip.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/demo-components-animate-tooltip"
+    },
+    {
+      "name": "demo-components-backgrounds-bubble",
+      "title": "Bubble Background Demo",
+      "type": "registry:ui",
+      "description": "Demo showing a bubble background.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/demo-components-backgrounds-bubble"
+    },
+    {
+      "name": "demo-components-backgrounds-fireworks",
+      "title": "Fireworks Background Demo",
+      "type": "registry:ui",
+      "description": "Demo showing a fireworks background.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/demo-components-backgrounds-fireworks"
+    },
+    {
+      "name": "demo-components-backgrounds-fireworks-circle",
+      "title": "Fireworks Circle Background Demo",
+      "type": "registry:ui",
+      "description": "Demo showing a fireworks circle background.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/demo-components-backgrounds-fireworks-circle"
+    },
+    {
+      "name": "demo-components-backgrounds-gradient",
+      "title": "Gradient Background Demo",
+      "type": "registry:ui",
+      "description": "Demo showing a gradient background.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/demo-components-backgrounds-gradient"
+    },
+    {
+      "name": "demo-components-backgrounds-gravity-stars",
+      "title": "Gravity Stars Background Demo",
+      "type": "registry:ui",
+      "description": "Demo showing a gravity stars background.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/demo-components-backgrounds-gravity-stars"
+    },
+    {
+      "name": "demo-components-backgrounds-hexagon",
+      "title": "Hexagon Background Demo",
+      "type": "registry:ui",
+      "description": "Demo showing a hexagon background.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/demo-components-backgrounds-hexagon"
+    },
+    {
+      "name": "demo-components-backgrounds-hole",
+      "title": "Hole Background Demo",
+      "type": "registry:ui",
+      "description": "Demo showing a hole background.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/demo-components-backgrounds-hole"
+    },
+    {
+      "name": "demo-components-backgrounds-stars",
+      "title": "Stars Background Demo",
+      "type": "registry:ui",
+      "description": "Demo showing a stars background.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/demo-components-backgrounds-stars"
+    },
+    {
+      "name": "demo-components-base-accordion",
+      "title": "Accordion Demo",
+      "type": "registry:ui",
+      "description": "Demo showing a accordion.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/demo-components-base-accordion"
+    },
+    {
+      "name": "demo-components-base-alert-dialog",
+      "title": "Alert Dialog Demo",
+      "type": "registry:ui",
+      "description": "Demo showing a alert dialog.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/demo-components-base-alert-dialog"
+    },
+    {
+      "name": "demo-components-base-checkbox",
+      "title": "Checkbox Demo",
+      "type": "registry:ui",
+      "description": "Demo showing a checkbox.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/demo-components-base-checkbox"
+    },
+    {
+      "name": "demo-components-base-dialog",
+      "title": "Dialog Demo",
+      "type": "registry:ui",
+      "description": "Demo showing a dialog.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/demo-components-base-dialog"
+    },
+    {
+      "name": "demo-components-base-files",
+      "title": "Files Demo",
+      "type": "registry:ui",
+      "description": "Demo showing a files.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/demo-components-base-files"
+    },
+    {
+      "name": "demo-components-base-menu",
+      "title": "Menu Demo",
+      "type": "registry:ui",
+      "description": "Demo showing a menu.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/demo-components-base-menu"
+    },
+    {
+      "name": "demo-components-base-menu-checkbox",
+      "title": "Menu Checkbox Demo",
+      "type": "registry:ui",
+      "description": "Demo showing a menu checkbox.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/demo-components-base-menu-checkbox"
+    },
+    {
+      "name": "demo-components-base-menu-radio",
+      "title": "Menu Radio Demo",
+      "type": "registry:ui",
+      "description": "Demo showing a menu radio.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/demo-components-base-menu-radio"
+    },
+    {
+      "name": "demo-components-base-popover",
+      "title": "Popover Demo",
+      "type": "registry:ui",
+      "description": "Demo showing a popover.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/demo-components-base-popover"
+    },
+    {
+      "name": "demo-components-base-preview-card",
+      "title": "Preview Card Demo",
+      "type": "registry:ui",
+      "description": "Demo showing a preview card.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/demo-components-base-preview-card"
+    },
+    {
+      "name": "demo-components-base-preview-link-card",
+      "title": "Preview Link Card Demo",
+      "type": "registry:ui",
+      "description": "Demo showing a preview link card.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/demo-components-base-preview-link-card"
+    },
+    {
+      "name": "demo-components-base-progress",
+      "title": "Progress Demo",
+      "type": "registry:ui",
+      "description": "Demo showing a progress bar.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/demo-components-base-progress"
+    },
+    {
+      "name": "demo-components-base-radio",
+      "title": "Base Radio Demo",
+      "type": "registry:ui",
+      "description": "Demo showing a base radio.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/demo-components-base-radio"
+    },
+    {
+      "name": "demo-components-base-switch",
+      "title": "Switch Demo",
+      "type": "registry:ui",
+      "description": "Demo showing a switch.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/demo-components-base-switch"
+    },
+    {
+      "name": "demo-components-base-tabs",
+      "title": "Base Tabs Demo",
+      "type": "registry:ui",
+      "description": "Demo showing a base tabs.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/demo-components-base-tabs"
+    },
+    {
+      "name": "demo-components-base-toggle",
+      "title": "Toggle Demo",
+      "type": "registry:ui",
+      "description": "Demo showing a toggle.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/demo-components-base-toggle"
+    },
+    {
+      "name": "demo-components-base-toggle-group",
+      "title": "Toggle Group Demo",
+      "type": "registry:ui",
+      "description": "Demo showing a toggle group.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/demo-components-base-toggle-group"
+    },
+    {
+      "name": "demo-components-base-tooltip",
+      "title": "Tooltip Demo",
+      "type": "registry:ui",
+      "description": "Demo showing a tooltip.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/demo-components-base-tooltip"
+    },
+    {
+      "name": "demo-components-buttons-button",
+      "title": "Button Demo",
+      "type": "registry:ui",
+      "description": "Demo showing a button.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/demo-components-buttons-button"
+    },
+    {
+      "name": "demo-components-buttons-copy",
+      "title": "Copy Button Demo",
+      "type": "registry:ui",
+      "description": "Demo showing a copy button.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/demo-components-buttons-copy"
+    },
+    {
+      "name": "demo-components-buttons-flip",
+      "title": "Flip Button Demo",
+      "type": "registry:ui",
+      "description": "Demo showing a flip button.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/demo-components-buttons-flip"
+    },
+    {
+      "name": "demo-components-buttons-github-stars",
+      "title": "GitHub Stars Button Demo",
+      "type": "registry:ui",
+      "description": "Demo showing a GitHub stars button.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/demo-components-buttons-github-stars"
+    },
+    {
+      "name": "demo-components-buttons-icon",
+      "title": "Icon Button Demo",
+      "type": "registry:ui",
+      "description": "Demo showing an icon button.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/demo-components-buttons-icon"
+    },
+    {
+      "name": "demo-components-buttons-liquid",
+      "title": "Liquid Button Demo",
+      "type": "registry:ui",
+      "description": "Demo showing a liquid button.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/demo-components-buttons-liquid"
+    },
+    {
+      "name": "demo-components-buttons-ripple",
+      "title": "Ripple Button Demo",
+      "type": "registry:ui",
+      "description": "Demo showing a ripple button.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/demo-components-buttons-ripple"
+    },
+    {
+      "name": "demo-components-buttons-theme-toggler",
+      "title": "Theme Toggler Button Demo",
+      "type": "registry:ui",
+      "description": "Demo showing a theme toggler button.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/demo-components-buttons-theme-toggler"
+    },
+    {
+      "name": "demo-components-community-flip-card",
+      "title": "Flip Card Demo",
+      "type": "registry:ui",
+      "description": "Demo showing the flip card component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/demo-components-community-flip-card"
+    },
+    {
+      "name": "demo-components-community-management-bar",
+      "title": "Management Bar Demo",
+      "type": "registry:ui",
+      "description": "Demo showing a management bar.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/demo-components-community-management-bar"
+    },
+    {
+      "name": "demo-components-community-motion-carousel",
+      "title": "Motion Carousel Demo",
+      "type": "registry:ui",
+      "description": "Demo showing motion carousel.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/demo-components-community-motion-carousel"
+    },
+    {
+      "name": "demo-components-community-notification-list",
+      "title": "Notification List Demo",
+      "type": "registry:ui",
+      "description": "Demo showing a notification list.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/demo-components-community-notification-list"
+    },
+    {
+      "name": "demo-components-community-pin-list",
+      "title": "Pin List Demo",
+      "type": "registry:ui",
+      "description": "Demo showing a pin list.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/demo-components-community-pin-list"
+    },
+    {
+      "name": "demo-components-community-playful-todolist",
+      "title": "Playful Todolist Demo",
+      "type": "registry:ui",
+      "description": "Demo showing a playful todolist.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/demo-components-community-playful-todolist"
+    },
+    {
+      "name": "demo-components-community-radial-intro",
+      "title": "Radial Intro Demo",
+      "type": "registry:ui",
+      "description": "Demo showing radial intro.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/demo-components-community-radial-intro"
+    },
+    {
+      "name": "demo-components-community-radial-menu",
+      "title": "Radial Menu Demo",
+      "type": "registry:ui",
+      "description": "Demo Radial Menu.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/demo-components-community-radial-menu"
+    },
+    {
+      "name": "demo-components-community-radial-nav",
+      "title": "Radial Nav Demo",
+      "type": "registry:ui",
+      "description": "Demo Radial Nav.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/demo-components-community-radial-nav"
+    },
+    {
+      "name": "demo-components-community-share-button",
+      "title": "Share Button Demo",
+      "type": "registry:ui",
+      "description": "Demo showing a share button.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/demo-components-community-share-button"
+    },
+    {
+      "name": "demo-components-community-user-presence-avatar",
+      "title": "User Presence Avatar Demo",
+      "type": "registry:ui",
+      "description": "Demo showing a user presence avatar.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/demo-components-community-user-presence-avatar"
+    },
+    {
+      "name": "demo-components-headless-accordion",
+      "title": "Accordion Demo",
+      "type": "registry:ui",
+      "description": "Demo showing a accordion.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/demo-components-headless-accordion"
+    },
+    {
+      "name": "demo-components-headless-checkbox",
+      "title": "Checkbox Demo",
+      "type": "registry:ui",
+      "description": "Demo showing a checkbox.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/demo-components-headless-checkbox"
+    },
+    {
+      "name": "demo-components-headless-dialog",
+      "title": "Dialog Demo",
+      "type": "registry:ui",
+      "description": "Demo showing a dialog.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/demo-components-headless-dialog"
+    },
+    {
+      "name": "demo-components-headless-popover",
+      "title": "Popover Demo",
+      "type": "registry:ui",
+      "description": "Demo showing a popover.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/demo-components-headless-popover"
+    },
+    {
+      "name": "demo-components-headless-switch",
+      "title": "Headless Switch Demo",
+      "type": "registry:ui",
+      "description": "Demo showing a headless switch.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/demo-components-headless-switch"
+    },
+    {
+      "name": "demo-components-headless-tabs",
+      "title": "Headless Tabs Demo",
+      "type": "registry:ui",
+      "description": "Demo showing a headless tabs.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/demo-components-headless-tabs"
+    },
+    {
+      "name": "demo-components-radix-accordion",
+      "title": "Accordion Demo",
+      "type": "registry:ui",
+      "description": "Demo showing a accordion.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/demo-components-radix-accordion"
+    },
+    {
+      "name": "demo-components-radix-alert-dialog",
+      "title": "Alert Dialog Demo",
+      "type": "registry:ui",
+      "description": "Demo showing a alert dialog.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/demo-components-radix-alert-dialog"
+    },
+    {
+      "name": "demo-components-radix-checkbox",
+      "title": "Checkbox Demo",
+      "type": "registry:ui",
+      "description": "Demo showing a checkbox.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/demo-components-radix-checkbox"
+    },
+    {
+      "name": "demo-components-radix-dialog",
+      "title": "Dialog Demo",
+      "type": "registry:ui",
+      "description": "Demo showing a dialog.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/demo-components-radix-dialog"
+    },
+    {
+      "name": "demo-components-radix-dropdown-menu",
+      "title": "Dropdown Menu Demo",
+      "type": "registry:ui",
+      "description": "Demo showing a dropdown menu.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/demo-components-radix-dropdown-menu"
+    },
+    {
+      "name": "demo-components-radix-dropdown-menu-checkbox",
+      "title": "Dropdown Menu Checkbox Demo",
+      "type": "registry:ui",
+      "description": "Demo showing a dropdown menu with a checkbox.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/demo-components-radix-dropdown-menu-checkbox"
+    },
+    {
+      "name": "demo-components-radix-dropdown-menu-radio",
+      "title": "Dropdown Menu Radio Demo",
+      "type": "registry:ui",
+      "description": "Demo showing a dropdown menu with a radio.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/demo-components-radix-dropdown-menu-radio"
+    },
+    {
+      "name": "demo-components-radix-files",
+      "title": "Files Demo",
+      "type": "registry:ui",
+      "description": "Demo showing a files.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/demo-components-radix-files"
+    },
+    {
+      "name": "demo-components-radix-hover-card",
+      "title": "Hover Card Demo",
+      "type": "registry:ui",
+      "description": "Demo showing a hover card.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/demo-components-radix-hover-card"
+    },
+    {
+      "name": "demo-components-radix-popover",
+      "title": "Popover Demo",
+      "type": "registry:ui",
+      "description": "Demo showing a popover.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/demo-components-radix-popover"
+    },
+    {
+      "name": "demo-components-radix-preview-link-card",
+      "title": "Preview Link Card Demo",
+      "type": "registry:ui",
+      "description": "Demo showing a preview link card.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/demo-components-radix-preview-link-card"
+    },
+    {
+      "name": "demo-components-radix-progress",
+      "title": "Radix Progress Demo",
+      "type": "registry:ui",
+      "description": "Demo showing a radix progress.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/demo-components-radix-progress"
+    },
+    {
+      "name": "demo-components-radix-radio-group",
+      "title": "Radix Radio Group Demo",
+      "type": "registry:ui",
+      "description": "Demo showing a radix radio group.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/demo-components-radix-radio-group"
+    },
+    {
+      "name": "demo-components-radix-sheet",
+      "title": "Radix Sheet Demo",
+      "type": "registry:ui",
+      "description": "Demo showing a radix sheet.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/demo-components-radix-sheet"
+    },
+    {
+      "name": "demo-components-radix-sidebar",
+      "title": "Radix Sidebar Demo",
+      "type": "registry:ui",
+      "description": "Demo showing a radix sidebar.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/demo-components-radix-sidebar"
+    },
+    {
+      "name": "demo-components-radix-switch",
+      "title": "Radix Switch Demo",
+      "type": "registry:ui",
+      "description": "Demo showing a radix switch.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/demo-components-radix-switch"
+    },
+    {
+      "name": "demo-components-radix-tabs",
+      "title": "Radix Tabs Demo",
+      "type": "registry:ui",
+      "description": "Demo showing a radix tabs.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/demo-components-radix-tabs"
+    },
+    {
+      "name": "demo-components-radix-toggle",
+      "title": "Radix Toggle Demo",
+      "type": "registry:ui",
+      "description": "Demo showing a radix toggle.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/demo-components-radix-toggle"
+    },
+    {
+      "name": "demo-components-radix-toggle-group",
+      "title": "Radix Toggle Group Demo",
+      "type": "registry:ui",
+      "description": "Demo showing a radix toggle group.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/demo-components-radix-toggle-group"
+    },
+    {
+      "name": "demo-components-radix-tooltip",
+      "title": "Radix Tooltip Demo",
+      "type": "registry:ui",
+      "description": "Demo showing a radix tooltip.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/demo-components-radix-tooltip"
+    },
+    {
+      "name": "demo-primitives-animate-avatar-group",
+      "title": "Animate Avatar Group Demo",
+      "type": "registry:ui",
+      "description": "Demo showing an animated avatar group.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/demo-primitives-animate-avatar-group"
+    },
+    {
+      "name": "demo-primitives-animate-code-block",
+      "title": "Animate Code Block Demo",
+      "type": "registry:ui",
+      "description": "Demo showing an animated code block.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/demo-primitives-animate-code-block"
+    },
+    {
+      "name": "demo-primitives-animate-cursor",
+      "title": "Animate Cursor Demo",
+      "type": "registry:ui",
+      "description": "Demo showing an animated cursor.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/demo-primitives-animate-cursor"
+    },
+    {
+      "name": "demo-primitives-animate-github-stars",
+      "title": "GitHub Stars Demo",
+      "type": "registry:ui",
+      "description": "Demo showing an animated github stars counter.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/demo-primitives-animate-github-stars"
+    },
+    {
+      "name": "demo-primitives-animate-motion-grid",
+      "title": "Animate Motion Grid Demo",
+      "type": "registry:ui",
+      "description": "Demo showing an animated motion grid.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/demo-primitives-animate-motion-grid"
+    },
+    {
+      "name": "demo-primitives-animate-pinned-list",
+      "title": "Animate Pinned List Demo",
+      "type": "registry:ui",
+      "description": "Demo showing an animated pinned list.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/demo-primitives-animate-pinned-list"
+    },
+    {
+      "name": "demo-primitives-animate-scroll-progress",
+      "title": "Animate Scroll Progress Demo",
+      "type": "registry:ui",
+      "description": "Demo showing an animated scroll progress.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/demo-primitives-animate-scroll-progress"
+    },
+    {
+      "name": "demo-primitives-animate-spring",
+      "title": "Animate Spring Demo",
+      "type": "registry:ui",
+      "description": "Demo showing an animated spring.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/demo-primitives-animate-spring"
+    },
+    {
+      "name": "demo-primitives-animate-tabs",
+      "title": "Animate Tabs Demo",
+      "type": "registry:ui",
+      "description": "Demo showing an animated tabs.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/demo-primitives-animate-tabs"
+    },
+    {
+      "name": "demo-primitives-animate-tooltip",
+      "title": "Animate Tooltip Demo",
+      "type": "registry:ui",
+      "description": "Demo showing an animated tooltip.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/demo-primitives-animate-tooltip"
+    },
+    {
+      "name": "demo-primitives-base-accordion",
+      "title": "Base Accordion Demo",
+      "type": "registry:ui",
+      "description": "Demo showing an animated base accordion.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/demo-primitives-base-accordion"
+    },
+    {
+      "name": "demo-primitives-base-alert-dialog",
+      "title": "Base Alert Dialog Demo",
+      "type": "registry:ui",
+      "description": "Demo showing an animated base alert dialog.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/demo-primitives-base-alert-dialog"
+    },
+    {
+      "name": "demo-primitives-base-checkbox",
+      "title": "Base Checkbox Demo",
+      "type": "registry:ui",
+      "description": "Demo showing an animated base checkbox.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/demo-primitives-base-checkbox"
+    },
+    {
+      "name": "demo-primitives-base-collapsible",
+      "title": "Base Collapsible Demo",
+      "type": "registry:ui",
+      "description": "Demo showing an animated base collapsible.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/demo-primitives-base-collapsible"
+    },
+    {
+      "name": "demo-primitives-base-dialog",
+      "title": "Base Dialog Demo",
+      "type": "registry:ui",
+      "description": "Demo showing an animated base dialog.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/demo-primitives-base-dialog"
+    },
+    {
+      "name": "demo-primitives-base-files",
+      "title": "Base Files Demo",
+      "type": "registry:ui",
+      "description": "Demo showing an animated base files.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/demo-primitives-base-files"
+    },
+    {
+      "name": "demo-primitives-base-menu",
+      "title": "Base Menu Demo",
+      "type": "registry:ui",
+      "description": "Demo showing an animated base menu.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/demo-primitives-base-menu"
+    },
+    {
+      "name": "demo-primitives-base-popover",
+      "title": "Base Popover Demo",
+      "type": "registry:ui",
+      "description": "Demo showing an animated base popover.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/demo-primitives-base-popover"
+    },
+    {
+      "name": "demo-primitives-base-preview-card",
+      "title": "Base Preview Card Demo",
+      "type": "registry:ui",
+      "description": "Demo showing an animated base preview card.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/demo-primitives-base-preview-card"
+    },
+    {
+      "name": "demo-primitives-base-preview-link-card",
+      "title": "Base Preview Link Card Demo",
+      "type": "registry:ui",
+      "description": "Demo showing an animated base preview link card.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/demo-primitives-base-preview-link-card"
+    },
+    {
+      "name": "demo-primitives-base-progress",
+      "title": "Base Progress Demo",
+      "type": "registry:ui",
+      "description": "Demo showing an animated base progress.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/demo-primitives-base-progress"
+    },
+    {
+      "name": "demo-primitives-base-radio",
+      "title": "Base Radio Demo",
+      "type": "registry:ui",
+      "description": "Demo showing an animated base radio.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/demo-primitives-base-radio"
+    },
+    {
+      "name": "demo-primitives-base-switch",
+      "title": "Base Switch Demo",
+      "type": "registry:ui",
+      "description": "Demo showing an animated base switch.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/demo-primitives-base-switch"
+    },
+    {
+      "name": "demo-primitives-base-tabs",
+      "title": "Base Tabs Demo",
+      "type": "registry:ui",
+      "description": "Demo showing an animated base tabs.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/demo-primitives-base-tabs"
+    },
+    {
+      "name": "demo-primitives-base-toggle",
+      "title": "Base Toggle Demo",
+      "type": "registry:ui",
+      "description": "Demo showing an animated base toggle.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/demo-primitives-base-toggle"
+    },
+    {
+      "name": "demo-primitives-base-toggle-group",
+      "title": "Base Toggle Group Demo",
+      "type": "registry:ui",
+      "description": "Demo showing an animated base toggle group.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/demo-primitives-base-toggle-group"
+    },
+    {
+      "name": "demo-primitives-base-tooltip",
+      "title": "Base Tooltip Demo",
+      "type": "registry:ui",
+      "description": "Demo showing an animated base tooltip.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/demo-primitives-base-tooltip"
+    },
+    {
+      "name": "demo-primitives-buttons-button",
+      "title": "Button Demo",
+      "type": "registry:ui",
+      "description": "Demo showing a button.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/demo-primitives-buttons-button"
+    },
+    {
+      "name": "demo-primitives-buttons-flip",
+      "title": "Flip Button Demo",
+      "type": "registry:ui",
+      "description": "Demo showing an animated flip button.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/demo-primitives-buttons-flip"
+    },
+    {
+      "name": "demo-primitives-buttons-liquid",
+      "title": "Liquid Button Demo",
+      "type": "registry:ui",
+      "description": "Demo showing an animated liquid button.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/demo-primitives-buttons-liquid"
+    },
+    {
+      "name": "demo-primitives-buttons-ripple",
+      "title": "Ripple Button Demo",
+      "type": "registry:ui",
+      "description": "Demo showing a ripple button.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/demo-primitives-buttons-ripple"
+    },
+    {
+      "name": "demo-primitives-effects-auto-height",
+      "title": "Auto Height Demo",
+      "type": "registry:ui",
+      "description": "Demo showing an animated auto height.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/demo-primitives-effects-auto-height"
+    },
+    {
+      "name": "demo-primitives-effects-blur",
+      "title": "Blur Demo",
+      "type": "registry:ui",
+      "description": "Demo showing an animated blur.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/demo-primitives-effects-blur"
+    },
+    {
+      "name": "demo-primitives-effects-click",
+      "title": "Click Demo",
+      "type": "registry:ui",
+      "description": "Demo showing an animated click.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/demo-primitives-effects-click"
+    },
+    {
+      "name": "demo-primitives-effects-effect",
+      "title": "Effect Demo",
+      "type": "registry:ui",
+      "description": "Demo showing an animated effect.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/demo-primitives-effects-effect"
+    },
+    {
+      "name": "demo-primitives-effects-fade",
+      "title": "Fade Demo",
+      "type": "registry:ui",
+      "description": "Demo showing an animated fade.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/demo-primitives-effects-fade"
+    },
+    {
+      "name": "demo-primitives-effects-highlight",
+      "title": "Highlight Demo",
+      "type": "registry:ui",
+      "description": "Demo showing an animated highlight.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/demo-primitives-effects-highlight"
+    },
+    {
+      "name": "demo-primitives-effects-image-zoom",
+      "title": "Image Zoom Demo",
+      "type": "registry:ui",
+      "description": "Demo showing a image zoom effect.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/demo-primitives-effects-image-zoom"
+    },
+    {
+      "name": "demo-primitives-effects-magnetic",
+      "title": "Magnetic Demo",
+      "type": "registry:ui",
+      "description": "Demo showing a magnetic effect.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/demo-primitives-effects-magnetic"
+    },
+    {
+      "name": "demo-primitives-effects-particles",
+      "title": "Particles Demo",
+      "type": "registry:ui",
+      "description": "Demo showing an animated particles.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/demo-primitives-effects-particles"
+    },
+    {
+      "name": "demo-primitives-effects-shine",
+      "title": "Shine Demo",
+      "type": "registry:ui",
+      "description": "Demo showing an animated shine.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/demo-primitives-effects-shine"
+    },
+    {
+      "name": "demo-primitives-effects-slide",
+      "title": "Slide Demo",
+      "type": "registry:ui",
+      "description": "Demo showing an animated slide.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/demo-primitives-effects-slide"
+    },
+    {
+      "name": "demo-primitives-effects-theme-toggler",
+      "title": "Theme Toggler Demo",
+      "type": "registry:ui",
+      "description": "Demo showing a theme toggler.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/demo-primitives-effects-theme-toggler"
+    },
+    {
+      "name": "demo-primitives-effects-tilt",
+      "title": "Tilt Demo",
+      "type": "registry:ui",
+      "description": "Demo showing an animated tilt.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/demo-primitives-effects-tilt"
+    },
+    {
+      "name": "demo-primitives-effects-zoom",
+      "title": "Zoom Demo",
+      "type": "registry:ui",
+      "description": "Demo showing an animated zoom.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/demo-primitives-effects-zoom"
+    },
+    {
+      "name": "demo-primitives-headless-checkbox",
+      "title": "Headless Checkbox Demo",
+      "type": "registry:ui",
+      "description": "Demo showing an animated headless checkbox.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/demo-primitives-headless-checkbox"
+    },
+    {
+      "name": "demo-primitives-headless-dialog",
+      "title": "Headless Dialog Demo",
+      "type": "registry:ui",
+      "description": "Demo showing an animated headless dialog.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/demo-primitives-headless-dialog"
+    },
+    {
+      "name": "demo-primitives-headless-disclosure",
+      "title": "Headless Disclosure Demo",
+      "type": "registry:ui",
+      "description": "Demo showing an animated headless disclosure.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/demo-primitives-headless-disclosure"
+    },
+    {
+      "name": "demo-primitives-headless-popover",
+      "title": "Headless Popover Demo",
+      "type": "registry:ui",
+      "description": "Demo showing an animated headless popover.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/demo-primitives-headless-popover"
+    },
+    {
+      "name": "demo-primitives-headless-switch",
+      "title": "Headless Switch Demo",
+      "type": "registry:ui",
+      "description": "Demo showing an animated headless switch.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/demo-primitives-headless-switch"
+    },
+    {
+      "name": "demo-primitives-headless-tabs",
+      "title": "Headless Tabs Demo",
+      "type": "registry:ui",
+      "description": "Demo showing an animated headless tabs.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/demo-primitives-headless-tabs"
+    },
+    {
+      "name": "demo-primitives-radix-accordion",
+      "title": "Radix Accordion Demo",
+      "type": "registry:ui",
+      "description": "Demo showing an animated radix accordion.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/demo-primitives-radix-accordion"
+    },
+    {
+      "name": "demo-primitives-radix-alert-dialog",
+      "title": "Radix Alert Dialog Demo",
+      "type": "registry:ui",
+      "description": "Demo showing an animated radix alert dialog.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/demo-primitives-radix-alert-dialog"
+    },
+    {
+      "name": "demo-primitives-radix-checkbox",
+      "title": "Radix Checkbox Demo",
+      "type": "registry:ui",
+      "description": "Demo showing an animated radix checkbox.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/demo-primitives-radix-checkbox"
+    },
+    {
+      "name": "demo-primitives-radix-collapsible",
+      "title": "Radix Collapsible Demo",
+      "type": "registry:ui",
+      "description": "Demo showing an animated radix collapsible.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/demo-primitives-radix-collapsible"
+    },
+    {
+      "name": "demo-primitives-radix-dialog",
+      "title": "Radix Dialog Demo",
+      "type": "registry:ui",
+      "description": "Demo showing an animated radix dialog.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/demo-primitives-radix-dialog"
+    },
+    {
+      "name": "demo-primitives-radix-dropdown-menu",
+      "title": "Radix Dropdown Menu Demo",
+      "type": "registry:ui",
+      "description": "Demo showing an animated radix dropdown menu.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/demo-primitives-radix-dropdown-menu"
+    },
+    {
+      "name": "demo-primitives-radix-files",
+      "title": "Radix Files Demo",
+      "type": "registry:ui",
+      "description": "Demo showing an animated radix files.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/demo-primitives-radix-files"
+    },
+    {
+      "name": "demo-primitives-radix-hover-card",
+      "title": "Radix Hover Card Demo",
+      "type": "registry:ui",
+      "description": "Demo showing an animated radix hover card.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/demo-primitives-radix-hover-card"
+    },
+    {
+      "name": "demo-primitives-radix-popover",
+      "title": "Radix Popover Demo",
+      "type": "registry:ui",
+      "description": "Demo showing an animated radix popover.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/demo-primitives-radix-popover"
+    },
+    {
+      "name": "demo-primitives-radix-preview-link-card",
+      "title": "Radix Preview Link Card Demo",
+      "type": "registry:ui",
+      "description": "Demo showing an animated radix preview link card.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/demo-primitives-radix-preview-link-card"
+    },
+    {
+      "name": "demo-primitives-radix-progress",
+      "title": "Radix Progress Demo",
+      "type": "registry:ui",
+      "description": "Demo showing an animated radix progress.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/demo-primitives-radix-progress"
+    },
+    {
+      "name": "demo-primitives-radix-radio-group",
+      "title": "Radix Radio Group Demo",
+      "type": "registry:ui",
+      "description": "Demo showing an animated radix radio group.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/demo-primitives-radix-radio-group"
+    },
+    {
+      "name": "demo-primitives-radix-sheet",
+      "title": "Radix Sheet Demo",
+      "type": "registry:ui",
+      "description": "Demo showing an animated radix sheet.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/demo-primitives-radix-sheet"
+    },
+    {
+      "name": "demo-primitives-radix-switch",
+      "title": "Radix Switch Demo",
+      "type": "registry:ui",
+      "description": "Demo showing an animated radix switch.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/demo-primitives-radix-switch"
+    },
+    {
+      "name": "demo-primitives-radix-tabs",
+      "title": "Radix Tabs Demo",
+      "type": "registry:ui",
+      "description": "Demo showing an animated radix tabs.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/demo-primitives-radix-tabs"
+    },
+    {
+      "name": "demo-primitives-radix-toggle",
+      "title": "Radix Toggle Demo",
+      "type": "registry:ui",
+      "description": "Demo showing an animated radix toggle.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/demo-primitives-radix-toggle"
+    },
+    {
+      "name": "demo-primitives-radix-toggle-group",
+      "title": "Radix Toggle Group Demo",
+      "type": "registry:ui",
+      "description": "Demo showing an animated radix toggle group.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/demo-primitives-radix-toggle-group"
+    },
+    {
+      "name": "demo-primitives-radix-tooltip",
+      "title": "Radix Tooltip Demo",
+      "type": "registry:ui",
+      "description": "Demo showing an animated radix tooltip.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/demo-primitives-radix-tooltip"
+    },
+    {
+      "name": "demo-primitives-texts-counting-number",
+      "title": "Counting Number Demo",
+      "type": "registry:ui",
+      "description": "Demo showing an animated counting number.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/demo-primitives-texts-counting-number"
+    },
+    {
+      "name": "demo-primitives-texts-gradient",
+      "title": "Gradient Text Demo",
+      "type": "registry:ui",
+      "description": "Demo showing an animated gradient text.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/demo-primitives-texts-gradient"
+    },
+    {
+      "name": "demo-primitives-texts-highlight",
+      "title": "Highlight Text Demo",
+      "type": "registry:ui",
+      "description": "Demo showing an animated highlight text.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/demo-primitives-texts-highlight"
+    },
+    {
+      "name": "demo-primitives-texts-morphing",
+      "title": "Morphing Text Demo",
+      "type": "registry:ui",
+      "description": "Demo showing an animated morphing text.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/demo-primitives-texts-morphing"
+    },
+    {
+      "name": "demo-primitives-texts-rolling",
+      "title": "Rolling Text Demo",
+      "type": "registry:ui",
+      "description": "Demo showing an animated rolling text.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/demo-primitives-texts-rolling"
+    },
+    {
+      "name": "demo-primitives-texts-rotating",
+      "title": "Rotating Text Demo",
+      "type": "registry:ui",
+      "description": "Demo showing an animated rotating text.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/demo-primitives-texts-rotating"
+    },
+    {
+      "name": "demo-primitives-texts-scrolling-number",
+      "title": "Scrolling Number Demo",
+      "type": "registry:ui",
+      "description": "Demo showing an animated scrolling number.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/demo-primitives-texts-scrolling-number"
+    },
+    {
+      "name": "demo-primitives-texts-shimmering",
+      "title": "Shimmering Text Demo",
+      "type": "registry:ui",
+      "description": "Demo showing an animated shimmering text.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/demo-primitives-texts-shimmering"
+    },
+    {
+      "name": "demo-primitives-texts-sliding-number",
+      "title": "Sliding Number Demo",
+      "type": "registry:ui",
+      "description": "Demo showing an animated sliding number.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/demo-primitives-texts-sliding-number"
+    },
+    {
+      "name": "demo-primitives-texts-splitting",
+      "title": "Splitting Text Demo",
+      "type": "registry:ui",
+      "description": "Demo showing an animated splitting text.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/demo-primitives-texts-splitting"
+    },
+    {
+      "name": "demo-primitives-texts-splitting-example",
+      "title": "Splitting Text Demo",
+      "type": "registry:ui",
+      "description": "Demo showing an animated splitting text.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/demo-primitives-texts-splitting-example"
+    },
+    {
+      "name": "demo-primitives-texts-typing",
+      "title": "Typing Text Demo",
+      "type": "registry:ui",
+      "description": "Demo showing an animated typing text.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/demo-primitives-texts-typing"
+    },
+    {
+      "name": "hooks-use-auto-height",
+      "title": "useAutoHeight",
+      "type": "registry:hook",
+      "description": "A hook that allows you to automatically adjust the height of an element based on its content.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/hooks-use-auto-height"
+    },
+    {
+      "name": "hooks-use-controlled-state",
+      "title": "useControlledState",
+      "type": "registry:hook",
+      "description": "A hook that allows you to control a state.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/hooks-use-controlled-state"
+    },
+    {
+      "name": "hooks-use-data-state",
+      "title": "useDataState",
+      "type": "registry:hook",
+      "description": "A hook that allows you to get the data-state of an element.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/hooks-use-data-state"
+    },
+    {
+      "name": "hooks-use-is-in-view",
+      "title": "useIsInView",
+      "type": "registry:hook",
+      "description": "A hook that allows you to check if an element is in view.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/hooks-use-is-in-view"
+    },
+    {
+      "name": "hooks-use-motion-value-state",
+      "title": "useMotionValueState",
+      "type": "registry:hook",
+      "description": "A hook that allows you to use a motion value state.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/hooks-use-motion-value-state"
+    },
+    {
+      "name": "icons-accessibility",
+      "title": "Accessibility Icon",
+      "type": "registry:ui",
+      "description": "Accessibility icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-accessibility"
+    },
+    {
+      "name": "icons-activity",
+      "title": "Activity Icon",
+      "type": "registry:ui",
+      "description": "Activity icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-activity"
+    },
+    {
+      "name": "icons-airplay",
+      "title": "Airplay Icon",
+      "type": "registry:ui",
+      "description": "Airplay icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-airplay"
+    },
+    {
+      "name": "icons-alarm-clock",
+      "title": "Alarm Clock Icon",
+      "type": "registry:ui",
+      "description": "Alarm clock icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-alarm-clock"
+    },
+    {
+      "name": "icons-arrow-down",
+      "title": "Arrow Down Icon",
+      "type": "registry:ui",
+      "description": "Arrow down icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-arrow-down"
+    },
+    {
+      "name": "icons-arrow-left",
+      "title": "Arrow Left Icon",
+      "type": "registry:ui",
+      "description": "Arrow left icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-arrow-left"
+    },
+    {
+      "name": "icons-arrow-right",
+      "title": "Arrow Right Icon",
+      "type": "registry:ui",
+      "description": "Arrow right icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-arrow-right"
+    },
+    {
+      "name": "icons-arrow-up",
+      "title": "Arrow Up Icon",
+      "type": "registry:ui",
+      "description": "Arrow up icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-arrow-up"
+    },
+    {
+      "name": "icons-arrow-up-down",
+      "title": "Arrow Up Down Icon",
+      "type": "registry:ui",
+      "description": "Arrow up down icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-arrow-up-down"
+    },
+    {
+      "name": "icons-audio-lines",
+      "title": "Audio Lines Icon",
+      "type": "registry:ui",
+      "description": "Audio Lines icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-audio-lines"
+    },
+    {
+      "name": "icons-axe",
+      "title": "Axe Icon",
+      "type": "registry:ui",
+      "description": "Axe icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-axe"
+    },
+    {
+      "name": "icons-axis-3d",
+      "title": "Axis 3D Icon",
+      "type": "registry:ui",
+      "description": "Axis 3D icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-axis-3d"
+    },
+    {
+      "name": "icons-badge-check",
+      "title": "Badge Check Icon",
+      "type": "registry:ui",
+      "description": "Badge check icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-badge-check"
+    },
+    {
+      "name": "icons-battery-charging",
+      "title": "Battery Charging Icon",
+      "type": "registry:ui",
+      "description": "Battery Charging icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-battery-charging"
+    },
+    {
+      "name": "icons-battery-full",
+      "title": "Battery Full Icon",
+      "type": "registry:ui",
+      "description": "Battery Full icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-battery-full"
+    },
+    {
+      "name": "icons-battery-low",
+      "title": "Battery Low Icon",
+      "type": "registry:ui",
+      "description": "Battery Low icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-battery-low"
+    },
+    {
+      "name": "icons-battery-medium",
+      "title": "Battery Medium Icon",
+      "type": "registry:ui",
+      "description": "Battery Medium icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-battery-medium"
+    },
+    {
+      "name": "icons-bell",
+      "title": "Bell Icon",
+      "type": "registry:ui",
+      "description": "Bell icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-bell"
+    },
+    {
+      "name": "icons-bell-off",
+      "title": "Bell Off Icon",
+      "type": "registry:ui",
+      "description": "Bell off icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-bell-off"
+    },
+    {
+      "name": "icons-bell-ring",
+      "title": "Bell Ring Icon",
+      "type": "registry:ui",
+      "description": "Bell ring icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-bell-ring"
+    },
+    {
+      "name": "icons-between-horizontal-end",
+      "title": "Between Horizontal End Icon",
+      "type": "registry:ui",
+      "description": "Between horizontal end icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-between-horizontal-end"
+    },
+    {
+      "name": "icons-between-horizontal-start",
+      "title": "Between Horizontal Start Icon",
+      "type": "registry:ui",
+      "description": "Between horizontal start icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-between-horizontal-start"
+    },
+    {
+      "name": "icons-between-vertical-end",
+      "title": "Between Vertical End Icon",
+      "type": "registry:ui",
+      "description": "Between vertical end icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-between-vertical-end"
+    },
+    {
+      "name": "icons-between-vertical-start",
+      "title": "Between Vertical Start Icon",
+      "type": "registry:ui",
+      "description": "Between vertical start icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-between-vertical-start"
+    },
+    {
+      "name": "icons-binary",
+      "title": "Binary Icon",
+      "type": "registry:ui",
+      "description": "Binary icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-binary"
+    },
+    {
+      "name": "icons-blend",
+      "title": "Blend Icon",
+      "type": "registry:ui",
+      "description": "Blend icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-blend"
+    },
+    {
+      "name": "icons-blocks",
+      "title": "Blocks Icon",
+      "type": "registry:ui",
+      "description": "Blocks icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-blocks"
+    },
+    {
+      "name": "icons-bot",
+      "title": "Bot Icon",
+      "type": "registry:ui",
+      "description": "Bot icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-bot"
+    },
+    {
+      "name": "icons-bot-message-square",
+      "title": "Bot Message Square Icon",
+      "type": "registry:ui",
+      "description": "Bot message square icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-bot-message-square"
+    },
+    {
+      "name": "icons-bot-off",
+      "title": "Bot Off Icon",
+      "type": "registry:ui",
+      "description": "Bot off icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-bot-off"
+    },
+    {
+      "name": "icons-brush",
+      "title": "Brush Icon",
+      "type": "registry:ui",
+      "description": "Brush icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-brush"
+    },
+    {
+      "name": "icons-brush-cleaning",
+      "title": "Brush Cleaning Icon",
+      "type": "registry:ui",
+      "description": "Brush cleaning icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-brush-cleaning"
+    },
+    {
+      "name": "icons-cast",
+      "title": "Cast Icon",
+      "type": "registry:ui",
+      "description": "Cast icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-cast"
+    },
+    {
+      "name": "icons-cctv",
+      "title": "CCTV Icon",
+      "type": "registry:ui",
+      "description": "CCTV icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-cctv"
+    },
+    {
+      "name": "icons-chart-bar",
+      "title": "Chart Bar Icon",
+      "type": "registry:ui",
+      "description": "Chart bar icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-chart-bar"
+    },
+    {
+      "name": "icons-chart-bar-decreasing",
+      "title": "Chart Bar Decreasing Icon",
+      "type": "registry:ui",
+      "description": "Chart bar decreasing icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-chart-bar-decreasing"
+    },
+    {
+      "name": "icons-chart-bar-increasing",
+      "title": "Chart Bar Increasing Icon",
+      "type": "registry:ui",
+      "description": "Chart bar increasing icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-chart-bar-increasing"
+    },
+    {
+      "name": "icons-chart-column",
+      "title": "Chart Column Icon",
+      "type": "registry:ui",
+      "description": "Chart column icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-chart-column"
+    },
+    {
+      "name": "icons-chart-column-decreasing",
+      "title": "Chart Column Decreasing Icon",
+      "type": "registry:ui",
+      "description": "Chart column decreasing icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-chart-column-decreasing"
+    },
+    {
+      "name": "icons-chart-column-increasing",
+      "title": "Chart Column Increasing Icon",
+      "type": "registry:ui",
+      "description": "Chart column increasing icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-chart-column-increasing"
+    },
+    {
+      "name": "icons-chart-line",
+      "title": "Chart Line Icon",
+      "type": "registry:ui",
+      "description": "Chart line icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-chart-line"
+    },
+    {
+      "name": "icons-chart-no-axes-column",
+      "title": "Chart No Axes Column Icon",
+      "type": "registry:ui",
+      "description": "Chart no axes column icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-chart-no-axes-column"
+    },
+    {
+      "name": "icons-chart-no-axes-column-decreasing",
+      "title": "Chart No Axes Column Decreasing Icon",
+      "type": "registry:ui",
+      "description": "Chart no axes column decreasing icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-chart-no-axes-column-decreasing"
+    },
+    {
+      "name": "icons-chart-no-axes-column-increasing",
+      "title": "Chart No Axes Column Increasing Icon",
+      "type": "registry:ui",
+      "description": "Chart no axes column increasing icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-chart-no-axes-column-increasing"
+    },
+    {
+      "name": "icons-chart-scatter",
+      "title": "Chart Scatter Icon",
+      "type": "registry:ui",
+      "description": "Chart scatter icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-chart-scatter"
+    },
+    {
+      "name": "icons-chart-spline",
+      "title": "Chart Spline Icon",
+      "type": "registry:ui",
+      "description": "Chart spline icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-chart-spline"
+    },
+    {
+      "name": "icons-check",
+      "title": "Check Icon",
+      "type": "registry:ui",
+      "description": "Check icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-check"
+    },
+    {
+      "name": "icons-check-check",
+      "title": "Check Check Icon",
+      "type": "registry:ui",
+      "description": "Check check icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-check-check"
+    },
+    {
+      "name": "icons-check-line",
+      "title": "Check Line Icon",
+      "type": "registry:ui",
+      "description": "Check line icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-check-line"
+    },
+    {
+      "name": "icons-cherry",
+      "title": "Cherry Icon",
+      "type": "registry:ui",
+      "description": "Cherry icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-cherry"
+    },
+    {
+      "name": "icons-chevron-down",
+      "title": "Chevron Down Icon",
+      "type": "registry:ui",
+      "description": "Chevron down icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-chevron-down"
+    },
+    {
+      "name": "icons-chevron-left",
+      "title": "Chevron Left Icon",
+      "type": "registry:ui",
+      "description": "Chevron left icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-chevron-left"
+    },
+    {
+      "name": "icons-chevron-left-right",
+      "title": "Chevron Left Right Icon",
+      "type": "registry:ui",
+      "description": "Chevron left right icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-chevron-left-right"
+    },
+    {
+      "name": "icons-chevron-right",
+      "title": "Chevron Right Icon",
+      "type": "registry:ui",
+      "description": "Chevron right icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-chevron-right"
+    },
+    {
+      "name": "icons-chevron-up",
+      "title": "Chevron Up Icon",
+      "type": "registry:ui",
+      "description": "Chevron up icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-chevron-up"
+    },
+    {
+      "name": "icons-chevron-up-down",
+      "title": "Chevron Up Down Icon",
+      "type": "registry:ui",
+      "description": "Chevron up down icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-chevron-up-down"
+    },
+    {
+      "name": "icons-circle-check",
+      "title": "Circle Check Icon",
+      "type": "registry:ui",
+      "description": "Circle check icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-circle-check"
+    },
+    {
+      "name": "icons-circle-check-big",
+      "title": "Circle Check Big Icon",
+      "type": "registry:ui",
+      "description": "Circle check big icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-circle-check-big"
+    },
+    {
+      "name": "icons-circle-plus",
+      "title": "Circle Plus Icon",
+      "type": "registry:ui",
+      "description": "Circle plus icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-circle-plus"
+    },
+    {
+      "name": "icons-circle-x",
+      "title": "Circle X Icon",
+      "type": "registry:ui",
+      "description": "Circle x icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-circle-x"
+    },
+    {
+      "name": "icons-circuit-board",
+      "title": "Circuit Board Icon",
+      "type": "registry:ui",
+      "description": "Circuit Board icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-circuit-board"
+    },
+    {
+      "name": "icons-clapperboard",
+      "title": "Clapperboard Icon",
+      "type": "registry:ui",
+      "description": "Clapperboard icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-clapperboard"
+    },
+    {
+      "name": "icons-clipboard",
+      "title": "Clipboard Icon",
+      "type": "registry:ui",
+      "description": "Clipboard icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-clipboard"
+    },
+    {
+      "name": "icons-clipboard-check",
+      "title": "Clipboard Check Icon",
+      "type": "registry:ui",
+      "description": "Clipboard Check icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-clipboard-check"
+    },
+    {
+      "name": "icons-clipboard-list",
+      "title": "Clipboard List Icon",
+      "type": "registry:ui",
+      "description": "Clipboard List icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-clipboard-list"
+    },
+    {
+      "name": "icons-clock",
+      "title": "Clock Icon",
+      "type": "registry:ui",
+      "description": "Clock icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-clock"
+    },
+    {
+      "name": "icons-clock-1",
+      "title": "Clock 1 Icon",
+      "type": "registry:ui",
+      "description": "Clock 1 icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-clock-1"
+    },
+    {
+      "name": "icons-clock-10",
+      "title": "Clock 10 Icon",
+      "type": "registry:ui",
+      "description": "Clock 10 icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-clock-10"
+    },
+    {
+      "name": "icons-clock-11",
+      "title": "Clock 11 Icon",
+      "type": "registry:ui",
+      "description": "Clock 11 icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-clock-11"
+    },
+    {
+      "name": "icons-clock-12",
+      "title": "Clock 12 Icon",
+      "type": "registry:ui",
+      "description": "Clock 12 icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-clock-12"
+    },
+    {
+      "name": "icons-clock-2",
+      "title": "Clock 2 Icon",
+      "type": "registry:ui",
+      "description": "Clock 2 icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-clock-2"
+    },
+    {
+      "name": "icons-clock-3",
+      "title": "Clock 3 Icon",
+      "type": "registry:ui",
+      "description": "Clock 3 icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-clock-3"
+    },
+    {
+      "name": "icons-clock-4",
+      "title": "Clock 4 Icon",
+      "type": "registry:ui",
+      "description": "Clock 4 icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-clock-4"
+    },
+    {
+      "name": "icons-clock-5",
+      "title": "Clock 5 Icon",
+      "type": "registry:ui",
+      "description": "Clock 5 icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-clock-5"
+    },
+    {
+      "name": "icons-clock-6",
+      "title": "Clock 6 Icon",
+      "type": "registry:ui",
+      "description": "Clock 6 icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-clock-6"
+    },
+    {
+      "name": "icons-clock-7",
+      "title": "Clock 7 Icon",
+      "type": "registry:ui",
+      "description": "Clock 7 icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-clock-7"
+    },
+    {
+      "name": "icons-clock-8",
+      "title": "Clock 8 Icon",
+      "type": "registry:ui",
+      "description": "Clock 8 icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-clock-8"
+    },
+    {
+      "name": "icons-clock-9",
+      "title": "Clock 9 Icon",
+      "type": "registry:ui",
+      "description": "Clock 9 icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-clock-9"
+    },
+    {
+      "name": "icons-cloud-download",
+      "title": "Cloud Download Icon",
+      "type": "registry:ui",
+      "description": "Cloud download icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-cloud-download"
+    },
+    {
+      "name": "icons-cloud-drizzle",
+      "title": "Cloud Drizzle Icon",
+      "type": "registry:ui",
+      "description": "Cloud drizzle icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-cloud-drizzle"
+    },
+    {
+      "name": "icons-cloud-hail",
+      "title": "Cloud Hail Icon",
+      "type": "registry:ui",
+      "description": "Cloud hail icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-cloud-hail"
+    },
+    {
+      "name": "icons-cloud-lightning",
+      "title": "Cloud Lightning Icon",
+      "type": "registry:ui",
+      "description": "Cloud lightning icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-cloud-lightning"
+    },
+    {
+      "name": "icons-cloud-moon",
+      "title": "Cloud Moon Icon",
+      "type": "registry:ui",
+      "description": "Cloud moon icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-cloud-moon"
+    },
+    {
+      "name": "icons-cloud-moon-rain",
+      "title": "Cloud Moon Rain Icon",
+      "type": "registry:ui",
+      "description": "Cloud moon rain icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-cloud-moon-rain"
+    },
+    {
+      "name": "icons-cloud-rain",
+      "title": "Cloud Rain Icon",
+      "type": "registry:ui",
+      "description": "Cloud rain icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-cloud-rain"
+    },
+    {
+      "name": "icons-cloud-rain-wind",
+      "title": "Cloud Rain Wind Icon",
+      "type": "registry:ui",
+      "description": "Cloud rain wind icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-cloud-rain-wind"
+    },
+    {
+      "name": "icons-cloud-snow",
+      "title": "Cloud Snow Icon",
+      "type": "registry:ui",
+      "description": "Cloud snow icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-cloud-snow"
+    },
+    {
+      "name": "icons-cloud-sun",
+      "title": "Cloud Sun Icon",
+      "type": "registry:ui",
+      "description": "Cloud sun icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-cloud-sun"
+    },
+    {
+      "name": "icons-cloud-sun-rain",
+      "title": "Cloud Sun Rain Icon",
+      "type": "registry:ui",
+      "description": "Cloud sun rain icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-cloud-sun-rain"
+    },
+    {
+      "name": "icons-cloud-upload",
+      "title": "Cloud Upload Icon",
+      "type": "registry:ui",
+      "description": "Cloud upload icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-cloud-upload"
+    },
+    {
+      "name": "icons-cog",
+      "title": "Cog Icon",
+      "type": "registry:ui",
+      "description": "Cog icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-cog"
+    },
+    {
+      "name": "icons-compass",
+      "title": "Compass Icon",
+      "type": "registry:ui",
+      "description": "Compass icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-compass"
+    },
+    {
+      "name": "icons-contrast",
+      "title": "Contrast Icon",
+      "type": "registry:ui",
+      "description": "Contrast icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-contrast"
+    },
+    {
+      "name": "icons-copy",
+      "title": "Copy Icon",
+      "type": "registry:ui",
+      "description": "Copy icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-copy"
+    },
+    {
+      "name": "icons-crop",
+      "title": "Crop Icon",
+      "type": "registry:ui",
+      "description": "Crop icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-crop"
+    },
+    {
+      "name": "icons-cross",
+      "title": "Cross Icon",
+      "type": "registry:ui",
+      "description": "Cross icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-cross"
+    },
+    {
+      "name": "icons-disc-3",
+      "title": "Disc 3 Icon",
+      "type": "registry:ui",
+      "description": "Disc 3 icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-disc-3"
+    },
+    {
+      "name": "icons-download",
+      "title": "Download Icon",
+      "type": "registry:ui",
+      "description": "Download icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-download"
+    },
+    {
+      "name": "icons-ellipsis",
+      "title": "Ellipsis Icon",
+      "type": "registry:ui",
+      "description": "Ellipsis icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-ellipsis"
+    },
+    {
+      "name": "icons-ellipsis-vertical",
+      "title": "Ellipsis Vertical Icon",
+      "type": "registry:ui",
+      "description": "Ellipsis vertical icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-ellipsis-vertical"
+    },
+    {
+      "name": "icons-equal-not",
+      "title": "Equal Not Icon",
+      "type": "registry:ui",
+      "description": "Equal not icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-equal-not"
+    },
+    {
+      "name": "icons-ev-charger",
+      "title": "EV Charger Icon",
+      "type": "registry:ui",
+      "description": "EV Charger icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-ev-charger"
+    },
+    {
+      "name": "icons-expand",
+      "title": "Expand Icon",
+      "type": "registry:ui",
+      "description": "Expand icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-expand"
+    },
+    {
+      "name": "icons-external-link",
+      "title": "External Link Icon",
+      "type": "registry:ui",
+      "description": "External link icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-external-link"
+    },
+    {
+      "name": "icons-fan",
+      "title": "Fan Icon",
+      "type": "registry:ui",
+      "description": "Fan icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-fan"
+    },
+    {
+      "name": "icons-fingerprint",
+      "title": "Fingerprint Icon",
+      "type": "registry:ui",
+      "description": "Fingerprint icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-fingerprint"
+    },
+    {
+      "name": "icons-forklift",
+      "title": "Forklift Icon",
+      "type": "registry:ui",
+      "description": "Forklift icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-forklift"
+    },
+    {
+      "name": "icons-frame",
+      "title": "Frame Icon",
+      "type": "registry:ui",
+      "description": "Frame icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-frame"
+    },
+    {
+      "name": "icons-gallery-horizontal",
+      "title": "Gallery Horizontal Icon",
+      "type": "registry:ui",
+      "description": "Gallery horizontal icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-gallery-horizontal"
+    },
+    {
+      "name": "icons-gallery-vertical-end",
+      "title": "Gallery Vertical End Icon",
+      "type": "registry:ui",
+      "description": "Gallery vertical end icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-gallery-vertical-end"
+    },
+    {
+      "name": "icons-gallery-vertical",
+      "title": "Gallery Vertical Icon",
+      "type": "registry:ui",
+      "description": "Gallery vertical icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-gallery-vertical"
+    },
+    {
+      "name": "icons-gallery-horizontal-end",
+      "title": "Gallery Horizontal End Icon",
+      "type": "registry:ui",
+      "description": "Gallery horizontal end icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-gallery-horizontal-end"
+    },
+    {
+      "name": "icons-gauge",
+      "title": "Gauge Icon",
+      "type": "registry:ui",
+      "description": "Gauge icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-gauge"
+    },
+    {
+      "name": "icons-gavel",
+      "title": "Gavel Icon",
+      "type": "registry:ui",
+      "description": "Gavel icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-gavel"
+    },
+    {
+      "name": "icons-hammer",
+      "title": "Hammer Icon",
+      "type": "registry:ui",
+      "description": "Hammer icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-hammer"
+    },
+    {
+      "name": "icons-heart",
+      "title": "Heart Icon",
+      "type": "registry:ui",
+      "description": "Heart icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-heart"
+    },
+    {
+      "name": "icons-house-wifi",
+      "title": "House Wifi Icon",
+      "type": "registry:ui",
+      "description": "House wifi icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-house-wifi"
+    },
+    {
+      "name": "icons-icon",
+      "title": "Icon",
+      "type": "registry:ui",
+      "description": "Base component to use animated icons.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-icon"
+    },
+    {
+      "name": "icons-kanban",
+      "title": "Kanban Icon",
+      "type": "registry:ui",
+      "description": "Kanban icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-kanban"
+    },
+    {
+      "name": "icons-key",
+      "title": "Key Icon",
+      "type": "registry:ui",
+      "description": "Key icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-key"
+    },
+    {
+      "name": "icons-layers",
+      "title": "Layers Icon",
+      "type": "registry:ui",
+      "description": "Layers icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-layers"
+    },
+    {
+      "name": "icons-layers-2",
+      "title": "Layers 2 Icon",
+      "type": "registry:ui",
+      "description": "Layers 2 icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-layers-2"
+    },
+    {
+      "name": "icons-layout-dashboard",
+      "title": "Layout Dashboard Icon",
+      "type": "registry:ui",
+      "description": "Layout dashboard icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-layout-dashboard"
+    },
+    {
+      "name": "icons-lightbulb",
+      "title": "Lightbulb Icon",
+      "type": "registry:ui",
+      "description": "Lightbulb icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-lightbulb"
+    },
+    {
+      "name": "icons-lightbulb-off",
+      "title": "Lightbulb Off Icon",
+      "type": "registry:ui",
+      "description": "Lightbulb off icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-lightbulb-off"
+    },
+    {
+      "name": "icons-link",
+      "title": "Link Icon",
+      "type": "registry:ui",
+      "description": "Link icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-link"
+    },
+    {
+      "name": "icons-link-2",
+      "title": "Link 2 Icon",
+      "type": "registry:ui",
+      "description": "Link 2 icon with connect/unlink animations.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-link-2"
+    },
+    {
+      "name": "icons-list",
+      "title": "List Icon",
+      "type": "registry:ui",
+      "description": "List icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-list"
+    },
+    {
+      "name": "icons-loader",
+      "title": "Loader Icon",
+      "type": "registry:ui",
+      "description": "Loader icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-loader"
+    },
+    {
+      "name": "icons-loader-circle",
+      "title": "Loader Circle Icon",
+      "type": "registry:ui",
+      "description": "Loader circle icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-loader-circle"
+    },
+    {
+      "name": "icons-loader-pinwheel",
+      "title": "Loader Pinwheel Icon",
+      "type": "registry:ui",
+      "description": "Loader pinwheel icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-loader-pinwheel"
+    },
+    {
+      "name": "icons-lock",
+      "title": "Lock Icon",
+      "type": "registry:ui",
+      "description": "Lock icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-lock"
+    },
+    {
+      "name": "icons-lock-keyhole",
+      "title": "Lock Keyhole Icon",
+      "type": "registry:ui",
+      "description": "Lock keyhole icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-lock-keyhole"
+    },
+    {
+      "name": "icons-lock-keyhole-open",
+      "title": "Lock Keyhole Open Icon",
+      "type": "registry:ui",
+      "description": "Lock keyhole open icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-lock-keyhole-open"
+    },
+    {
+      "name": "icons-lock-open",
+      "title": "Lock Open Icon",
+      "type": "registry:ui",
+      "description": "Lock open icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-lock-open"
+    },
+    {
+      "name": "icons-log-in",
+      "title": "Log In Icon",
+      "type": "registry:ui",
+      "description": "Log in icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-log-in"
+    },
+    {
+      "name": "icons-log-out",
+      "title": "Log Out Icon",
+      "type": "registry:ui",
+      "description": "Log out icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-log-out"
+    },
+    {
+      "name": "icons-map-pin",
+      "title": "Map Pin Icon",
+      "type": "registry:ui",
+      "description": "Map pin icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-map-pin"
+    },
+    {
+      "name": "icons-map-pin-off",
+      "title": "Map Pin Off Icon",
+      "type": "registry:ui",
+      "description": "Map pin off icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-map-pin-off"
+    },
+    {
+      "name": "icons-maximize",
+      "title": "Maximize Icon",
+      "type": "registry:ui",
+      "description": "Maximize icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-maximize"
+    },
+    {
+      "name": "icons-menu",
+      "title": "Menu Icon",
+      "type": "registry:ui",
+      "description": "Menu icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-menu"
+    },
+    {
+      "name": "icons-message-circle",
+      "title": "Message Circle Icon",
+      "type": "registry:ui",
+      "description": "Message circle icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-message-circle"
+    },
+    {
+      "name": "icons-message-circle-code",
+      "title": "Message Circle Code Icon",
+      "type": "registry:ui",
+      "description": "Message circle code icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-message-circle-code"
+    },
+    {
+      "name": "icons-message-circle-dashed",
+      "title": "Message Circle Dashed Icon",
+      "type": "registry:ui",
+      "description": "Message circle dashed icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-message-circle-dashed"
+    },
+    {
+      "name": "icons-message-circle-heart",
+      "title": "Message Circle Heart Icon",
+      "type": "registry:ui",
+      "description": "Message circle heart icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-message-circle-heart"
+    },
+    {
+      "name": "icons-message-circle-more",
+      "title": "Message Circle More Icon",
+      "type": "registry:ui",
+      "description": "Message circle more icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-message-circle-more"
+    },
+    {
+      "name": "icons-message-circle-off",
+      "title": "Message Circle Off Icon",
+      "type": "registry:ui",
+      "description": "Message circle off icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-message-circle-off"
+    },
+    {
+      "name": "icons-message-circle-plus",
+      "title": "Message Circle Plus Icon",
+      "type": "registry:ui",
+      "description": "Message circle plus icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-message-circle-plus"
+    },
+    {
+      "name": "icons-message-circle-question",
+      "title": "Message Circle Question Icon",
+      "type": "registry:ui",
+      "description": "Message circle question icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-message-circle-question"
+    },
+    {
+      "name": "icons-message-circle-warning",
+      "title": "Message Circle Warning Icon",
+      "type": "registry:ui",
+      "description": "Message circle warning icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-message-circle-warning"
+    },
+    {
+      "name": "icons-message-circle-x",
+      "title": "Message Circle X Icon",
+      "type": "registry:ui",
+      "description": "Message circle x icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-message-circle-x"
+    },
+    {
+      "name": "icons-message-square",
+      "title": "Message Square Icon",
+      "type": "registry:ui",
+      "description": "Message square icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-message-square"
+    },
+    {
+      "name": "icons-message-square-code",
+      "title": "Message Square Code Icon",
+      "type": "registry:ui",
+      "description": "Message square code icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-message-square-code"
+    },
+    {
+      "name": "icons-message-square-dashed",
+      "title": "Message Square Dashed Icon",
+      "type": "registry:ui",
+      "description": "Message square dashed icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-message-square-dashed"
+    },
+    {
+      "name": "icons-message-square-diff",
+      "title": "Message Square Diff Icon",
+      "type": "registry:ui",
+      "description": "Message square diff icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-message-square-diff"
+    },
+    {
+      "name": "icons-message-square-dot",
+      "title": "Message Square Dot Icon",
+      "type": "registry:ui",
+      "description": "Message square dot icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-message-square-dot"
+    },
+    {
+      "name": "icons-message-square-heart",
+      "title": "Message Square Heart Icon",
+      "type": "registry:ui",
+      "description": "Message square heart icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-message-square-heart"
+    },
+    {
+      "name": "icons-message-square-more",
+      "title": "Message Square More Icon",
+      "type": "registry:ui",
+      "description": "Message square more icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-message-square-more"
+    },
+    {
+      "name": "icons-message-square-off",
+      "title": "Message Square Off Icon",
+      "type": "registry:ui",
+      "description": "Message square off icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-message-square-off"
+    },
+    {
+      "name": "icons-message-square-plus",
+      "title": "Message Square Plus Icon",
+      "type": "registry:ui",
+      "description": "Message square plus icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-message-square-plus"
+    },
+    {
+      "name": "icons-message-square-quote",
+      "title": "Message Square Quote Icon",
+      "type": "registry:ui",
+      "description": "Message square quote icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-message-square-quote"
+    },
+    {
+      "name": "icons-message-square-share",
+      "title": "Message Square Share Icon",
+      "type": "registry:ui",
+      "description": "Message square share icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-message-square-share"
+    },
+    {
+      "name": "icons-message-square-text",
+      "title": "Message Square Text Icon",
+      "type": "registry:ui",
+      "description": "Message square text icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-message-square-text"
+    },
+    {
+      "name": "icons-message-square-warning",
+      "title": "Message Square Warning Icon",
+      "type": "registry:ui",
+      "description": "Message square warning icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-message-square-warning"
+    },
+    {
+      "name": "icons-message-square-x",
+      "title": "Message Square X Icon",
+      "type": "registry:ui",
+      "description": "Message square x icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-message-square-x"
+    },
+    {
+      "name": "icons-minimize",
+      "title": "Minimize Icon",
+      "type": "registry:ui",
+      "description": "Minimize icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-minimize"
+    },
+    {
+      "name": "icons-moon",
+      "title": "Moon Icon",
+      "type": "registry:ui",
+      "description": "Moon icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-moon"
+    },
+    {
+      "name": "icons-moon-star",
+      "title": "Moon Star Icon",
+      "type": "registry:ui",
+      "description": "Moon star icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-moon-star"
+    },
+    {
+      "name": "icons-move-down",
+      "title": "Move Down Icon",
+      "type": "registry:ui",
+      "description": "Move down icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-move-down"
+    },
+    {
+      "name": "icons-move-left",
+      "title": "Move Left Icon",
+      "type": "registry:ui",
+      "description": "Move left icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-move-left"
+    },
+    {
+      "name": "icons-move-right",
+      "title": "Move Right Icon",
+      "type": "registry:ui",
+      "description": "Move right icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-move-right"
+    },
+    {
+      "name": "icons-move-up",
+      "title": "Move Up Icon",
+      "type": "registry:ui",
+      "description": "Move up icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-move-up"
+    },
+    {
+      "name": "icons-nfc",
+      "title": "Nfc Icon",
+      "type": "registry:ui",
+      "description": "Nfc icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-nfc"
+    },
+    {
+      "name": "icons-orbit",
+      "title": "Orbit Icon",
+      "type": "registry:ui",
+      "description": "Orbit icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-orbit"
+    },
+    {
+      "name": "icons-paintbrush",
+      "title": "Paintbrush Icon",
+      "type": "registry:ui",
+      "description": "Paintbrush icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-paintbrush"
+    },
+    {
+      "name": "icons-panel-bottom",
+      "title": "Panel Bottom Icon",
+      "type": "registry:ui",
+      "description": "Panel bottom icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-panel-bottom"
+    },
+    {
+      "name": "icons-panel-bottom-close",
+      "title": "Panel Bottom Close Icon",
+      "type": "registry:ui",
+      "description": "Panel bottom close icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-panel-bottom-close"
+    },
+    {
+      "name": "icons-panel-bottom-open",
+      "title": "Panel Bottom Open Icon",
+      "type": "registry:ui",
+      "description": "Panel bottom open icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-panel-bottom-open"
+    },
+    {
+      "name": "icons-panel-left",
+      "title": "Panel Left Icon",
+      "type": "registry:ui",
+      "description": "Panel left icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-panel-left"
+    },
+    {
+      "name": "icons-panel-left-close",
+      "title": "Panel Left Close Icon",
+      "type": "registry:ui",
+      "description": "Panel left close icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-panel-left-close"
+    },
+    {
+      "name": "icons-panel-left-open",
+      "title": "Panel Left Open Icon",
+      "type": "registry:ui",
+      "description": "Panel left open icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-panel-left-open"
+    },
+    {
+      "name": "icons-panel-right",
+      "title": "Panel Right Icon",
+      "type": "registry:ui",
+      "description": "Panel right icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-panel-right"
+    },
+    {
+      "name": "icons-panel-right-close",
+      "title": "Panel Right Close Icon",
+      "type": "registry:ui",
+      "description": "Panel right close icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-panel-right-close"
+    },
+    {
+      "name": "icons-panel-right-open",
+      "title": "Panel Right Open Icon",
+      "type": "registry:ui",
+      "description": "Panel right open icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-panel-right-open"
+    },
+    {
+      "name": "icons-panel-top",
+      "title": "Panel Top Icon",
+      "type": "registry:ui",
+      "description": "Panel top icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-panel-top"
+    },
+    {
+      "name": "icons-panel-top-close",
+      "title": "Panel Top Close Icon",
+      "type": "registry:ui",
+      "description": "Panel top close icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-panel-top-close"
+    },
+    {
+      "name": "icons-panel-top-open",
+      "title": "Panel Top Open Icon",
+      "type": "registry:ui",
+      "description": "Panel top open icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-panel-top-open"
+    },
+    {
+      "name": "icons-paperclip",
+      "title": "Paperclip Icon",
+      "type": "registry:ui",
+      "description": "Paperclip icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-paperclip"
+    },
+    {
+      "name": "icons-party-popper",
+      "title": "Party Popper Icon",
+      "type": "registry:ui",
+      "description": "Party popper icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-party-popper"
+    },
+    {
+      "name": "icons-pause",
+      "title": "Pause Icon",
+      "type": "registry:ui",
+      "description": "Pause icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-pause"
+    },
+    {
+      "name": "icons-phone-call",
+      "title": "Phone Call Icon",
+      "type": "registry:ui",
+      "description": "Phone call icon with animated waves.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-phone-call"
+    },
+    {
+      "name": "icons-pickaxe",
+      "title": "Pickaxe Icon",
+      "type": "registry:ui",
+      "description": "Pickaxe icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-pickaxe"
+    },
+    {
+      "name": "icons-pin",
+      "title": "Pin Icon",
+      "type": "registry:ui",
+      "description": "Pin icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-pin"
+    },
+    {
+      "name": "icons-pin-off",
+      "title": "Pin Off Icon",
+      "type": "registry:ui",
+      "description": "Pin off icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-pin-off"
+    },
+    {
+      "name": "icons-play",
+      "title": "Play Icon",
+      "type": "registry:ui",
+      "description": "Play icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-play"
+    },
+    {
+      "name": "icons-plug-zap",
+      "title": "Plug Zap Icon",
+      "type": "registry:ui",
+      "description": "Plug Zap icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-plug-zap"
+    },
+    {
+      "name": "icons-plus",
+      "title": "Plus Icon",
+      "type": "registry:ui",
+      "description": "Plus icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-plus"
+    },
+    {
+      "name": "icons-radio",
+      "title": "Radio Icon",
+      "type": "registry:ui",
+      "description": "Radio icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-radio"
+    },
+    {
+      "name": "icons-radio-tower",
+      "title": "Radio Tower Icon",
+      "type": "registry:ui",
+      "description": "Radio tower icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-radio-tower"
+    },
+    {
+      "name": "icons-refresh-ccw",
+      "title": "Refresh Ccw Icon",
+      "type": "registry:ui",
+      "description": "Refresh ccw icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-refresh-ccw"
+    },
+    {
+      "name": "icons-refresh-ccw-dot",
+      "title": "Refresh Ccw Dot Icon",
+      "type": "registry:ui",
+      "description": "Refresh ccw dot icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-refresh-ccw-dot"
+    },
+    {
+      "name": "icons-refresh-cw",
+      "title": "Refresh Cw Icon",
+      "type": "registry:ui",
+      "description": "Refresh cw icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-refresh-cw"
+    },
+    {
+      "name": "icons-refresh-cw-off",
+      "title": "Refresh Cw Off Icon",
+      "type": "registry:ui",
+      "description": "Refresh cw off icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-refresh-cw-off"
+    },
+    {
+      "name": "icons-rotate-ccw",
+      "title": "Rotate Ccw Icon",
+      "type": "registry:ui",
+      "description": "Rotate ccw icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-rotate-ccw"
+    },
+    {
+      "name": "icons-rotate-ccw-key",
+      "title": "Rotate Ccw Key Icon",
+      "type": "registry:ui",
+      "description": "Rotate Ccw Key icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-rotate-ccw-key"
+    },
+    {
+      "name": "icons-rotate-cw",
+      "title": "Rotate Cw Icon",
+      "type": "registry:ui",
+      "description": "Rotate cw icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-rotate-cw"
+    },
+    {
+      "name": "icons-route",
+      "title": "Route Icon",
+      "type": "registry:ui",
+      "description": "Route icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-route"
+    },
+    {
+      "name": "icons-router",
+      "title": "Router Icon",
+      "type": "registry:ui",
+      "description": "Router icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-router"
+    },
+    {
+      "name": "icons-scissors",
+      "title": "Scissors Icon",
+      "type": "registry:ui",
+      "description": "Scissors icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-scissors"
+    },
+    {
+      "name": "icons-scissors-line-dashed",
+      "title": "Scissors Line Dashed Icon",
+      "type": "registry:ui",
+      "description": "Scissors line dashed icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-scissors-line-dashed"
+    },
+    {
+      "name": "icons-search",
+      "title": "Search Icon",
+      "type": "registry:ui",
+      "description": "Search icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-search"
+    },
+    {
+      "name": "icons-send",
+      "title": "Send Icon",
+      "type": "registry:ui",
+      "description": "Send icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-send"
+    },
+    {
+      "name": "icons-send-horizontal",
+      "title": "Send Horizontal Icon",
+      "type": "registry:ui",
+      "description": "Send horizontal icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-send-horizontal"
+    },
+    {
+      "name": "icons-settings",
+      "title": "Settings Icon",
+      "type": "registry:ui",
+      "description": "Settings icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-settings"
+    },
+    {
+      "name": "icons-shrink",
+      "title": "Shrink Icon",
+      "type": "registry:ui",
+      "description": "Shrink icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-shrink"
+    },
+    {
+      "name": "icons-signal",
+      "title": "Signal Icon",
+      "type": "registry:ui",
+      "description": "Signal icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-signal"
+    },
+    {
+      "name": "icons-signal-high",
+      "title": "Signal High Icon",
+      "type": "registry:ui",
+      "description": "Signal high icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-signal-high"
+    },
+    {
+      "name": "icons-signal-low",
+      "title": "Signal Low Icon",
+      "type": "registry:ui",
+      "description": "Signal low icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-signal-low"
+    },
+    {
+      "name": "icons-signal-medium",
+      "title": "Signal Medium Icon",
+      "type": "registry:ui",
+      "description": "Signal medium icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-signal-medium"
+    },
+    {
+      "name": "icons-signal-zero",
+      "title": "Signal Zero Icon",
+      "type": "registry:ui",
+      "description": "Signal zero icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-signal-zero"
+    },
+    {
+      "name": "icons-sliders-horizontal",
+      "title": "Sliders Horizontal Icon",
+      "type": "registry:ui",
+      "description": "Sliders horizontal icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-sliders-horizontal"
+    },
+    {
+      "name": "icons-sliders-vertical",
+      "title": "Sliders Vertical Icon",
+      "type": "registry:ui",
+      "description": "Sliders vertical icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-sliders-vertical"
+    },
+    {
+      "name": "icons-sparkle",
+      "title": "Sparkle Icon",
+      "type": "registry:ui",
+      "description": "Sparkle icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-sparkle"
+    },
+    {
+      "name": "icons-sparkles",
+      "title": "Sparkles Icon",
+      "type": "registry:ui",
+      "description": "Sparkles icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-sparkles"
+    },
+    {
+      "name": "icons-square-arrow-out-down-left",
+      "title": "Square Arrow Out Down Left Icon",
+      "type": "registry:ui",
+      "description": "Square arrow out down left icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-square-arrow-out-down-left"
+    },
+    {
+      "name": "icons-square-arrow-out-down-right",
+      "title": "Square Arrow Out Down Right Icon",
+      "type": "registry:ui",
+      "description": "Square arrow out down right icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-square-arrow-out-down-right"
+    },
+    {
+      "name": "icons-square-arrow-out-up-left",
+      "title": "Square Arrow Out Up Left Icon",
+      "type": "registry:ui",
+      "description": "Square arrow out up left icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-square-arrow-out-up-left"
+    },
+    {
+      "name": "icons-square-arrow-out-up-right",
+      "title": "Square Arrow Out Up Right Icon",
+      "type": "registry:ui",
+      "description": "Square arrow out up right icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-square-arrow-out-up-right"
+    },
+    {
+      "name": "icons-square-dashed-kanban",
+      "title": "Square Dashed Kanban Icon",
+      "type": "registry:ui",
+      "description": "Square Dashed Kanban icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-square-dashed-kanban"
+    },
+    {
+      "name": "icons-square-kanban",
+      "title": "Square Kanban Icon",
+      "type": "registry:ui",
+      "description": "Square Kanban icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-square-kanban"
+    },
+    {
+      "name": "icons-square-plus",
+      "title": "Square Plus Icon",
+      "type": "registry:ui",
+      "description": "Square plus icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-square-plus"
+    },
+    {
+      "name": "icons-square-x",
+      "title": "Square X Icon",
+      "type": "registry:ui",
+      "description": "Square x icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-square-x"
+    },
+    {
+      "name": "icons-star",
+      "title": "Star Icon",
+      "type": "registry:ui",
+      "description": "Star icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-star"
+    },
+    {
+      "name": "icons-sun",
+      "title": "Sun Icon",
+      "type": "registry:ui",
+      "description": "Sun icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-sun"
+    },
+    {
+      "name": "icons-sun-dim",
+      "title": "Sun Dim Icon",
+      "type": "registry:ui",
+      "description": "Sun dim icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-sun-dim"
+    },
+    {
+      "name": "icons-sun-medium",
+      "title": "Sun Medium Icon",
+      "type": "registry:ui",
+      "description": "Sun medium icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-sun-medium"
+    },
+    {
+      "name": "icons-sun-moon",
+      "title": "Sun Moon Icon",
+      "type": "registry:ui",
+      "description": "Sun moon icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-sun-moon"
+    },
+    {
+      "name": "icons-terminal",
+      "title": "Terminal Icon",
+      "type": "registry:ui",
+      "description": "Terminal icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-terminal"
+    },
+    {
+      "name": "icons-thumbs-down",
+      "title": "Thumbs Down Icon",
+      "type": "registry:ui",
+      "description": "Thumbs down icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-thumbs-down"
+    },
+    {
+      "name": "icons-thumbs-up",
+      "title": "Thumbs Up Icon",
+      "type": "registry:ui",
+      "description": "Thumbs up icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-thumbs-up"
+    },
+    {
+      "name": "icons-timer",
+      "title": "Timer Icon",
+      "type": "registry:ui",
+      "description": "Timer icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-timer"
+    },
+    {
+      "name": "icons-timer-off",
+      "title": "Timer Off Icon",
+      "type": "registry:ui",
+      "description": "Timer off icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-timer-off"
+    },
+    {
+      "name": "icons-toggle-left",
+      "title": "Toggle Left Icon",
+      "type": "registry:ui",
+      "description": "Toggle left icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-toggle-left"
+    },
+    {
+      "name": "icons-toggle-right",
+      "title": "Toggle Right Icon",
+      "type": "registry:ui",
+      "description": "Toggle right icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-toggle-right"
+    },
+    {
+      "name": "icons-trash",
+      "title": "Trash Icon",
+      "type": "registry:ui",
+      "description": "Trash icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-trash"
+    },
+    {
+      "name": "icons-trash-2",
+      "title": "Trash 2 Icon",
+      "type": "registry:ui",
+      "description": "Trash 2 icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-trash-2"
+    },
+    {
+      "name": "icons-unplug",
+      "title": "Unplug Icon",
+      "type": "registry:ui",
+      "description": "Unplug icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-unplug"
+    },
+    {
+      "name": "icons-upload",
+      "title": "Upload Icon",
+      "type": "registry:ui",
+      "description": "Upload icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-upload"
+    },
+    {
+      "name": "icons-user",
+      "title": "User Icon",
+      "type": "registry:ui",
+      "description": "User icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-user"
+    },
+    {
+      "name": "icons-user-round",
+      "title": "User Round Icon",
+      "type": "registry:ui",
+      "description": "User round icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-user-round"
+    },
+    {
+      "name": "icons-users",
+      "title": "Users Icon",
+      "type": "registry:ui",
+      "description": "Users icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-users"
+    },
+    {
+      "name": "icons-users-round",
+      "title": "Users Round Icon",
+      "type": "registry:ui",
+      "description": "Users round icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-users-round"
+    },
+    {
+      "name": "icons-volume-1",
+      "title": "Volume 1 Icon",
+      "type": "registry:ui",
+      "description": "Volume 1 icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-volume-1"
+    },
+    {
+      "name": "icons-volume-2",
+      "title": "Volume 2 Icon",
+      "type": "registry:ui",
+      "description": "Volume 2 icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-volume-2"
+    },
+    {
+      "name": "icons-volume-off",
+      "title": "Volume Off Icon",
+      "type": "registry:ui",
+      "description": "Volume off icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-volume-off"
+    },
+    {
+      "name": "icons-wifi",
+      "title": "Wifi Icon",
+      "type": "registry:ui",
+      "description": "Wifi icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-wifi"
+    },
+    {
+      "name": "icons-wifi-high",
+      "title": "Wifi High Icon",
+      "type": "registry:ui",
+      "description": "Wifi high icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-wifi-high"
+    },
+    {
+      "name": "icons-wifi-low",
+      "title": "Wifi Low Icon",
+      "type": "registry:ui",
+      "description": "Wifi low icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-wifi-low"
+    },
+    {
+      "name": "icons-wifi-zero",
+      "title": "Wifi Zero Icon",
+      "type": "registry:ui",
+      "description": "Wifi zero icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-wifi-zero"
+    },
+    {
+      "name": "icons-x",
+      "title": "X Icon",
+      "type": "registry:ui",
+      "description": "X icon component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/icons-x"
+    },
+    {
+      "name": "lib-get-strict-context",
+      "title": "getStrictContext",
+      "type": "registry:lib",
+      "description": "A hook that allows you to create a strict context.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/lib-get-strict-context"
+    },
+    {
+      "name": "primitives-animate-avatar-group",
+      "title": "Avatar Group",
+      "type": "registry:ui",
+      "description": "An animated avatar group that displays overlapping user images and smoothly shifts each avatar forward on hover to highlight it.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/primitives-animate-avatar-group"
+    },
+    {
+      "name": "primitives-animate-code-block",
+      "title": "Code Block",
+      "type": "registry:ui",
+      "description": "A code block component that animates the code as it is written.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/primitives-animate-code-block"
+    },
+    {
+      "name": "primitives-animate-cursor",
+      "title": "Cursor",
+      "type": "registry:ui",
+      "description": "An animated cursor component that allows you to customize both the cursor and cursor follow elements with smooth animations.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/primitives-animate-cursor"
+    },
+    {
+      "name": "primitives-animate-github-stars",
+      "title": "Github Stars",
+      "type": "registry:ui",
+      "description": "A component that animates a number of stars, smoothly animating number transitions using the SlidingNumber component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/primitives-animate-github-stars"
+    },
+    {
+      "name": "primitives-animate-motion-grid",
+      "title": "Motion Grid",
+      "type": "registry:ui",
+      "description": "A grid that displays animations in a grid.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/primitives-animate-motion-grid"
+    },
+    {
+      "name": "primitives-animate-pinned-list",
+      "title": "Pin List",
+      "type": "registry:ui",
+      "description": "A pin list component that allows you to pin items to the top of the list.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/primitives-animate-pinned-list"
+    },
+    {
+      "name": "primitives-animate-scroll-progress",
+      "title": "Scroll Progress",
+      "type": "registry:ui",
+      "description": "A scroll progress component that allows you to track the progress of a scrollable element.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/primitives-animate-scroll-progress"
+    },
+    {
+      "name": "primitives-animate-slot",
+      "title": "Animate Slot",
+      "type": "registry:ui",
+      "description": "A slot component that allows you to use motion components with any element.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/primitives-animate-slot"
+    },
+    {
+      "name": "primitives-animate-spring",
+      "title": "Spring",
+      "type": "registry:ui",
+      "description": "A flexible, animated spring component that attaches a draggable element to its origin with a spring line.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/primitives-animate-spring"
+    },
+    {
+      "name": "primitives-animate-tabs",
+      "title": "Tabs",
+      "type": "registry:ui",
+      "description": "A set of layered sections of content—known as tab panels—that are displayed one at a time.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/primitives-animate-tabs"
+    },
+    {
+      "name": "primitives-animate-tooltip",
+      "title": "Tooltip",
+      "type": "registry:ui",
+      "description": "An animated tooltip that shows contextual info on hover or focus and smoothly glides to the next element without disappearing between transitions.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/primitives-animate-tooltip"
+    },
+    {
+      "name": "primitives-base-accordion",
+      "title": "Base Accordion",
+      "type": "registry:ui",
+      "description": "An easily stylable accordion component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/primitives-base-accordion"
+    },
+    {
+      "name": "primitives-base-alert-dialog",
+      "title": "Base Alert Dialog",
+      "type": "registry:ui",
+      "description": "A dialog that requires user response to proceed.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/primitives-base-alert-dialog"
+    },
+    {
+      "name": "primitives-base-checkbox",
+      "title": "Base Checkbox",
+      "type": "registry:ui",
+      "description": "An easily stylable checkbox component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/primitives-base-checkbox"
+    },
+    {
+      "name": "primitives-base-collapsible",
+      "title": "Base Collapsible",
+      "type": "registry:ui",
+      "description": "A collapsible panel controlled by a button.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/primitives-base-collapsible"
+    },
+    {
+      "name": "primitives-base-dialog",
+      "title": "Base Dialog",
+      "type": "registry:ui",
+      "description": "A popup that opens on top of the entire page.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/primitives-base-dialog"
+    },
+    {
+      "name": "primitives-base-files",
+      "title": "Files",
+      "type": "registry:ui",
+      "description": "A component that allows you to display a list of files and folders.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/primitives-base-files"
+    },
+    {
+      "name": "primitives-base-menu",
+      "title": "Base Menu",
+      "type": "registry:ui",
+      "description": "A list of actions in a dropdown, enhanced with keyboard navigation.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/primitives-base-menu"
+    },
+    {
+      "name": "primitives-base-popover",
+      "title": "Base Popover",
+      "type": "registry:ui",
+      "description": "An accessible popup anchored to a button.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/primitives-base-popover"
+    },
+    {
+      "name": "primitives-base-preview-card",
+      "title": "Base Preview Card",
+      "type": "registry:ui",
+      "description": "A popup that appears when a link is hovered, showing a preview for sighted users.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/primitives-base-preview-card"
+    },
+    {
+      "name": "primitives-base-preview-link-card",
+      "title": "Base Preview Link Card",
+      "type": "registry:ui",
+      "description": "Displays a preview image of a link when hovered.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/primitives-base-preview-link-card"
+    },
+    {
+      "name": "primitives-base-progress",
+      "title": "Base Progress",
+      "type": "registry:ui",
+      "description": "Displays the status of a task that takes a long time.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/primitives-base-progress"
+    },
+    {
+      "name": "primitives-base-radio",
+      "title": "Base Radio",
+      "type": "registry:ui",
+      "description": "An easily stylable radio button component.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/primitives-base-radio"
+    },
+    {
+      "name": "primitives-base-switch",
+      "title": "Base Switch",
+      "type": "registry:ui",
+      "description": "A control that indicates whether a setting is on or off.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/primitives-base-switch"
+    },
+    {
+      "name": "primitives-base-tabs",
+      "title": "Base Tabs",
+      "type": "registry:ui",
+      "description": "A component for toggling between related panels on the same page.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/primitives-base-tabs"
+    },
+    {
+      "name": "primitives-base-toggle",
+      "title": "Base Toggle",
+      "type": "registry:ui",
+      "description": "A two-state button that can be on or off.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/primitives-base-toggle"
+    },
+    {
+      "name": "primitives-base-toggle-group",
+      "title": "Base Toggle Group",
+      "type": "registry:ui",
+      "description": "Provides a shared state to a series of toggle buttons.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/primitives-base-toggle-group"
+    },
+    {
+      "name": "primitives-base-tooltip",
+      "title": "Base Tooltip",
+      "type": "registry:ui",
+      "description": "A popup that appears when an element is hovered or focused, showing a hint for sighted users.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/primitives-base-tooltip"
+    },
+    {
+      "name": "primitives-buttons-button",
+      "title": "Button",
+      "type": "registry:ui",
+      "description": "A simple button that animates on hover and tap.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/primitives-buttons-button"
+    },
+    {
+      "name": "primitives-buttons-flip",
+      "title": "Flip Button",
+      "type": "registry:ui",
+      "description": "A button that flips between two states on hover.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/primitives-buttons-flip"
+    },
+    {
+      "name": "primitives-buttons-liquid",
+      "title": "Liquid Button",
+      "type": "registry:ui",
+      "description": "A button that fills on hover.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/primitives-buttons-liquid"
+    },
+    {
+      "name": "primitives-buttons-ripple",
+      "title": "Ripple Button",
+      "type": "registry:ui",
+      "description": "A button that animates on tap with a ripple effect.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/primitives-buttons-ripple"
+    },
+    {
+      "name": "primitives-effects-auto-height",
+      "title": "Auto Height",
+      "type": "registry:ui",
+      "description": "An effect that automatically adjusts the height of an element based on its content.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/primitives-effects-auto-height"
+    },
+    {
+      "name": "primitives-effects-blur",
+      "title": "Blur",
+      "type": "registry:ui",
+      "description": "An effect that allows you to animate elements with a blur effect on first view or load.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/primitives-effects-blur"
+    },
+    {
+      "name": "primitives-effects-click",
+      "title": "Click",
+      "type": "registry:ui",
+      "description": "An effect that creates animated effects at the click position, adding interactive feedback to user actions.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/primitives-effects-click"
+    },
+    {
+      "name": "primitives-effects-effect",
+      "title": "Effect",
+      "type": "registry:ui",
+      "description": "An effect that allows you to animate elements on first view or load.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/primitives-effects-effect"
+    },
+    {
+      "name": "primitives-effects-fade",
+      "title": "Fade",
+      "type": "registry:ui",
+      "description": "An effect that allows you to animate elements with a fade effect on first view or load.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/primitives-effects-fade"
+    },
+    {
+      "name": "primitives-effects-highlight",
+      "title": "Highlight",
+      "type": "registry:ui",
+      "description": "A highlight effect that allows you to highlight elements on hover, click or with a controlled value.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/primitives-effects-highlight"
+    },
+    {
+      "name": "primitives-effects-image-zoom",
+      "title": "Image Zoom",
+      "type": "registry:ui",
+      "description": "An effect that allows you to zoom in on an image on hover.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/primitives-effects-image-zoom"
+    },
+    {
+      "name": "primitives-effects-magnetic",
+      "title": "Magnetic",
+      "type": "registry:ui",
+      "description": "A magnetic effect that clings to the cursor, creating a magnetic attraction effect.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/primitives-effects-magnetic"
+    },
+    {
+      "name": "primitives-effects-particles",
+      "title": "Particles",
+      "type": "registry:ui",
+      "description": "A particles effect that creates a particle system.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/primitives-effects-particles"
+    },
+    {
+      "name": "primitives-effects-shine",
+      "title": "Shine",
+      "type": "registry:ui",
+      "description": "An animated light sweep effect with configurable timing, colors, and triggers (hover, tap, or continuous).",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/primitives-effects-shine"
+    },
+    {
+      "name": "primitives-effects-slide",
+      "title": "Slide",
+      "type": "registry:ui",
+      "description": "An effect that allows you to animate elements with a slide effect on first view or load.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/primitives-effects-slide"
+    },
+    {
+      "name": "primitives-effects-theme-toggler",
+      "title": "Theme Toggler",
+      "type": "registry:ui",
+      "description": "An effect that allows you to toggle the theme gradually.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/primitives-effects-theme-toggler"
+    },
+    {
+      "name": "primitives-effects-tilt",
+      "title": "Tilt",
+      "type": "registry:ui",
+      "description": "An effect that allows you to animate elements with a tilt effect on mouse hover.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/primitives-effects-tilt"
+    },
+    {
+      "name": "primitives-effects-zoom",
+      "title": "Zoom",
+      "type": "registry:ui",
+      "description": "An effect that allows you to animate elements with a zoom effect on first view or load.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/primitives-effects-zoom"
+    },
+    {
+      "name": "primitives-headless-checkbox",
+      "title": "Headless Checkbox",
+      "type": "registry:ui",
+      "description": "Checkboxes provide the same functionality as native HTML checkboxes, without any of the styling, giving you a clean slate to design them however you'd like.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/primitives-headless-checkbox"
+    },
+    {
+      "name": "primitives-headless-dialog",
+      "title": "Headless Dialog",
+      "type": "registry:ui",
+      "description": "A fully-managed, renderless dialog component jam-packed with accessibility and keyboard features, perfect for building completely custom dialogs and alerts.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/primitives-headless-dialog"
+    },
+    {
+      "name": "primitives-headless-disclosure",
+      "title": "Headless Disclosure",
+      "type": "registry:ui",
+      "description": "A simple, accessible foundation for building custom UIs that show and hide content, like togglable accordion panels.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/primitives-headless-disclosure"
+    },
+    {
+      "name": "primitives-headless-popover",
+      "title": "Headless Popover",
+      "type": "registry:ui",
+      "description": "Popovers are perfect for floating panels with arbitrary content like navigation menus, mobile menus and flyout menus.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/primitives-headless-popover"
+    },
+    {
+      "name": "primitives-headless-switch",
+      "title": "Headless Switch",
+      "type": "registry:ui",
+      "description": "Switches are a pleasant interface for toggling a value between two states, and offer the same semantics and keyboard navigation as native checkbox elements.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/primitives-headless-switch"
+    },
+    {
+      "name": "primitives-headless-tabs",
+      "title": "Headless Tabs",
+      "type": "registry:ui",
+      "description": "Easily create accessible, fully customizable tab interfaces, with robust focus management and keyboard navigation support.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/primitives-headless-tabs"
+    },
+    {
+      "name": "primitives-radix-accordion",
+      "title": "Radix Accordion",
+      "type": "registry:ui",
+      "description": "A vertically stacked set of interactive headings that each reveal an associated section of content.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/primitives-radix-accordion"
+    },
+    {
+      "name": "primitives-radix-alert-dialog",
+      "title": "Radix Alert Dialog",
+      "type": "registry:ui",
+      "description": "A modal dialog that interrupts the user with important content and expects a response.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/primitives-radix-alert-dialog"
+    },
+    {
+      "name": "primitives-radix-checkbox",
+      "title": "Radix Checkbox",
+      "type": "registry:ui",
+      "description": "A control that allows the user to toggle between checked and not checked.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/primitives-radix-checkbox"
+    },
+    {
+      "name": "primitives-radix-collapsible",
+      "title": "Radix Collapsible",
+      "type": "registry:ui",
+      "description": "An interactive component which expands/collapses a panel.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/primitives-radix-collapsible"
+    },
+    {
+      "name": "primitives-radix-dialog",
+      "title": "Radix Dialog",
+      "type": "registry:ui",
+      "description": "A window overlaid on either the primary window or another dialog window, rendering the content underneath inert.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/primitives-radix-dialog"
+    },
+    {
+      "name": "primitives-radix-dropdown-menu",
+      "title": "Radix Dropdown Menu",
+      "type": "registry:ui",
+      "description": "Displays a menu to the user — such as a set of actions or functions — triggered by a button.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/primitives-radix-dropdown-menu"
+    },
+    {
+      "name": "primitives-radix-files",
+      "title": "Files",
+      "type": "registry:ui",
+      "description": "A component that allows you to display a list of files and folders.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/primitives-radix-files"
+    },
+    {
+      "name": "primitives-radix-hover-card",
+      "title": "Radix Hover Card",
+      "type": "registry:ui",
+      "description": "For sighted users to preview content available behind a link.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/primitives-radix-hover-card"
+    },
+    {
+      "name": "primitives-radix-popover",
+      "title": "Radix Popover",
+      "type": "registry:ui",
+      "description": "Displays rich content in a portal, triggered by a button.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/primitives-radix-popover"
+    },
+    {
+      "name": "primitives-radix-preview-link-card",
+      "title": "Radix Preview Link Card",
+      "type": "registry:ui",
+      "description": "Displays a preview image of a link when hovered.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/primitives-radix-preview-link-card"
+    },
+    {
+      "name": "primitives-radix-progress",
+      "title": "Radix Progress",
+      "type": "registry:ui",
+      "description": "Displays an indicator showing the completion progress of a task, typically displayed as a progress bar.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/primitives-radix-progress"
+    },
+    {
+      "name": "primitives-radix-radio-group",
+      "title": "Radix Radio Group",
+      "type": "registry:ui",
+      "description": "A set of checkable buttons—known as radio buttons—where no more than one of the buttons can be checked at a time.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/primitives-radix-radio-group"
+    },
+    {
+      "name": "primitives-radix-sheet",
+      "title": "Radix Sheet",
+      "type": "registry:ui",
+      "description": "Extends the Dialog component to display content that complements the main content of the screen.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/primitives-radix-sheet"
+    },
+    {
+      "name": "primitives-radix-switch",
+      "title": "Radix Switch",
+      "type": "registry:ui",
+      "description": "A control that allows the user to toggle between checked and not checked.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/primitives-radix-switch"
+    },
+    {
+      "name": "primitives-radix-tabs",
+      "title": "Radix Tabs",
+      "type": "registry:ui",
+      "description": "A set of layered sections of content—known as tab panels—that are displayed one at a time.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/primitives-radix-tabs"
+    },
+    {
+      "name": "primitives-radix-toggle",
+      "title": "Radix Toggle",
+      "type": "registry:ui",
+      "description": "A two-state button that can be either on or off.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/primitives-radix-toggle"
+    },
+    {
+      "name": "primitives-radix-toggle-group",
+      "title": "Radix Toggle Group",
+      "type": "registry:ui",
+      "description": "A set of two-state buttons that can be toggled on or off.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/primitives-radix-toggle-group"
+    },
+    {
+      "name": "primitives-radix-tooltip",
+      "title": "Radix Tooltip",
+      "type": "registry:ui",
+      "description": "A popup that displays information related to an element when the element receives keyboard focus or the mouse hovers over it.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/primitives-radix-tooltip"
+    },
+    {
+      "name": "primitives-texts-counting-number",
+      "title": "Counting Number",
+      "type": "registry:ui",
+      "description": "A counting number animation.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/primitives-texts-counting-number"
+    },
+    {
+      "name": "primitives-texts-gradient",
+      "title": "Gradient Text",
+      "type": "registry:ui",
+      "description": "A gradient text animation.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/primitives-texts-gradient"
+    },
+    {
+      "name": "primitives-texts-highlight",
+      "title": "Highlight Text",
+      "type": "registry:ui",
+      "description": "A highlight text animation.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/primitives-texts-highlight"
+    },
+    {
+      "name": "primitives-texts-morphing",
+      "title": "Morphing Text",
+      "type": "registry:ui",
+      "description": "A text component that smoothly morphs characters to transition between strings.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/primitives-texts-morphing"
+    },
+    {
+      "name": "primitives-texts-rolling",
+      "title": "Rolling Text",
+      "type": "registry:ui",
+      "description": "A rolling text animation.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/primitives-texts-rolling"
+    },
+    {
+      "name": "primitives-texts-rotating",
+      "title": "Rotating Text",
+      "type": "registry:ui",
+      "description": "A rotating text animation.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/primitives-texts-rotating"
+    },
+    {
+      "name": "primitives-texts-scrolling-number",
+      "title": "Scrolling Number",
+      "type": "registry:ui",
+      "description": "A scrolling number animation.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/primitives-texts-scrolling-number"
+    },
+    {
+      "name": "primitives-texts-shimmering",
+      "title": "Shimmering Text",
+      "type": "registry:ui",
+      "description": "A shimmering text animation.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/primitives-texts-shimmering"
+    },
+    {
+      "name": "primitives-texts-sliding-number",
+      "title": "Sliding Number",
+      "type": "registry:ui",
+      "description": "A sliding number animation.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/primitives-texts-sliding-number"
+    },
+    {
+      "name": "primitives-texts-splitting",
+      "title": "Splitting Text",
+      "type": "registry:ui",
+      "description": "A splitting text animation.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/primitives-texts-splitting"
+    },
+    {
+      "name": "primitives-texts-typing",
+      "title": "Typing Text",
+      "type": "registry:ui",
+      "description": "A typing text animation.",
+      "registry": "@animate-ui",
+      "addCommandArgument": "@animate-ui/primitives-texts-typing"
+    }
+  ]
+}

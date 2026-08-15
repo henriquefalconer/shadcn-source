@@ -1,0 +1,256 @@
+[
+  {
+    "family": "DM Sans",
+    "dir": "dm-sans",
+    "license": "OFL-1.1",
+    "copyright": "Copyright 2014 The DM Sans Project Authors (https://github.com/googlefonts/dm-fonts)",
+    "designer": "Colophon Foundry",
+    "reserved_font_name": null,
+    "source": "https://github.com/google/fonts/blob/main/ofl/dmsans/METADATA.pb , https://github.com/google/fonts/blob/main/ofl/dmsans/OFL.txt"
+  },
+  {
+    "family": "EB Garamond",
+    "dir": "eb-garamond",
+    "license": "OFL-1.1",
+    "copyright": "Copyright 2017 The EB Garamond Project Authors (https://github.com/octaviopardo/EBGaramond12)",
+    "designer": "Georg Duffner, Octavio Pardo",
+    "reserved_font_name": null,
+    "source": "https://github.com/google/fonts/blob/main/ofl/ebgaramond/METADATA.pb , https://github.com/google/fonts/blob/main/ofl/ebgaramond/OFL.txt"
+  },
+  {
+    "family": "Figtree",
+    "dir": "figtree",
+    "license": "OFL-1.1",
+    "copyright": "Copyright 2022 The Figtree Project Authors (https://github.com/erikdkennedy/figtree)",
+    "designer": "Erik Kennedy",
+    "reserved_font_name": null,
+    "source": "https://github.com/google/fonts/blob/main/ofl/figtree/METADATA.pb , https://github.com/google/fonts/blob/main/ofl/figtree/OFL.txt"
+  },
+  {
+    "family": "Geist",
+    "dir": "geist",
+    "license": "OFL-1.1",
+    "copyright": "Copyright 2024 The Geist Project Authors (https://github.com/vercel/geist-font.git)",
+    "designer": "Andrés Briganti, Mateo Zaragoza, Guillermo Rauch, Evil Rabbit, José Rago, Facundo Santana",
+    "reserved_font_name": null,
+    "source": "https://github.com/google/fonts/blob/main/ofl/geist/METADATA.pb , https://github.com/google/fonts/blob/main/ofl/geist/OFL.txt"
+  },
+  {
+    "family": "Geist Mono",
+    "dir": "geist-mono",
+    "license": "OFL-1.1",
+    "copyright": "Copyright 2024 The Geist Project Authors (https://github.com/vercel/geist-font.git)",
+    "designer": "Andrés Briganti, Mateo Zaragoza, Guillermo Rauch, Evil Rabbit, José Rago, Facundo Santana",
+    "reserved_font_name": null,
+    "source": "https://github.com/google/fonts/blob/main/ofl/geistmono/METADATA.pb , https://github.com/google/fonts/blob/main/ofl/geistmono/OFL.txt"
+  },
+  {
+    "family": "IBM Plex Mono",
+    "dir": "ibm-plex-mono",
+    "license": "OFL-1.1",
+    "copyright": "Copyright © 2017 IBM Corp. with Reserved Font Name \"Plex\"",
+    "designer": "Mike Abbink, Bold Monday",
+    "reserved_font_name": "Plex",
+    "source": "https://github.com/google/fonts/blob/main/ofl/ibmplexmono/METADATA.pb , https://github.com/google/fonts/blob/main/ofl/ibmplexmono/OFL.txt"
+  },
+  {
+    "family": "IBM Plex Sans",
+    "dir": "ibm-plex-sans",
+    "license": "OFL-1.1",
+    "copyright": "Copyright © 2017 IBM Corp. with Reserved Font Name \"Plex\"",
+    "designer": "Mike Abbink, Bold Monday",
+    "reserved_font_name": "Plex",
+    "source": "https://github.com/google/fonts/blob/main/ofl/ibmplexsans/METADATA.pb , https://github.com/google/fonts/blob/main/ofl/ibmplexsans/OFL.txt"
+  },
+  {
+    "family": "Instrument Sans",
+    "dir": "instrument-sans",
+    "license": "OFL-1.1",
+    "copyright": "Copyright 2022 The Instrument Sans Project Authors (https://github.com/Instrument/instrument-sans)",
+    "designer": "Rodrigo Fuenzalida, Jordan Egstad",
+    "reserved_font_name": null,
+    "source": "https://github.com/google/fonts/blob/main/ofl/instrumentsans/METADATA.pb , https://github.com/google/fonts/blob/main/ofl/instrumentsans/OFL.txt"
+  },
+  {
+    "family": "Instrument Serif",
+    "dir": "instrument-serif",
+    "license": "OFL-1.1",
+    "copyright": "Copyright 2022 The Instrument Serif Project Authors (https://github.com/Instrument/instrument-serif)",
+    "designer": "Rodrigo Fuenzalida, Jordan Egstad",
+    "reserved_font_name": null,
+    "source": "https://github.com/google/fonts/blob/main/ofl/instrumentserif/METADATA.pb , https://github.com/google/fonts/blob/main/ofl/instrumentserif/OFL.txt"
+  },
+  {
+    "family": "Inter",
+    "dir": "inter",
+    "license": "OFL-1.1",
+    "copyright": "Copyright 2020 The Inter Project Authors (https://github.com/rsms/inter)",
+    "designer": "Rasmus Andersson",
+    "reserved_font_name": null,
+    "source": "https://github.com/google/fonts/blob/main/ofl/inter/METADATA.pb , https://github.com/google/fonts/blob/main/ofl/inter/OFL.txt"
+  },
+  {
+    "family": "JetBrains Mono",
+    "dir": "jetbrains-mono",
+    "license": "OFL-1.1",
+    "copyright": "Copyright 2020 The JetBrains Mono Project Authors (https://github.com/JetBrains/JetBrainsMono)",
+    "designer": "JetBrains, Philipp Nurullin, Konstantin Bulenkov",
+    "reserved_font_name": null,
+    "source": "https://github.com/google/fonts/blob/main/ofl/jetbrainsmono/METADATA.pb , https://github.com/google/fonts/blob/main/ofl/jetbrainsmono/OFL.txt"
+  },
+  {
+    "family": "Lora",
+    "dir": "lora",
+    "license": "OFL-1.1",
+    "copyright": "Copyright 2011 The Lora Project Authors (https://github.com/cyrealtype/Lora-Cyrillic), with Reserved Font Name \"Lora\".",
+    "designer": "Cyreal",
+    "reserved_font_name": "Lora",
+    "source": "https://github.com/google/fonts/blob/main/ofl/lora/METADATA.pb , https://github.com/google/fonts/blob/main/ofl/lora/OFL.txt"
+  },
+  {
+    "family": "Manrope",
+    "dir": "manrope",
+    "license": "OFL-1.1",
+    "copyright": "Copyright 2018 The Manrope Project Authors (https://github.com/sharanda/manrope)",
+    "designer": "Mikhail Sharanda",
+    "reserved_font_name": null,
+    "source": "https://github.com/google/fonts/blob/main/ofl/manrope/METADATA.pb , https://github.com/google/fonts/blob/main/ofl/manrope/OFL.txt"
+  },
+  {
+    "family": "Merriweather",
+    "dir": "merriweather",
+    "license": "OFL-1.1",
+    "copyright": "Copyright 2020 The Merriweather Project Authors (https://github.com/EbenSorkin/Merriweather4) with Reserved Font Name \"Merriweather\".",
+    "designer": "Sorkin Type",
+    "reserved_font_name": "Merriweather",
+    "source": "https://github.com/google/fonts/blob/main/ofl/merriweather/METADATA.pb , https://github.com/google/fonts/blob/main/ofl/merriweather/OFL.txt"
+  },
+  {
+    "family": "Montserrat",
+    "dir": "montserrat",
+    "license": "OFL-1.1",
+    "copyright": "Copyright 2024 The Montserrat.Git Project Authors (https://github.com/JulietaUla/Montserrat.git)",
+    "designer": "Julieta Ulanovsky, Sol Matas, Juan Pablo del Peral, Jacques Le Bailly",
+    "reserved_font_name": null,
+    "source": "https://github.com/google/fonts/blob/main/ofl/montserrat/METADATA.pb , https://github.com/google/fonts/blob/main/ofl/montserrat/OFL.txt"
+  },
+  {
+    "family": "Noto Sans",
+    "dir": "noto-sans",
+    "license": "OFL-1.1",
+    "copyright": "Copyright 2022 The Noto Project Authors (https://github.com/notofonts/latin-greek-cyrillic)",
+    "designer": "Google",
+    "reserved_font_name": null,
+    "source": "https://github.com/google/fonts/blob/main/ofl/notosans/METADATA.pb , https://github.com/google/fonts/blob/main/ofl/notosans/OFL.txt"
+  },
+  {
+    "family": "Noto Serif",
+    "dir": "noto-serif",
+    "license": "OFL-1.1",
+    "copyright": "Copyright 2022 The Noto Project Authors (https://github.com/notofonts/latin-greek-cyrillic)",
+    "designer": "Google",
+    "reserved_font_name": null,
+    "source": "https://github.com/google/fonts/blob/main/ofl/notoserif/METADATA.pb , https://github.com/google/fonts/blob/main/ofl/notoserif/OFL.txt"
+  },
+  {
+    "family": "Nunito Sans",
+    "dir": "nunito-sans",
+    "license": "OFL-1.1",
+    "copyright": "Copyright 2016 The Nunito Sans Project Authors (https://github.com/Fonthausen/NunitoSans)",
+    "designer": "Vernon Adams, Jacques Le Bailly, Manvel Shmavonyan, Alexei Vanyashin",
+    "reserved_font_name": null,
+    "source": "https://github.com/google/fonts/blob/main/ofl/nunitosans/METADATA.pb , https://github.com/google/fonts/blob/main/ofl/nunitosans/OFL.txt"
+  },
+  {
+    "family": "Outfit",
+    "dir": "outfit",
+    "license": "OFL-1.1",
+    "copyright": "Copyright 2021 The Outfit Project Authors (https://github.com/Outfitio/Outfit-Fonts)",
+    "designer": "Smartsheet Inc, Rodrigo Fuenzalida",
+    "reserved_font_name": null,
+    "source": "https://github.com/google/fonts/blob/main/ofl/outfit/METADATA.pb , https://github.com/google/fonts/blob/main/ofl/outfit/OFL.txt"
+  },
+  {
+    "family": "Oxanium",
+    "dir": "oxanium",
+    "license": "OFL-1.1",
+    "copyright": "Copyright 2019 The Oxanium Project Authors (https://github.com/sevmeyer/oxanium)",
+    "designer": "Severin Meyer",
+    "reserved_font_name": null,
+    "source": "https://github.com/google/fonts/blob/main/ofl/oxanium/METADATA.pb , https://github.com/google/fonts/blob/main/ofl/oxanium/OFL.txt"
+  },
+  {
+    "family": "Playfair Display",
+    "dir": "playfair-display",
+    "license": "OFL-1.1",
+    "copyright": "Copyright 2017 The Playfair Display Project Authors (https://github.com/clauseggers/Playfair-Display), with Reserved Font Name \"Playfair Display\"",
+    "designer": "Claus Eggers Sørensen",
+    "reserved_font_name": "Playfair Display",
+    "source": "https://github.com/google/fonts/blob/main/ofl/playfairdisplay/METADATA.pb , https://github.com/google/fonts/blob/main/ofl/playfairdisplay/OFL.txt"
+  },
+  {
+    "family": "Public Sans",
+    "dir": "public-sans",
+    "license": "OFL-1.1",
+    "copyright": "Copyright 2015 The Public Sans Project Authors (https://github.com/uswds/public-sans)",
+    "designer": "USWDS, Dan Williams, Pablo Impallari, Rodrigo Fuenzalida",
+    "reserved_font_name": null,
+    "source": "https://github.com/google/fonts/blob/main/ofl/publicsans/METADATA.pb , https://github.com/google/fonts/blob/main/ofl/publicsans/OFL.txt"
+  },
+  {
+    "family": "Raleway",
+    "dir": "raleway",
+    "license": "OFL-1.1",
+    "copyright": "Copyright 2010 The Raleway Project Authors (impallari@gmail.com), with Reserved Font Name \"Raleway\".",
+    "designer": "Matt McInerney, Pablo Impallari, Rodrigo Fuenzalida",
+    "reserved_font_name": "Raleway",
+    "source": "https://github.com/google/fonts/blob/main/ofl/raleway/METADATA.pb , https://github.com/google/fonts/blob/main/ofl/raleway/OFL.txt"
+  },
+  {
+    "family": "Roboto",
+    "dir": "roboto",
+    "license": "OFL-1.1",
+    "copyright": "Copyright 2011 The Roboto Project Authors (https://github.com/googlefonts/roboto-classic)",
+    "designer": "Christian Robertson, ParaType, Font Bureau",
+    "reserved_font_name": null,
+    "source": "https://github.com/google/fonts/blob/main/ofl/roboto/METADATA.pb , https://github.com/google/fonts/blob/main/ofl/roboto/OFL.txt",
+    "note": "Relicensed from Apache License 2.0 to OFL-1.1 by Google in 2021; the archive's current METADATA.pb and OFL.txt both confirm OFL-1.1 as of the pinned commit."
+  },
+  {
+    "family": "Roboto Flex",
+    "dir": "roboto-flex",
+    "license": "OFL-1.1",
+    "copyright": "Copyright 2017 The Roboto Flex Project Authors (https://github.com/TypeNetwork/Roboto-Flex)",
+    "designer": "Font Bureau, David Berlow, Santiago Orozco, Irene Vlachou, Ilya Ruderman, Yury Ostromentsky, Mikhail Strukov",
+    "reserved_font_name": null,
+    "source": "https://github.com/google/fonts/blob/main/ofl/robotoflex/METADATA.pb , https://github.com/google/fonts/blob/main/ofl/robotoflex/OFL.txt"
+  },
+  {
+    "family": "Roboto Slab",
+    "dir": "roboto-slab",
+    "license": "Apache-2.0",
+    "copyright": "Copyright 2018 The Roboto Slab Project Authors (https://github.com/googlefonts/robotoslab)",
+    "designer": "Christian Robertson",
+    "reserved_font_name": null,
+    "source": "https://github.com/google/fonts/blob/main/apache/robotoslab/METADATA.pb , https://github.com/google/fonts/blob/main/apache/robotoslab/LICENSE.txt",
+    "note": "The only one of the 28 bundled families NOT under OFL-1.1. Licensed under the plain Apache License 2.0 (LICENSE.txt is the standard Apache 2.0 boilerplate; per-family copyright is carried in METADATA.pb, not in the license file body)."
+  },
+  {
+    "family": "Source Sans 3",
+    "dir": "source-sans-3",
+    "license": "OFL-1.1",
+    "copyright": "Copyright 2010-2020 Adobe (http://www.adobe.com/), with Reserved Font Name 'Source'. All Rights Reserved. Source is a trademark of Adobe in the United States and/or other countries.",
+    "designer": "Paul D. Hunt",
+    "reserved_font_name": "Source",
+    "source": "https://github.com/google/fonts/blob/main/ofl/sourcesans3/METADATA.pb , https://github.com/google/fonts/blob/main/ofl/sourcesans3/OFL.txt"
+  },
+  {
+    "family": "Space Grotesk",
+    "dir": "space-grotesk",
+    "license": "OFL-1.1",
+    "copyright": "Copyright 2020 The Space Grotesk Project Authors (https://github.com/floriankarsten/space-grotesk)",
+    "designer": "Florian Karsten",
+    "reserved_font_name": null,
+    "source": "https://github.com/google/fonts/blob/main/ofl/spacegrotesk/METADATA.pb , https://github.com/google/fonts/blob/main/ofl/spacegrotesk/OFL.txt"
+  }
+]

@@ -1,0 +1,2099 @@
+# name	type	description
+@ai-elements/agent	component	AI-powered agent component.
+@ai-elements/artifact	component	AI-powered artifact component.
+@ai-elements/attachments	component	AI-powered attachments component.
+@ai-elements/audio-player	component	AI-powered audio player component.
+@ai-elements/canvas	component	AI-powered canvas component.
+@ai-elements/chain-of-thought	component	AI-powered chain of-thought component.
+@ai-elements/checkpoint	component	AI-powered checkpoint component.
+@ai-elements/code-block	component	AI-powered code block component.
+@ai-elements/commit	component	AI-powered commit component.
+@ai-elements/confirmation	component	AI-powered confirmation component.
+@ai-elements/connection	component	AI-powered connection component.
+@ai-elements/context	component	AI-powered context component.
+@ai-elements/controls	component	AI-powered controls component.
+@ai-elements/conversation	component	AI-powered conversation component.
+@ai-elements/edge	component	AI-powered edge component.
+@ai-elements/environment-variables	component	AI-powered environment variables component.
+@ai-elements/example-agent	block	Example implementation of agent.
+@ai-elements/example-artifact	block	Example implementation of artifact.
+@ai-elements/example-attachments	block	Example implementation of attachments.
+@ai-elements/example-attachments-inline	block	Example implementation of attachments inline.
+@ai-elements/example-attachments-list	block	Example implementation of attachments list.
+@ai-elements/example-audio-player	block	Example implementation of audio player.
+@ai-elements/example-audio-player-remote	block	Example implementation of audio player-remote.
+@ai-elements/example-chain-of-thought	block	Example implementation of chain of-thought.
+@ai-elements/example-chatbot	block	Example implementation of chatbot.
+@ai-elements/example-checkpoint	block	Example implementation of checkpoint.
+@ai-elements/example-code-block	block	Example implementation of code block.
+@ai-elements/example-code-block-dark	block	Example implementation of code block-dark.
+@ai-elements/example-commit	block	Example implementation of commit.
+@ai-elements/example-confirmation	block	Example implementation of confirmation.
+@ai-elements/example-confirmation-accepted	block	Example implementation of confirmation accepted.
+@ai-elements/example-confirmation-rejected	block	Example implementation of confirmation rejected.
+@ai-elements/example-confirmation-request	block	Example implementation of confirmation request.
+@ai-elements/example-context	block	Example implementation of context.
+@ai-elements/example-conversation	block	Example implementation of conversation.
+@ai-elements/example-demo-chatgpt	block	Example implementation of demo chatgpt.
+@ai-elements/example-demo-claude	block	Example implementation of demo claude.
+@ai-elements/example-demo-cursor	block	Example implementation of demo cursor.
+@ai-elements/example-demo-grok	block	Example implementation of demo grok.
+@ai-elements/example-demo-workflow	block	Example implementation of demo workflow.
+@ai-elements/example-environment-variables	block	Example implementation of environment variables.
+@ai-elements/example-file-tree	block	Example implementation of file tree.
+@ai-elements/example-file-tree-basic	block	Example implementation of file tree-basic.
+@ai-elements/example-file-tree-expanded	block	Example implementation of file tree-expanded.
+@ai-elements/example-file-tree-selection	block	Example implementation of file tree-selection.
+@ai-elements/example-image	block	Example implementation of image.
+@ai-elements/example-inline-citation	block	Example implementation of inline citation.
+@ai-elements/example-jsx-preview	block	Example implementation of jsx preview.
+@ai-elements/example-message	block	Example implementation of message.
+@ai-elements/example-mic-selector	block	Example implementation of mic selector.
+@ai-elements/example-model-selector	block	Example implementation of model selector.
+@ai-elements/example-open-in-chat	block	Example implementation of open in-chat.
+@ai-elements/example-package-info	block	Example implementation of package info.
+@ai-elements/example-persona-command	block	Example implementation of persona command.
+@ai-elements/example-persona-glint	block	Example implementation of persona glint.
+@ai-elements/example-persona-halo	block	Example implementation of persona halo.
+@ai-elements/example-persona-mana	block	Example implementation of persona mana.
+@ai-elements/example-persona-obsidian	block	Example implementation of persona obsidian.
+@ai-elements/example-persona-opal	block	Example implementation of persona opal.
+@ai-elements/example-plan	block	Example implementation of plan.
+@ai-elements/example-prompt-input	block	Example implementation of prompt input.
+@ai-elements/example-prompt-input-cursor	block	Example implementation of prompt input-cursor.
+@ai-elements/example-prompt-input-tooltip	block	Example implementation of prompt input-tooltip.
+@ai-elements/example-queue	block	Example implementation of queue.
+@ai-elements/example-queue-prompt-input	block	Example implementation of queue prompt-input.
+@ai-elements/example-reasoning	block	Example implementation of reasoning.
+@ai-elements/example-sandbox	block	Example implementation of sandbox.
+@ai-elements/example-schema-display	block	Example implementation of schema display.
+@ai-elements/example-schema-display-basic	block	Example implementation of schema display-basic.
+@ai-elements/example-schema-display-body	block	Example implementation of schema display-body.
+@ai-elements/example-schema-display-nested	block	Example implementation of schema display-nested.
+@ai-elements/example-schema-display-params	block	Example implementation of schema display-params.
+@ai-elements/example-shimmer	block	Example implementation of shimmer.
+@ai-elements/example-shimmer-duration	block	Example implementation of shimmer duration.
+@ai-elements/example-shimmer-elements	block	Example implementation of shimmer elements.
+@ai-elements/example-snippet	block	Example implementation of snippet.
+@ai-elements/example-snippet-plain	block	Example implementation of snippet plain.
+@ai-elements/example-sources	block	Example implementation of sources.
+@ai-elements/example-sources-custom	block	Example implementation of sources custom.
+@ai-elements/example-speech-input	block	Example implementation of speech input.
+@ai-elements/example-stack-trace	block	Example implementation of stack trace.
+@ai-elements/example-stack-trace-collapsed	block	Example implementation of stack trace-collapsed.
+@ai-elements/example-stack-trace-no-internal	block	Example implementation of stack trace-no-internal.
+@ai-elements/example-suggestion	block	Example implementation of suggestion.
+@ai-elements/example-suggestion-input	block	Example implementation of suggestion input.
+@ai-elements/example-task	block	Example implementation of task.
+@ai-elements/example-terminal	block	Example implementation of terminal.
+@ai-elements/example-terminal-basic	block	Example implementation of terminal basic.
+@ai-elements/example-terminal-clear	block	Example implementation of terminal clear.
+@ai-elements/example-terminal-streaming	block	Example implementation of terminal streaming.
+@ai-elements/example-test-results	block	Example implementation of test results.
+@ai-elements/example-test-results-basic	block	Example implementation of test results-basic.
+@ai-elements/example-test-results-errors	block	Example implementation of test results-errors.
+@ai-elements/example-test-results-suites	block	Example implementation of test results-suites.
+@ai-elements/example-tool	block	Example implementation of tool.
+@ai-elements/example-tool-input-available	block	Example implementation of tool input-available.
+@ai-elements/example-tool-input-streaming	block	Example implementation of tool input-streaming.
+@ai-elements/example-tool-output-available	block	Example implementation of tool output-available.
+@ai-elements/example-tool-output-error	block	Example implementation of tool output-error.
+@ai-elements/example-transcription	block	Example implementation of transcription.
+@ai-elements/example-v0-clone	block	Example implementation of v0 clone.
+@ai-elements/example-voice-selector	block	Example implementation of voice selector.
+@ai-elements/example-web-preview	block	Example implementation of web preview.
+@ai-elements/example-workflow	block	Example implementation of workflow.
+@ai-elements/file-tree	component	AI-powered file tree component.
+@ai-elements/image	component	AI-powered image component.
+@ai-elements/inline-citation	component	AI-powered inline citation component.
+@ai-elements/jsx-preview	component	AI-powered jsx preview component.
+@ai-elements/message	component	AI-powered message component.
+@ai-elements/mic-selector	component	AI-powered mic selector component.
+@ai-elements/model-selector	component	AI-powered model selector component.
+@ai-elements/node	component	AI-powered node component.
+@ai-elements/open-in-chat	component	AI-powered open in-chat component.
+@ai-elements/package-info	component	AI-powered package info component.
+@ai-elements/panel	component	AI-powered panel component.
+@ai-elements/persona	component	AI-powered persona component.
+@ai-elements/plan	component	AI-powered plan component.
+@ai-elements/prompt-input	component	AI-powered prompt input component.
+@ai-elements/queue	component	AI-powered queue component.
+@ai-elements/reasoning	component	AI-powered reasoning component.
+@ai-elements/sandbox	component	AI-powered sandbox component.
+@ai-elements/schema-display	component	AI-powered schema display component.
+@ai-elements/shimmer	component	AI-powered shimmer component.
+@ai-elements/snippet	component	AI-powered snippet component.
+@ai-elements/sources	component	AI-powered sources component.
+@ai-elements/speech-input	component	AI-powered speech input component.
+@ai-elements/stack-trace	component	AI-powered stack trace component.
+@ai-elements/suggestion	component	AI-powered suggestion component.
+@ai-elements/task	component	AI-powered task component.
+@ai-elements/terminal	component	AI-powered terminal component.
+@ai-elements/test-results	component	AI-powered test results component.
+@ai-elements/tool	component	AI-powered tool component.
+@ai-elements/toolbar	component	AI-powered toolbar component.
+@ai-elements/transcription	component	AI-powered transcription component.
+@ai-elements/voice-selector	component	AI-powered voice selector component.
+@ai-elements/web-preview	component	AI-powered web preview component.
+@animate-ui/components-animate-avatar-group	ui	An animated avatar group that displays overlapping user images and smoothly shifts each avatar forward on hover to highlight it.
+@animate-ui/components-animate-code	ui	A code component that animates the code as it is written.
+@animate-ui/components-animate-code-tabs	ui	A tabs component that displays code for different languages.
+@animate-ui/components-animate-cursor	ui	An animated cursor component that allows you to customize both the cursor and cursor follow elements with smooth animations.
+@animate-ui/components-animate-github-stars-wheel	ui	A scrolling wheel that displays GitHub stars count.
+@animate-ui/components-animate-tabs	ui	A set of layered sections of content—known as tab panels—that are displayed one at a time.
+@animate-ui/components-animate-tooltip	ui	A tooltip is a small box that appears when hovering over an element.
+@animate-ui/components-backgrounds-bubble	ui	An interactive background featuring smoothly animated gradient bubbles, creating a playful, dynamic, and visually engaging backdrop.
+@animate-ui/components-backgrounds-fireworks	ui	A background component that displays a fireworks animation.
+@animate-ui/components-backgrounds-gradient	ui	A background component featuring a subtle yet engaging animated gradient effect, smoothly transitioning colors to enhance visual depth.
+@animate-ui/components-backgrounds-gravity-stars	ui	A background component featuring a subtle yet engaging animated gravity stars effect.
+@animate-ui/components-backgrounds-hexagon	ui	A background component featuring an interactive hexagon grid.
+@animate-ui/components-backgrounds-hole	ui	A background component featuring an animated hole grid.
+@animate-ui/components-backgrounds-stars	ui	An interactive background featuring animated dots of varying sizes and speeds, simulating a dynamic and immersive starry space effect.
+@animate-ui/components-base-accordion	ui	A set of collapsible panels with headings.
+@animate-ui/components-base-alert-dialog	ui	A dialog that requires user response to proceed.
+@animate-ui/components-base-checkbox	ui	An easily stylable checkbox component.
+@animate-ui/components-base-dialog	ui	A popup that opens on top of the entire page.
+@animate-ui/components-base-files	ui	A component that allows you to display a list of files and folders.
+@animate-ui/components-base-menu	ui	A list of actions in a dropdown, enhanced with keyboard navigation.
+@animate-ui/components-base-popover	ui	An accessible popup anchored to a button.
+@animate-ui/components-base-preview-card	ui	A popup that appears when a link is hovered, showing a preview for sighted users.
+@animate-ui/components-base-preview-link-card	ui	Displays a preview image of a link when hovered.
+@animate-ui/components-base-progress	ui	Displays the status of a task that takes a long time.
+@animate-ui/components-base-radio	ui	An easily stylable radio button component.
+@animate-ui/components-base-switch	ui	A control that indicates whether a setting is on or off.
+@animate-ui/components-base-tabs	ui	A component for toggling between related panels on the same page.
+@animate-ui/components-base-toggle	ui	A two-state button that can be on or off.
+@animate-ui/components-base-toggle-group	ui	Provides a shared state to a series of toggle buttons.
+@animate-ui/components-base-tooltip	ui	A popup that appears when an element is hovered or focused, showing a hint for sighted users.
+@animate-ui/components-buttons-button	ui	A button component with a variety of styles and animations.
+@animate-ui/components-buttons-copy	ui	A copy button component with a variety of styles and animations.
+@animate-ui/components-buttons-flip	ui	A button that flips between two states on hover.
+@animate-ui/components-buttons-github-stars	ui	A clickable button that links to a GitHub repository and displays the number of stars.
+@animate-ui/components-buttons-icon	ui	An icon button component with a variety of styles and animations.
+@animate-ui/components-buttons-liquid	ui	A button that fills on hover.
+@animate-ui/components-buttons-ripple	ui	A button that animates on tap with a ripple effect.
+@animate-ui/components-buttons-theme-toggler	ui	A button that toggles the theme gradually.
+@animate-ui/components-community-flip-card	ui	A 3D animated card component that flips to reveal content on the back.
+@animate-ui/components-community-management-bar	ui	A management bar for managing items.
+@animate-ui/components-community-motion-carousel	ui	A carousel built on top of Embla Carousel with smooth Motion-powered animations. Each slide scales dynamically based on its active state, and the pagination use
+@animate-ui/components-community-notification-list	ui	A fun notification list with animated stacking and cards that expand as you interact.
+@animate-ui/components-community-pin-list	ui	A playful list for pinning and unpinning items, with smooth animated transitions as items move between groups.
+@animate-ui/components-community-playful-todolist	ui	A playful todolist component with animated wavy strikethroughs for each completed task.
+@animate-ui/components-community-radial-intro	ui	A circular intro animation component that arranges elements in a radial layout, smoothly transitioning them into orbit with looping motion.
+@animate-ui/components-community-radial-menu	ui	A circular context menu built with Base UI, displaying actions in a clean radial layout with full keyboard support and smooth interaction.
+@animate-ui/components-community-radial-nav	ui	A circular navigation menu with animated pointer and expanding buttons for smooth interactive transitions.
+@animate-ui/components-community-share-button	ui	This is a button for sharing.
+@animate-ui/components-community-user-presence-avatar	ui	A compact avatar group for showing online and offline users, with smooth animated transitions when presence changes.
+@animate-ui/components-headless-accordion	ui	A vertically stacked set of interactive headings that each reveal an associated section of content.
+@animate-ui/components-headless-checkbox	ui	Checkboxes provide the same functionality as native HTML checkboxes, without any of the styling, giving you a clean slate to design them however you'd like.
+@animate-ui/components-headless-dialog	ui	A fully-managed, renderless dialog component jam-packed with accessibility and keyboard features, perfect for building completely custom dialogs and alerts.
+@animate-ui/components-headless-popover	ui	Popovers are perfect for floating panels with arbitrary content like navigation menus, mobile menus and flyout menus.
+@animate-ui/components-headless-switch	ui	Switches are a pleasant interface for toggling a value between two states, and offer the same semantics and keyboard navigation as native checkbox elements.
+@animate-ui/components-headless-tabs	ui	Easily create accessible, fully customizable tab interfaces, with robust focus management and keyboard navigation support.
+@animate-ui/components-radix-accordion	ui	A vertically stacked set of interactive headings that each reveal an associated section of content.
+@animate-ui/components-radix-alert-dialog	ui	A modal dialog that interrupts the user with important content and expects a response.
+@animate-ui/components-radix-checkbox	ui	A control that allows the user to toggle between checked and not checked.
+@animate-ui/components-radix-dialog	ui	A window overlaid on either the primary window or another dialog window, rendering the content underneath inert.
+@animate-ui/components-radix-dropdown-menu	ui	Displays a menu to the user — such as a set of actions or functions — triggered by a button.
+@animate-ui/components-radix-files	ui	A component that allows you to display a list of files and folders.
+@animate-ui/components-radix-hover-card	ui	For sighted users to preview content available behind a link.
+@animate-ui/components-radix-popover	ui	Displays rich content in a portal, triggered by a button.
+@animate-ui/components-radix-preview-link-card	ui	Displays a preview image of a link when hovered.
+@animate-ui/components-radix-progress	ui	Displays an indicator showing the completion progress of a task, typically displayed as a progress bar.
+@animate-ui/components-radix-radio-group	ui	A set of checkable buttons—known as radio buttons—where no more than one of the buttons can be checked at a time.
+@animate-ui/components-radix-sheet	ui	Extends the Dialog component to display content that complements the main content of the screen.
+@animate-ui/components-radix-sidebar	ui	A composable, themeable and customizable sidebar component. Created by Shadcn and animated by Animate UI.
+@animate-ui/components-radix-switch	ui	A control that allows the user to toggle between checked and not checked.
+@animate-ui/components-radix-tabs	ui	A set of layered sections of content—known as tab panels—that are displayed one at a time.
+@animate-ui/components-radix-toggle	ui	A two-state button that can be either on or off.
+@animate-ui/components-radix-toggle-group	ui	A set of two-state buttons that can be toggled on or off.
+@animate-ui/components-radix-tooltip	ui	A popup that displays information related to an element when the element receives keyboard focus or the mouse hovers over it.
+@animate-ui/demo-components-animate-avatar-group	ui	Demo showing a avatar group.
+@animate-ui/demo-components-animate-code	ui	Demo showing a code.
+@animate-ui/demo-components-animate-code-tabs	ui	Demo showing a code tabs.
+@animate-ui/demo-components-animate-cursor	ui	Demo showing a cursor.
+@animate-ui/demo-components-animate-github-stars-wheel	ui	Demo showing an animated github stars wheel.
+@animate-ui/demo-components-animate-tabs	ui	Demo showing an animated tabs.
+@animate-ui/demo-components-animate-tooltip	ui	Demo showing an animated tooltip.
+@animate-ui/demo-components-backgrounds-bubble	ui	Demo showing a bubble background.
+@animate-ui/demo-components-backgrounds-fireworks	ui	Demo showing a fireworks background.
+@animate-ui/demo-components-backgrounds-fireworks-circle	ui	Demo showing a fireworks circle background.
+@animate-ui/demo-components-backgrounds-gradient	ui	Demo showing a gradient background.
+@animate-ui/demo-components-backgrounds-gravity-stars	ui	Demo showing a gravity stars background.
+@animate-ui/demo-components-backgrounds-hexagon	ui	Demo showing a hexagon background.
+@animate-ui/demo-components-backgrounds-hole	ui	Demo showing a hole background.
+@animate-ui/demo-components-backgrounds-stars	ui	Demo showing a stars background.
+@animate-ui/demo-components-base-accordion	ui	Demo showing a accordion.
+@animate-ui/demo-components-base-alert-dialog	ui	Demo showing a alert dialog.
+@animate-ui/demo-components-base-checkbox	ui	Demo showing a checkbox.
+@animate-ui/demo-components-base-dialog	ui	Demo showing a dialog.
+@animate-ui/demo-components-base-files	ui	Demo showing a files.
+@animate-ui/demo-components-base-menu	ui	Demo showing a menu.
+@animate-ui/demo-components-base-menu-checkbox	ui	Demo showing a menu checkbox.
+@animate-ui/demo-components-base-menu-radio	ui	Demo showing a menu radio.
+@animate-ui/demo-components-base-popover	ui	Demo showing a popover.
+@animate-ui/demo-components-base-preview-card	ui	Demo showing a preview card.
+@animate-ui/demo-components-base-preview-link-card	ui	Demo showing a preview link card.
+@animate-ui/demo-components-base-progress	ui	Demo showing a progress bar.
+@animate-ui/demo-components-base-radio	ui	Demo showing a base radio.
+@animate-ui/demo-components-base-switch	ui	Demo showing a switch.
+@animate-ui/demo-components-base-tabs	ui	Demo showing a base tabs.
+@animate-ui/demo-components-base-toggle	ui	Demo showing a toggle.
+@animate-ui/demo-components-base-toggle-group	ui	Demo showing a toggle group.
+@animate-ui/demo-components-base-tooltip	ui	Demo showing a tooltip.
+@animate-ui/demo-components-buttons-button	ui	Demo showing a button.
+@animate-ui/demo-components-buttons-copy	ui	Demo showing a copy button.
+@animate-ui/demo-components-buttons-flip	ui	Demo showing a flip button.
+@animate-ui/demo-components-buttons-github-stars	ui	Demo showing a GitHub stars button.
+@animate-ui/demo-components-buttons-icon	ui	Demo showing an icon button.
+@animate-ui/demo-components-buttons-liquid	ui	Demo showing a liquid button.
+@animate-ui/demo-components-buttons-ripple	ui	Demo showing a ripple button.
+@animate-ui/demo-components-buttons-theme-toggler	ui	Demo showing a theme toggler button.
+@animate-ui/demo-components-community-flip-card	ui	Demo showing the flip card component.
+@animate-ui/demo-components-community-management-bar	ui	Demo showing a management bar.
+@animate-ui/demo-components-community-motion-carousel	ui	Demo showing motion carousel.
+@animate-ui/demo-components-community-notification-list	ui	Demo showing a notification list.
+@animate-ui/demo-components-community-pin-list	ui	Demo showing a pin list.
+@animate-ui/demo-components-community-playful-todolist	ui	Demo showing a playful todolist.
+@animate-ui/demo-components-community-radial-intro	ui	Demo showing radial intro.
+@animate-ui/demo-components-community-radial-menu	ui	Demo Radial Menu.
+@animate-ui/demo-components-community-radial-nav	ui	Demo Radial Nav.
+@animate-ui/demo-components-community-share-button	ui	Demo showing a share button.
+@animate-ui/demo-components-community-user-presence-avatar	ui	Demo showing a user presence avatar.
+@animate-ui/demo-components-headless-accordion	ui	Demo showing a accordion.
+@animate-ui/demo-components-headless-checkbox	ui	Demo showing a checkbox.
+@animate-ui/demo-components-headless-dialog	ui	Demo showing a dialog.
+@animate-ui/demo-components-headless-popover	ui	Demo showing a popover.
+@animate-ui/demo-components-headless-switch	ui	Demo showing a headless switch.
+@animate-ui/demo-components-headless-tabs	ui	Demo showing a headless tabs.
+@animate-ui/demo-components-radix-accordion	ui	Demo showing a accordion.
+@animate-ui/demo-components-radix-alert-dialog	ui	Demo showing a alert dialog.
+@animate-ui/demo-components-radix-checkbox	ui	Demo showing a checkbox.
+@animate-ui/demo-components-radix-dialog	ui	Demo showing a dialog.
+@animate-ui/demo-components-radix-dropdown-menu	ui	Demo showing a dropdown menu.
+@animate-ui/demo-components-radix-dropdown-menu-checkbox	ui	Demo showing a dropdown menu with a checkbox.
+@animate-ui/demo-components-radix-dropdown-menu-radio	ui	Demo showing a dropdown menu with a radio.
+@animate-ui/demo-components-radix-files	ui	Demo showing a files.
+@animate-ui/demo-components-radix-hover-card	ui	Demo showing a hover card.
+@animate-ui/demo-components-radix-popover	ui	Demo showing a popover.
+@animate-ui/demo-components-radix-preview-link-card	ui	Demo showing a preview link card.
+@animate-ui/demo-components-radix-progress	ui	Demo showing a radix progress.
+@animate-ui/demo-components-radix-radio-group	ui	Demo showing a radix radio group.
+@animate-ui/demo-components-radix-sheet	ui	Demo showing a radix sheet.
+@animate-ui/demo-components-radix-sidebar	ui	Demo showing a radix sidebar.
+@animate-ui/demo-components-radix-switch	ui	Demo showing a radix switch.
+@animate-ui/demo-components-radix-tabs	ui	Demo showing a radix tabs.
+@animate-ui/demo-components-radix-toggle	ui	Demo showing a radix toggle.
+@animate-ui/demo-components-radix-toggle-group	ui	Demo showing a radix toggle group.
+@animate-ui/demo-components-radix-tooltip	ui	Demo showing a radix tooltip.
+@animate-ui/demo-primitives-animate-avatar-group	ui	Demo showing an animated avatar group.
+@animate-ui/demo-primitives-animate-code-block	ui	Demo showing an animated code block.
+@animate-ui/demo-primitives-animate-cursor	ui	Demo showing an animated cursor.
+@animate-ui/demo-primitives-animate-github-stars	ui	Demo showing an animated github stars counter.
+@animate-ui/demo-primitives-animate-motion-grid	ui	Demo showing an animated motion grid.
+@animate-ui/demo-primitives-animate-pinned-list	ui	Demo showing an animated pinned list.
+@animate-ui/demo-primitives-animate-scroll-progress	ui	Demo showing an animated scroll progress.
+@animate-ui/demo-primitives-animate-spring	ui	Demo showing an animated spring.
+@animate-ui/demo-primitives-animate-tabs	ui	Demo showing an animated tabs.
+@animate-ui/demo-primitives-animate-tooltip	ui	Demo showing an animated tooltip.
+@animate-ui/demo-primitives-base-accordion	ui	Demo showing an animated base accordion.
+@animate-ui/demo-primitives-base-alert-dialog	ui	Demo showing an animated base alert dialog.
+@animate-ui/demo-primitives-base-checkbox	ui	Demo showing an animated base checkbox.
+@animate-ui/demo-primitives-base-collapsible	ui	Demo showing an animated base collapsible.
+@animate-ui/demo-primitives-base-dialog	ui	Demo showing an animated base dialog.
+@animate-ui/demo-primitives-base-files	ui	Demo showing an animated base files.
+@animate-ui/demo-primitives-base-menu	ui	Demo showing an animated base menu.
+@animate-ui/demo-primitives-base-popover	ui	Demo showing an animated base popover.
+@animate-ui/demo-primitives-base-preview-card	ui	Demo showing an animated base preview card.
+@animate-ui/demo-primitives-base-preview-link-card	ui	Demo showing an animated base preview link card.
+@animate-ui/demo-primitives-base-progress	ui	Demo showing an animated base progress.
+@animate-ui/demo-primitives-base-radio	ui	Demo showing an animated base radio.
+@animate-ui/demo-primitives-base-switch	ui	Demo showing an animated base switch.
+@animate-ui/demo-primitives-base-tabs	ui	Demo showing an animated base tabs.
+@animate-ui/demo-primitives-base-toggle	ui	Demo showing an animated base toggle.
+@animate-ui/demo-primitives-base-toggle-group	ui	Demo showing an animated base toggle group.
+@animate-ui/demo-primitives-base-tooltip	ui	Demo showing an animated base tooltip.
+@animate-ui/demo-primitives-buttons-button	ui	Demo showing a button.
+@animate-ui/demo-primitives-buttons-flip	ui	Demo showing an animated flip button.
+@animate-ui/demo-primitives-buttons-liquid	ui	Demo showing an animated liquid button.
+@animate-ui/demo-primitives-buttons-ripple	ui	Demo showing a ripple button.
+@animate-ui/demo-primitives-effects-auto-height	ui	Demo showing an animated auto height.
+@animate-ui/demo-primitives-effects-blur	ui	Demo showing an animated blur.
+@animate-ui/demo-primitives-effects-click	ui	Demo showing an animated click.
+@animate-ui/demo-primitives-effects-effect	ui	Demo showing an animated effect.
+@animate-ui/demo-primitives-effects-fade	ui	Demo showing an animated fade.
+@animate-ui/demo-primitives-effects-highlight	ui	Demo showing an animated highlight.
+@animate-ui/demo-primitives-effects-image-zoom	ui	Demo showing a image zoom effect.
+@animate-ui/demo-primitives-effects-magnetic	ui	Demo showing a magnetic effect.
+@animate-ui/demo-primitives-effects-particles	ui	Demo showing an animated particles.
+@animate-ui/demo-primitives-effects-shine	ui	Demo showing an animated shine.
+@animate-ui/demo-primitives-effects-slide	ui	Demo showing an animated slide.
+@animate-ui/demo-primitives-effects-theme-toggler	ui	Demo showing a theme toggler.
+@animate-ui/demo-primitives-effects-tilt	ui	Demo showing an animated tilt.
+@animate-ui/demo-primitives-effects-zoom	ui	Demo showing an animated zoom.
+@animate-ui/demo-primitives-headless-checkbox	ui	Demo showing an animated headless checkbox.
+@animate-ui/demo-primitives-headless-dialog	ui	Demo showing an animated headless dialog.
+@animate-ui/demo-primitives-headless-disclosure	ui	Demo showing an animated headless disclosure.
+@animate-ui/demo-primitives-headless-popover	ui	Demo showing an animated headless popover.
+@animate-ui/demo-primitives-headless-switch	ui	Demo showing an animated headless switch.
+@animate-ui/demo-primitives-headless-tabs	ui	Demo showing an animated headless tabs.
+@animate-ui/demo-primitives-radix-accordion	ui	Demo showing an animated radix accordion.
+@animate-ui/demo-primitives-radix-alert-dialog	ui	Demo showing an animated radix alert dialog.
+@animate-ui/demo-primitives-radix-checkbox	ui	Demo showing an animated radix checkbox.
+@animate-ui/demo-primitives-radix-collapsible	ui	Demo showing an animated radix collapsible.
+@animate-ui/demo-primitives-radix-dialog	ui	Demo showing an animated radix dialog.
+@animate-ui/demo-primitives-radix-dropdown-menu	ui	Demo showing an animated radix dropdown menu.
+@animate-ui/demo-primitives-radix-files	ui	Demo showing an animated radix files.
+@animate-ui/demo-primitives-radix-hover-card	ui	Demo showing an animated radix hover card.
+@animate-ui/demo-primitives-radix-popover	ui	Demo showing an animated radix popover.
+@animate-ui/demo-primitives-radix-preview-link-card	ui	Demo showing an animated radix preview link card.
+@animate-ui/demo-primitives-radix-progress	ui	Demo showing an animated radix progress.
+@animate-ui/demo-primitives-radix-radio-group	ui	Demo showing an animated radix radio group.
+@animate-ui/demo-primitives-radix-sheet	ui	Demo showing an animated radix sheet.
+@animate-ui/demo-primitives-radix-switch	ui	Demo showing an animated radix switch.
+@animate-ui/demo-primitives-radix-tabs	ui	Demo showing an animated radix tabs.
+@animate-ui/demo-primitives-radix-toggle	ui	Demo showing an animated radix toggle.
+@animate-ui/demo-primitives-radix-toggle-group	ui	Demo showing an animated radix toggle group.
+@animate-ui/demo-primitives-radix-tooltip	ui	Demo showing an animated radix tooltip.
+@animate-ui/demo-primitives-texts-counting-number	ui	Demo showing an animated counting number.
+@animate-ui/demo-primitives-texts-gradient	ui	Demo showing an animated gradient text.
+@animate-ui/demo-primitives-texts-highlight	ui	Demo showing an animated highlight text.
+@animate-ui/demo-primitives-texts-morphing	ui	Demo showing an animated morphing text.
+@animate-ui/demo-primitives-texts-rolling	ui	Demo showing an animated rolling text.
+@animate-ui/demo-primitives-texts-rotating	ui	Demo showing an animated rotating text.
+@animate-ui/demo-primitives-texts-scrolling-number	ui	Demo showing an animated scrolling number.
+@animate-ui/demo-primitives-texts-shimmering	ui	Demo showing an animated shimmering text.
+@animate-ui/demo-primitives-texts-sliding-number	ui	Demo showing an animated sliding number.
+@animate-ui/demo-primitives-texts-splitting	ui	Demo showing an animated splitting text.
+@animate-ui/demo-primitives-texts-splitting-example	ui	Demo showing an animated splitting text.
+@animate-ui/demo-primitives-texts-typing	ui	Demo showing an animated typing text.
+@animate-ui/hooks-use-auto-height	hook	A hook that allows you to automatically adjust the height of an element based on its content.
+@animate-ui/hooks-use-controlled-state	hook	A hook that allows you to control a state.
+@animate-ui/hooks-use-data-state	hook	A hook that allows you to get the data-state of an element.
+@animate-ui/hooks-use-is-in-view	hook	A hook that allows you to check if an element is in view.
+@animate-ui/hooks-use-motion-value-state	hook	A hook that allows you to use a motion value state.
+@animate-ui/icons-accessibility	ui	Accessibility icon component.
+@animate-ui/icons-activity	ui	Activity icon component.
+@animate-ui/icons-airplay	ui	Airplay icon component.
+@animate-ui/icons-alarm-clock	ui	Alarm clock icon component.
+@animate-ui/icons-arrow-down	ui	Arrow down icon component.
+@animate-ui/icons-arrow-left	ui	Arrow left icon component.
+@animate-ui/icons-arrow-right	ui	Arrow right icon component.
+@animate-ui/icons-arrow-up	ui	Arrow up icon component.
+@animate-ui/icons-arrow-up-down	ui	Arrow up down icon component.
+@animate-ui/icons-audio-lines	ui	Audio Lines icon component.
+@animate-ui/icons-axe	ui	Axe icon component.
+@animate-ui/icons-axis-3d	ui	Axis 3D icon component.
+@animate-ui/icons-badge-check	ui	Badge check icon component.
+@animate-ui/icons-battery-charging	ui	Battery Charging icon component.
+@animate-ui/icons-battery-full	ui	Battery Full icon component.
+@animate-ui/icons-battery-low	ui	Battery Low icon component.
+@animate-ui/icons-battery-medium	ui	Battery Medium icon component.
+@animate-ui/icons-bell	ui	Bell icon component.
+@animate-ui/icons-bell-off	ui	Bell off icon component.
+@animate-ui/icons-bell-ring	ui	Bell ring icon component.
+@animate-ui/icons-between-horizontal-end	ui	Between horizontal end icon component.
+@animate-ui/icons-between-horizontal-start	ui	Between horizontal start icon component.
+@animate-ui/icons-between-vertical-end	ui	Between vertical end icon component.
+@animate-ui/icons-between-vertical-start	ui	Between vertical start icon component.
+@animate-ui/icons-binary	ui	Binary icon component.
+@animate-ui/icons-blend	ui	Blend icon component.
+@animate-ui/icons-blocks	ui	Blocks icon component.
+@animate-ui/icons-bot	ui	Bot icon component.
+@animate-ui/icons-bot-message-square	ui	Bot message square icon component.
+@animate-ui/icons-bot-off	ui	Bot off icon component.
+@animate-ui/icons-brush	ui	Brush icon component.
+@animate-ui/icons-brush-cleaning	ui	Brush cleaning icon component.
+@animate-ui/icons-cast	ui	Cast icon component.
+@animate-ui/icons-cctv	ui	CCTV icon component.
+@animate-ui/icons-chart-bar	ui	Chart bar icon component.
+@animate-ui/icons-chart-bar-decreasing	ui	Chart bar decreasing icon component.
+@animate-ui/icons-chart-bar-increasing	ui	Chart bar increasing icon component.
+@animate-ui/icons-chart-column	ui	Chart column icon component.
+@animate-ui/icons-chart-column-decreasing	ui	Chart column decreasing icon component.
+@animate-ui/icons-chart-column-increasing	ui	Chart column increasing icon component.
+@animate-ui/icons-chart-line	ui	Chart line icon component.
+@animate-ui/icons-chart-no-axes-column	ui	Chart no axes column icon component.
+@animate-ui/icons-chart-no-axes-column-decreasing	ui	Chart no axes column decreasing icon component.
+@animate-ui/icons-chart-no-axes-column-increasing	ui	Chart no axes column increasing icon component.
+@animate-ui/icons-chart-scatter	ui	Chart scatter icon component.
+@animate-ui/icons-chart-spline	ui	Chart spline icon component.
+@animate-ui/icons-check	ui	Check icon component.
+@animate-ui/icons-check-check	ui	Check check icon component.
+@animate-ui/icons-check-line	ui	Check line icon component.
+@animate-ui/icons-cherry	ui	Cherry icon component.
+@animate-ui/icons-chevron-down	ui	Chevron down icon component.
+@animate-ui/icons-chevron-left	ui	Chevron left icon component.
+@animate-ui/icons-chevron-left-right	ui	Chevron left right icon component.
+@animate-ui/icons-chevron-right	ui	Chevron right icon component.
+@animate-ui/icons-chevron-up	ui	Chevron up icon component.
+@animate-ui/icons-chevron-up-down	ui	Chevron up down icon component.
+@animate-ui/icons-circle-check	ui	Circle check icon component.
+@animate-ui/icons-circle-check-big	ui	Circle check big icon component.
+@animate-ui/icons-circle-plus	ui	Circle plus icon component.
+@animate-ui/icons-circle-x	ui	Circle x icon component.
+@animate-ui/icons-circuit-board	ui	Circuit Board icon component.
+@animate-ui/icons-clapperboard	ui	Clapperboard icon component.
+@animate-ui/icons-clipboard	ui	Clipboard icon component.
+@animate-ui/icons-clipboard-check	ui	Clipboard Check icon component.
+@animate-ui/icons-clipboard-list	ui	Clipboard List icon component.
+@animate-ui/icons-clock	ui	Clock icon component.
+@animate-ui/icons-clock-1	ui	Clock 1 icon component.
+@animate-ui/icons-clock-10	ui	Clock 10 icon component.
+@animate-ui/icons-clock-11	ui	Clock 11 icon component.
+@animate-ui/icons-clock-12	ui	Clock 12 icon component.
+@animate-ui/icons-clock-2	ui	Clock 2 icon component.
+@animate-ui/icons-clock-3	ui	Clock 3 icon component.
+@animate-ui/icons-clock-4	ui	Clock 4 icon component.
+@animate-ui/icons-clock-5	ui	Clock 5 icon component.
+@animate-ui/icons-clock-6	ui	Clock 6 icon component.
+@animate-ui/icons-clock-7	ui	Clock 7 icon component.
+@animate-ui/icons-clock-8	ui	Clock 8 icon component.
+@animate-ui/icons-clock-9	ui	Clock 9 icon component.
+@animate-ui/icons-cloud-download	ui	Cloud download icon component.
+@animate-ui/icons-cloud-drizzle	ui	Cloud drizzle icon component.
+@animate-ui/icons-cloud-hail	ui	Cloud hail icon component.
+@animate-ui/icons-cloud-lightning	ui	Cloud lightning icon component.
+@animate-ui/icons-cloud-moon	ui	Cloud moon icon component.
+@animate-ui/icons-cloud-moon-rain	ui	Cloud moon rain icon component.
+@animate-ui/icons-cloud-rain	ui	Cloud rain icon component.
+@animate-ui/icons-cloud-rain-wind	ui	Cloud rain wind icon component.
+@animate-ui/icons-cloud-snow	ui	Cloud snow icon component.
+@animate-ui/icons-cloud-sun	ui	Cloud sun icon component.
+@animate-ui/icons-cloud-sun-rain	ui	Cloud sun rain icon component.
+@animate-ui/icons-cloud-upload	ui	Cloud upload icon component.
+@animate-ui/icons-cog	ui	Cog icon component.
+@animate-ui/icons-compass	ui	Compass icon component.
+@animate-ui/icons-contrast	ui	Contrast icon component.
+@animate-ui/icons-copy	ui	Copy icon component.
+@animate-ui/icons-crop	ui	Crop icon component.
+@animate-ui/icons-cross	ui	Cross icon component.
+@animate-ui/icons-disc-3	ui	Disc 3 icon component.
+@animate-ui/icons-download	ui	Download icon component.
+@animate-ui/icons-ellipsis	ui	Ellipsis icon component.
+@animate-ui/icons-ellipsis-vertical	ui	Ellipsis vertical icon component.
+@animate-ui/icons-equal-not	ui	Equal not icon component.
+@animate-ui/icons-ev-charger	ui	EV Charger icon component.
+@animate-ui/icons-expand	ui	Expand icon component.
+@animate-ui/icons-external-link	ui	External link icon component.
+@animate-ui/icons-fan	ui	Fan icon component.
+@animate-ui/icons-fingerprint	ui	Fingerprint icon component.
+@animate-ui/icons-forklift	ui	Forklift icon component.
+@animate-ui/icons-frame	ui	Frame icon component.
+@animate-ui/icons-gallery-horizontal	ui	Gallery horizontal icon component.
+@animate-ui/icons-gallery-horizontal-end	ui	Gallery horizontal end icon component.
+@animate-ui/icons-gallery-vertical	ui	Gallery vertical icon component.
+@animate-ui/icons-gallery-vertical-end	ui	Gallery vertical end icon component.
+@animate-ui/icons-gauge	ui	Gauge icon component.
+@animate-ui/icons-gavel	ui	Gavel icon component.
+@animate-ui/icons-hammer	ui	Hammer icon component.
+@animate-ui/icons-heart	ui	Heart icon component.
+@animate-ui/icons-house-wifi	ui	House wifi icon component.
+@animate-ui/icons-icon	ui	Base component to use animated icons.
+@animate-ui/icons-kanban	ui	Kanban icon component.
+@animate-ui/icons-key	ui	Key icon component.
+@animate-ui/icons-layers	ui	Layers icon component.
+@animate-ui/icons-layers-2	ui	Layers 2 icon component.
+@animate-ui/icons-layout-dashboard	ui	Layout dashboard icon component.
+@animate-ui/icons-lightbulb	ui	Lightbulb icon component.
+@animate-ui/icons-lightbulb-off	ui	Lightbulb off icon component.
+@animate-ui/icons-link	ui	Link icon component.
+@animate-ui/icons-link-2	ui	Link 2 icon with connect/unlink animations.
+@animate-ui/icons-list	ui	List icon component.
+@animate-ui/icons-loader	ui	Loader icon component.
+@animate-ui/icons-loader-circle	ui	Loader circle icon component.
+@animate-ui/icons-loader-pinwheel	ui	Loader pinwheel icon component.
+@animate-ui/icons-lock	ui	Lock icon component.
+@animate-ui/icons-lock-keyhole	ui	Lock keyhole icon component.
+@animate-ui/icons-lock-keyhole-open	ui	Lock keyhole open icon component.
+@animate-ui/icons-lock-open	ui	Lock open icon component.
+@animate-ui/icons-log-in	ui	Log in icon component.
+@animate-ui/icons-log-out	ui	Log out icon component.
+@animate-ui/icons-map-pin	ui	Map pin icon component.
+@animate-ui/icons-map-pin-off	ui	Map pin off icon component.
+@animate-ui/icons-maximize	ui	Maximize icon component.
+@animate-ui/icons-menu	ui	Menu icon component.
+@animate-ui/icons-message-circle	ui	Message circle icon component.
+@animate-ui/icons-message-circle-code	ui	Message circle code icon component.
+@animate-ui/icons-message-circle-dashed	ui	Message circle dashed icon component.
+@animate-ui/icons-message-circle-heart	ui	Message circle heart icon component.
+@animate-ui/icons-message-circle-more	ui	Message circle more icon component.
+@animate-ui/icons-message-circle-off	ui	Message circle off icon component.
+@animate-ui/icons-message-circle-plus	ui	Message circle plus icon component.
+@animate-ui/icons-message-circle-question	ui	Message circle question icon component.
+@animate-ui/icons-message-circle-warning	ui	Message circle warning icon component.
+@animate-ui/icons-message-circle-x	ui	Message circle x icon component.
+@animate-ui/icons-message-square	ui	Message square icon component.
+@animate-ui/icons-message-square-code	ui	Message square code icon component.
+@animate-ui/icons-message-square-dashed	ui	Message square dashed icon component.
+@animate-ui/icons-message-square-diff	ui	Message square diff icon component.
+@animate-ui/icons-message-square-dot	ui	Message square dot icon component.
+@animate-ui/icons-message-square-heart	ui	Message square heart icon component.
+@animate-ui/icons-message-square-more	ui	Message square more icon component.
+@animate-ui/icons-message-square-off	ui	Message square off icon component.
+@animate-ui/icons-message-square-plus	ui	Message square plus icon component.
+@animate-ui/icons-message-square-quote	ui	Message square quote icon component.
+@animate-ui/icons-message-square-share	ui	Message square share icon component.
+@animate-ui/icons-message-square-text	ui	Message square text icon component.
+@animate-ui/icons-message-square-warning	ui	Message square warning icon component.
+@animate-ui/icons-message-square-x	ui	Message square x icon component.
+@animate-ui/icons-minimize	ui	Minimize icon component.
+@animate-ui/icons-moon	ui	Moon icon component.
+@animate-ui/icons-moon-star	ui	Moon star icon component.
+@animate-ui/icons-move-down	ui	Move down icon component.
+@animate-ui/icons-move-left	ui	Move left icon component.
+@animate-ui/icons-move-right	ui	Move right icon component.
+@animate-ui/icons-move-up	ui	Move up icon component.
+@animate-ui/icons-nfc	ui	Nfc icon component.
+@animate-ui/icons-orbit	ui	Orbit icon component.
+@animate-ui/icons-paintbrush	ui	Paintbrush icon component.
+@animate-ui/icons-panel-bottom	ui	Panel bottom icon component.
+@animate-ui/icons-panel-bottom-close	ui	Panel bottom close icon component.
+@animate-ui/icons-panel-bottom-open	ui	Panel bottom open icon component.
+@animate-ui/icons-panel-left	ui	Panel left icon component.
+@animate-ui/icons-panel-left-close	ui	Panel left close icon component.
+@animate-ui/icons-panel-left-open	ui	Panel left open icon component.
+@animate-ui/icons-panel-right	ui	Panel right icon component.
+@animate-ui/icons-panel-right-close	ui	Panel right close icon component.
+@animate-ui/icons-panel-right-open	ui	Panel right open icon component.
+@animate-ui/icons-panel-top	ui	Panel top icon component.
+@animate-ui/icons-panel-top-close	ui	Panel top close icon component.
+@animate-ui/icons-panel-top-open	ui	Panel top open icon component.
+@animate-ui/icons-paperclip	ui	Paperclip icon component.
+@animate-ui/icons-party-popper	ui	Party popper icon component.
+@animate-ui/icons-pause	ui	Pause icon component.
+@animate-ui/icons-phone-call	ui	Phone call icon with animated waves.
+@animate-ui/icons-pickaxe	ui	Pickaxe icon component.
+@animate-ui/icons-pin	ui	Pin icon component.
+@animate-ui/icons-pin-off	ui	Pin off icon component.
+@animate-ui/icons-play	ui	Play icon component.
+@animate-ui/icons-plug-zap	ui	Plug Zap icon component.
+@animate-ui/icons-plus	ui	Plus icon component.
+@animate-ui/icons-radio	ui	Radio icon component.
+@animate-ui/icons-radio-tower	ui	Radio tower icon component.
+@animate-ui/icons-refresh-ccw	ui	Refresh ccw icon component.
+@animate-ui/icons-refresh-ccw-dot	ui	Refresh ccw dot icon component.
+@animate-ui/icons-refresh-cw	ui	Refresh cw icon component.
+@animate-ui/icons-refresh-cw-off	ui	Refresh cw off icon component.
+@animate-ui/icons-rotate-ccw	ui	Rotate ccw icon component.
+@animate-ui/icons-rotate-ccw-key	ui	Rotate Ccw Key icon component.
+@animate-ui/icons-rotate-cw	ui	Rotate cw icon component.
+@animate-ui/icons-route	ui	Route icon component.
+@animate-ui/icons-router	ui	Router icon component.
+@animate-ui/icons-scissors	ui	Scissors icon component.
+@animate-ui/icons-scissors-line-dashed	ui	Scissors line dashed icon component.
+@animate-ui/icons-search	ui	Search icon component.
+@animate-ui/icons-send	ui	Send icon component.
+@animate-ui/icons-send-horizontal	ui	Send horizontal icon component.
+@animate-ui/icons-settings	ui	Settings icon component.
+@animate-ui/icons-shrink	ui	Shrink icon component.
+@animate-ui/icons-signal	ui	Signal icon component.
+@animate-ui/icons-signal-high	ui	Signal high icon component.
+@animate-ui/icons-signal-low	ui	Signal low icon component.
+@animate-ui/icons-signal-medium	ui	Signal medium icon component.
+@animate-ui/icons-signal-zero	ui	Signal zero icon component.
+@animate-ui/icons-sliders-horizontal	ui	Sliders horizontal icon component.
+@animate-ui/icons-sliders-vertical	ui	Sliders vertical icon component.
+@animate-ui/icons-sparkle	ui	Sparkle icon component.
+@animate-ui/icons-sparkles	ui	Sparkles icon component.
+@animate-ui/icons-square-arrow-out-down-left	ui	Square arrow out down left icon component.
+@animate-ui/icons-square-arrow-out-down-right	ui	Square arrow out down right icon component.
+@animate-ui/icons-square-arrow-out-up-left	ui	Square arrow out up left icon component.
+@animate-ui/icons-square-arrow-out-up-right	ui	Square arrow out up right icon component.
+@animate-ui/icons-square-dashed-kanban	ui	Square Dashed Kanban icon component.
+@animate-ui/icons-square-kanban	ui	Square Kanban icon component.
+@animate-ui/icons-square-plus	ui	Square plus icon component.
+@animate-ui/icons-square-x	ui	Square x icon component.
+@animate-ui/icons-star	ui	Star icon component.
+@animate-ui/icons-sun	ui	Sun icon component.
+@animate-ui/icons-sun-dim	ui	Sun dim icon component.
+@animate-ui/icons-sun-medium	ui	Sun medium icon component.
+@animate-ui/icons-sun-moon	ui	Sun moon icon component.
+@animate-ui/icons-terminal	ui	Terminal icon component.
+@animate-ui/icons-thumbs-down	ui	Thumbs down icon component.
+@animate-ui/icons-thumbs-up	ui	Thumbs up icon component.
+@animate-ui/icons-timer	ui	Timer icon component.
+@animate-ui/icons-timer-off	ui	Timer off icon component.
+@animate-ui/icons-toggle-left	ui	Toggle left icon component.
+@animate-ui/icons-toggle-right	ui	Toggle right icon component.
+@animate-ui/icons-trash	ui	Trash icon component.
+@animate-ui/icons-trash-2	ui	Trash 2 icon component.
+@animate-ui/icons-unplug	ui	Unplug icon component.
+@animate-ui/icons-upload	ui	Upload icon component.
+@animate-ui/icons-user	ui	User icon component.
+@animate-ui/icons-user-round	ui	User round icon component.
+@animate-ui/icons-users	ui	Users icon component.
+@animate-ui/icons-users-round	ui	Users round icon component.
+@animate-ui/icons-volume-1	ui	Volume 1 icon component.
+@animate-ui/icons-volume-2	ui	Volume 2 icon component.
+@animate-ui/icons-volume-off	ui	Volume off icon component.
+@animate-ui/icons-wifi	ui	Wifi icon component.
+@animate-ui/icons-wifi-high	ui	Wifi high icon component.
+@animate-ui/icons-wifi-low	ui	Wifi low icon component.
+@animate-ui/icons-wifi-zero	ui	Wifi zero icon component.
+@animate-ui/icons-x	ui	X icon component.
+@animate-ui/index	style	
+@animate-ui/lib-get-strict-context	lib	A hook that allows you to create a strict context.
+@animate-ui/primitives-animate-avatar-group	ui	An animated avatar group that displays overlapping user images and smoothly shifts each avatar forward on hover to highlight it.
+@animate-ui/primitives-animate-code-block	ui	A code block component that animates the code as it is written.
+@animate-ui/primitives-animate-cursor	ui	An animated cursor component that allows you to customize both the cursor and cursor follow elements with smooth animations.
+@animate-ui/primitives-animate-github-stars	ui	A component that animates a number of stars, smoothly animating number transitions using the SlidingNumber component.
+@animate-ui/primitives-animate-motion-grid	ui	A grid that displays animations in a grid.
+@animate-ui/primitives-animate-pinned-list	ui	A pin list component that allows you to pin items to the top of the list.
+@animate-ui/primitives-animate-scroll-progress	ui	A scroll progress component that allows you to track the progress of a scrollable element.
+@animate-ui/primitives-animate-slot	ui	A slot component that allows you to use motion components with any element.
+@animate-ui/primitives-animate-spring	ui	A flexible, animated spring component that attaches a draggable element to its origin with a spring line.
+@animate-ui/primitives-animate-tabs	ui	A set of layered sections of content—known as tab panels—that are displayed one at a time.
+@animate-ui/primitives-animate-tooltip	ui	An animated tooltip that shows contextual info on hover or focus and smoothly glides to the next element without disappearing between transitions.
+@animate-ui/primitives-base-accordion	ui	An easily stylable accordion component.
+@animate-ui/primitives-base-alert-dialog	ui	A dialog that requires user response to proceed.
+@animate-ui/primitives-base-checkbox	ui	An easily stylable checkbox component.
+@animate-ui/primitives-base-collapsible	ui	A collapsible panel controlled by a button.
+@animate-ui/primitives-base-dialog	ui	A popup that opens on top of the entire page.
+@animate-ui/primitives-base-files	ui	A component that allows you to display a list of files and folders.
+@animate-ui/primitives-base-menu	ui	A list of actions in a dropdown, enhanced with keyboard navigation.
+@animate-ui/primitives-base-popover	ui	An accessible popup anchored to a button.
+@animate-ui/primitives-base-preview-card	ui	A popup that appears when a link is hovered, showing a preview for sighted users.
+@animate-ui/primitives-base-preview-link-card	ui	Displays a preview image of a link when hovered.
+@animate-ui/primitives-base-progress	ui	Displays the status of a task that takes a long time.
+@animate-ui/primitives-base-radio	ui	An easily stylable radio button component.
+@animate-ui/primitives-base-switch	ui	A control that indicates whether a setting is on or off.
+@animate-ui/primitives-base-tabs	ui	A component for toggling between related panels on the same page.
+@animate-ui/primitives-base-toggle	ui	A two-state button that can be on or off.
+@animate-ui/primitives-base-toggle-group	ui	Provides a shared state to a series of toggle buttons.
+@animate-ui/primitives-base-tooltip	ui	A popup that appears when an element is hovered or focused, showing a hint for sighted users.
+@animate-ui/primitives-buttons-button	ui	A simple button that animates on hover and tap.
+@animate-ui/primitives-buttons-flip	ui	A button that flips between two states on hover.
+@animate-ui/primitives-buttons-liquid	ui	A button that fills on hover.
+@animate-ui/primitives-buttons-ripple	ui	A button that animates on tap with a ripple effect.
+@animate-ui/primitives-effects-auto-height	ui	An effect that automatically adjusts the height of an element based on its content.
+@animate-ui/primitives-effects-blur	ui	An effect that allows you to animate elements with a blur effect on first view or load.
+@animate-ui/primitives-effects-click	ui	An effect that creates animated effects at the click position, adding interactive feedback to user actions.
+@animate-ui/primitives-effects-effect	ui	An effect that allows you to animate elements on first view or load.
+@animate-ui/primitives-effects-fade	ui	An effect that allows you to animate elements with a fade effect on first view or load.
+@animate-ui/primitives-effects-highlight	ui	A highlight effect that allows you to highlight elements on hover, click or with a controlled value.
+@animate-ui/primitives-effects-image-zoom	ui	An effect that allows you to zoom in on an image on hover.
+@animate-ui/primitives-effects-magnetic	ui	A magnetic effect that clings to the cursor, creating a magnetic attraction effect.
+@animate-ui/primitives-effects-particles	ui	A particles effect that creates a particle system.
+@animate-ui/primitives-effects-shine	ui	An animated light sweep effect with configurable timing, colors, and triggers (hover, tap, or continuous).
+@animate-ui/primitives-effects-slide	ui	An effect that allows you to animate elements with a slide effect on first view or load.
+@animate-ui/primitives-effects-theme-toggler	ui	An effect that allows you to toggle the theme gradually.
+@animate-ui/primitives-effects-tilt	ui	An effect that allows you to animate elements with a tilt effect on mouse hover.
+@animate-ui/primitives-effects-zoom	ui	An effect that allows you to animate elements with a zoom effect on first view or load.
+@animate-ui/primitives-headless-checkbox	ui	Checkboxes provide the same functionality as native HTML checkboxes, without any of the styling, giving you a clean slate to design them however you'd like.
+@animate-ui/primitives-headless-dialog	ui	A fully-managed, renderless dialog component jam-packed with accessibility and keyboard features, perfect for building completely custom dialogs and alerts.
+@animate-ui/primitives-headless-disclosure	ui	A simple, accessible foundation for building custom UIs that show and hide content, like togglable accordion panels.
+@animate-ui/primitives-headless-popover	ui	Popovers are perfect for floating panels with arbitrary content like navigation menus, mobile menus and flyout menus.
+@animate-ui/primitives-headless-switch	ui	Switches are a pleasant interface for toggling a value between two states, and offer the same semantics and keyboard navigation as native checkbox elements.
+@animate-ui/primitives-headless-tabs	ui	Easily create accessible, fully customizable tab interfaces, with robust focus management and keyboard navigation support.
+@animate-ui/primitives-radix-accordion	ui	A vertically stacked set of interactive headings that each reveal an associated section of content.
+@animate-ui/primitives-radix-alert-dialog	ui	A modal dialog that interrupts the user with important content and expects a response.
+@animate-ui/primitives-radix-checkbox	ui	A control that allows the user to toggle between checked and not checked.
+@animate-ui/primitives-radix-collapsible	ui	An interactive component which expands/collapses a panel.
+@animate-ui/primitives-radix-dialog	ui	A window overlaid on either the primary window or another dialog window, rendering the content underneath inert.
+@animate-ui/primitives-radix-dropdown-menu	ui	Displays a menu to the user — such as a set of actions or functions — triggered by a button.
+@animate-ui/primitives-radix-files	ui	A component that allows you to display a list of files and folders.
+@animate-ui/primitives-radix-hover-card	ui	For sighted users to preview content available behind a link.
+@animate-ui/primitives-radix-popover	ui	Displays rich content in a portal, triggered by a button.
+@animate-ui/primitives-radix-preview-link-card	ui	Displays a preview image of a link when hovered.
+@animate-ui/primitives-radix-progress	ui	Displays an indicator showing the completion progress of a task, typically displayed as a progress bar.
+@animate-ui/primitives-radix-radio-group	ui	A set of checkable buttons—known as radio buttons—where no more than one of the buttons can be checked at a time.
+@animate-ui/primitives-radix-sheet	ui	Extends the Dialog component to display content that complements the main content of the screen.
+@animate-ui/primitives-radix-switch	ui	A control that allows the user to toggle between checked and not checked.
+@animate-ui/primitives-radix-tabs	ui	A set of layered sections of content—known as tab panels—that are displayed one at a time.
+@animate-ui/primitives-radix-toggle	ui	A two-state button that can be either on or off.
+@animate-ui/primitives-radix-toggle-group	ui	A set of two-state buttons that can be toggled on or off.
+@animate-ui/primitives-radix-tooltip	ui	A popup that displays information related to an element when the element receives keyboard focus or the mouse hovers over it.
+@animate-ui/primitives-texts-counting-number	ui	A counting number animation.
+@animate-ui/primitives-texts-gradient	ui	A gradient text animation.
+@animate-ui/primitives-texts-highlight	ui	A highlight text animation.
+@animate-ui/primitives-texts-morphing	ui	A text component that smoothly morphs characters to transition between strings.
+@animate-ui/primitives-texts-rolling	ui	A rolling text animation.
+@animate-ui/primitives-texts-rotating	ui	A rotating text animation.
+@animate-ui/primitives-texts-scrolling-number	ui	A scrolling number animation.
+@animate-ui/primitives-texts-shimmering	ui	A shimmering text animation.
+@animate-ui/primitives-texts-sliding-number	ui	A sliding number animation.
+@animate-ui/primitives-texts-splitting	ui	A splitting text animation.
+@animate-ui/primitives-texts-typing	ui	A typing text animation.
+@magicui/android	ui	A mockup of an Android device.
+@magicui/android-demo	example	Example showing a mockup of an Android device.
+@magicui/android-demo-2	example	Second example showing a mockup of an Android device.
+@magicui/android-demo-3	example	Third example showing a mockup of an Android device.
+@magicui/animated-beam	ui	An animated beam of light which travels along a path. Useful for showcasing the integration features of a website.
+@magicui/animated-beam-bidirectional	example	Example showing a bidirectional animated beam effect.
+@magicui/animated-beam-demo	example	Example showing an animated beam of light effect.
+@magicui/animated-beam-multiple-inputs	example	Example showing animated beams with multiple input points.
+@magicui/animated-beam-multiple-outputs	example	Example showing animated beams with multiple output points.
+@magicui/animated-beam-unidirectional	example	Example showing a unidirectional animated beam effect.
+@magicui/animated-circular-progress-bar	ui	Animated Circular Progress Bar is a component that displays a circular gauge with a percentage value.
+@magicui/animated-circular-progress-bar-demo	example	Example showing an animated circular progress gauge.
+@magicui/animated-gradient-text	ui	An animated gradient background which transitions between colors for text.
+@magicui/animated-gradient-text-demo	example	Example showing text with animated gradient backgrounds.
+@magicui/animated-gradient-text-demo-2	example	Second example showing text with animated gradient backgrounds.
+@magicui/animated-grid-pattern	ui	A animated background grid pattern made with SVGs, fully customizable using Tailwind CSS.
+@magicui/animated-grid-pattern-demo	example	Example showing an animated grid pattern background.
+@magicui/animated-list	ui	A list that animates each item in sequence with a delay. Used to showcase notifications or events on your landing page.
+@magicui/animated-list-demo	example	Example showing a list with sequenced item animations.
+@magicui/animated-shiny-text	ui	A light glare effect which pans across text making it appear as if it is shimmering.
+@magicui/animated-shiny-text-demo	example	Example showing text with a shimmering light effect.
+@magicui/animated-theme-toggler	ui	Theme toggle with View Transitions and animated clip-path masks (circle, polygons, star), optional viewport-centered origin.
+@magicui/animated-theme-toggler-demo	example	Example showing animation while changing the theme.
+@magicui/animated-theme-toggler-diamond-demo	example	Theme transition with a diamond-shaped clip reveal.
+@magicui/animated-theme-toggler-hexagon-demo	example	Theme transition with a hexagon clip reveal.
+@magicui/animated-theme-toggler-next-themes-demo	example	Controlled usage with next-themes so useTheme() subscribers stay in sync on toggle.
+@magicui/animated-theme-toggler-rectangle-demo	example	Theme transition with a rectangle clip reveal.
+@magicui/animated-theme-toggler-square-demo	example	Theme transition with a square clip reveal.
+@magicui/animated-theme-toggler-star-demo	example	Theme transition with a star-shaped clip reveal.
+@magicui/animated-theme-toggler-triangle-demo	example	Theme transition with a triangle clip reveal.
+@magicui/aurora-text	ui	A beautiful aurora text effect
+@magicui/aurora-text-demo	example	Example showing a beautiful aurora text effect.
+@magicui/avatar-circles	ui	Overlapping circles of avatars.
+@magicui/avatar-circles-demo	example	Example showing overlapping avatar circles.
+@magicui/backlight	ui	A backlight glow effect for videos, images, and SVGs.
+@magicui/backlight-image-demo	example	An example of the backlight component with a image.
+@magicui/backlight-svg-demo	example	An example of the backlight component with SVGs.
+@magicui/backlight-video-demo	example	An example of the backlight component with a video.
+@magicui/bento-demo	example	Example showing a bento grid layout for showcasing features.
+@magicui/bento-demo-vertical	example	Example showing a vertical bento grid layout.
+@magicui/bento-grid	ui	Bento grid is a layout used to showcase the features of a product in a simple and elegant way.
+@magicui/blur-fade	ui	Blur fade in and out animation. Used to smoothly fade in and out content.
+@magicui/blur-fade-demo	example	Example showing blur fade in and out animations.
+@magicui/blur-fade-text-demo	example	Example showing blur fade animations with text.
+@magicui/border-beam	ui	An animated beam of light which travels along the border of its container.
+@magicui/border-beam-demo	example	Example showing an animated border beam effect.
+@magicui/border-beam-demo-2	example	Example showing an animated border beam effect.
+@magicui/border-beam-demo-3	example	Example showing an animated border beam effect.
+@magicui/border-beam-demo-4	example	Example showing an animated border beam effect.
+@magicui/client-tweet-card	ui	A client-side version of the tweet card that displays a tweet with the author's name, handle, and profile picture.
+@magicui/code-comparison	ui	A component which compares two code snippets.
+@magicui/code-comparison-demo	example	Example showing a component which compares two code snippets.
+@magicui/comic-text	ui	Comic text animation
+@magicui/comic-text-demo	example	Example showing comic text animation.
+@magicui/confetti	ui	Confetti animations are best used to delight your users when something special happens
+@magicui/confetti-basic-cannon	example	Example showing basic confetti cannon animation.
+@magicui/confetti-custom-shapes	example	Example showing confetti with custom shape particles.
+@magicui/confetti-demo	example	Example showing confetti animations for celebrations.
+@magicui/confetti-emoji	example	Example showing confetti with emoji particles.
+@magicui/confetti-fireworks	example	Example showing fireworks-style confetti animation.
+@magicui/confetti-random-direction	example	Example showing confetti with random directions.
+@magicui/confetti-side-cannons	example	Example showing side-mounted confetti cannons.
+@magicui/confetti-stars	example	Example showing star-shaped confetti animation.
+@magicui/cool-mode	ui	Cool mode effect for buttons, links, and other DOMs
+@magicui/cool-mode-custom	example	Example showing customized cool mode effects.
+@magicui/cool-mode-demo	example	Example showing cool mode effect for buttons and links.
+@magicui/dia-text-reveal	ui	A horizontal color band sweeps across text, revealing a gradient shine before settling on the base color.
+@magicui/dia-text-reveal-demo	example	Example showing a sweeping color band reveal on headline text.
+@magicui/dia-text-reveal-demo-2	example	Custom gradient colors and settled text color on a light background.
+@magicui/dia-text-reveal-demo-3	example	Rotating phrases with repeat and repeat delay.
+@magicui/dia-text-reveal-demo-4	example	Slower sweep with delay — custom duration and timing.
+@magicui/dock	ui	An implementation of the MacOS dock using react + tailwindcss + motion
+@magicui/dock-demo	example	Example showing a MacOS-style dock implementation.
+@magicui/dock-demo-2	example	Second example showing a MacOS-style dock implementation.
+@magicui/dock-demo-3	example	Third example showing a MacOS-style dock implementation.
+@magicui/dot-pattern	ui	A background dot pattern made with SVGs, fully customizable using Tailwind CSS.
+@magicui/dot-pattern-demo	example	Example showing a background dot pattern made with SVGs.
+@magicui/dot-pattern-linear-gradient	example	Example showing a dot pattern with linear gradient effects.
+@magicui/dot-pattern-with-glow-effect	example	Example showing a dot pattern with glow effect
+@magicui/dotted-map	ui	A component with a dotted map.
+@magicui/dotted-map-demo	example	Example showing a dotted map.
+@magicui/dotted-map-demo-2	example	Example showing a dotted map.
+@magicui/dotted-map-demo-3	example	Example showing a dotted map with pulse animation.
+@magicui/file-tree	ui	A component used to showcase the folder and file structure of a directory.
+@magicui/file-tree-demo	example	Example showing a component that displays folder and file structure.
+@magicui/flickering-grid	ui	A flickering grid background made with SVGs, fully customizable using Tailwind CSS.
+@magicui/flickering-grid-demo	example	Example showing a flickering grid background.
+@magicui/flickering-grid-rounded-demo	example	Example showing a flickering grid background with rounded corners.
+@magicui/glare-hover	ui	A diagonal glare on hover using a ::before gradient and CSS variables (angle, size, duration, color).
+@magicui/glare-hover-demo	example	Pricing card with diagonal hover glare (duration 600ms).
+@magicui/glare-hover-demo-alert	example	Three alerts with custom glare colors and opacity.
+@magicui/glare-hover-demo-cta	example	CTA card with hover glare (700ms).
+@magicui/globe	ui	An autorotating, interactive, and highly performant globe made using WebGL.
+@magicui/globe-demo	example	Example showing an autorotating, interactive WebGL globe.
+@magicui/glyph-matrix	ui	An animated grid of subtly shifting glyphs with fade effect and theme support.
+@magicui/glyph-matrix-demo	example	Example showing an animated grid of subtly shifting glyphs.
+@magicui/grid-pattern	ui	A background grid pattern made with SVGs, fully customizable using Tailwind CSS.
+@magicui/grid-pattern-dashed	example	Example showing a dashed grid pattern.
+@magicui/grid-pattern-demo	example	Example showing a background grid pattern made with SVGs.
+@magicui/grid-pattern-linear-gradient	example	Example showing a grid pattern with linear gradient effects.
+@magicui/hero-video-dialog	ui	A hero video dialog component.
+@magicui/hero-video-dialog-demo	example	Example showing a hero video dialog component.
+@magicui/hero-video-dialog-demo-top-in-bottom-out	example	Example showing a hero video dialog with top-in bottom-out animation.
+@magicui/hexagon-pattern	ui	A background hexagon pattern made with SVGs, fully customizable using Tailwind CSS.
+@magicui/hexagon-pattern-dashed	example	Example showing a dashed hexagon pattern.
+@magicui/hexagon-pattern-demo	example	Example showing a background hexagon pattern made with SVGs.
+@magicui/hexagon-pattern-linear-gradient	example	Example showing a hexagon pattern with linear gradient effects.
+@magicui/hexagon-pattern-spacing	example	Example showing a hexagon pattern with extra spacing between cells.
+@magicui/highlighter	ui	A text highlighter that mimics the effect of a human-drawn marker stroke.
+@magicui/highlighter-demo	example	Example showing the demo of a Highlighter
+@magicui/hyper-text	ui	A text animation that scrambles letters before revealing the final text.
+@magicui/hyper-text-demo	example	Example showing text with scrambling letter animations.
+@magicui/icon-cloud	ui	An interactive 3D tag cloud component
+@magicui/icon-cloud-demo	example	Example showing an interactive 3D icon cloud.
+@magicui/icon-cloud-demo-2	example	Second example showing an interactive 3D icon cloud.
+@magicui/icon-cloud-demo-3	example	Third example showing an interactive 3D icon cloud.
+@magicui/index	style	
+@magicui/interactive-grid-pattern	ui	A interactive background grid pattern made with SVGs, fully customizable using Tailwind CSS.
+@magicui/interactive-grid-pattern-demo	example	Example showing an interactive grid pattern background.
+@magicui/interactive-grid-pattern-demo-2	example	Second example showing an interactive grid pattern background.
+@magicui/interactive-hover-button	ui	
+@magicui/interactive-hover-button-demo	example	Example showing an interactive button with hover effects.
+@magicui/iphone	ui	A mockup of the iPhone
+@magicui/iphone-demo	example	Example showing an iPhone mockup.
+@magicui/iphone-demo-2	example	Second example showing an iPhone mockup.
+@magicui/iphone-demo-3	example	Third example showing an iPhone mockup.
+@magicui/kinetic-text	ui	A text component that animates font weight of characters on hover.
+@magicui/kinetic-text-demo	example	An example of the kinetic text component.
+@magicui/lens	ui	A interactive component that enables zooming into images, videos and other elements.
+@magicui/lens-demo	example	Example showing a lens effect component
+@magicui/lens-demo-2	example	Second example showing a lens effect component
+@magicui/lens-demo-3	example	Third example showing a lens effect component
+@magicui/light-rays	ui	A component with animated light rays which shine down from above.
+@magicui/light-rays-demo	example	Demo of the light-rays component showcasing animated light rays
+@magicui/line-shadow-text	ui	A text component with a moving line shadow.
+@magicui/line-shadow-text-demo	example	Example showing a text component with a moving line shadow.
+@magicui/magic-card	ui	A spotlight effect that follows your mouse cursor and highlights borders on hover.
+@magicui/magic-card-demo	example	Example showing a spotlight effect that follows your mouse cursor and highlights borders on hover.
+@magicui/magic-card-demo-2	example	Example showing a magic card with an orb effect.
+@magicui/marquee	ui	An infinite scrolling component that can be used to display text, images, or videos.
+@magicui/marquee-3d	example	Example showing a 3D infinite scrolling component.
+@magicui/marquee-demo	example	Example showing an infinite scrolling component.
+@magicui/marquee-demo-vertical	example	Example showing a vertical infinite scrolling component.
+@magicui/marquee-logos	example	Example showing an infinite scrolling logo carousel.
+@magicui/meteors	ui	A meteor shower effect.
+@magicui/meteors-demo	example	Example showing a meteor shower effect.
+@magicui/morphing-text	ui	A dynamic text morphing component for Magic UI.
+@magicui/morphing-text-demo	example	Example showing a dynamic text morphing component.
+@magicui/neon-gradient-card	ui	A beautiful neon card effect
+@magicui/neon-gradient-card-demo	example	Example showing a beautiful neon card effect.
+@magicui/noise-texture	ui	An SVG fractal noise layer using feTurbulence, desaturation, and contrast controls for subtle texture overlays.
+@magicui/noise-texture-demo	example	Example showing the SVG noise texture in a framed panel with a radial mask.
+@magicui/noise-texture-demo-2	example	Example showing a newsletter signup card with email input over a noise texture.
+@magicui/noise-texture-demo-3	example	Example showing NoiseTexture behind a button label inside a relative button.
+@magicui/noise-texture-demo-4	example	Example showing a labeled input field with NoiseTexture filling the input container.
+@magicui/number-ticker	ui	Animate numbers to count up or down to a target number
+@magicui/number-ticker-decimal-demo	example	Example showing animated counting decimal numbers.
+@magicui/number-ticker-demo	example	Example showing animated counting numbers.
+@magicui/number-ticker-demo-2	example	Example showing animated counting numbers.
+@magicui/orbiting-circles	ui	A collection of circles which move in orbit along a circular path
+@magicui/orbiting-circles-demo	example	Example showing circles moving in orbital paths.
+@magicui/particles	ui	Particles are a fun way to add some visual flair to your website. They can be used to create a sense of depth, movement, and interactivity.
+@magicui/particles-demo	example	Example showing interactive particle effects.
+@magicui/pixel-image	ui	A component that displays an image with a pixelated effect, creating a retro aesthetic.
+@magicui/pixel-image-demo	example	Example showing a pixelated image effect.
+@magicui/pointer	ui	A component that displays a pointer when hovering over an element
+@magicui/pointer-demo-1	example	Example showing a pointer effect component
+@magicui/progressive-blur	ui	The Progressive Blur component adds a smooth blur gradient effect to scrollable content, indicating more content below or above.
+@magicui/progressive-blur-demo	example	Example showing progressive blur effect for scrollable content.
+@magicui/pulsating-button	ui	An animated pulsating button useful for capturing attention of users.
+@magicui/pulsating-button-demo	example	Example showing an animated pulsating button.
+@magicui/pulsating-button-demo-2	example	Example showing an animated pulsating button with a ripple varaint.
+@magicui/rainbow-button	ui	An animated button with a rainbow effect.
+@magicui/rainbow-button-demo	example	Example showing an animated button with rainbow effect.
+@magicui/rainbow-button-demo-2	example	Example showing an animated button with rainbow effect.
+@magicui/retro-grid	ui	An animated scrolling retro grid effect
+@magicui/retro-grid-demo	example	Example showing an animated scrolling retro grid effect.
+@magicui/ripple	ui	An animated ripple effect typically used behind elements to emphasize them.
+@magicui/ripple-button	ui	An animated button with ripple useful for user engagement.
+@magicui/ripple-button-demo	example	Example showing an animated button with ripple effect.
+@magicui/ripple-demo	example	Example showing an animated ripple effect.
+@magicui/safari	ui	A safari browser mockup to showcase your website.
+@magicui/safari-demo	example	Example showing a Safari browser mockup.
+@magicui/safari-demo-2	example	Second example showing a Safari browser mockup.
+@magicui/safari-demo-3	example	Third example showing a Safari browser mockup.
+@magicui/safari-demo-4	example	Fourth example showing a Safari browser mockup.
+@magicui/scroll-based-velocity	ui	Scrolling text whose speed changes based on scroll speed
+@magicui/scroll-based-velocity-demo	example	Example showing text speed changes based on scroll velocity.
+@magicui/scroll-based-velocity-images-demo	example	Example showing Unsplash images scrolling with speed reacting to scroll velocity.
+@magicui/scroll-progress	ui	Animated Scroll Progress for your pages
+@magicui/scroll-progress-demo	example	Example showing animated scroll progress for your pages.
+@magicui/shimmer-button	ui	A button with a shimmering light which travels around the perimeter.
+@magicui/shimmer-button-demo	example	Example showing a button with a shimmering light effect.
+@magicui/shine-border	ui	Shine border is an animated background border effect.
+@magicui/shine-border-demo	example	Example showing an animated shining border effect.
+@magicui/shine-border-demo-2	example	Second example showing an animated shining border effect.
+@magicui/shiny-button	ui	A shiny button component with dynamic styles in the dark mode or light mode.
+@magicui/shiny-button-demo	example	Example showing a shiny button with dynamic styles.
+@magicui/smooth-cursor	ui	A customizable, physics-based smooth cursor animation component with spring animations and rotation effects
+@magicui/smooth-cursor-demo	example	Basic smooth cursor example
+@magicui/sparkles-text	ui	A dynamic text that generates continuous sparkles with smooth transitions, perfect for highlighting text with animated stars.
+@magicui/sparkles-text-demo	example	Example showing text with animated sparkle effects.
+@magicui/spinning-text	ui	The Spinning Text component animates text in a circular motion with customizable speed, direction, color, and transitions for dynamic and engaging effects.
+@magicui/spinning-text-demo	example	Example showing spinning text animation.
+@magicui/spinning-text-demo-2	example	Example showing spinning text animation.
+@magicui/striped-pattern	ui	A background striped pattern made with SVGs, fully customizable using Tailwind CSS.
+@magicui/striped-pattern-dashed	example	Example showing a background striped pattern with a dashed stroke.
+@magicui/striped-pattern-demo	example	Example showing a background striped pattern made with SVGs.
+@magicui/striped-pattern-right	example	Example showing a background striped pattern slanting to the right using SVG.
+@magicui/terminal	ui	A terminal component
+@magicui/terminal-demo	example	Example showing a terminal with animated text.
+@magicui/terminal-demo-2	example	Example showing a terminal with animated text and custom delays
+@magicui/text-3d-flip	ui	A text effect that flips each letter in 3D with a staggered animation on hover.
+@magicui/text-3d-flip-demo	example	Example showing a 3D text animation that rotates each letter on hover.
+@magicui/text-3d-flip-demo-2	example	Example showing a 3D text flip with stagger from center.
+@magicui/text-animate	ui	A text animation component that animates text using a variety of different animations.
+@magicui/text-animate-demo	example	Example showing various text animations.
+@magicui/text-animate-demo-2	example	Second example showing various text animations.
+@magicui/text-animate-demo-3	example	Third example showing various text animations.
+@magicui/text-animate-demo-4	example	Fourth example showing various text animations.
+@magicui/text-animate-demo-5	example	Fifth example showing various text animations.
+@magicui/text-animate-demo-6	example	Sixth example showing various text animations.
+@magicui/text-animate-demo-7	example	Seventh example showing various text animations.
+@magicui/text-animate-demo-8	example	Eighth example showing various text animations.
+@magicui/text-animate-demo-9	example	Ninth example showing various text animations.
+@magicui/text-reveal	ui	Fade in text as you scroll down the page.
+@magicui/text-reveal-demo	example	Example showing text that fades in on scroll.
+@magicui/tweet-card	ui	A card that displays a tweet with the author's name, handle, and profile picture.
+@magicui/tweet-card-demo	example	Example showing a tweet card with author info.
+@magicui/tweet-card-images	example	Example showing a tweet card with images.
+@magicui/tweet-card-meta-preview	example	Example showing a tweet card with meta preview.
+@magicui/typing-animation	ui	Characters appearing in typed animation
+@magicui/typing-animation-demo	example	Example showing typed character animations.
+@magicui/typing-animation-demo-2	example	Example showing multiple words with looping.
+@magicui/typing-animation-demo-3	example	Example showing custom typing and deleting speeds.
+@magicui/typing-animation-demo-4	example	Example showing animation that starts when in viewport.
+@magicui/typing-animation-demo-5	example	Example showing typing animation without cursor.
+@magicui/typing-animation-demo-6	example	Example showing single play without looping.
+@magicui/typing-animation-demo-7	example	Example showing cursor blinking control.
+@magicui/typing-animation-demo-8	example	Example showing different cursor styles (line, block, underscore).
+@magicui/utils	lib	
+@magicui/video-text	ui	A component that displays text with a video playing in the background.
+@magicui/video-text-demo	example	Example showing text with a video background.
+@magicui/warp-background	ui	A card with a time warping background effect.
+@magicui/warp-background-demo	example	Example showing a card with a time warping background effect.
+@magicui/word-rotate	ui	A vertical rotation of words
+@magicui/word-rotate-demo	example	Example showing vertical word rotation animation.
+@react-bits/AccordionGallery-JS-CSS	component	Panels expand on hover or focus, revealing parallax imagery and captions.
+@react-bits/AccordionGallery-JS-TW	component	Panels expand on hover or focus, revealing parallax imagery and captions.
+@react-bits/AccordionGallery-TS-CSS	component	Panels expand on hover or focus, revealing parallax imagery and captions.
+@react-bits/AccordionGallery-TS-TW	component	Panels expand on hover or focus, revealing parallax imagery and captions.
+@react-bits/AcidSquares-JS-CSS	component	A crystalline corridor of stacked squares receding into depth.
+@react-bits/AcidSquares-JS-TW	component	A crystalline corridor of stacked squares receding into depth.
+@react-bits/AcidSquares-TS-CSS	component	A crystalline corridor of stacked squares receding into depth.
+@react-bits/AcidSquares-TS-TW	component	A crystalline corridor of stacked squares receding into depth.
+@react-bits/AnimatedContent-JS-CSS	component	Wrapper that animates any children on scroll or mount with configurable direction, distance, duration, easing and disappear options.
+@react-bits/AnimatedContent-JS-TW	component	Wrapper that animates any children on scroll or mount with configurable direction, distance, duration, easing and disappear options.
+@react-bits/AnimatedContent-TS-CSS	component	Wrapper that animates any children on scroll or mount with configurable direction, distance, duration, easing and disappear options.
+@react-bits/AnimatedContent-TS-TW	component	Wrapper that animates any children on scroll or mount with configurable direction, distance, duration, easing and disappear options.
+@react-bits/AnimatedList-JS-CSS	component	List items enter with staggered motion variants for polished reveals.
+@react-bits/AnimatedList-JS-TW	component	List items enter with staggered motion variants for polished reveals.
+@react-bits/AnimatedList-TS-CSS	component	List items enter with staggered motion variants for polished reveals.
+@react-bits/AnimatedList-TS-TW	component	List items enter with staggered motion variants for polished reveals.
+@react-bits/Antigravity-JS-CSS	component	3D antigravity particle field that repels from the cursor with smooth motion.
+@react-bits/Antigravity-JS-TW	component	3D antigravity particle field that repels from the cursor with smooth motion.
+@react-bits/Antigravity-TS-CSS	component	3D antigravity particle field that repels from the cursor with smooth motion.
+@react-bits/Antigravity-TS-TW	component	3D antigravity particle field that repels from the cursor with smooth motion.
+@react-bits/ASCIIText-JS-CSS	component	Renders text with an animated ASCII background for a retro feel.
+@react-bits/ASCIIText-JS-TW	component	Renders text with an animated ASCII background for a retro feel.
+@react-bits/ASCIIText-TS-CSS	component	Renders text with an animated ASCII background for a retro feel.
+@react-bits/ASCIIText-TS-TW	component	Renders text with an animated ASCII background for a retro feel.
+@react-bits/Aurora-JS-CSS	component	Flowing aurora gradient background.
+@react-bits/Aurora-JS-TW	component	Flowing aurora gradient background.
+@react-bits/Aurora-TS-CSS	component	Flowing aurora gradient background.
+@react-bits/Aurora-TS-TW	component	Flowing aurora gradient background.
+@react-bits/Balatro-JS-CSS	component	The balatro shader, fully customizalbe and interactive.
+@react-bits/Balatro-JS-TW	component	The balatro shader, fully customizalbe and interactive.
+@react-bits/Balatro-TS-CSS	component	The balatro shader, fully customizalbe and interactive.
+@react-bits/Balatro-TS-TW	component	The balatro shader, fully customizalbe and interactive.
+@react-bits/Ballpit-JS-CSS	component	Physics ball pit simulation with bouncing colorful spheres.
+@react-bits/Ballpit-JS-TW	component	Physics ball pit simulation with bouncing colorful spheres.
+@react-bits/Ballpit-TS-CSS	component	Physics ball pit simulation with bouncing colorful spheres.
+@react-bits/Ballpit-TS-TW	component	Physics ball pit simulation with bouncing colorful spheres.
+@react-bits/Beams-JS-CSS	component	Crossing animated ribbons with customizable properties.
+@react-bits/Beams-JS-TW	component	Crossing animated ribbons with customizable properties.
+@react-bits/Beams-TS-CSS	component	Crossing animated ribbons with customizable properties.
+@react-bits/Beams-TS-TW	component	Crossing animated ribbons with customizable properties.
+@react-bits/BlobCursor-JS-CSS	component	Organic blob cursor that smoothly follows the pointer with inertia and elastic morphing.
+@react-bits/BlobCursor-JS-TW	component	Organic blob cursor that smoothly follows the pointer with inertia and elastic morphing.
+@react-bits/BlobCursor-TS-CSS	component	Organic blob cursor that smoothly follows the pointer with inertia and elastic morphing.
+@react-bits/BlobCursor-TS-TW	component	Organic blob cursor that smoothly follows the pointer with inertia and elastic morphing.
+@react-bits/BlurText-JS-CSS	component	Text starts blurred then crisply resolves for a soft-focus reveal effect.
+@react-bits/BlurText-JS-TW	component	Text starts blurred then crisply resolves for a soft-focus reveal effect.
+@react-bits/BlurText-TS-CSS	component	Text starts blurred then crisply resolves for a soft-focus reveal effect.
+@react-bits/BlurText-TS-TW	component	Text starts blurred then crisply resolves for a soft-focus reveal effect.
+@react-bits/BorderGlow-JS-CSS	component	Glowing mesh-gradient border that follows cursor direction and intensifies near edges.
+@react-bits/BorderGlow-JS-TW	component	Glowing mesh-gradient border that follows cursor direction and intensifies near edges.
+@react-bits/BorderGlow-TS-CSS	component	Glowing mesh-gradient border that follows cursor direction and intensifies near edges.
+@react-bits/BorderGlow-TS-TW	component	Glowing mesh-gradient border that follows cursor direction and intensifies near edges.
+@react-bits/BounceCards-JS-CSS	component	Cards bounce that bounce in on mount.
+@react-bits/BounceCards-JS-TW	component	Cards bounce that bounce in on mount.
+@react-bits/BounceCards-TS-CSS	component	Cards bounce that bounce in on mount.
+@react-bits/BounceCards-TS-TW	component	Cards bounce that bounce in on mount.
+@react-bits/BubbleMenu-JS-CSS	component	Floating circular expanding menu with staggered item reveal.
+@react-bits/BubbleMenu-JS-TW	component	Floating circular expanding menu with staggered item reveal.
+@react-bits/BubbleMenu-TS-CSS	component	Floating circular expanding menu with staggered item reveal.
+@react-bits/BubbleMenu-TS-TW	component	Floating circular expanding menu with staggered item reveal.
+@react-bits/CardNav-JS-CSS	component	Expandable navigation bar with card panels revealing nested links.
+@react-bits/CardNav-JS-TW	component	Expandable navigation bar with card panels revealing nested links.
+@react-bits/CardNav-TS-CSS	component	Expandable navigation bar with card panels revealing nested links.
+@react-bits/CardNav-TS-TW	component	Expandable navigation bar with card panels revealing nested links.
+@react-bits/CardSwap-JS-CSS	component	Cards animate position swapping with smooth layout transitions.
+@react-bits/CardSwap-JS-TW	component	Cards animate position swapping with smooth layout transitions.
+@react-bits/CardSwap-TS-CSS	component	Cards animate position swapping with smooth layout transitions.
+@react-bits/CardSwap-TS-TW	component	Cards animate position swapping with smooth layout transitions.
+@react-bits/Carousel-JS-CSS	component	Responsive carousel with touch gestures, looping and transitions.
+@react-bits/Carousel-JS-TW	component	Responsive carousel with touch gestures, looping and transitions.
+@react-bits/Carousel-TS-CSS	component	Responsive carousel with touch gestures, looping and transitions.
+@react-bits/Carousel-TS-TW	component	Responsive carousel with touch gestures, looping and transitions.
+@react-bits/ChromaGrid-JS-CSS	component	A responsive grid of grayscale tiles. Hovering the grid reaveals their colors.
+@react-bits/ChromaGrid-JS-TW	component	A responsive grid of grayscale tiles. Hovering the grid reaveals their colors.
+@react-bits/ChromaGrid-TS-CSS	component	A responsive grid of grayscale tiles. Hovering the grid reaveals their colors.
+@react-bits/ChromaGrid-TS-TW	component	A responsive grid of grayscale tiles. Hovering the grid reaveals their colors.
+@react-bits/CircularGallery-JS-CSS	component	Circular orbit gallery rotating images.
+@react-bits/CircularGallery-JS-TW	component	Circular orbit gallery rotating images.
+@react-bits/CircularGallery-TS-CSS	component	Circular orbit gallery rotating images.
+@react-bits/CircularGallery-TS-TW	component	Circular orbit gallery rotating images.
+@react-bits/CircularText-JS-CSS	component	Layouts characters around a circle with optional rotation animation.
+@react-bits/CircularText-JS-TW	component	Layouts characters around a circle with optional rotation animation.
+@react-bits/CircularText-TS-CSS	component	Layouts characters around a circle with optional rotation animation.
+@react-bits/CircularText-TS-TW	component	Layouts characters around a circle with optional rotation animation.
+@react-bits/ClickSpark-JS-CSS	component	Creates particle spark bursts at click position.
+@react-bits/ClickSpark-JS-TW	component	Creates particle spark bursts at click position.
+@react-bits/ClickSpark-TS-CSS	component	Creates particle spark bursts at click position.
+@react-bits/ClickSpark-TS-TW	component	Creates particle spark bursts at click position.
+@react-bits/ColorBends-JS-CSS	component	Vibrant color bends with smooth flowing animation.
+@react-bits/ColorBends-JS-TW	component	Vibrant color bends with smooth flowing animation.
+@react-bits/ColorBends-TS-CSS	component	Vibrant color bends with smooth flowing animation.
+@react-bits/ColorBends-TS-TW	component	Vibrant color bends with smooth flowing animation.
+@react-bits/Counter-JS-CSS	component	Flexible animated counter supporting increments + easing.
+@react-bits/Counter-JS-TW	component	Flexible animated counter supporting increments + easing.
+@react-bits/Counter-TS-CSS	component	Flexible animated counter supporting increments + easing.
+@react-bits/Counter-TS-TW	component	Flexible animated counter supporting increments + easing.
+@react-bits/CountUp-JS-CSS	component	Animated number counter supporting formatting and decimals.
+@react-bits/CountUp-JS-TW	component	Animated number counter supporting formatting and decimals.
+@react-bits/CountUp-TS-CSS	component	Animated number counter supporting formatting and decimals.
+@react-bits/CountUp-TS-TW	component	Animated number counter supporting formatting and decimals.
+@react-bits/Crosshair-JS-CSS	component	Custom crosshair cursor with tracking, and link hover effects.
+@react-bits/Crosshair-JS-TW	component	Custom crosshair cursor with tracking, and link hover effects.
+@react-bits/Crosshair-TS-CSS	component	Custom crosshair cursor with tracking, and link hover effects.
+@react-bits/Crosshair-TS-TW	component	Custom crosshair cursor with tracking, and link hover effects.
+@react-bits/Cubes-JS-CSS	component	3D rotating cube cluster. Supports auto-rotation or hover interaction.
+@react-bits/Cubes-JS-TW	component	3D rotating cube cluster. Supports auto-rotation or hover interaction.
+@react-bits/Cubes-TS-CSS	component	3D rotating cube cluster. Supports auto-rotation or hover interaction.
+@react-bits/Cubes-TS-TW	component	3D rotating cube cluster. Supports auto-rotation or hover interaction.
+@react-bits/CursorGrid-JS-CSS	component	Canvas grid whose cells light up around the cursor with configurable radius, falloff and click pulses.
+@react-bits/CursorGrid-JS-TW	component	Canvas grid whose cells light up around the cursor with configurable radius, falloff and click pulses.
+@react-bits/CursorGrid-TS-CSS	component	Canvas grid whose cells light up around the cursor with configurable radius, falloff and click pulses.
+@react-bits/CursorGrid-TS-TW	component	Canvas grid whose cells light up around the cursor with configurable radius, falloff and click pulses.
+@react-bits/CurvedInput-JS-CSS	component	Arc-bent input bar with text, caret and submit button all following the curve.
+@react-bits/CurvedInput-JS-TW	component	Arc-bent input bar with text, caret and submit button all following the curve.
+@react-bits/CurvedInput-TS-CSS	component	Arc-bent input bar with text, caret and submit button all following the curve.
+@react-bits/CurvedInput-TS-TW	component	Arc-bent input bar with text, caret and submit button all following the curve.
+@react-bits/CurvedLoop-JS-CSS	component	Flowing looping text path along a customizable curve with drag interaction.
+@react-bits/CurvedLoop-JS-TW	component	Flowing looping text path along a customizable curve with drag interaction.
+@react-bits/CurvedLoop-TS-CSS	component	Flowing looping text path along a customizable curve with drag interaction.
+@react-bits/CurvedLoop-TS-TW	component	Flowing looping text path along a customizable curve with drag interaction.
+@react-bits/DarkVeil-JS-CSS	component	Subtle dark background with a smooth animation and postprocessing.
+@react-bits/DarkVeil-JS-TW	component	Subtle dark background with a smooth animation and postprocessing.
+@react-bits/DarkVeil-TS-CSS	component	Subtle dark background with a smooth animation and postprocessing.
+@react-bits/DarkVeil-TS-TW	component	Subtle dark background with a smooth animation and postprocessing.
+@react-bits/DecayCard-JS-CSS	component	Hover parallax effect that disintegrates the content of a card.
+@react-bits/DecayCard-JS-TW	component	Hover parallax effect that disintegrates the content of a card.
+@react-bits/DecayCard-TS-CSS	component	Hover parallax effect that disintegrates the content of a card.
+@react-bits/DecayCard-TS-TW	component	Hover parallax effect that disintegrates the content of a card.
+@react-bits/DecryptedText-JS-CSS	component	Hacker-style decryption cycling random glyphs until resolving to real text.
+@react-bits/DecryptedText-JS-TW	component	Hacker-style decryption cycling random glyphs until resolving to real text.
+@react-bits/DecryptedText-TS-CSS	component	Hacker-style decryption cycling random glyphs until resolving to real text.
+@react-bits/DecryptedText-TS-TW	component	Hacker-style decryption cycling random glyphs until resolving to real text.
+@react-bits/DepthCarousel-JS-CSS	component	Cards recede into depth on a 3D rail, with drag, keyboard and auto-advance.
+@react-bits/DepthCarousel-JS-TW	component	Cards recede into depth on a 3D rail, with drag, keyboard and auto-advance.
+@react-bits/DepthCarousel-TS-CSS	component	Cards recede into depth on a 3D rail, with drag, keyboard and auto-advance.
+@react-bits/DepthCarousel-TS-TW	component	Cards recede into depth on a 3D rail, with drag, keyboard and auto-advance.
+@react-bits/DepthText-JS-CSS	component	Layered extruded type with parallax that shifts against the pointer.
+@react-bits/DepthText-JS-TW	component	Layered extruded type with parallax that shifts against the pointer.
+@react-bits/DepthText-TS-CSS	component	Layered extruded type with parallax that shifts against the pointer.
+@react-bits/DepthText-TS-TW	component	Layered extruded type with parallax that shifts against the pointer.
+@react-bits/Dither-JS-CSS	component	Retro dithered noise shader background.
+@react-bits/Dither-JS-TW	component	Retro dithered noise shader background.
+@react-bits/Dither-TS-CSS	component	Retro dithered noise shader background.
+@react-bits/Dither-TS-TW	component	Retro dithered noise shader background.
+@react-bits/Dock-JS-CSS	component	macOS style magnifying dock with proximity scaling of icons.
+@react-bits/Dock-JS-TW	component	macOS style magnifying dock with proximity scaling of icons.
+@react-bits/Dock-TS-CSS	component	macOS style magnifying dock with proximity scaling of icons.
+@react-bits/Dock-TS-TW	component	macOS style magnifying dock with proximity scaling of icons.
+@react-bits/DomeGallery-JS-CSS	component	Immersive 3D dome gallery projecting images on a hemispheric surface.
+@react-bits/DomeGallery-JS-TW	component	Immersive 3D dome gallery projecting images on a hemispheric surface.
+@react-bits/DomeGallery-TS-CSS	component	Immersive 3D dome gallery projecting images on a hemispheric surface.
+@react-bits/DomeGallery-TS-TW	component	Immersive 3D dome gallery projecting images on a hemispheric surface.
+@react-bits/DotField-JS-CSS	component	Interactive dot grid with cursor bulge, glow, sparkle, and wave effects.
+@react-bits/DotField-JS-TW	component	Interactive dot grid with cursor bulge, glow, sparkle, and wave effects.
+@react-bits/DotField-TS-CSS	component	Interactive dot grid with cursor bulge, glow, sparkle, and wave effects.
+@react-bits/DotField-TS-TW	component	Interactive dot grid with cursor bulge, glow, sparkle, and wave effects.
+@react-bits/DotGrid-JS-CSS	component	Animated dot grid with cursor interactions.
+@react-bits/DotGrid-JS-TW	component	Animated dot grid with cursor interactions.
+@react-bits/DotGrid-TS-CSS	component	Animated dot grid with cursor interactions.
+@react-bits/DotGrid-TS-TW	component	Animated dot grid with cursor interactions.
+@react-bits/DriftWall-JS-CSS	component	An endless perspective wall of tiles drifting past, lifting on hover.
+@react-bits/DriftWall-JS-TW	component	An endless perspective wall of tiles drifting past, lifting on hover.
+@react-bits/DriftWall-TS-CSS	component	An endless perspective wall of tiles drifting past, lifting on hover.
+@react-bits/DriftWall-TS-TW	component	An endless perspective wall of tiles drifting past, lifting on hover.
+@react-bits/EchoText-JS-CSS	component	Ghosted copies trail behind the text and settle into a single word.
+@react-bits/EchoText-JS-TW	component	Ghosted copies trail behind the text and settle into a single word.
+@react-bits/EchoText-TS-CSS	component	Ghosted copies trail behind the text and settle into a single word.
+@react-bits/EchoText-TS-TW	component	Ghosted copies trail behind the text and settle into a single word.
+@react-bits/ElasticMesh-JS-CSS	component	Spring-mesh surface that stretches under the pointer and settles back with damped physics.
+@react-bits/ElasticMesh-JS-TW	component	Spring-mesh surface that stretches under the pointer and settles back with damped physics.
+@react-bits/ElasticMesh-TS-CSS	component	Spring-mesh surface that stretches under the pointer and settles back with damped physics.
+@react-bits/ElasticMesh-TS-TW	component	Spring-mesh surface that stretches under the pointer and settles back with damped physics.
+@react-bits/ElasticSlider-JS-CSS	component	Slider handle stretches elastically then snaps with spring physics.
+@react-bits/ElasticSlider-JS-TW	component	Slider handle stretches elastically then snaps with spring physics.
+@react-bits/ElasticSlider-TS-CSS	component	Slider handle stretches elastically then snaps with spring physics.
+@react-bits/ElasticSlider-TS-TW	component	Slider handle stretches elastically then snaps with spring physics.
+@react-bits/ElectricBorder-JS-CSS	component	Jittery electric energy border with animated arcs, glow and adjustable intensity.
+@react-bits/ElectricBorder-JS-TW	component	Jittery electric energy border with animated arcs, glow and adjustable intensity.
+@react-bits/ElectricBorder-TS-CSS	component	Jittery electric energy border with animated arcs, glow and adjustable intensity.
+@react-bits/ElectricBorder-TS-TW	component	Jittery electric energy border with animated arcs, glow and adjustable intensity.
+@react-bits/EvilEye-JS-CSS	component	Procedural evil eye shader with animated iris, slit pupil, and fiery outer glow.
+@react-bits/EvilEye-JS-TW	component	Procedural evil eye shader with animated iris, slit pupil, and fiery outer glow.
+@react-bits/EvilEye-TS-CSS	component	Procedural evil eye shader with animated iris, slit pupil, and fiery outer glow.
+@react-bits/EvilEye-TS-TW	component	Procedural evil eye shader with animated iris, slit pupil, and fiery outer glow.
+@react-bits/FadeContent-JS-CSS	component	Simple directional fade / slide entrance / exit wrapper with threshold-based activation.
+@react-bits/FadeContent-JS-TW	component	Simple directional fade / slide entrance / exit wrapper with threshold-based activation.
+@react-bits/FadeContent-TS-CSS	component	Simple directional fade / slide entrance / exit wrapper with threshold-based activation.
+@react-bits/FadeContent-TS-TW	component	Simple directional fade / slide entrance / exit wrapper with threshold-based activation.
+@react-bits/FallingText-JS-CSS	component	Characters fall with gravity + bounce creating a playful entrance.
+@react-bits/FallingText-JS-TW	component	Characters fall with gravity + bounce creating a playful entrance.
+@react-bits/FallingText-TS-CSS	component	Characters fall with gravity + bounce creating a playful entrance.
+@react-bits/FallingText-TS-TW	component	Characters fall with gravity + bounce creating a playful entrance.
+@react-bits/FaultyTerminal-JS-CSS	component	Terminal CRT scanline squares effect with flicker + noise.
+@react-bits/FaultyTerminal-JS-TW	component	Terminal CRT scanline squares effect with flicker + noise.
+@react-bits/FaultyTerminal-TS-CSS	component	Terminal CRT scanline squares effect with flicker + noise.
+@react-bits/FaultyTerminal-TS-TW	component	Terminal CRT scanline squares effect with flicker + noise.
+@react-bits/Ferrofluid-JS-CSS	component	A churning magnetic fluid traced by glowing contour lines, with a cursor magnet.
+@react-bits/Ferrofluid-JS-TW	component	A churning magnetic fluid traced by glowing contour lines, with a cursor magnet.
+@react-bits/Ferrofluid-TS-CSS	component	A churning magnetic fluid traced by glowing contour lines, with a cursor magnet.
+@react-bits/Ferrofluid-TS-TW	component	A churning magnetic fluid traced by glowing contour lines, with a cursor magnet.
+@react-bits/FloatingLines-JS-CSS	component	3D floating lines that react to cursor movement.
+@react-bits/FloatingLines-JS-TW	component	3D floating lines that react to cursor movement.
+@react-bits/FloatingLines-TS-CSS	component	3D floating lines that react to cursor movement.
+@react-bits/FloatingLines-TS-TW	component	3D floating lines that react to cursor movement.
+@react-bits/FlowingMenu-JS-CSS	component	Liquid flowing active indicator glides between menu items.
+@react-bits/FlowingMenu-JS-TW	component	Liquid flowing active indicator glides between menu items.
+@react-bits/FlowingMenu-TS-CSS	component	Liquid flowing active indicator glides between menu items.
+@react-bits/FlowingMenu-TS-TW	component	Liquid flowing active indicator glides between menu items.
+@react-bits/FluidGlass-JS-CSS	component	Glassmorphism container with animated liquid distortion refraction.
+@react-bits/FluidGlass-JS-TW	component	Glassmorphism container with animated liquid distortion refraction.
+@react-bits/FluidGlass-TS-CSS	component	Glassmorphism container with animated liquid distortion refraction.
+@react-bits/FluidGlass-TS-TW	component	Glassmorphism container with animated liquid distortion refraction.
+@react-bits/FlyingPosters-JS-CSS	component	3D posters rotate on scroll infinitely.
+@react-bits/FlyingPosters-JS-TW	component	3D posters rotate on scroll infinitely.
+@react-bits/FlyingPosters-TS-CSS	component	3D posters rotate on scroll infinitely.
+@react-bits/FlyingPosters-TS-TW	component	3D posters rotate on scroll infinitely.
+@react-bits/Folder-JS-CSS	component	Interactive folder opens to reveal nested content smooth motion.
+@react-bits/Folder-JS-TW	component	Interactive folder opens to reveal nested content smooth motion.
+@react-bits/Folder-TS-CSS	component	Interactive folder opens to reveal nested content smooth motion.
+@react-bits/Folder-TS-TW	component	Interactive folder opens to reveal nested content smooth motion.
+@react-bits/FoldText-JS-CSS	component	Lines unfold into place like creased paper opening flat.
+@react-bits/FoldText-JS-TW	component	Lines unfold into place like creased paper opening flat.
+@react-bits/FoldText-TS-CSS	component	Lines unfold into place like creased paper opening flat.
+@react-bits/FoldText-TS-TW	component	Lines unfold into place like creased paper opening flat.
+@react-bits/FuzzyText-JS-CSS	component	Vibrating fuzzy text with controllable hover intensity.
+@react-bits/FuzzyText-JS-TW	component	Vibrating fuzzy text with controllable hover intensity.
+@react-bits/FuzzyText-TS-CSS	component	Vibrating fuzzy text with controllable hover intensity.
+@react-bits/FuzzyText-TS-TW	component	Vibrating fuzzy text with controllable hover intensity.
+@react-bits/Galaxy-JS-CSS	component	Parallax realistic starfield with pointer interactions.
+@react-bits/Galaxy-JS-TW	component	Parallax realistic starfield with pointer interactions.
+@react-bits/Galaxy-TS-CSS	component	Parallax realistic starfield with pointer interactions.
+@react-bits/Galaxy-TS-TW	component	Parallax realistic starfield with pointer interactions.
+@react-bits/GhostCursor-JS-CSS	component	Semi-transparent ghost cursor that smoothly follows the real cursor with a trailing effect.
+@react-bits/GhostCursor-JS-TW	component	Semi-transparent ghost cursor that smoothly follows the real cursor with a trailing effect.
+@react-bits/GhostCursor-TS-CSS	component	Semi-transparent ghost cursor that smoothly follows the real cursor with a trailing effect.
+@react-bits/GhostCursor-TS-TW	component	Semi-transparent ghost cursor that smoothly follows the real cursor with a trailing effect.
+@react-bits/GlareHover-JS-CSS	component	Adds a realistic moving glare highlight on hover over any element.
+@react-bits/GlareHover-JS-TW	component	Adds a realistic moving glare highlight on hover over any element.
+@react-bits/GlareHover-TS-CSS	component	Adds a realistic moving glare highlight on hover over any element.
+@react-bits/GlareHover-TS-TW	component	Adds a realistic moving glare highlight on hover over any element.
+@react-bits/GlassIcons-JS-CSS	component	Icon set styled with frosted glass blur.
+@react-bits/GlassIcons-JS-TW	component	Icon set styled with frosted glass blur.
+@react-bits/GlassIcons-TS-CSS	component	Icon set styled with frosted glass blur.
+@react-bits/GlassIcons-TS-TW	component	Icon set styled with frosted glass blur.
+@react-bits/GlassSurface-JS-CSS	component	Advanced Apple-style glass surface with real-time distortion + lighting.
+@react-bits/GlassSurface-JS-TW	component	Advanced Apple-style glass surface with real-time distortion + lighting.
+@react-bits/GlassSurface-TS-CSS	component	Advanced Apple-style glass surface with real-time distortion + lighting.
+@react-bits/GlassSurface-TS-TW	component	Advanced Apple-style glass surface with real-time distortion + lighting.
+@react-bits/GlitchText-JS-CSS	component	RGB split and distortion glitch effect with jitter effects.
+@react-bits/GlitchText-JS-TW	component	RGB split and distortion glitch effect with jitter effects.
+@react-bits/GlitchText-TS-CSS	component	RGB split and distortion glitch effect with jitter effects.
+@react-bits/GlitchText-TS-TW	component	RGB split and distortion glitch effect with jitter effects.
+@react-bits/GooeyNav-JS-CSS	component	Navigation indicator morphs with gooey blob transitions between items.
+@react-bits/GooeyNav-JS-TW	component	Navigation indicator morphs with gooey blob transitions between items.
+@react-bits/GooeyNav-TS-CSS	component	Navigation indicator morphs with gooey blob transitions between items.
+@react-bits/GooeyNav-TS-TW	component	Navigation indicator morphs with gooey blob transitions between items.
+@react-bits/GradientBlinds-JS-CSS	component	Layered gradient blinds with spotlight and noise distortion.
+@react-bits/GradientBlinds-JS-TW	component	Layered gradient blinds with spotlight and noise distortion.
+@react-bits/GradientBlinds-TS-CSS	component	Layered gradient blinds with spotlight and noise distortion.
+@react-bits/GradientBlinds-TS-TW	component	Layered gradient blinds with spotlight and noise distortion.
+@react-bits/GradientText-JS-CSS	component	Animated gradient sweep across live text with speed and color control.
+@react-bits/GradientText-JS-TW	component	Animated gradient sweep across live text with speed and color control.
+@react-bits/GradientText-TS-CSS	component	Animated gradient sweep across live text with speed and color control.
+@react-bits/GradientText-TS-TW	component	Animated gradient sweep across live text with speed and color control.
+@react-bits/GradientWaves-JS-CSS	component	Raymarched sine waves rolling toward a soft, hazy horizon.
+@react-bits/GradientWaves-JS-TW	component	Raymarched sine waves rolling toward a soft, hazy horizon.
+@react-bits/GradientWaves-TS-CSS	component	Raymarched sine waves rolling toward a soft, hazy horizon.
+@react-bits/GradientWaves-TS-TW	component	Raymarched sine waves rolling toward a soft, hazy horizon.
+@react-bits/GradualBlur-JS-CSS	component	Progressively un-blurs content based on scroll or trigger creating a cinematic reveal.
+@react-bits/GradualBlur-JS-TW	component	Progressively un-blurs content based on scroll or trigger creating a cinematic reveal.
+@react-bits/GradualBlur-TS-CSS	component	Progressively un-blurs content based on scroll or trigger creating a cinematic reveal.
+@react-bits/GradualBlur-TS-TW	component	Progressively un-blurs content based on scroll or trigger creating a cinematic reveal.
+@react-bits/Grainient-JS-CSS	component	Grainy gradient swirls with soft wave distortion.
+@react-bits/Grainient-JS-TW	component	Grainy gradient swirls with soft wave distortion.
+@react-bits/Grainient-TS-CSS	component	Grainy gradient swirls with soft wave distortion.
+@react-bits/Grainient-TS-TW	component	Grainy gradient swirls with soft wave distortion.
+@react-bits/GridDistortion-JS-CSS	component	Warped grid mesh distorts smoothly reacting to cursor.
+@react-bits/GridDistortion-JS-TW	component	Warped grid mesh distorts smoothly reacting to cursor.
+@react-bits/GridDistortion-TS-CSS	component	Warped grid mesh distorts smoothly reacting to cursor.
+@react-bits/GridDistortion-TS-TW	component	Warped grid mesh distorts smoothly reacting to cursor.
+@react-bits/GridMotion-JS-CSS	component	Perspective moving grid lines based on cusror position.
+@react-bits/GridMotion-JS-TW	component	Perspective moving grid lines based on cusror position.
+@react-bits/GridMotion-TS-CSS	component	Perspective moving grid lines based on cusror position.
+@react-bits/GridMotion-TS-TW	component	Perspective moving grid lines based on cusror position.
+@react-bits/GridScan-JS-CSS	component	Animated grid room 3D scan effect and cool interactions.
+@react-bits/GridScan-JS-TW	component	Animated grid room 3D scan effect and cool interactions.
+@react-bits/GridScan-TS-CSS	component	Animated grid room 3D scan effect and cool interactions.
+@react-bits/GridScan-TS-TW	component	Animated grid room 3D scan effect and cool interactions.
+@react-bits/HalftoneReveal-JS-CSS	component	Print-style halftone dot matrix that resolves into sharp content around the cursor.
+@react-bits/HalftoneReveal-JS-TW	component	Print-style halftone dot matrix that resolves into sharp content around the cursor.
+@react-bits/HalftoneReveal-TS-CSS	component	Print-style halftone dot matrix that resolves into sharp content around the cursor.
+@react-bits/HalftoneReveal-TS-TW	component	Print-style halftone dot matrix that resolves into sharp content around the cursor.
+@react-bits/Hyperspeed-JS-CSS	component	Animated lines continuously moving to simulate hyperspace travel on click hold.
+@react-bits/Hyperspeed-JS-TW	component	Animated lines continuously moving to simulate hyperspace travel on click hold.
+@react-bits/Hyperspeed-TS-CSS	component	Animated lines continuously moving to simulate hyperspace travel on click hold.
+@react-bits/Hyperspeed-TS-TW	component	Animated lines continuously moving to simulate hyperspace travel on click hold.
+@react-bits/ImageTrail-JS-CSS	component	Cursor-based image trail with several built-in variants.
+@react-bits/ImageTrail-JS-TW	component	Cursor-based image trail with several built-in variants.
+@react-bits/ImageTrail-TS-CSS	component	Cursor-based image trail with several built-in variants.
+@react-bits/ImageTrail-TS-TW	component	Cursor-based image trail with several built-in variants.
+@react-bits/InfiniteMenu-JS-CSS	component	Horizontally looping menu effect that scrolls endlessly with seamless wrap.
+@react-bits/InfiniteMenu-JS-TW	component	Horizontally looping menu effect that scrolls endlessly with seamless wrap.
+@react-bits/InfiniteMenu-TS-CSS	component	Horizontally looping menu effect that scrolls endlessly with seamless wrap.
+@react-bits/InfiniteMenu-TS-TW	component	Horizontally looping menu effect that scrolls endlessly with seamless wrap.
+@react-bits/Iridescence-JS-CSS	component	Slick iridescent shader with shifting waves.
+@react-bits/Iridescence-JS-TW	component	Slick iridescent shader with shifting waves.
+@react-bits/Iridescence-TS-CSS	component	Slick iridescent shader with shifting waves.
+@react-bits/Iridescence-TS-TW	component	Slick iridescent shader with shifting waves.
+@react-bits/Lanyard-JS-CSS	component	Swinging 3D lanyard / badge card with realistic inertial motion.
+@react-bits/Lanyard-JS-TW	component	Swinging 3D lanyard / badge card with realistic inertial motion.
+@react-bits/Lanyard-TS-CSS	component	Swinging 3D lanyard / badge card with realistic inertial motion.
+@react-bits/Lanyard-TS-TW	component	Swinging 3D lanyard / badge card with realistic inertial motion.
+@react-bits/LaserFlow-JS-CSS	component	Dynamic laser light that flows onto a surface, customizable effect.
+@react-bits/LaserFlow-JS-TW	component	Dynamic laser light that flows onto a surface, customizable effect.
+@react-bits/LaserFlow-TS-CSS	component	Dynamic laser light that flows onto a surface, customizable effect.
+@react-bits/LaserFlow-TS-TW	component	Dynamic laser light that flows onto a surface, customizable effect.
+@react-bits/LetterGlitch-JS-CSS	component	Matrix style letter animation.
+@react-bits/LetterGlitch-JS-TW	component	Matrix style letter animation.
+@react-bits/LetterGlitch-TS-CSS	component	Matrix style letter animation.
+@react-bits/LetterGlitch-TS-TW	component	Matrix style letter animation.
+@react-bits/Lightfall-JS-CSS	component	Colorful light streaks raining down a glowing tunnel with a cursor light.
+@react-bits/Lightfall-JS-TW	component	Colorful light streaks raining down a glowing tunnel with a cursor light.
+@react-bits/Lightfall-TS-CSS	component	Colorful light streaks raining down a glowing tunnel with a cursor light.
+@react-bits/Lightfall-TS-TW	component	Colorful light streaks raining down a glowing tunnel with a cursor light.
+@react-bits/Lightning-JS-CSS	component	Procedural lightning bolts with branching and glow flicker.
+@react-bits/Lightning-JS-TW	component	Procedural lightning bolts with branching and glow flicker.
+@react-bits/Lightning-TS-CSS	component	Procedural lightning bolts with branching and glow flicker.
+@react-bits/Lightning-TS-TW	component	Procedural lightning bolts with branching and glow flicker.
+@react-bits/LightPillar-JS-CSS	component	Vertical pillar of light with glow effects.
+@react-bits/LightPillar-JS-TW	component	Vertical pillar of light with glow effects.
+@react-bits/LightPillar-TS-CSS	component	Vertical pillar of light with glow effects.
+@react-bits/LightPillar-TS-TW	component	Vertical pillar of light with glow effects.
+@react-bits/LightRays-JS-CSS	component	Volumetric light rays/beams with customizable direction.
+@react-bits/LightRays-JS-TW	component	Volumetric light rays/beams with customizable direction.
+@react-bits/LightRays-TS-CSS	component	Volumetric light rays/beams with customizable direction.
+@react-bits/LightRays-TS-TW	component	Volumetric light rays/beams with customizable direction.
+@react-bits/LightTunnel-JS-CSS	component	A radial fibre-optic tunnel with light pulses racing into depth.
+@react-bits/LightTunnel-JS-TW	component	A radial fibre-optic tunnel with light pulses racing into depth.
+@react-bits/LightTunnel-TS-CSS	component	A radial fibre-optic tunnel with light pulses racing into depth.
+@react-bits/LightTunnel-TS-TW	component	A radial fibre-optic tunnel with light pulses racing into depth.
+@react-bits/LineSidebar-JS-CSS	component	Static list navigation with a cursor-proximity effect that shifts and highlights nearby items.
+@react-bits/LineSidebar-JS-TW	component	Static list navigation with a cursor-proximity effect that shifts and highlights nearby items.
+@react-bits/LineSidebar-TS-CSS	component	Static list navigation with a cursor-proximity effect that shifts and highlights nearby items.
+@react-bits/LineSidebar-TS-TW	component	Static list navigation with a cursor-proximity effect that shifts and highlights nearby items.
+@react-bits/LineWaves-JS-CSS	component	Animated line wave pattern with colorful warped distortion.
+@react-bits/LineWaves-JS-TW	component	Animated line wave pattern with colorful warped distortion.
+@react-bits/LineWaves-TS-CSS	component	Animated line wave pattern with colorful warped distortion.
+@react-bits/LineWaves-TS-TW	component	Animated line wave pattern with colorful warped distortion.
+@react-bits/LiquidChrome-JS-CSS	component	Liquid metallic chrome shader with flowing reflective surface.
+@react-bits/LiquidChrome-JS-TW	component	Liquid metallic chrome shader with flowing reflective surface.
+@react-bits/LiquidChrome-TS-CSS	component	Liquid metallic chrome shader with flowing reflective surface.
+@react-bits/LiquidChrome-TS-TW	component	Liquid metallic chrome shader with flowing reflective surface.
+@react-bits/LiquidEther-JS-CSS	component	Interactive liquid shader with flowing distortion and customizable colors.
+@react-bits/LiquidEther-JS-TW	component	Interactive liquid shader with flowing distortion and customizable colors.
+@react-bits/LiquidEther-TS-CSS	component	Interactive liquid shader with flowing distortion and customizable colors.
+@react-bits/LiquidEther-TS-TW	component	Interactive liquid shader with flowing distortion and customizable colors.
+@react-bits/LogoLoop-JS-CSS	component	Continuously looping marquee of brand or tech logos with seamless repeat and hover pause.
+@react-bits/LogoLoop-JS-TW	component	Continuously looping marquee of brand or tech logos with seamless repeat and hover pause.
+@react-bits/LogoLoop-TS-CSS	component	Continuously looping marquee of brand or tech logos with seamless repeat and hover pause.
+@react-bits/LogoLoop-TS-TW	component	Continuously looping marquee of brand or tech logos with seamless repeat and hover pause.
+@react-bits/MagicBento-JS-CSS	component	Interactive bento grid tiles expand + animate with various options.
+@react-bits/MagicBento-JS-TW	component	Interactive bento grid tiles expand + animate with various options.
+@react-bits/MagicBento-TS-CSS	component	Interactive bento grid tiles expand + animate with various options.
+@react-bits/MagicBento-TS-TW	component	Interactive bento grid tiles expand + animate with various options.
+@react-bits/MagicRings-JS-CSS	component	Interactive magic rings effect with customizable parameters.
+@react-bits/MagicRings-JS-TW	component	Interactive magic rings effect with customizable parameters.
+@react-bits/MagicRings-TS-CSS	component	Interactive magic rings effect with customizable parameters.
+@react-bits/MagicRings-TS-TW	component	Interactive magic rings effect with customizable parameters.
+@react-bits/Magnet-JS-CSS	component	Elements magnetically ease toward the cursor then settle back with spring physics.
+@react-bits/Magnet-JS-TW	component	Elements magnetically ease toward the cursor then settle back with spring physics.
+@react-bits/Magnet-TS-CSS	component	Elements magnetically ease toward the cursor then settle back with spring physics.
+@react-bits/Magnet-TS-TW	component	Elements magnetically ease toward the cursor then settle back with spring physics.
+@react-bits/MagnetLines-JS-CSS	component	Animated field lines bend toward the cursor.
+@react-bits/MagnetLines-JS-TW	component	Animated field lines bend toward the cursor.
+@react-bits/MagnetLines-TS-CSS	component	Animated field lines bend toward the cursor.
+@react-bits/MagnetLines-TS-TW	component	Animated field lines bend toward the cursor.
+@react-bits/MaskedHeading-JS-CSS	component	A large headline with a drifting colour mesh or image showing through the glyphs, revealed word by word.
+@react-bits/MaskedHeading-JS-TW	component	A large headline with a drifting colour mesh or image showing through the glyphs, revealed word by word.
+@react-bits/MaskedHeading-TS-CSS	component	A large headline with a drifting colour mesh or image showing through the glyphs, revealed word by word.
+@react-bits/MaskedHeading-TS-TW	component	A large headline with a drifting colour mesh or image showing through the glyphs, revealed word by word.
+@react-bits/Masonry-JS-CSS	component	Responsive masonry layout with animated reflow + gaps optimization.
+@react-bits/Masonry-JS-TW	component	Responsive masonry layout with animated reflow + gaps optimization.
+@react-bits/Masonry-TS-CSS	component	Responsive masonry layout with animated reflow + gaps optimization.
+@react-bits/Masonry-TS-TW	component	Responsive masonry layout with animated reflow + gaps optimization.
+@react-bits/MetaBalls-JS-CSS	component	Liquid metaball blobs that merge and separate with smooth implicit surface animation.
+@react-bits/MetaBalls-JS-TW	component	Liquid metaball blobs that merge and separate with smooth implicit surface animation.
+@react-bits/MetaBalls-TS-CSS	component	Liquid metaball blobs that merge and separate with smooth implicit surface animation.
+@react-bits/MetaBalls-TS-TW	component	Liquid metaball blobs that merge and separate with smooth implicit surface animation.
+@react-bits/MetallicPaint-JS-CSS	component	Liquid metallic paint shader which can be applied to SVG elements.
+@react-bits/MetallicPaint-JS-TW	component	Liquid metallic paint shader which can be applied to SVG elements.
+@react-bits/MetallicPaint-TS-CSS	component	Liquid metallic paint shader which can be applied to SVG elements.
+@react-bits/MetallicPaint-TS-TW	component	Liquid metallic paint shader which can be applied to SVG elements.
+@react-bits/ModelViewer-JS-CSS	component	Three.js model viewer with orbit controls and lighting presets.
+@react-bits/ModelViewer-JS-TW	component	Three.js model viewer with orbit controls and lighting presets.
+@react-bits/ModelViewer-TS-CSS	component	Three.js model viewer with orbit controls and lighting presets.
+@react-bits/ModelViewer-TS-TW	component	Three.js model viewer with orbit controls and lighting presets.
+@react-bits/MoltenMetal-JS-CSS	component	Swirling caustic plasma filaments with molten, white-hot cores.
+@react-bits/MoltenMetal-JS-TW	component	Swirling caustic plasma filaments with molten, white-hot cores.
+@react-bits/MoltenMetal-TS-CSS	component	Swirling caustic plasma filaments with molten, white-hot cores.
+@react-bits/MoltenMetal-TS-TW	component	Swirling caustic plasma filaments with molten, white-hot cores.
+@react-bits/MorphSlider-JS-CSS	component	WebGL slider that melts between images with a displacement transition.
+@react-bits/MorphSlider-JS-TW	component	WebGL slider that melts between images with a displacement transition.
+@react-bits/MorphSlider-TS-CSS	component	WebGL slider that melts between images with a displacement transition.
+@react-bits/MorphSlider-TS-TW	component	WebGL slider that melts between images with a displacement transition.
+@react-bits/Noise-JS-CSS	component	Animated film grain / noise overlay adding subtle texture and motion.
+@react-bits/Noise-JS-TW	component	Animated film grain / noise overlay adding subtle texture and motion.
+@react-bits/Noise-TS-CSS	component	Animated film grain / noise overlay adding subtle texture and motion.
+@react-bits/Noise-TS-TW	component	Animated film grain / noise overlay adding subtle texture and motion.
+@react-bits/OptionWheel-JS-CSS	component	Curved option picker that spins via scroll, drag, or arrow keys, fading and tilting items away from the selection.
+@react-bits/OptionWheel-JS-TW	component	Curved option picker that spins via scroll, drag, or arrow keys, fading and tilting items away from the selection.
+@react-bits/OptionWheel-TS-CSS	component	Curved option picker that spins via scroll, drag, or arrow keys, fading and tilting items away from the selection.
+@react-bits/OptionWheel-TS-TW	component	Curved option picker that spins via scroll, drag, or arrow keys, fading and tilting items away from the selection.
+@react-bits/Orb-JS-CSS	component	Floating energy orb with customizable hover effect.
+@react-bits/Orb-JS-TW	component	Floating energy orb with customizable hover effect.
+@react-bits/Orb-TS-CSS	component	Floating energy orb with customizable hover effect.
+@react-bits/Orb-TS-TW	component	Floating energy orb with customizable hover effect.
+@react-bits/OrbitImages-JS-CSS	component	SVG Path customizable orbiting images effect
+@react-bits/OrbitImages-JS-TW	component	SVG Path customizable orbiting images effect
+@react-bits/OrbitImages-TS-CSS	component	SVG Path customizable orbiting images effect
+@react-bits/OrbitImages-TS-TW	component	SVG Path customizable orbiting images effect
+@react-bits/Particles-JS-CSS	component	Configurable particle system.
+@react-bits/Particles-JS-TW	component	Configurable particle system.
+@react-bits/Particles-TS-CSS	component	Configurable particle system.
+@react-bits/Particles-TS-TW	component	Configurable particle system.
+@react-bits/ParticleText-JS-CSS	component	Text assembles from drifting particles that scatter and reform on demand.
+@react-bits/ParticleText-JS-TW	component	Text assembles from drifting particles that scatter and reform on demand.
+@react-bits/ParticleText-TS-CSS	component	Text assembles from drifting particles that scatter and reform on demand.
+@react-bits/ParticleText-TS-TW	component	Text assembles from drifting particles that scatter and reform on demand.
+@react-bits/PillNav-JS-CSS	component	Minimal pill nav with sliding active highlight + smooth easing.
+@react-bits/PillNav-JS-TW	component	Minimal pill nav with sliding active highlight + smooth easing.
+@react-bits/PillNav-TS-CSS	component	Minimal pill nav with sliding active highlight + smooth easing.
+@react-bits/PillNav-TS-TW	component	Minimal pill nav with sliding active highlight + smooth easing.
+@react-bits/PixelBlast-JS-CSS	component	Exploding pixel particle bursts with optional liquid postprocessing.
+@react-bits/PixelBlast-JS-TW	component	Exploding pixel particle bursts with optional liquid postprocessing.
+@react-bits/PixelBlast-TS-CSS	component	Exploding pixel particle bursts with optional liquid postprocessing.
+@react-bits/PixelBlast-TS-TW	component	Exploding pixel particle bursts with optional liquid postprocessing.
+@react-bits/PixelCard-JS-CSS	component	Card content revealed through pixel expansion transition.
+@react-bits/PixelCard-JS-TW	component	Card content revealed through pixel expansion transition.
+@react-bits/PixelCard-TS-CSS	component	Card content revealed through pixel expansion transition.
+@react-bits/PixelCard-TS-TW	component	Card content revealed through pixel expansion transition.
+@react-bits/PixelSnow-JS-CSS	component	Falling pixelated snow effect with customizable density and speed.
+@react-bits/PixelSnow-JS-TW	component	Falling pixelated snow effect with customizable density and speed.
+@react-bits/PixelSnow-TS-CSS	component	Falling pixelated snow effect with customizable density and speed.
+@react-bits/PixelSnow-TS-TW	component	Falling pixelated snow effect with customizable density and speed.
+@react-bits/PixelSwap-JS-CSS	component	Pixel fragments assemble into a full cover, swap arbitrary content, then dissolve away with reversible colors and triggers.
+@react-bits/PixelSwap-JS-TW	component	Pixel fragments assemble into a full cover, swap arbitrary content, then dissolve away with reversible colors and triggers.
+@react-bits/PixelSwap-TS-CSS	component	Pixel fragments assemble into a full cover, swap arbitrary content, then dissolve away with reversible colors and triggers.
+@react-bits/PixelSwap-TS-TW	component	Pixel fragments assemble into a full cover, swap arbitrary content, then dissolve away with reversible colors and triggers.
+@react-bits/PixelTrail-JS-CSS	component	Pixelated cursor trail emitting fading squares with retro digital feel.
+@react-bits/PixelTrail-JS-TW	component	Pixelated cursor trail emitting fading squares with retro digital feel.
+@react-bits/PixelTrail-TS-CSS	component	Pixelated cursor trail emitting fading squares with retro digital feel.
+@react-bits/PixelTrail-TS-TW	component	Pixelated cursor trail emitting fading squares with retro digital feel.
+@react-bits/PixelTransition-JS-CSS	component	Pixel dissolve transition for content reveal on hover.
+@react-bits/PixelTransition-JS-TW	component	Pixel dissolve transition for content reveal on hover.
+@react-bits/PixelTransition-TS-CSS	component	Pixel dissolve transition for content reveal on hover.
+@react-bits/PixelTransition-TS-TW	component	Pixel dissolve transition for content reveal on hover.
+@react-bits/Plasma-JS-CSS	component	Organic plasma gradients swirl + morph with smooth turbulence.
+@react-bits/Plasma-JS-TW	component	Organic plasma gradients swirl + morph with smooth turbulence.
+@react-bits/Plasma-TS-CSS	component	Organic plasma gradients swirl + morph with smooth turbulence.
+@react-bits/Plasma-TS-TW	component	Organic plasma gradients swirl + morph with smooth turbulence.
+@react-bits/PlasmaWave-JS-CSS	component	Raymarched plasma waves with dual-wave interference and OGL.
+@react-bits/PlasmaWave-JS-TW	component	Raymarched plasma waves with dual-wave interference and OGL.
+@react-bits/PlasmaWave-TS-CSS	component	Raymarched plasma waves with dual-wave interference and OGL.
+@react-bits/PlasmaWave-TS-TW	component	Raymarched plasma waves with dual-wave interference and OGL.
+@react-bits/Prism-JS-CSS	component	Rotating prism with configurable intensity, size, and colors.
+@react-bits/Prism-JS-TW	component	Rotating prism with configurable intensity, size, and colors.
+@react-bits/Prism-TS-CSS	component	Rotating prism with configurable intensity, size, and colors.
+@react-bits/Prism-TS-TW	component	Rotating prism with configurable intensity, size, and colors.
+@react-bits/PrismaticBurst-JS-CSS	component	Burst of light rays with controllable color, distortion, amount.
+@react-bits/PrismaticBurst-JS-TW	component	Burst of light rays with controllable color, distortion, amount.
+@react-bits/PrismaticBurst-TS-CSS	component	Burst of light rays with controllable color, distortion, amount.
+@react-bits/PrismaticBurst-TS-TW	component	Burst of light rays with controllable color, distortion, amount.
+@react-bits/ProfileCard-JS-CSS	component	Animated profile card glare with 3D hover effect.
+@react-bits/ProfileCard-JS-TW	component	Animated profile card glare with 3D hover effect.
+@react-bits/ProfileCard-TS-CSS	component	Animated profile card glare with 3D hover effect.
+@react-bits/ProfileCard-TS-TW	component	Animated profile card glare with 3D hover effect.
+@react-bits/Radar-JS-CSS	component	Radar sweep effect with concentric rings, radial spokes, and a rotating beam.
+@react-bits/Radar-JS-TW	component	Radar sweep effect with concentric rings, radial spokes, and a rotating beam.
+@react-bits/Radar-TS-CSS	component	Radar sweep effect with concentric rings, radial spokes, and a rotating beam.
+@react-bits/Radar-TS-TW	component	Radar sweep effect with concentric rings, radial spokes, and a rotating beam.
+@react-bits/ReflectiveCard-JS-CSS	component	Card with dynamic webcam reflection and glare effects that respond to cursor movement.
+@react-bits/ReflectiveCard-JS-TW	component	Card with dynamic webcam reflection and glare effects that respond to cursor movement.
+@react-bits/ReflectiveCard-TS-CSS	component	Card with dynamic webcam reflection and glare effects that respond to cursor movement.
+@react-bits/ReflectiveCard-TS-TW	component	Card with dynamic webcam reflection and glare effects that respond to cursor movement.
+@react-bits/Ribbons-JS-CSS	component	Flowing responsive ribbons/cursor trail driven by physics and pointer motion.
+@react-bits/Ribbons-JS-TW	component	Flowing responsive ribbons/cursor trail driven by physics and pointer motion.
+@react-bits/Ribbons-TS-CSS	component	Flowing responsive ribbons/cursor trail driven by physics and pointer motion.
+@react-bits/Ribbons-TS-TW	component	Flowing responsive ribbons/cursor trail driven by physics and pointer motion.
+@react-bits/RippleDistortion-JS-CSS	component	Pointer-driven water displacement that warps content and leaves a decaying wake.
+@react-bits/RippleDistortion-JS-TW	component	Pointer-driven water displacement that warps content and leaves a decaying wake.
+@react-bits/RippleDistortion-TS-CSS	component	Pointer-driven water displacement that warps content and leaves a decaying wake.
+@react-bits/RippleDistortion-TS-TW	component	Pointer-driven water displacement that warps content and leaves a decaying wake.
+@react-bits/RippleGrid-JS-CSS	component	A grid that continuously animates with a ripple effect.
+@react-bits/RippleGrid-JS-TW	component	A grid that continuously animates with a ripple effect.
+@react-bits/RippleGrid-TS-CSS	component	A grid that continuously animates with a ripple effect.
+@react-bits/RippleGrid-TS-TW	component	A grid that continuously animates with a ripple effect.
+@react-bits/RotatingText-JS-CSS	component	Cycles through multiple phrases with 3D rotate / flip transitions.
+@react-bits/RotatingText-JS-TW	component	Cycles through multiple phrases with 3D rotate / flip transitions.
+@react-bits/RotatingText-TS-CSS	component	Cycles through multiple phrases with 3D rotate / flip transitions.
+@react-bits/RotatingText-TS-TW	component	Cycles through multiple phrases with 3D rotate / flip transitions.
+@react-bits/Scanner-JS-CSS	component	Calm interference bands sweeping across the screen like an oscilloscope.
+@react-bits/Scanner-JS-TW	component	Calm interference bands sweeping across the screen like an oscilloscope.
+@react-bits/Scanner-TS-CSS	component	Calm interference bands sweeping across the screen like an oscilloscope.
+@react-bits/Scanner-TS-TW	component	Calm interference bands sweeping across the screen like an oscilloscope.
+@react-bits/ScrambledText-JS-CSS	component	Detects cursor position and applies a distortion effect to text.
+@react-bits/ScrambledText-JS-TW	component	Detects cursor position and applies a distortion effect to text.
+@react-bits/ScrambledText-TS-CSS	component	Detects cursor position and applies a distortion effect to text.
+@react-bits/ScrambledText-TS-TW	component	Detects cursor position and applies a distortion effect to text.
+@react-bits/ScrollExpand-JS-CSS	component	A rounded media frame that grows to full bleed as it scrolls through the viewport.
+@react-bits/ScrollExpand-JS-TW	component	A rounded media frame that grows to full bleed as it scrolls through the viewport.
+@react-bits/ScrollExpand-TS-CSS	component	A rounded media frame that grows to full bleed as it scrolls through the viewport.
+@react-bits/ScrollExpand-TS-TW	component	A rounded media frame that grows to full bleed as it scrolls through the viewport.
+@react-bits/ScrollFloat-JS-CSS	component	Text gently floats / parallax shifts on scroll.
+@react-bits/ScrollFloat-JS-TW	component	Text gently floats / parallax shifts on scroll.
+@react-bits/ScrollFloat-TS-CSS	component	Text gently floats / parallax shifts on scroll.
+@react-bits/ScrollFloat-TS-TW	component	Text gently floats / parallax shifts on scroll.
+@react-bits/ScrollReveal-JS-CSS	component	Text gently unblurs and reveals on scroll.
+@react-bits/ScrollReveal-JS-TW	component	Text gently unblurs and reveals on scroll.
+@react-bits/ScrollReveal-TS-CSS	component	Text gently unblurs and reveals on scroll.
+@react-bits/ScrollReveal-TS-TW	component	Text gently unblurs and reveals on scroll.
+@react-bits/ScrollStack-JS-CSS	component	Overlapping card stack reveals on scroll with depth layering.
+@react-bits/ScrollStack-JS-TW	component	Overlapping card stack reveals on scroll with depth layering.
+@react-bits/ScrollStack-TS-CSS	component	Overlapping card stack reveals on scroll with depth layering.
+@react-bits/ScrollStack-TS-TW	component	Overlapping card stack reveals on scroll with depth layering.
+@react-bits/ScrollVelocity-JS-CSS	component	Text marquee animatio - speed and distortion scale with user's scroll velocity.
+@react-bits/ScrollVelocity-JS-TW	component	Text marquee animatio - speed and distortion scale with user's scroll velocity.
+@react-bits/ScrollVelocity-TS-CSS	component	Text marquee animatio - speed and distortion scale with user's scroll velocity.
+@react-bits/ScrollVelocity-TS-TW	component	Text marquee animatio - speed and distortion scale with user's scroll velocity.
+@react-bits/ShapeBlur-JS-CSS	component	Morphing blurred geometric shape. The effect occurs on hover.
+@react-bits/ShapeBlur-JS-TW	component	Morphing blurred geometric shape. The effect occurs on hover.
+@react-bits/ShapeBlur-TS-CSS	component	Morphing blurred geometric shape. The effect occurs on hover.
+@react-bits/ShapeBlur-TS-TW	component	Morphing blurred geometric shape. The effect occurs on hover.
+@react-bits/ShapeGrid-JS-CSS	component	Animated grid with shape variants (square, hexagon, circle, triangle) + direction customization.
+@react-bits/ShapeGrid-JS-TW	component	Animated grid with shape variants (square, hexagon, circle, triangle) + direction customization.
+@react-bits/ShapeGrid-TS-CSS	component	Animated grid with shape variants (square, hexagon, circle, triangle) + direction customization.
+@react-bits/ShapeGrid-TS-TW	component	Animated grid with shape variants (square, hexagon, circle, triangle) + direction customization.
+@react-bits/ShinyText-JS-CSS	component	Metallic sheen sweeps across text producing a reflective highlight.
+@react-bits/ShinyText-JS-TW	component	Metallic sheen sweeps across text producing a reflective highlight.
+@react-bits/ShinyText-TS-CSS	component	Metallic sheen sweeps across text producing a reflective highlight.
+@react-bits/ShinyText-TS-TW	component	Metallic sheen sweeps across text producing a reflective highlight.
+@react-bits/Shuffle-JS-CSS	component	Animated text reveal where characters shuffle before settling.
+@react-bits/Shuffle-JS-TW	component	Animated text reveal where characters shuffle before settling.
+@react-bits/Shuffle-TS-CSS	component	Animated text reveal where characters shuffle before settling.
+@react-bits/Shuffle-TS-TW	component	Animated text reveal where characters shuffle before settling.
+@react-bits/SideRays-JS-CSS	component	Animated light rays emanating from the side with customizable colors and speed.
+@react-bits/SideRays-JS-TW	component	Animated light rays emanating from the side with customizable colors and speed.
+@react-bits/SideRays-TS-CSS	component	Animated light rays emanating from the side with customizable colors and speed.
+@react-bits/SideRays-TS-TW	component	Animated light rays emanating from the side with customizable colors and speed.
+@react-bits/Silk-JS-CSS	component	Smooth waves background with soft lighting.
+@react-bits/Silk-JS-TW	component	Smooth waves background with soft lighting.
+@react-bits/Silk-TS-CSS	component	Smooth waves background with soft lighting.
+@react-bits/Silk-TS-TW	component	Smooth waves background with soft lighting.
+@react-bits/SlicedWaves-JS-CSS	component	A grid of soft glowing bars rippling like a slatted equalizer.
+@react-bits/SlicedWaves-JS-TW	component	A grid of soft glowing bars rippling like a slatted equalizer.
+@react-bits/SlicedWaves-TS-CSS	component	A grid of soft glowing bars rippling like a slatted equalizer.
+@react-bits/SlicedWaves-TS-TW	component	A grid of soft glowing bars rippling like a slatted equalizer.
+@react-bits/SoftAurora-JS-CSS	component	Soft aurora borealis shader with 3D Perlin noise and cosine gradient palettes.
+@react-bits/SoftAurora-JS-TW	component	Soft aurora borealis shader with 3D Perlin noise and cosine gradient palettes.
+@react-bits/SoftAurora-TS-CSS	component	Soft aurora borealis shader with 3D Perlin noise and cosine gradient palettes.
+@react-bits/SoftAurora-TS-TW	component	Soft aurora borealis shader with 3D Perlin noise and cosine gradient palettes.
+@react-bits/SpecularButton-JS-CSS	component	Glass button with a shader-driven specular rim light that sweeps around the edge and follows the cursor.
+@react-bits/SpecularButton-JS-TW	component	Glass button with a shader-driven specular rim light that sweeps around the edge and follows the cursor.
+@react-bits/SpecularButton-TS-CSS	component	Glass button with a shader-driven specular rim light that sweeps around the edge and follows the cursor.
+@react-bits/SpecularButton-TS-TW	component	Glass button with a shader-driven specular rim light that sweeps around the edge and follows the cursor.
+@react-bits/SplashCursor-JS-CSS	component	Liquid splash burst at cursor with curling ripples and waves.
+@react-bits/SplashCursor-JS-TW	component	Liquid splash burst at cursor with curling ripples and waves.
+@react-bits/SplashCursor-TS-CSS	component	Liquid splash burst at cursor with curling ripples and waves.
+@react-bits/SplashCursor-TS-TW	component	Liquid splash burst at cursor with curling ripples and waves.
+@react-bits/SplitFlapText-JS-CSS	component	Mechanical split-flap departure board that clacks through to each new phrase.
+@react-bits/SplitFlapText-JS-TW	component	Mechanical split-flap departure board that clacks through to each new phrase.
+@react-bits/SplitFlapText-TS-CSS	component	Mechanical split-flap departure board that clacks through to each new phrase.
+@react-bits/SplitFlapText-TS-TW	component	Mechanical split-flap departure board that clacks through to each new phrase.
+@react-bits/SplitText-JS-CSS	component	Splits text into characters / words for staggered entrance animation.
+@react-bits/SplitText-JS-TW	component	Splits text into characters / words for staggered entrance animation.
+@react-bits/SplitText-TS-CSS	component	Splits text into characters / words for staggered entrance animation.
+@react-bits/SplitText-TS-TW	component	Splits text into characters / words for staggered entrance animation.
+@react-bits/SpotlightCard-JS-CSS	component	Dynamic spotlight follows cursor casting gradient illumination.
+@react-bits/SpotlightCard-JS-TW	component	Dynamic spotlight follows cursor casting gradient illumination.
+@react-bits/SpotlightCard-TS-CSS	component	Dynamic spotlight follows cursor casting gradient illumination.
+@react-bits/SpotlightCard-TS-TW	component	Dynamic spotlight follows cursor casting gradient illumination.
+@react-bits/Stack-JS-CSS	component	Layered stack with swipe animations, autoplay and smooth transitions.
+@react-bits/Stack-JS-TW	component	Layered stack with swipe animations, autoplay and smooth transitions.
+@react-bits/Stack-TS-CSS	component	Layered stack with swipe animations, autoplay and smooth transitions.
+@react-bits/Stack-TS-TW	component	Layered stack with swipe animations, autoplay and smooth transitions.
+@react-bits/StaggeredMenu-JS-CSS	component	Menu with staggered item animations and smooth transitions on open/close.
+@react-bits/StaggeredMenu-JS-TW	component	Menu with staggered item animations and smooth transitions on open/close.
+@react-bits/StaggeredMenu-TS-CSS	component	Menu with staggered item animations and smooth transitions on open/close.
+@react-bits/StaggeredMenu-TS-TW	component	Menu with staggered item animations and smooth transitions on open/close.
+@react-bits/StarBorder-JS-CSS	component	Animated star / sparkle border orbiting content with twinkle pulses.
+@react-bits/StarBorder-JS-TW	component	Animated star / sparkle border orbiting content with twinkle pulses.
+@react-bits/StarBorder-TS-CSS	component	Animated star / sparkle border orbiting content with twinkle pulses.
+@react-bits/StarBorder-TS-TW	component	Animated star / sparkle border orbiting content with twinkle pulses.
+@react-bits/Stepper-JS-CSS	component	Animated multi-step progress indicator with active state transitions.
+@react-bits/Stepper-JS-TW	component	Animated multi-step progress indicator with active state transitions.
+@react-bits/Stepper-TS-CSS	component	Animated multi-step progress indicator with active state transitions.
+@react-bits/Stepper-TS-TW	component	Animated multi-step progress indicator with active state transitions.
+@react-bits/StickerPeel-JS-CSS	component	Sticker corner lift + peel interaction using 3D transform and shadow depth.
+@react-bits/StickerPeel-JS-TW	component	Sticker corner lift + peel interaction using 3D transform and shadow depth.
+@react-bits/StickerPeel-TS-CSS	component	Sticker corner lift + peel interaction using 3D transform and shadow depth.
+@react-bits/StickerPeel-TS-TW	component	Sticker corner lift + peel interaction using 3D transform and shadow depth.
+@react-bits/Strands-JS-CSS	component	Glowing ribbon-like strands that ripple and weave across a transparent canvas.
+@react-bits/Strands-JS-TW	component	Glowing ribbon-like strands that ripple and weave across a transparent canvas.
+@react-bits/Strands-TS-CSS	component	Glowing ribbon-like strands that ripple and weave across a transparent canvas.
+@react-bits/Strands-TS-TW	component	Glowing ribbon-like strands that ripple and weave across a transparent canvas.
+@react-bits/StrokeText-JS-CSS	component	Outlined letterforms draw themselves on, then flood with fill.
+@react-bits/StrokeText-JS-TW	component	Outlined letterforms draw themselves on, then flood with fill.
+@react-bits/StrokeText-TS-CSS	component	Outlined letterforms draw themselves on, then flood with fill.
+@react-bits/StrokeText-TS-TW	component	Outlined letterforms draw themselves on, then flood with fill.
+@react-bits/SwarmCursor-JS-CSS	component	Flocking particle swarm that chases the pointer, jostles for space and drifts apart at rest.
+@react-bits/SwarmCursor-JS-TW	component	Flocking particle swarm that chases the pointer, jostles for space and drifts apart at rest.
+@react-bits/SwarmCursor-TS-CSS	component	Flocking particle swarm that chases the pointer, jostles for space and drifts apart at rest.
+@react-bits/SwarmCursor-TS-TW	component	Flocking particle swarm that chases the pointer, jostles for space and drifts apart at rest.
+@react-bits/TargetCursor-JS-CSS	component	A cursor follow animation with 4 corners that lock onto targets.
+@react-bits/TargetCursor-JS-TW	component	A cursor follow animation with 4 corners that lock onto targets.
+@react-bits/TargetCursor-TS-CSS	component	A cursor follow animation with 4 corners that lock onto targets.
+@react-bits/TargetCursor-TS-TW	component	A cursor follow animation with 4 corners that lock onto targets.
+@react-bits/TextCursor-JS-CSS	component	Make any text element follow your cursor, leaving a trail of copies behind it.
+@react-bits/TextCursor-JS-TW	component	Make any text element follow your cursor, leaving a trail of copies behind it.
+@react-bits/TextCursor-TS-CSS	component	Make any text element follow your cursor, leaving a trail of copies behind it.
+@react-bits/TextCursor-TS-TW	component	Make any text element follow your cursor, leaving a trail of copies behind it.
+@react-bits/TextLoop-JS-CSS	component	A seamless text marquee that flows along curved SVG paths.
+@react-bits/TextLoop-JS-TW	component	A seamless text marquee that flows along curved SVG paths.
+@react-bits/TextLoop-TS-CSS	component	A seamless text marquee that flows along curved SVG paths.
+@react-bits/TextLoop-TS-TW	component	A seamless text marquee that flows along curved SVG paths.
+@react-bits/TextPressure-JS-CSS	component	Characters scale / warp interactively based on pointer pressure zone.
+@react-bits/TextPressure-JS-TW	component	Characters scale / warp interactively based on pointer pressure zone.
+@react-bits/TextPressure-TS-CSS	component	Characters scale / warp interactively based on pointer pressure zone.
+@react-bits/TextPressure-TS-TW	component	Characters scale / warp interactively based on pointer pressure zone.
+@react-bits/TextType-JS-CSS	component	Typewriter effect with blinking cursor and adjustable typing cadence.
+@react-bits/TextType-JS-TW	component	Typewriter effect with blinking cursor and adjustable typing cadence.
+@react-bits/TextType-TS-CSS	component	Typewriter effect with blinking cursor and adjustable typing cadence.
+@react-bits/TextType-TS-TW	component	Typewriter effect with blinking cursor and adjustable typing cadence.
+@react-bits/Threads-JS-CSS	component	Animated pattern of lines forming a fabric-like motion.
+@react-bits/Threads-JS-TW	component	Animated pattern of lines forming a fabric-like motion.
+@react-bits/Threads-TS-CSS	component	Animated pattern of lines forming a fabric-like motion.
+@react-bits/Threads-TS-TW	component	Animated pattern of lines forming a fabric-like motion.
+@react-bits/TiltedCard-JS-CSS	component	3D perspective tilt card reacting to pointer.
+@react-bits/TiltedCard-JS-TW	component	3D perspective tilt card reacting to pointer.
+@react-bits/TiltedCard-TS-CSS	component	3D perspective tilt card reacting to pointer.
+@react-bits/TiltedCard-TS-TW	component	3D perspective tilt card reacting to pointer.
+@react-bits/Topography-JS-CSS	component	A living contour map with glowing, elevation-tinted lines.
+@react-bits/Topography-JS-TW	component	A living contour map with glowing, elevation-tinted lines.
+@react-bits/Topography-TS-CSS	component	A living contour map with glowing, elevation-tinted lines.
+@react-bits/Topography-TS-TW	component	A living contour map with glowing, elevation-tinted lines.
+@react-bits/TrueFocus-JS-CSS	component	Applies dynamic blur / clarity based over a series of words in order.
+@react-bits/TrueFocus-JS-TW	component	Applies dynamic blur / clarity based over a series of words in order.
+@react-bits/TrueFocus-TS-CSS	component	Applies dynamic blur / clarity based over a series of words in order.
+@react-bits/TrueFocus-TS-TW	component	Applies dynamic blur / clarity based over a series of words in order.
+@react-bits/VariableProximity-JS-CSS	component	Letter styling changes continuously with pointer distance mapping.
+@react-bits/VariableProximity-JS-TW	component	Letter styling changes continuously with pointer distance mapping.
+@react-bits/VariableProximity-TS-CSS	component	Letter styling changes continuously with pointer distance mapping.
+@react-bits/VariableProximity-TS-TW	component	Letter styling changes continuously with pointer distance mapping.
+@react-bits/WarpText-JS-CSS	component	WebGL warp that bends and refracts the text around the pointer.
+@react-bits/WarpText-JS-TW	component	WebGL warp that bends and refracts the text around the pointer.
+@react-bits/WarpText-TS-CSS	component	WebGL warp that bends and refracts the text around the pointer.
+@react-bits/WarpText-TS-TW	component	WebGL warp that bends and refracts the text around the pointer.
+@react-bits/Waves-JS-CSS	component	Layered lines that form smooth wave patterns with animation.
+@react-bits/Waves-JS-TW	component	Layered lines that form smooth wave patterns with animation.
+@react-bits/Waves-TS-CSS	component	Layered lines that form smooth wave patterns with animation.
+@react-bits/Waves-TS-TW	component	Layered lines that form smooth wave patterns with animation.
+@react-bits/WebThreads-JS-CSS	component	Glowing sine threads woven through a luminous convergence point.
+@react-bits/WebThreads-JS-TW	component	Glowing sine threads woven through a luminous convergence point.
+@react-bits/WebThreads-TS-CSS	component	Glowing sine threads woven through a luminous convergence point.
+@react-bits/WebThreads-TS-TW	component	Glowing sine threads woven through a luminous convergence point.
+@shadcn/accordion	ui	A vertically stacked set of interactive headings that each reveal a section of content.
+@shadcn/accordion-demo	example	
+@shadcn/alert	ui	Displays a callout for user attention.
+@shadcn/alert-demo	example	
+@shadcn/alert-destructive	example	
+@shadcn/alert-dialog	ui	A modal dialog that interrupts the user with important content and expects a response.
+@shadcn/alert-dialog-demo	example	
+@shadcn/aspect-ratio	ui	Displays content within a desired ratio.
+@shadcn/aspect-ratio-demo	example	
+@shadcn/attachment	ui	
+@shadcn/avatar	ui	An image element with a fallback for representing the user.
+@shadcn/avatar-demo	example	
+@shadcn/badge	ui	Displays a badge or a component that looks like a badge.
+@shadcn/badge-demo	example	
+@shadcn/badge-destructive	example	
+@shadcn/badge-outline	example	
+@shadcn/badge-secondary	example	
+@shadcn/breadcrumb	ui	Displays the path to the current resource using a hierarchy of links.
+@shadcn/breadcrumb-demo	example	
+@shadcn/breadcrumb-dropdown	example	
+@shadcn/breadcrumb-ellipsis	example	
+@shadcn/breadcrumb-link	example	
+@shadcn/breadcrumb-responsive	example	
+@shadcn/breadcrumb-separator	example	
+@shadcn/bubble	ui	
+@shadcn/button	ui	Displays a button or a component that looks like a button.
+@shadcn/button-as-child	example	
+@shadcn/button-default	example	
+@shadcn/button-demo	example	
+@shadcn/button-destructive	example	
+@shadcn/button-ghost	example	
+@shadcn/button-group	ui	A container that groups related buttons together with consistent styling.
+@shadcn/button-group-demo	example	
+@shadcn/button-group-dropdown	example	
+@shadcn/button-group-input	example	
+@shadcn/button-group-input-group	example	
+@shadcn/button-group-nested	example	
+@shadcn/button-group-orientation	example	
+@shadcn/button-group-popover	example	
+@shadcn/button-group-select	example	
+@shadcn/button-group-separator	example	
+@shadcn/button-group-size	example	
+@shadcn/button-group-split	example	
+@shadcn/button-icon	example	
+@shadcn/button-link	example	
+@shadcn/button-loading	example	
+@shadcn/button-outline	example	
+@shadcn/button-rounded	example	
+@shadcn/button-secondary	example	
+@shadcn/button-size	example	
+@shadcn/button-with-icon	example	
+@shadcn/calendar	ui	A calendar component that allows users to select a date or a range of dates.
+@shadcn/calendar-demo	example	
+@shadcn/calendar-hijri	example	A Persian calendar.
+@shadcn/card	ui	Displays a card with header, content, and footer.
+@shadcn/card-demo	example	
+@shadcn/card-with-form	example	
+@shadcn/carousel	ui	A carousel with motion and swipe built using Embla.
+@shadcn/carousel-api	example	
+@shadcn/carousel-demo	example	
+@shadcn/carousel-orientation	example	
+@shadcn/carousel-plugin	example	
+@shadcn/carousel-size	example	
+@shadcn/carousel-spacing	example	
+@shadcn/chart	ui	Beautiful charts. Built using Recharts. Copy and paste into your apps.
+@shadcn/chart-area-axes	block	
+@shadcn/chart-area-default	block	
+@shadcn/chart-area-gradient	block	
+@shadcn/chart-area-icons	block	
+@shadcn/chart-area-interactive	block	
+@shadcn/chart-area-legend	block	
+@shadcn/chart-area-linear	block	
+@shadcn/chart-area-stacked	block	
+@shadcn/chart-area-stacked-expand	block	
+@shadcn/chart-area-step	block	
+@shadcn/chart-bar-active	block	
+@shadcn/chart-bar-default	block	
+@shadcn/chart-bar-demo	example	
+@shadcn/chart-bar-demo-axis	example	
+@shadcn/chart-bar-demo-grid	example	
+@shadcn/chart-bar-demo-legend	example	
+@shadcn/chart-bar-demo-tooltip	example	
+@shadcn/chart-bar-horizontal	block	
+@shadcn/chart-bar-interactive	block	
+@shadcn/chart-bar-label	block	
+@shadcn/chart-bar-label-custom	block	
+@shadcn/chart-bar-mixed	block	
+@shadcn/chart-bar-multiple	block	
+@shadcn/chart-bar-negative	block	
+@shadcn/chart-bar-stacked	block	
+@shadcn/chart-line-default	block	
+@shadcn/chart-line-dots	block	
+@shadcn/chart-line-dots-colors	block	
+@shadcn/chart-line-dots-custom	block	
+@shadcn/chart-line-interactive	block	
+@shadcn/chart-line-label	block	
+@shadcn/chart-line-label-custom	block	
+@shadcn/chart-line-linear	block	
+@shadcn/chart-line-multiple	block	
+@shadcn/chart-line-step	block	
+@shadcn/chart-pie-donut	block	
+@shadcn/chart-pie-donut-active	block	
+@shadcn/chart-pie-donut-text	block	
+@shadcn/chart-pie-interactive	block	
+@shadcn/chart-pie-label	block	
+@shadcn/chart-pie-label-custom	block	
+@shadcn/chart-pie-label-list	block	
+@shadcn/chart-pie-legend	block	
+@shadcn/chart-pie-separator-none	block	
+@shadcn/chart-pie-simple	block	
+@shadcn/chart-pie-stacked	block	
+@shadcn/chart-radar-default	block	
+@shadcn/chart-radar-dots	block	
+@shadcn/chart-radar-grid-circle	block	
+@shadcn/chart-radar-grid-circle-fill	block	
+@shadcn/chart-radar-grid-circle-no-lines	block	
+@shadcn/chart-radar-grid-custom	block	
+@shadcn/chart-radar-grid-fill	block	
+@shadcn/chart-radar-grid-none	block	
+@shadcn/chart-radar-icons	block	
+@shadcn/chart-radar-label-custom	block	
+@shadcn/chart-radar-legend	block	
+@shadcn/chart-radar-lines-only	block	
+@shadcn/chart-radar-multiple	block	
+@shadcn/chart-radar-radius	block	
+@shadcn/chart-radial-grid	block	
+@shadcn/chart-radial-label	block	
+@shadcn/chart-radial-shape	block	
+@shadcn/chart-radial-simple	block	
+@shadcn/chart-radial-stacked	block	
+@shadcn/chart-radial-text	block	
+@shadcn/chart-tooltip-advanced	block	
+@shadcn/chart-tooltip-default	block	
+@shadcn/chart-tooltip-demo	example	
+@shadcn/chart-tooltip-formatter	block	
+@shadcn/chart-tooltip-icons	block	
+@shadcn/chart-tooltip-indicator-line	block	
+@shadcn/chart-tooltip-indicator-none	block	
+@shadcn/chart-tooltip-label-custom	block	
+@shadcn/chart-tooltip-label-formatter	block	
+@shadcn/chart-tooltip-label-none	block	
+@shadcn/checkbox	ui	A control that allows the user to toggle between checked and not checked.
+@shadcn/checkbox-demo	example	
+@shadcn/checkbox-disabled	example	
+@shadcn/checkbox-with-text	example	
+@shadcn/collapsible	ui	An interactive component which expands/collapses a panel.
+@shadcn/collapsible-demo	example	
+@shadcn/combobox	ui	Autocomplete input with a list of suggestions.
+@shadcn/combobox-demo	example	
+@shadcn/combobox-dropdown-menu	example	
+@shadcn/combobox-popover	example	
+@shadcn/combobox-responsive	example	
+@shadcn/command	ui	Command menu for search and quick actions.
+@shadcn/command-demo	example	
+@shadcn/command-dialog	example	
+@shadcn/context-menu	ui	Displays a menu of actions triggered by a right click.
+@shadcn/context-menu-demo	example	
+@shadcn/dashboard-01	block	A dashboard with sidebar, charts and data table.
+@shadcn/data-table-demo	example	
+@shadcn/date-picker-demo	example	
+@shadcn/date-picker-with-presets	example	
+@shadcn/date-picker-with-range	example	
+@shadcn/dialog	ui	A window overlaid on either the primary window or another dialog window, rendering the content underneath inert.
+@shadcn/dialog-close-button	example	
+@shadcn/dialog-demo	example	
+@shadcn/direction	ui	A provider component that sets the text direction for your application.
+@shadcn/drawer	ui	A drawer component for React.
+@shadcn/drawer-demo	example	
+@shadcn/drawer-dialog	example	
+@shadcn/dropdown-menu	ui	Displays a menu to the user — such as a set of actions or functions — triggered by a button.
+@shadcn/dropdown-menu-checkboxes	example	
+@shadcn/dropdown-menu-demo	example	
+@shadcn/dropdown-menu-dialog	example	
+@shadcn/dropdown-menu-radio-group	example	
+@shadcn/empty	ui	Use the Empty component to display an empty state.
+@shadcn/empty-avatar	example	
+@shadcn/empty-avatar-group	example	
+@shadcn/empty-background	example	
+@shadcn/empty-demo	example	
+@shadcn/empty-icon	example	
+@shadcn/empty-input-group	example	
+@shadcn/empty-outline	example	
+@shadcn/field	ui	Combine labels, controls, and help text to compose accessible form fields and grouped inputs.
+@shadcn/field-checkbox	example	
+@shadcn/field-choice-card	example	
+@shadcn/field-demo	example	
+@shadcn/field-fieldset	example	
+@shadcn/field-group	example	
+@shadcn/field-input	example	
+@shadcn/field-radio	example	
+@shadcn/field-responsive	example	
+@shadcn/field-select	example	
+@shadcn/field-slider	example	
+@shadcn/field-switch	example	
+@shadcn/field-textarea	example	
+@shadcn/font-dm-sans	font	DM Sans
+@shadcn/font-eb-garamond	font	EB Garamond
+@shadcn/font-figtree	font	Figtree
+@shadcn/font-geist	font	Geist
+@shadcn/font-geist-mono	font	Geist Mono
+@shadcn/font-heading-dm-sans	font	DM Sans (Heading)
+@shadcn/font-heading-eb-garamond	font	EB Garamond (Heading)
+@shadcn/font-heading-figtree	font	Figtree (Heading)
+@shadcn/font-heading-geist	font	Geist (Heading)
+@shadcn/font-heading-geist-mono	font	Geist Mono (Heading)
+@shadcn/font-heading-ibm-plex-sans	font	IBM Plex Sans (Heading)
+@shadcn/font-heading-instrument-sans	font	Instrument Sans (Heading)
+@shadcn/font-heading-instrument-serif	font	Instrument Serif (Heading)
+@shadcn/font-heading-inter	font	Inter (Heading)
+@shadcn/font-heading-jetbrains-mono	font	JetBrains Mono (Heading)
+@shadcn/font-heading-lora	font	Lora (Heading)
+@shadcn/font-heading-manrope	font	Manrope (Heading)
+@shadcn/font-heading-merriweather	font	Merriweather (Heading)
+@shadcn/font-heading-montserrat	font	Montserrat (Heading)
+@shadcn/font-heading-noto-sans	font	Noto Sans (Heading)
+@shadcn/font-heading-noto-serif	font	Noto Serif (Heading)
+@shadcn/font-heading-nunito-sans	font	Nunito Sans (Heading)
+@shadcn/font-heading-outfit	font	Outfit (Heading)
+@shadcn/font-heading-oxanium	font	Oxanium (Heading)
+@shadcn/font-heading-playfair-display	font	Playfair Display (Heading)
+@shadcn/font-heading-public-sans	font	Public Sans (Heading)
+@shadcn/font-heading-raleway	font	Raleway (Heading)
+@shadcn/font-heading-roboto	font	Roboto (Heading)
+@shadcn/font-heading-roboto-slab	font	Roboto Slab (Heading)
+@shadcn/font-heading-source-sans-3	font	Source Sans 3 (Heading)
+@shadcn/font-heading-space-grotesk	font	Space Grotesk (Heading)
+@shadcn/font-ibm-plex-sans	font	IBM Plex Sans
+@shadcn/font-instrument-sans	font	Instrument Sans
+@shadcn/font-instrument-serif	font	Instrument Serif
+@shadcn/font-inter	font	Inter
+@shadcn/font-jetbrains-mono	font	JetBrains Mono
+@shadcn/font-lora	font	Lora
+@shadcn/font-manrope	font	Manrope
+@shadcn/font-merriweather	font	Merriweather
+@shadcn/font-montserrat	font	Montserrat
+@shadcn/font-noto-sans	font	Noto Sans
+@shadcn/font-noto-serif	font	Noto Serif
+@shadcn/font-nunito-sans	font	Nunito Sans
+@shadcn/font-outfit	font	Outfit
+@shadcn/font-oxanium	font	Oxanium
+@shadcn/font-playfair-display	font	Playfair Display
+@shadcn/font-public-sans	font	Public Sans
+@shadcn/font-raleway	font	Raleway
+@shadcn/font-roboto	font	Roboto
+@shadcn/font-roboto-slab	font	Roboto Slab
+@shadcn/font-source-sans-3	font	Source Sans 3
+@shadcn/font-space-grotesk	font	Space Grotesk
+@shadcn/form	ui	
+@shadcn/form-formisch-array	example	
+@shadcn/form-formisch-checkbox	example	
+@shadcn/form-formisch-complex	example	
+@shadcn/form-formisch-demo	example	
+@shadcn/form-formisch-input	example	
+@shadcn/form-formisch-radiogroup	example	
+@shadcn/form-formisch-select	example	
+@shadcn/form-formisch-switch	example	
+@shadcn/form-formisch-textarea	example	
+@shadcn/form-next-complex	example	
+@shadcn/form-next-demo	example	
+@shadcn/form-rhf-array	example	
+@shadcn/form-rhf-checkbox	example	
+@shadcn/form-rhf-complex	example	
+@shadcn/form-rhf-demo	example	
+@shadcn/form-rhf-input	example	
+@shadcn/form-rhf-password	example	
+@shadcn/form-rhf-radiogroup	example	
+@shadcn/form-rhf-select	example	
+@shadcn/form-rhf-switch	example	
+@shadcn/form-rhf-textarea	example	
+@shadcn/form-tanstack-array	example	
+@shadcn/form-tanstack-checkbox	example	
+@shadcn/form-tanstack-complex	example	
+@shadcn/form-tanstack-demo	example	
+@shadcn/form-tanstack-input	example	
+@shadcn/form-tanstack-radiogroup	example	
+@shadcn/form-tanstack-select	example	
+@shadcn/form-tanstack-switch	example	
+@shadcn/form-tanstack-textarea	example	
+@shadcn/hover-card	ui	For sighted users to preview content available behind a link.
+@shadcn/hover-card-demo	example	
+@shadcn/index	style	
+@shadcn/input	ui	A text input component for forms and user data entry with built-in styling and accessibility features.
+@shadcn/input-demo	example	
+@shadcn/input-disabled	example	
+@shadcn/input-file	example	
+@shadcn/input-group	ui	Add addons, buttons, and helper content to inputs.
+@shadcn/input-group-button	example	
+@shadcn/input-group-button-group	example	
+@shadcn/input-group-custom	example	
+@shadcn/input-group-demo	example	
+@shadcn/input-group-dropdown	example	
+@shadcn/input-group-icon	example	
+@shadcn/input-group-label	example	
+@shadcn/input-group-spinner	example	
+@shadcn/input-group-text	example	
+@shadcn/input-group-textarea	example	
+@shadcn/input-group-tooltip	example	
+@shadcn/input-otp	ui	Accessible one-time password component with copy-paste functionality.
+@shadcn/input-otp-controlled	example	
+@shadcn/input-otp-demo	example	
+@shadcn/input-otp-pattern	example	
+@shadcn/input-otp-separator	example	
+@shadcn/input-with-button	example	
+@shadcn/input-with-label	example	
+@shadcn/input-with-text	example	
+@shadcn/item	ui	A versatile component for displaying content with media, title, description, and actions.
+@shadcn/item-avatar	example	
+@shadcn/item-demo	example	
+@shadcn/item-dropdown	example	
+@shadcn/item-group	example	
+@shadcn/item-header	example	
+@shadcn/item-icon	example	
+@shadcn/item-image	example	
+@shadcn/item-link	example	
+@shadcn/item-size	example	
+@shadcn/item-variant	example	
+@shadcn/kbd	ui	Used to display textual user input from keyboard.
+@shadcn/kbd-button	example	
+@shadcn/kbd-demo	example	
+@shadcn/kbd-group	example	
+@shadcn/kbd-input-group	example	
+@shadcn/kbd-tooltip	example	
+@shadcn/label	ui	Renders an accessible label associated with controls.
+@shadcn/label-demo	example	
+@shadcn/login-01	block	A simple login form.
+@shadcn/login-02	block	A two column login page with a cover image.
+@shadcn/login-03	block	A login page with a muted background color.
+@shadcn/login-04	block	A login page with form and image.
+@shadcn/login-05	block	A simple email-only login page.
+@shadcn/marker	ui	
+@shadcn/menubar	ui	A visually persistent menu common in desktop applications that provides quick access to a consistent set of commands.
+@shadcn/menubar-demo	example	
+@shadcn/message	ui	
+@shadcn/message-scroller	ui	
+@shadcn/mode-toggle	example	
+@shadcn/native-select	ui	A styled native HTML select element with consistent design system integration.
+@shadcn/native-select-demo	example	
+@shadcn/native-select-disabled	example	
+@shadcn/native-select-groups	example	
+@shadcn/native-select-invalid	example	
+@shadcn/navigation-menu	ui	A collection of links for navigating websites.
+@shadcn/navigation-menu-demo	example	
+@shadcn/pagination	ui	Pagination with page navigation, next and previous links.
+@shadcn/pagination-demo	example	
+@shadcn/popover	ui	Displays rich content in a portal, triggered by a button.
+@shadcn/popover-demo	example	
+@shadcn/progress	ui	Displays an indicator showing the completion progress of a task, typically displayed as a progress bar.
+@shadcn/progress-demo	example	
+@shadcn/radio-group	ui	A set of checkable buttons—known as radio buttons—where no more than one of the buttons can be checked at a time.
+@shadcn/radio-group-demo	example	
+@shadcn/resizable	ui	Accessible resizable panel groups and layouts with keyboard support.
+@shadcn/resizable-demo	example	
+@shadcn/resizable-demo-with-handle	example	
+@shadcn/resizable-handle	example	
+@shadcn/resizable-vertical	example	
+@shadcn/scroll-area	ui	Augments native scroll functionality for custom, cross-browser styling.
+@shadcn/scroll-area-demo	example	
+@shadcn/scroll-area-horizontal-demo	example	
+@shadcn/select	ui	Displays a list of options for the user to pick from—triggered by a button.
+@shadcn/select-demo	example	
+@shadcn/select-scrollable	example	
+@shadcn/separator	ui	Visually or semantically separates content.
+@shadcn/separator-demo	example	
+@shadcn/sheet	ui	Extends the Dialog component to display content that complements the main content of the screen.
+@shadcn/sheet-demo	example	
+@shadcn/sheet-side	example	
+@shadcn/sidebar	ui	A composable, themeable and customizable sidebar component.
+@shadcn/sidebar-01	block	A simple sidebar with navigation grouped by section.
+@shadcn/sidebar-02	block	A sidebar with collapsible sections.
+@shadcn/sidebar-03	block	A sidebar with submenus.
+@shadcn/sidebar-04	block	A floating sidebar with submenus.
+@shadcn/sidebar-05	block	A sidebar with collapsible submenus.
+@shadcn/sidebar-06	block	A sidebar with submenus as dropdowns.
+@shadcn/sidebar-07	block	A sidebar that collapses to icons.
+@shadcn/sidebar-08	block	An inset sidebar with secondary navigation.
+@shadcn/sidebar-09	block	Collapsible nested sidebars.
+@shadcn/sidebar-10	block	A sidebar in a popover.
+@shadcn/sidebar-11	block	A sidebar with a collapsible file tree.
+@shadcn/sidebar-12	block	A sidebar with a calendar.
+@shadcn/sidebar-13	block	A sidebar in a dialog.
+@shadcn/sidebar-14	block	A sidebar on the right.
+@shadcn/sidebar-15	block	A left and right sidebar.
+@shadcn/sidebar-16	block	A sidebar with a sticky site header.
+@shadcn/sidebar-controlled	internal	
+@shadcn/sidebar-demo	internal	
+@shadcn/sidebar-footer	internal	
+@shadcn/sidebar-group	internal	
+@shadcn/sidebar-group-action	internal	
+@shadcn/sidebar-group-collapsible	internal	
+@shadcn/sidebar-header	internal	
+@shadcn/sidebar-menu	internal	
+@shadcn/sidebar-menu-action	internal	
+@shadcn/sidebar-menu-badge	internal	
+@shadcn/sidebar-menu-collapsible	internal	
+@shadcn/sidebar-menu-sub	internal	
+@shadcn/sidebar-rsc	internal	
+@shadcn/signup-01	block	A simple signup form.
+@shadcn/signup-02	block	A two column signup page with a cover image.
+@shadcn/signup-03	block	A signup page with a muted background color.
+@shadcn/signup-04	block	A signup page with form and image.
+@shadcn/signup-05	block	A simple signup form with social providers.
+@shadcn/skeleton	ui	Use to show a placeholder while content is loading.
+@shadcn/skeleton-card	example	
+@shadcn/skeleton-demo	example	
+@shadcn/slider	ui	An input where the user selects a value from within a given range.
+@shadcn/slider-demo	example	
+@shadcn/sonner	ui	A succinct message that is displayed temporarily.
+@shadcn/sonner-demo	example	
+@shadcn/sonner-types	example	
+@shadcn/spinner	ui	An indicator that can be used to show a loading state.
+@shadcn/spinner-badge	example	
+@shadcn/spinner-basic	example	
+@shadcn/spinner-button	example	
+@shadcn/spinner-color	example	
+@shadcn/spinner-custom	example	
+@shadcn/spinner-demo	example	
+@shadcn/spinner-empty	example	
+@shadcn/spinner-input-group	example	
+@shadcn/spinner-item	example	
+@shadcn/spinner-size	example	
+@shadcn/style	style	
+@shadcn/switch	ui	A control that allows the user to toggle between checked and not checked.
+@shadcn/switch-demo	example	
+@shadcn/table	ui	A responsive table component.
+@shadcn/table-demo	example	
+@shadcn/tabs	ui	A set of layered sections of content—known as tab panels—that are displayed one at a time.
+@shadcn/tabs-demo	example	
+@shadcn/textarea	ui	Displays a form textarea or a component that looks like a textarea.
+@shadcn/textarea-demo	example	
+@shadcn/textarea-disabled	example	
+@shadcn/textarea-with-button	example	
+@shadcn/textarea-with-label	example	
+@shadcn/textarea-with-text	example	
+@shadcn/theme-gray	theme	
+@shadcn/theme-neutral	theme	
+@shadcn/theme-slate	theme	
+@shadcn/theme-stone	theme	
+@shadcn/theme-zinc	theme	
+@shadcn/toggle	ui	A two-state button that can be either on or off.
+@shadcn/toggle-demo	example	
+@shadcn/toggle-disabled	example	
+@shadcn/toggle-group	ui	A set of two-state buttons that can be toggled on or off.
+@shadcn/toggle-group-demo	example	
+@shadcn/toggle-group-disabled	example	
+@shadcn/toggle-group-lg	example	
+@shadcn/toggle-group-outline	example	
+@shadcn/toggle-group-single	example	
+@shadcn/toggle-group-sm	example	
+@shadcn/toggle-group-spacing	example	
+@shadcn/toggle-lg	example	
+@shadcn/toggle-outline	example	
+@shadcn/toggle-sm	example	
+@shadcn/toggle-with-text	example	
+@shadcn/tooltip	ui	A popup that displays information related to an element when the element receives keyboard focus or the mouse hovers over it.
+@shadcn/tooltip-demo	example	
+@shadcn/typography-blockquote	example	
+@shadcn/typography-demo	example	
+@shadcn/typography-h1	example	
+@shadcn/typography-h2	example	
+@shadcn/typography-h3	example	
+@shadcn/typography-h4	example	
+@shadcn/typography-inline-code	example	
+@shadcn/typography-large	example	
+@shadcn/typography-lead	example	
+@shadcn/typography-list	example	
+@shadcn/typography-muted	example	
+@shadcn/typography-p	example	
+@shadcn/typography-small	example	
+@shadcn/typography-table	example	
+@shadcn/use-mobile	hook	
+@shadcn/utils	lib	

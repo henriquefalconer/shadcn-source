@@ -1,0 +1,98 @@
+[
+  {
+    "file": "registry/magicui/registry/example/marquee-logos.tsx",
+    "url": "https://cdn.simpleicons.org/microsoft/000/fff",
+    "localPath": "/assets/cdn.simpleicons.org/microsoft_000_fff.svg",
+    "note": "cdn.simpleicons.org blocked (403 Cloudflare); vendored from simple-icons npm package (legacy 9.21.0 pin, since current package dropped the Microsoft mark)"
+  },
+  {
+    "file": "registry/magicui/registry/example/marquee-logos.tsx",
+    "url": "https://cdn.simpleicons.org/apple/000/fff",
+    "localPath": "/assets/cdn.simpleicons.org/apple_000_fff.svg",
+    "note": "cdn.simpleicons.org blocked (403 Cloudflare); vendored from simple-icons npm package (current)"
+  },
+  {
+    "file": "registry/magicui/registry/example/marquee-logos.tsx",
+    "url": "https://cdn.simpleicons.org/google/000/fff",
+    "localPath": "/assets/cdn.simpleicons.org/google_000_fff.svg",
+    "note": "cdn.simpleicons.org blocked (403 Cloudflare); vendored from simple-icons npm package (current)"
+  },
+  {
+    "file": "registry/magicui/registry/example/marquee-logos.tsx",
+    "url": "https://cdn.simpleicons.org/linkedin/000/fff",
+    "localPath": "/assets/cdn.simpleicons.org/linkedin_000_fff.svg",
+    "note": "cdn.simpleicons.org blocked (403 Cloudflare); vendored from simple-icons npm package (legacy 9.21.0 pin, since current package dropped the LinkedIn mark)"
+  },
+  {
+    "file": "registry/magicui/registry/example/marquee-logos.tsx",
+    "url": "https://cdn.simpleicons.org/twitter/000/fff",
+    "localPath": "/assets/cdn.simpleicons.org/twitter_000_fff.svg",
+    "note": "cdn.simpleicons.org blocked (403 Cloudflare); vendored from simple-icons npm package (legacy 9.21.0 pin, since current package dropped the Twitter mark)"
+  },
+  {
+    "file": "registry/magicui/registry/example/icon-cloud-demo.tsx",
+    "url": "const images = slugs.map(\n    (slug) => `https://cdn.simpleicons.org/${slug}/${slug}`\n  )",
+    "localPath": "const images = slugs.map(\n    (slug) => `/assets/cdn.simpleicons.org/${slug}.svg`\n  )",
+    "note": "dynamic template over a fixed 30-slug array declared in this file; all 30 pre-generated to assets/cdn.simpleicons.org/<slug>.svg (7 via legacy simple-icons pin for marks the current package removed: java, css3, amazonaws, visualstudiocode, sonarqube)"
+  },
+  {
+    "file": "registry/magicui/registry/example/blur-fade-demo.tsx",
+    "url": "return `https://picsum.photos/seed/${i + 1}/${width}/${height}`",
+    "localPath": "return `/assets/picsum.photos/blurfade_seed_${i + 1}_${width}_${height}.jpg`",
+    "note": "dynamic template but bounded to i=1..9 with two fixed size pairs (9 combinations); all 9 pre-generated"
+  },
+  {
+    "file": "registry/magicui/registry/example/dotted-map-demo.tsx",
+    "url": "const href = `https://flagcdn.com/w80/${countryCode}.webp` // FlagCDN  [oai_citation:7‡Flagpedia](https://flagpedia.net/download/api)",
+    "localPath": "const href = `/assets/flagcdn.com/w80_${countryCode}.webp` // FlagCDN (vendored: only kr/us pre-generated, matching this demo's fixed `markers` list; other country codes would need additional assets)",
+    "note": "dynamic template bounded to this file's hardcoded markers array (countryCode kr, us); both pre-generated"
+  },
+  {
+    "file": "registry/ai-elements/registry/default/ai-elements/model-selector.tsx",
+    "url": "src={`https://models.dev/logos/${provider}.svg`}",
+    "localPath": "src={`/assets/models.dev/logos/${provider}.svg`}",
+    "note": "RECLASSIFIED from the assumed 'runtime data API' bucket: models.dev/logos/<slug>.svg is a static SVG file host (verified via curl: fast, deterministic, image/svg+xml, no per-request variability), functionally identical in kind to cdn.simpleicons.org. `provider` is a free-form string prop on a reusable primitive (ModelSelectorLogoProps allows `string & {}`), so it is unbounded in general -- pre-generated only the 14 chefSlug values actually referenced by the example files (alibaba, amazon-bedrock, anthropic, cohere, deepseek, google, llama, mistral, moonshotai, openai, perplexity, v0, xai, cerebras). Any other provider string passed by a downstream consumer of this component will still 404 locally -- this residual is documented, not hidden."
+  },
+  {
+    "file": "registry/ai-elements/registry/default/ai-elements/persona.tsx",
+    "url": "import { cn } from \"@/lib/utils\";\nimport type { RiveParameters } from \"@rive-app/react-webgl2\";\nimport {\n  useRive,\n  useStateMachineInput,\n  useViewModel,\n  useViewModelInstance,\n  useViewModelInstanceColor,\n} from \"@rive-app/react-webgl2\";\nimport type { FC, ReactNode } from \"react\";\nimport { memo, useEffect, useMemo, useRef, useState } from \"react\";",
+    "localPath": "import { cn } from \"@/lib/utils\";\nimport type { RiveParameters } from \"@rive-app/react-webgl2\";\nimport {\n  useRive,\n  useStateMachineInput,\n  useViewModel,\n  useViewModelInstance,\n  useViewModelInstanceColor,\n} from \"@rive-app/react-webgl2\";\nimport { RuntimeLoader } from \"@rive-app/webgl2\";\nimport type { FC, ReactNode } from \"react\";\nimport { memo, useEffect, useMemo, useRef, useState } from \"react\";\n\n// @rive-app/webgl2 defaults to loading its WASM runtime from unpkg (primary)\n// and jsdelivr (fallback). Point both at the vendored copies so no network\n// request is made when the canvas mounts.\nRuntimeLoader.setWasmUrl(\"/assets/unpkg.com/rive.wasm\");\nRuntimeLoader.setWasmFallbackUrl(\"/assets/cdn.jsdelivr.net/rive_fallback.wasm\");",
+    "note": "https://unpkg.com/@rive-app/webgl2@2.39.2/rive.wasm and https://cdn.jsdelivr.net/npm/@rive-app/webgl2@2.39.2/rive_fallback.wasm are NOT literal strings in this source file -- they are hardcoded defaults inside the @rive-app/webgl2 library's RuntimeLoader (see node_modules/.pnpm/@rive-app+webgl2@2.39.2/.../rive.js). Added @rive-app/webgl2 as an explicit _verify dependency (pnpm add) to import RuntimeLoader and call the library's own override API (setWasmUrl/setWasmFallbackUrl) at module load, pointing at the two wasm files vendored from the same package version. Requires `pnpm add @rive-app/webgl2@2.39.2` in _verify (already applied)."
+  },
+  {
+    "file": "registry/react-bits/GridScan/GridScan.tsx",
+    "url": "modelsPath = 'https://cdn.jsdelivr.net/gh/justadudewhohacks/face-api.js@0.22.2/weights',",
+    "localPath": "modelsPath = '/assets/face-api-weights',",
+    "note": "face-api.js tiny-model weights (manifest + shard for tinyFaceDetector and faceLandmark68Tiny, ~280KB total) vendored to assets/face-api-weights/. The two shard files were renamed with a .bin extension (tiny_face_detector_model-shard1.bin, face_landmark_68_tiny_model-shard1.bin) and each manifest's `paths` array updated to match -- Vite's dev server ran extension-less files through its JS import-analysis transform (500 error) instead of serving them as static binaries."
+  },
+  {
+    "file": "registry/react-bits/GridScan/GridScan.jsx",
+    "url": "modelsPath = 'https://cdn.jsdelivr.net/gh/justadudewhohacks/face-api.js@0.22.2/weights',",
+    "localPath": "modelsPath = '/assets/face-api-weights',",
+    "note": "face-api.js tiny-model weights (manifest + shard for tinyFaceDetector and faceLandmark68Tiny, ~280KB total) vendored to assets/face-api-weights/. The two shard files were renamed with a .bin extension (tiny_face_detector_model-shard1.bin, face_landmark_68_tiny_model-shard1.bin) and each manifest's `paths` array updated to match -- Vite's dev server ran extension-less files through its JS import-analysis transform (500 error) instead of serving them as static binaries."
+  },
+  {
+    "file": "registry/react-bits/ModelViewer/ModelViewer.tsx",
+    "url": "import { OBJLoader } from 'three/examples/jsm/loaders/OBJLoader';\nimport * as THREE from 'three';\n\nexport interface ViewerProps {",
+    "localPath": "import { OBJLoader } from 'three/examples/jsm/loaders/OBJLoader';\nimport * as THREE from 'three';\n\n// drei's <Environment preset> always resolves against its own hardcoded\n// raw.githack.com CUBEMAP_ROOT and ignores a `path` override when `preset` is\n// set (see @react-three/drei core/useEnvironment.js: `if (preset) { ...;\n// path = CUBEMAP_ROOT; }`). To serve these offline we replicate drei's\n// preset -> filename table (helpers/environment-assets.js) and pass `files`\n// + `path` directly instead of `preset`, pointing at the vendored HDRIs.\nconst HDRI_FILES: Record<string, string> = {\n  apartment: 'lebombo_1k.hdr',\n  city: 'potsdamer_platz_1k.hdr',\n  dawn: 'kiara_1_dawn_1k.hdr',\n  forest: 'forest_slope_1k.hdr',\n  night: 'dikhololo_night_1k.hdr',\n  park: 'rooitou_park_1k.hdr',\n  studio: 'studio_small_03_1k.hdr',\n  sunset: 'venice_sunset_1k.hdr',\n};\n\nexport interface ViewerProps {",
+    "note": "Verified in-browser: passing `path` alongside `preset` does NOT work (drei's useEnvironment unconditionally overwrites `path = CUBEMAP_ROOT` whenever `preset` is truthy), so this switches to the `files` prop instead. All 8 presets in this component's environmentPreset union pre-generated to assets/raw.githack.com/hdri/."
+  },
+  {
+    "file": "registry/react-bits/ModelViewer/ModelViewer.tsx",
+    "url": "{environmentPreset !== 'none' && <Environment preset={environmentPreset as any} background={false} />}",
+    "localPath": "{environmentPreset !== 'none' && (\n          <Environment files={HDRI_FILES[environmentPreset]} path=\"/assets/raw.githack.com/hdri/\" background={false} />\n        )}",
+    "note": "see the HDRI_FILES const rewrite entry above for rationale (files+path replaces preset)"
+  },
+  {
+    "file": "registry/react-bits/ModelViewer/ModelViewer.jsx",
+    "url": "import { OBJLoader } from 'three/examples/jsm/loaders/OBJLoader';\nimport * as THREE from 'three';\n\nconst isTouch = typeof window !== 'undefined' && ('ontouchstart' in window || navigator.maxTouchPoints > 0);",
+    "localPath": "import { OBJLoader } from 'three/examples/jsm/loaders/OBJLoader';\nimport * as THREE from 'three';\n\n// drei's <Environment preset> always resolves against its own hardcoded\n// raw.githack.com CUBEMAP_ROOT and ignores a `path` override when `preset` is\n// set (see @react-three/drei core/useEnvironment.js: `if (preset) { ...;\n// path = CUBEMAP_ROOT; }`). To serve these offline we replicate drei's\n// preset -> filename table (helpers/environment-assets.js) and pass `files`\n// + `path` directly instead of `preset`, pointing at the vendored HDRIs.\nconst HDRI_FILES = {\n  apartment: 'lebombo_1k.hdr',\n  city: 'potsdamer_platz_1k.hdr',\n  dawn: 'kiara_1_dawn_1k.hdr',\n  forest: 'forest_slope_1k.hdr',\n  night: 'dikhololo_night_1k.hdr',\n  park: 'rooitou_park_1k.hdr',\n  studio: 'studio_small_03_1k.hdr',\n  sunset: 'venice_sunset_1k.hdr',\n};\n\nconst isTouch = typeof window !== 'undefined' && ('ontouchstart' in window || navigator.maxTouchPoints > 0);",
+    "note": "same rationale as ModelViewer.tsx"
+  },
+  {
+    "file": "registry/react-bits/ModelViewer/ModelViewer.jsx",
+    "url": "{environmentPreset !== 'none' && <Environment preset={environmentPreset} background={false} />}",
+    "localPath": "{environmentPreset !== 'none' && (\n          <Environment files={HDRI_FILES[environmentPreset]} path=\"/assets/raw.githack.com/hdri/\" background={false} />\n        )}",
+    "note": "see the HDRI_FILES const rewrite entry above for rationale (files+path replaces preset)"
+  }
+]

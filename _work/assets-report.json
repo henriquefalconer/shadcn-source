@@ -1,0 +1,1370 @@
+{
+  "classification": {
+    "A_namespace": [
+      "http://www.w3.org/2000/svg"
+    ],
+    "C_navigational": [
+      "https://react.dev/reference/react",
+      "https://react.dev/reference/react-dom",
+      "https://react.dev/warnings/invalid-hook-call-warning",
+      "https://react.dev/reference/react/useState",
+      "https://react.dev/reference/react/useEffect",
+      "https://twitter.com/animate_ui",
+      "https://codepen.io/JuanFuentes/pen/eYEeoyE",
+      "https://github.com/",
+      "https://linkedin.com/in/",
+      "https://dribbble.com/",
+      "https://kaggle.com/",
+      "https://aws.amazon.com/",
+      "https://google.com/",
+      "https://x.com/dominikkoch",
+      "https://codepen.io/JuanFuentes/full/rgXKGQ",
+      "https://stripe.com/docs/api",
+      "https://docs.github.com/en/rest",
+      "https://docs.aws.amazon.com/sdk-for-javascript/",
+      "https://react.dev",
+      "https://docs.example.com/api",
+      "https://www.x.com",
+      "https://www.instagram.com",
+      "https://www.github.com",
+      "https://www.dribbble.com",
+      "https://example.com/nlp-advances",
+      "https://mlnews.org/breakthroughs",
+      "https://healthai.com/trends",
+      "https://aiethics.org/overview",
+      "https://deeplearninghub.com/scaling-models",
+      "https://nlubenchmarks.com/latest",
+      "https://github.com/user/repo",
+      "https://skills.sh/",
+      "https://chatgpt.com/?${new",
+      "https://claude.ai/new?${new",
+      "https://cursor.com/link/prompt",
+      "https://scira.ai/?${new",
+      "https://t3.chat/new?${new",
+      "https://v0.app?${new",
+      "https://linkedin.com",
+      "https://github.com",
+      "https://twitter.com",
+      "https://easings.net/#easeOutExpo",
+      "https://github.com/dillionverma",
+      "https://github.com/tomonarifeehan",
+      "https://github.com/BankkRoll",
+      "https://github.com/safethecode",
+      "https://github.com/sanjay-mali",
+      "https://github.com/itsarghyadas",
+      "https://flagpedia.net/download/api",
+      "https://github.com/Yeom-JinHo",
+      "https://ui.shadcn.com/docs/installation",
+      "https://github.com/shadcn-ui/ui/tree/main/apps/v4/app/(examples",
+      "https://x.com/shadcn"
+    ],
+    "D_runtime_api": [
+      {
+        "url": "https://api.github.com/repos/${username}/${repo}",
+        "files": [
+          "registry/animate-ui/registry/primitives/animate/github-stars/index.tsx",
+          "registry/animate-ui/registry/components/animate/github-stars-wheel/index.tsx"
+        ]
+      },
+      {
+        "url": "https://api.microlink.io/?${buildQueryString({",
+        "files": [
+          "registry/animate-ui/registry/primitives/radix/preview-link-card/index.tsx",
+          "registry/animate-ui/registry/primitives/base/preview-link-card/index.tsx"
+        ]
+      },
+      {
+        "url": "https://api.openai.com/v1/audio/transcriptions",
+        "files": [
+          "registry/ai-elements/registry/default/examples/speech-input.tsx"
+        ]
+      },
+      {
+        "url": "https://api.example.com/data",
+        "files": [
+          "registry/ai-elements/registry/default/examples/tool-output-error.tsx"
+        ]
+      },
+      {
+        "url": "https://models.dev/logos/${provider}.svg",
+        "files": [
+          "registry/ai-elements/registry/default/ai-elements/model-selector.tsx"
+        ]
+      }
+    ],
+    "E_fonts_skipped": [
+      "https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500;600&display=swap",
+      "https://fonts.googleapis.com/css2?family=Figtree:wght@400;700&display=swap",
+      "https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wdth,wght@8..144,25..151,100..1000&display=swap",
+      "https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap"
+    ]
+  },
+  "bucket_B": {
+    "total_urls": 134,
+    "attempted": 128,
+    "downloaded": 120,
+    "unresolvable_dynamic_or_directory": 6,
+    "failed": [
+      {
+        "url": "https://pbs.twimg.com/profile_images/1927474594102784000/Al0g-I6o_400x400.jpg",
+        "status": 404,
+        "err": "HTTP 404"
+      },
+      {
+        "url": "https://pbs.twimg.com/profile_images/1897311929028255744/otxpL-ke_400x400.jpg",
+        "status": 404,
+        "err": "HTTP 404"
+      },
+      {
+        "url": "https://pbs.twimg.com/profile_images/1909615404789506048/MTqvRsjo_400x400.jpg",
+        "status": 404,
+        "err": "HTTP 404"
+      },
+      {
+        "url": "https://cdn.simpleicons.org/microsoft/000/fff",
+        "status": 403,
+        "err": "HTTP 403"
+      },
+      {
+        "url": "https://cdn.simpleicons.org/apple/000/fff",
+        "status": 403,
+        "err": "HTTP 403"
+      },
+      {
+        "url": "https://cdn.simpleicons.org/google/000/fff",
+        "status": 403,
+        "err": "HTTP 403"
+      },
+      {
+        "url": "https://cdn.simpleicons.org/linkedin/000/fff",
+        "status": 403,
+        "err": "HTTP 403"
+      },
+      {
+        "url": "https://cdn.simpleicons.org/twitter/000/fff",
+        "status": 403,
+        "err": "HTTP 403"
+      },
+      {
+        "url": "https://picsum.photos/id/${ids[i",
+        "status": null,
+        "err": "dynamic template literal in source (contains ${...}) - no single concrete URL to fetch; would require code-level restructuring beyond literal string replace, out of scope"
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/gh/justadudewhohacks/face-api.js@0.22.2/weights",
+        "status": 404,
+        "err": "directory prefix (used as base path for face-api.js loadFromUri, appends filenames at runtime), not a single fetchable file; confirmed HTTP 404 on literal URL"
+      },
+      {
+        "url": "https://picsum.photos/seed/${i",
+        "status": null,
+        "err": "dynamic template literal in source (contains ${...}) - no single concrete URL to fetch; would require code-level restructuring beyond literal string replace, out of scope"
+      },
+      {
+        "url": "https://flagcdn.com/w80/${countryCode}.webp",
+        "status": null,
+        "err": "dynamic template literal in source (contains ${...}) - no single concrete URL to fetch; would require code-level restructuring beyond literal string replace, out of scope"
+      },
+      {
+        "url": "https://cdn.simpleicons.org/${slug}/${slug}",
+        "status": null,
+        "err": "dynamic template literal in source (contains ${...}) - no single concrete URL to fetch; would require code-level restructuring beyond literal string replace, out of scope"
+      },
+      {
+        "url": "https://avatar.vercel.sh/${song.title}",
+        "status": null,
+        "err": "dynamic template literal in source (contains ${...}) - no single concrete URL to fetch; would require code-level restructuring beyond literal string replace, out of scope"
+      }
+    ],
+    "total_bytes": 134932374,
+    "downloaded_assets": [
+      {
+        "url": "https://pbs.twimg.com/profile_images/1950218390741618688/72447Y7e_400x400.jpg",
+        "localPath": "/assets/pbs.twimg.com/profile_images_1950218390741618688_72447Y7e_400x400.jpg",
+        "bytes": 6580,
+        "contentType": "image/jpeg"
+      },
+      {
+        "url": "https://github.com/shadcn.png",
+        "localPath": "/assets/github.com/shadcn.jpg",
+        "bytes": 31007,
+        "contentType": "image/jpeg"
+      },
+      {
+        "url": "https://github.com/evilrabbit.png",
+        "localPath": "/assets/github.com/evilrabbit.png",
+        "bytes": 9418,
+        "contentType": "image/png"
+      },
+      {
+        "url": "https://github.com/maxleiter.png",
+        "localPath": "/assets/github.com/maxleiter.png",
+        "bytes": 208131,
+        "contentType": "image/png"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400&h=400&fit=crop",
+        "localPath": "/assets/images.unsplash.com/photo-1506905925346-21bda4d32df4__q-c37702c8.jpg",
+        "bytes": 30316,
+        "contentType": "image/jpeg"
+      },
+      {
+        "url": "https://pbs.twimg.com/profile_images/1948770261848756224/oPwqXMD6_400x400.jpg",
+        "localPath": "/assets/pbs.twimg.com/profile_images_1948770261848756224_oPwqXMD6_400x400.jpg",
+        "bytes": 19563,
+        "contentType": "image/jpeg"
+      },
+      {
+        "url": "https://pbs.twimg.com/profile_images/1593304942210478080/TUYae5z7_400x400.jpg",
+        "localPath": "/assets/pbs.twimg.com/profile_images_1593304942210478080_TUYae5z7_400x400.jpg",
+        "bytes": 30346,
+        "contentType": "image/jpeg"
+      },
+      {
+        "url": "https://pbs.twimg.com/profile_images/1677042510839857154/Kq4tpySA_400x400.jpg",
+        "localPath": "/assets/pbs.twimg.com/profile_images_1677042510839857154_Kq4tpySA_400x400.jpg",
+        "bytes": 20630,
+        "contentType": "image/jpeg"
+      },
+      {
+        "url": "https://pbs.twimg.com/profile_images/1783856060249595904/8TfcCN0r_400x400.jpg",
+        "localPath": "/assets/pbs.twimg.com/profile_images_1783856060249595904_8TfcCN0r_400x400.jpg",
+        "bytes": 33265,
+        "contentType": "image/jpeg"
+      },
+      {
+        "url": "https://pbs.twimg.com/profile_images/1534700564810018816/anAuSfkp_400x400.jpg",
+        "localPath": "/assets/pbs.twimg.com/profile_images_1534700564810018816_anAuSfkp_400x400.jpg",
+        "bytes": 14960,
+        "contentType": "image/jpeg"
+      },
+      {
+        "url": "https://picsum.photos/id/1015/900/1200",
+        "localPath": "/assets/picsum.photos/id_1015_900_1200.jpg",
+        "bytes": 187871,
+        "contentType": "image/jpeg"
+      },
+      {
+        "url": "https://picsum.photos/id/1018/900/1200",
+        "localPath": "/assets/picsum.photos/id_1018_900_1200.jpg",
+        "bytes": 141214,
+        "contentType": "image/jpeg"
+      },
+      {
+        "url": "https://picsum.photos/id/1039/900/1200",
+        "localPath": "/assets/picsum.photos/id_1039_900_1200.jpg",
+        "bytes": 226245,
+        "contentType": "image/jpeg"
+      },
+      {
+        "url": "https://picsum.photos/id/1043/900/1200",
+        "localPath": "/assets/picsum.photos/id_1043_900_1200.jpg",
+        "bytes": 240307,
+        "contentType": "image/jpeg"
+      },
+      {
+        "url": "https://picsum.photos/id/1044/900/1200",
+        "localPath": "/assets/picsum.photos/id_1044_900_1200.jpg",
+        "bytes": 209369,
+        "contentType": "image/jpeg"
+      },
+      {
+        "url": "https://i.pravatar.cc/300?img=8",
+        "localPath": "/assets/i.pravatar.cc/300__q-843cd00c.jpg",
+        "bytes": 13087,
+        "contentType": "image/jpeg"
+      },
+      {
+        "url": "https://i.pravatar.cc/300?img=11",
+        "localPath": "/assets/i.pravatar.cc/300__q-3cb7b337.jpg",
+        "bytes": 20051,
+        "contentType": "image/jpeg"
+      },
+      {
+        "url": "https://i.pravatar.cc/300?img=3",
+        "localPath": "/assets/i.pravatar.cc/300__q-ab949d52.jpg",
+        "bytes": 14045,
+        "contentType": "image/jpeg"
+      },
+      {
+        "url": "https://i.pravatar.cc/300?img=16",
+        "localPath": "/assets/i.pravatar.cc/300__q-9f65d8e1.jpg",
+        "bytes": 18679,
+        "contentType": "image/jpeg"
+      },
+      {
+        "url": "https://i.pravatar.cc/300?img=25",
+        "localPath": "/assets/i.pravatar.cc/300__q-5ebb0d3f.jpg",
+        "bytes": 14405,
+        "contentType": "image/jpeg"
+      },
+      {
+        "url": "https://i.pravatar.cc/300?img=60",
+        "localPath": "/assets/i.pravatar.cc/300__q-d33af950.jpg",
+        "bytes": 20852,
+        "contentType": "image/jpeg"
+      },
+      {
+        "url": "https://picsum.photos/seed/1/800/600?grayscale",
+        "localPath": "/assets/picsum.photos/seed_1_800_600__q-03d23341.jpg",
+        "bytes": 84780,
+        "contentType": "image/jpeg"
+      },
+      {
+        "url": "https://picsum.photos/seed/2/800/600?grayscale",
+        "localPath": "/assets/picsum.photos/seed_2_800_600__q-03d23341.jpg",
+        "bytes": 30489,
+        "contentType": "image/jpeg"
+      },
+      {
+        "url": "https://picsum.photos/seed/3/800/600?grayscale",
+        "localPath": "/assets/picsum.photos/seed_3_800_600__q-03d23341.jpg",
+        "bytes": 110995,
+        "contentType": "image/jpeg"
+      },
+      {
+        "url": "https://picsum.photos/seed/4/800/600?grayscale",
+        "localPath": "/assets/picsum.photos/seed_4_800_600__q-03d23341.jpg",
+        "bytes": 83995,
+        "contentType": "image/jpeg"
+      },
+      {
+        "url": "https://picsum.photos/seed/5/800/600?grayscale",
+        "localPath": "/assets/picsum.photos/seed_5_800_600__q-03d23341.jpg",
+        "bytes": 31371,
+        "contentType": "image/jpeg"
+      },
+      {
+        "url": "https://picsum.photos/seed/16/800/600?grayscale",
+        "localPath": "/assets/picsum.photos/seed_16_800_600__q-03d23341.jpg",
+        "bytes": 82780,
+        "contentType": "image/jpeg"
+      },
+      {
+        "url": "https://picsum.photos/seed/17/800/600?grayscale",
+        "localPath": "/assets/picsum.photos/seed_17_800_600__q-03d23341.jpg",
+        "bytes": 44739,
+        "contentType": "image/jpeg"
+      },
+      {
+        "url": "https://picsum.photos/seed/8/800/600?grayscale",
+        "localPath": "/assets/picsum.photos/seed_8_800_600__q-03d23341.jpg",
+        "bytes": 25504,
+        "contentType": "image/jpeg"
+      },
+      {
+        "url": "https://picsum.photos/seed/9/800/600?grayscale",
+        "localPath": "/assets/picsum.photos/seed_9_800_600__q-03d23341.jpg",
+        "bytes": 86562,
+        "contentType": "image/jpeg"
+      },
+      {
+        "url": "https://picsum.photos/seed/10/800/600?grayscale",
+        "localPath": "/assets/picsum.photos/seed_10_800_600__q-03d23341.jpg",
+        "bytes": 70167,
+        "contentType": "image/jpeg"
+      },
+      {
+        "url": "https://picsum.photos/seed/21/800/600?grayscale",
+        "localPath": "/assets/picsum.photos/seed_21_800_600__q-03d23341.jpg",
+        "bytes": 88160,
+        "contentType": "image/jpeg"
+      },
+      {
+        "url": "https://picsum.photos/seed/12/800/600?grayscale",
+        "localPath": "/assets/picsum.photos/seed_12_800_600__q-03d23341.jpg",
+        "bytes": 41128,
+        "contentType": "image/jpeg"
+      },
+      {
+        "url": "https://picsum.photos/300/400?grayscale",
+        "localPath": "/assets/picsum.photos/300_400__q-03d23341.jpg",
+        "bytes": 12067,
+        "contentType": "image/jpeg"
+      },
+      {
+        "url": "https://picsum.photos/seed/depth1/800/1000",
+        "localPath": "/assets/picsum.photos/seed_depth1_800_1000.jpg",
+        "bytes": 23834,
+        "contentType": "image/jpeg"
+      },
+      {
+        "url": "https://picsum.photos/seed/depth2/800/1000",
+        "localPath": "/assets/picsum.photos/seed_depth2_800_1000.jpg",
+        "bytes": 123859,
+        "contentType": "image/jpeg"
+      },
+      {
+        "url": "https://picsum.photos/seed/depth3/800/1000",
+        "localPath": "/assets/picsum.photos/seed_depth3_800_1000.jpg",
+        "bytes": 52292,
+        "contentType": "image/jpeg"
+      },
+      {
+        "url": "https://picsum.photos/seed/depth4/800/1000",
+        "localPath": "/assets/picsum.photos/seed_depth4_800_1000.jpg",
+        "bytes": 53984,
+        "contentType": "image/jpeg"
+      },
+      {
+        "url": "https://picsum.photos/seed/depth5/800/1000",
+        "localPath": "/assets/picsum.photos/seed_depth5_800_1000.jpg",
+        "bytes": 73919,
+        "contentType": "image/jpeg"
+      },
+      {
+        "url": "https://picsum.photos/seed/depth6/800/1000",
+        "localPath": "/assets/picsum.photos/seed_depth6_800_1000.jpg",
+        "bytes": 97333,
+        "contentType": "image/jpeg"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1755331039789-7e5680e26e8f?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "localPath": "/assets/images.unsplash.com/photo-1755331039789-7e5680e26e8f__q-6c53115f.jpg",
+        "bytes": 162239,
+        "contentType": "image/jpeg"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1755569309049-98410b94f66d?q=80&w=772&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "localPath": "/assets/images.unsplash.com/photo-1755569309049-98410b94f66d__q-28d599c2.jpg",
+        "bytes": 149529,
+        "contentType": "image/jpeg"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1755497595318-7e5e3523854f?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "localPath": "/assets/images.unsplash.com/photo-1755497595318-7e5e3523854f__q-6c53115f.jpg",
+        "bytes": 100306,
+        "contentType": "image/jpeg"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1755353985163-c2a0fe5ac3d8?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "localPath": "/assets/images.unsplash.com/photo-1755353985163-c2a0fe5ac3d8__q-6c53115f.jpg",
+        "bytes": 302267,
+        "contentType": "image/jpeg"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1745965976680-d00be7dc0377?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "localPath": "/assets/images.unsplash.com/photo-1745965976680-d00be7dc0377__q-6c53115f.jpg",
+        "bytes": 212469,
+        "contentType": "image/jpeg"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1752588975228-21f44630bb3c?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "localPath": "/assets/images.unsplash.com/photo-1752588975228-21f44630bb3c__q-6c53115f.jpg",
+        "bytes": 95210,
+        "contentType": "image/jpeg"
+      },
+      {
+        "url": "https://pbs.twimg.com/media/Gyla7NnXMAAXSo_?format=jpg&name=large",
+        "localPath": "/assets/pbs.twimg.com/media_Gyla7NnXMAAXSo___q-f775d4c7.jpg",
+        "bytes": 670359,
+        "contentType": "image/jpeg"
+      },
+      {
+        "url": "https://picsum.photos/seed/halftone-reveal/1200/800",
+        "localPath": "/assets/picsum.photos/seed_halftone-reveal_1200_800.jpg",
+        "bytes": 78789,
+        "contentType": "image/jpeg"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1782977389500-dd7adad33ebe?q=80&w=600&h=600&fit=crop&sat=-100&auto=format",
+        "localPath": "/assets/images.unsplash.com/photo-1782977389500-dd7adad33ebe__q-f4fd9244.jpg",
+        "bytes": 61165,
+        "contentType": "image/jpeg"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1782977389500-dd7adad33ebe?q=80&w=1600&auto=format&fit=crop",
+        "localPath": "/assets/images.unsplash.com/photo-1782977389500-dd7adad33ebe__q-226aeaad.jpg",
+        "bytes": 215554,
+        "contentType": "image/jpeg"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1781499455083-6ccc3beb20cd?q=80&w=1600&auto=format&fit=crop",
+        "localPath": "/assets/images.unsplash.com/photo-1781499455083-6ccc3beb20cd__q-226aeaad.jpg",
+        "bytes": 257219,
+        "contentType": "image/jpeg"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1776394254711-4a0d7345269a?q=80&w=1600&auto=format&fit=crop",
+        "localPath": "/assets/images.unsplash.com/photo-1776394254711-4a0d7345269a__q-226aeaad.jpg",
+        "bytes": 188513,
+        "contentType": "image/jpeg"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1781242629922-6f39cc3671cd?q=80&w=1600&auto=format&fit=crop",
+        "localPath": "/assets/images.unsplash.com/photo-1781242629922-6f39cc3671cd__q-226aeaad.jpg",
+        "bytes": 204122,
+        "contentType": "image/jpeg"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1782977389500-dd7adad33ebe?q=80&w=3416&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "localPath": "/assets/images.unsplash.com/photo-1782977389500-dd7adad33ebe__q-0d1e6b38.jpg",
+        "bytes": 760650,
+        "contentType": "image/jpeg"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1480074568708-e7b720bb3f09?q=80&w=500&auto=format",
+        "localPath": "/assets/images.unsplash.com/photo-1480074568708-e7b720bb3f09__q-7500afb4.jpg",
+        "bytes": 70009,
+        "contentType": "image/jpeg"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1449844908441-8829872d2607?q=80&w=500&auto=format",
+        "localPath": "/assets/images.unsplash.com/photo-1449844908441-8829872d2607__q-7500afb4.jpg",
+        "bytes": 56242,
+        "contentType": "image/jpeg"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1452626212852-811d58933cae?q=80&w=500&auto=format",
+        "localPath": "/assets/images.unsplash.com/photo-1452626212852-811d58933cae__q-7500afb4.jpg",
+        "bytes": 42761,
+        "contentType": "image/jpeg"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1572120360610-d971b9d7767c?q=80&w=500&auto=format",
+        "localPath": "/assets/images.unsplash.com/photo-1572120360610-d971b9d7767c__q-7500afb4.jpg",
+        "bytes": 65781,
+        "contentType": "image/jpeg"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1736606355698-5efdb410fe93?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "localPath": "/assets/images.unsplash.com/photo-1736606355698-5efdb410fe93__q-3e28bb57.jpg",
+        "bytes": 398915,
+        "contentType": "image/jpeg"
+      },
+      {
+        "url": "https://avatar.vercel.sh/jack",
+        "localPath": "/assets/avatar.vercel.sh/jack.png",
+        "bytes": 4603,
+        "contentType": "image/png"
+      },
+      {
+        "url": "https://avatar.vercel.sh/jill",
+        "localPath": "/assets/avatar.vercel.sh/jill.png",
+        "bytes": 4930,
+        "contentType": "image/png"
+      },
+      {
+        "url": "https://avatar.vercel.sh/john",
+        "localPath": "/assets/avatar.vercel.sh/john.png",
+        "bytes": 3032,
+        "contentType": "image/png"
+      },
+      {
+        "url": "https://ejiidnob33g9ap1r.public.blob.vercel-storage.com/ElevenLabs_2025-11-10T22_07_46_Hayden_pvc_sp108_s50_sb75_se0_b_m2.mp3",
+        "localPath": "/assets/ejiidnob33g9ap1r.public.blob.vercel-storage.com/ElevenLabs_2025-11-10T22_07_46_Hayden_pvc_sp108_s50_sb75_se0_b_m2.mp3",
+        "bytes": 122829,
+        "contentType": "audio/mpeg"
+      },
+      {
+        "url": "https://avatars.githubusercontent.com/u/81306489",
+        "localPath": "/assets/avatars.githubusercontent.com/u_81306489.png",
+        "bytes": 9487,
+        "contentType": "image/png"
+      },
+      {
+        "url": "https://www.youtube.com/embed/qh3NGpYRG3I?si=4rb-zSdDkVK9qxxb",
+        "localPath": "/assets/www.youtube.com/embed_qh3NGpYRG3I__q-e211b7e7.html",
+        "bytes": 138619,
+        "contentType": "text/html; charset=utf-8"
+      },
+      {
+        "url": "https://startup-template-sage.vercel.app/hero-light.png",
+        "localPath": "/assets/startup-template-sage.vercel.app/hero-light.png",
+        "bytes": 199924,
+        "contentType": "image/png"
+      },
+      {
+        "url": "https://startup-template-sage.vercel.app/hero-dark.png",
+        "localPath": "/assets/startup-template-sage.vercel.app/hero-dark.png",
+        "bytes": 201027,
+        "contentType": "image/png"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1682687220742-aba13b6e50ba?w=400&h=400&fit=crop",
+        "localPath": "/assets/images.unsplash.com/photo-1682687220742-aba13b6e50ba__q-c37702c8.jpg",
+        "bytes": 18912,
+        "contentType": "image/jpeg"
+      },
+      {
+        "url": "https://github.com/haydenbleasel.png",
+        "localPath": "/assets/github.com/haydenbleasel.jpg",
+        "bytes": 13961,
+        "contentType": "image/jpeg"
+      },
+      {
+        "url": "https://ejiidnob33g9ap1r.public.blob.vercel-storage.com/ElevenLabs_2025-11-10T22_10_24_Hayden_pvc_sp110_s50_sb75_se0_b_m2.mp3",
+        "localPath": "/assets/ejiidnob33g9ap1r.public.blob.vercel-storage.com/ElevenLabs_2025-11-10T22_10_24_Hayden_pvc_sp110_s50_sb75_se0_b_m2.mp3",
+        "bytes": 184269,
+        "contentType": "audio/mpeg"
+      },
+      {
+        "url": "https://ejiidnob33g9ap1r.public.blob.vercel-storage.com/ElevenLabs_2026-01-16T21_16_50_Liam%20-%20Energetic%2C%20Social%20Media%20Creator_pre_sp100_s50_sb75_se0_b_m2.mp3",
+        "localPath": "/assets/ejiidnob33g9ap1r.public.blob.vercel-storage.com/ElevenLabs_2026-01-16T21_16_50_Liam_-_Energetic__Social_Media_Creator_pre_sp100_s50_sb75_se0_b_m2.mp3",
+        "bytes": 82692,
+        "contentType": "audio/mpeg"
+      },
+      {
+        "url": "https://ejiidnob33g9ap1r.public.blob.vercel-storage.com/ElevenLabs_2026-01-16T21_17_00_Adam%20-%20Dominant%2C%20Firm_pre_sp100_s50_sb75_se0_b_m2.mp3",
+        "localPath": "/assets/ejiidnob33g9ap1r.public.blob.vercel-storage.com/ElevenLabs_2026-01-16T21_17_00_Adam_-_Dominant__Firm_pre_sp100_s50_sb75_se0_b_m2.mp3",
+        "bytes": 70571,
+        "contentType": "audio/mpeg"
+      },
+      {
+        "url": "https://ejiidnob33g9ap1r.public.blob.vercel-storage.com/ElevenLabs_2026-01-16T21_17_09_Alice%20-%20Clear%2C%20Engaging%20Educator_pre_sp100_s50_sb75_se0_b_m2.mp3",
+        "localPath": "/assets/ejiidnob33g9ap1r.public.blob.vercel-storage.com/ElevenLabs_2026-01-16T21_17_09_Alice_-_Clear__Engaging_Educator_pre_sp100_s50_sb75_se0_b_m2.mp3",
+        "bytes": 81020,
+        "contentType": "audio/mpeg"
+      },
+      {
+        "url": "https://ejiidnob33g9ap1r.public.blob.vercel-storage.com/ElevenLabs_2026-01-16T21_17_25_Bill%20-%20Wise%2C%20Mature%2C%20Balanced_pre_sp100_s50_sb75_se0_b_m2.mp3",
+        "localPath": "/assets/ejiidnob33g9ap1r.public.blob.vercel-storage.com/ElevenLabs_2026-01-16T21_17_25_Bill_-_Wise__Mature__Balanced_pre_sp100_s50_sb75_se0_b_m2.mp3",
+        "bytes": 100664,
+        "contentType": "audio/mpeg"
+      },
+      {
+        "url": "https://ejiidnob33g9ap1r.public.blob.vercel-storage.com/ElevenLabs_2026-01-16T21_17_50_Jessica%20-%20Playful%2C%20Bright%2C%20Warm_pre_sp100_s50_sb75_se0_b_m2.mp3",
+        "localPath": "/assets/ejiidnob33g9ap1r.public.blob.vercel-storage.com/ElevenLabs_2026-01-16T21_17_50_Jessica_-_Playful__Bright__Warm_pre_sp100_s50_sb75_se0_b_m2.mp3",
+        "bytes": 74333,
+        "contentType": "audio/mpeg"
+      },
+      {
+        "url": "https://ejiidnob33g9ap1r.public.blob.vercel-storage.com/ElevenLabs_2026-01-16T21_18_03_Lily%20-%20Velvety%20Actress_pre_sp100_s50_sb75_se0_b_m2.mp3",
+        "localPath": "/assets/ejiidnob33g9ap1r.public.blob.vercel-storage.com/ElevenLabs_2026-01-16T21_18_03_Lily_-_Velvety_Actress_pre_sp100_s50_sb75_se0_b_m2.mp3",
+        "bytes": 83946,
+        "contentType": "audio/mpeg"
+      },
+      {
+        "url": "https://preview-v0me-kzml7zc6fkcvbyhzrf47.vusercontent.net/",
+        "localPath": "/assets/preview-v0me-kzml7zc6fkcvbyhzrf47.vusercontent.net/index.html",
+        "bytes": 135966,
+        "contentType": "text/html; charset=utf-8"
+      },
+      {
+        "url": "https://ejiidnob33g9ap1r.public.blob.vercel-storage.com/command-2.0.riv",
+        "localPath": "/assets/ejiidnob33g9ap1r.public.blob.vercel-storage.com/command-2.0.bin",
+        "bytes": 2738,
+        "contentType": "application/octet-stream"
+      },
+      {
+        "url": "https://ejiidnob33g9ap1r.public.blob.vercel-storage.com/glint-2.0.riv",
+        "localPath": "/assets/ejiidnob33g9ap1r.public.blob.vercel-storage.com/glint-2.0.bin",
+        "bytes": 4630,
+        "contentType": "application/octet-stream"
+      },
+      {
+        "url": "https://ejiidnob33g9ap1r.public.blob.vercel-storage.com/halo-2.0.riv",
+        "localPath": "/assets/ejiidnob33g9ap1r.public.blob.vercel-storage.com/halo-2.0.bin",
+        "bytes": 4497,
+        "contentType": "application/octet-stream"
+      },
+      {
+        "url": "https://ejiidnob33g9ap1r.public.blob.vercel-storage.com/mana-2.0.riv",
+        "localPath": "/assets/ejiidnob33g9ap1r.public.blob.vercel-storage.com/mana-2.0.bin",
+        "bytes": 8082,
+        "contentType": "application/octet-stream"
+      },
+      {
+        "url": "https://ejiidnob33g9ap1r.public.blob.vercel-storage.com/obsidian-2.0.riv",
+        "localPath": "/assets/ejiidnob33g9ap1r.public.blob.vercel-storage.com/obsidian-2.0.bin",
+        "bytes": 7959,
+        "contentType": "application/octet-stream"
+      },
+      {
+        "url": "https://ejiidnob33g9ap1r.public.blob.vercel-storage.com/orb-1.2.riv",
+        "localPath": "/assets/ejiidnob33g9ap1r.public.blob.vercel-storage.com/orb-1.2.bin",
+        "bytes": 10178,
+        "contentType": "application/octet-stream"
+      },
+      {
+        "url": "https://pbs.twimg.com/profile_images/1602734731728142336/9Bppcs67_400x400.jpg",
+        "localPath": "/assets/pbs.twimg.com/profile_images_1602734731728142336_9Bppcs67_400x400.jpg",
+        "bytes": 4490,
+        "contentType": "image/jpeg"
+      },
+      {
+        "url": "https://pbs.twimg.com/profile_images/1690345911149375488/wfD0Ai9j_400x400.jpg",
+        "localPath": "/assets/pbs.twimg.com/profile_images_1690345911149375488_wfD0Ai9j_400x400.jpg",
+        "bytes": 23653,
+        "contentType": "image/jpeg"
+      },
+      {
+        "url": "https://images.pexels.com/photos/34293571/pexels-photo-34293571.jpeg",
+        "localPath": "/assets/images.pexels.com/photos_34293571_pexels-photo-34293571.jpg",
+        "bytes": 1713415,
+        "contentType": "image/jpeg"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1730326405863-c6fa7e499a6e?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "localPath": "/assets/images.unsplash.com/photo-1730326405863-c6fa7e499a6e__q-b0bc55b9.jpg",
+        "bytes": 993970,
+        "contentType": "image/jpeg"
+      },
+      {
+        "url": "https://videos.pexels.com/video-files/14993748/14993748-uhd_1296_2304_30fps.mp4",
+        "localPath": "/assets/videos.pexels.com/video-files_14993748_14993748-uhd_1296_2304_30fps.mp4",
+        "bytes": 52160078,
+        "contentType": "video/mp4"
+      },
+      {
+        "url": "https://avatars.githubusercontent.com/u/16860528",
+        "localPath": "/assets/avatars.githubusercontent.com/u_16860528.png",
+        "bytes": 174747,
+        "contentType": "image/png"
+      },
+      {
+        "url": "https://avatars.githubusercontent.com/u/20110627",
+        "localPath": "/assets/avatars.githubusercontent.com/u_20110627.jpg",
+        "bytes": 37367,
+        "contentType": "image/jpeg"
+      },
+      {
+        "url": "https://avatars.githubusercontent.com/u/106103625",
+        "localPath": "/assets/avatars.githubusercontent.com/u_106103625.png",
+        "bytes": 7901,
+        "contentType": "image/png"
+      },
+      {
+        "url": "https://avatars.githubusercontent.com/u/59228569",
+        "localPath": "/assets/avatars.githubusercontent.com/u_59228569.jpg",
+        "bytes": 20834,
+        "contentType": "image/jpeg"
+      },
+      {
+        "url": "https://avatars.githubusercontent.com/u/59442788",
+        "localPath": "/assets/avatars.githubusercontent.com/u_59442788.jpg",
+        "bytes": 29764,
+        "contentType": "image/jpeg"
+      },
+      {
+        "url": "https://avatars.githubusercontent.com/u/89768406",
+        "localPath": "/assets/avatars.githubusercontent.com/u_89768406.jpg",
+        "bytes": 22080,
+        "contentType": "image/jpeg"
+      },
+      {
+        "url": "https://plus.unsplash.com/premium_photo-1672201106204-58e9af7a2888?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "localPath": "/assets/plus.unsplash.com/premium_photo-1672201106204-58e9af7a2888__q-f3fb5972.jpg",
+        "bytes": 38836,
+        "contentType": "image/jpeg"
+      },
+      {
+        "url": "https://www.youtube.com/embed/9CJLtzzUphU",
+        "localPath": "/assets/www.youtube.com/embed_9CJLtzzUphU.html",
+        "bytes": 140180,
+        "contentType": "text/html; charset=utf-8"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1720048171230-c60d162f93a0?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "localPath": "/assets/images.unsplash.com/photo-1720048171230-c60d162f93a0__q-1b6f5c91.jpg",
+        "bytes": 828534,
+        "contentType": "image/jpeg"
+      },
+      {
+        "url": "https://plus.unsplash.com/premium_photo-1675553988173-a5249b5815fe?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "localPath": "/assets/plus.unsplash.com/premium_photo-1675553988173-a5249b5815fe__q-b0bc55b9.jpg",
+        "bytes": 437979,
+        "contentType": "image/jpeg"
+      },
+      {
+        "url": "https://plus.unsplash.com/premium_photo-1675297844586-534b030564e0?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "localPath": "/assets/plus.unsplash.com/premium_photo-1675297844586-534b030564e0__q-b0bc55b9.jpg",
+        "bytes": 965603,
+        "contentType": "image/jpeg"
+      },
+      {
+        "url": "https://plus.unsplash.com/premium_photo-1675555581018-7f1a352ff9a6?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "localPath": "/assets/plus.unsplash.com/premium_photo-1675555581018-7f1a352ff9a6__q-b0bc55b9.jpg",
+        "bytes": 783342,
+        "contentType": "image/jpeg"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1719937050517-68d4e2a1702e?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "localPath": "/assets/images.unsplash.com/photo-1719937050517-68d4e2a1702e__q-4a90b1f4.jpg",
+        "bytes": 507371,
+        "contentType": "image/jpeg"
+      },
+      {
+        "url": "https://placehold.co/900x1600?text=Hello+World",
+        "localPath": "/assets/placehold.co/900x1600__q-e46fd6d5.svg",
+        "bytes": 2842,
+        "contentType": "image/svg+xml; charset=utf-8"
+      },
+      {
+        "url": "https://videos.pexels.com/video-files/8946986/8946986-uhd_1440_2732_25fps.mp4",
+        "localPath": "/assets/videos.pexels.com/video-files_8946986_8946986-uhd_1440_2732_25fps.mp4",
+        "bytes": 20929941,
+        "contentType": "video/mp4"
+      },
+      {
+        "url": "https://avatar.vercel.sh/jane",
+        "localPath": "/assets/avatar.vercel.sh/jane.png",
+        "bytes": 5449,
+        "contentType": "image/png"
+      },
+      {
+        "url": "https://avatar.vercel.sh/jenny",
+        "localPath": "/assets/avatar.vercel.sh/jenny.png",
+        "bytes": 2730,
+        "contentType": "image/png"
+      },
+      {
+        "url": "https://avatar.vercel.sh/james",
+        "localPath": "/assets/avatar.vercel.sh/james.png",
+        "bytes": 2787,
+        "contentType": "image/png"
+      },
+      {
+        "url": "https://cdn.simpleicons.org/facebook/000/fff",
+        "localPath": "/assets/cdn.simpleicons.org/facebook_000_fff.svg",
+        "bytes": 624,
+        "contentType": "image/svg+xml"
+      },
+      {
+        "url": "https://placehold.co/1200x750?text=Hello+World",
+        "localPath": "/assets/placehold.co/1200x750__q-e46fd6d5.svg",
+        "bytes": 3041,
+        "contentType": "image/svg+xml; charset=utf-8"
+      },
+      {
+        "url": "https://videos.pexels.com/video-files/27180348/12091515_2560_1440_50fps.mp4",
+        "localPath": "/assets/videos.pexels.com/video-files_27180348_12091515_2560_1440_50fps.mp4",
+        "bytes": 43852026,
+        "contentType": "video/mp4"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1749738456487-2af715ab65ea?q=80&w=2340&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "localPath": "/assets/images.unsplash.com/photo-1749738456487-2af715ab65ea__q-dfe6f2db.jpg",
+        "bytes": 476402,
+        "contentType": "image/jpeg"
+      },
+      {
+        "url": "https://plus.unsplash.com/premium_photo-1720139288219-e20aa9c8895b?q=80&w=1810&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "localPath": "/assets/plus.unsplash.com/premium_photo-1720139288219-e20aa9c8895b__q-b744647b.jpg",
+        "bytes": 1216320,
+        "contentType": "image/jpeg"
+      },
+      {
+        "url": "https://cdn.magicui.design/ocean-small.webm",
+        "localPath": "/assets/cdn.magicui.design/ocean-small.webm",
+        "bytes": 722190,
+        "contentType": "video/webm"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1588345921523-c2dcdb7f1dcd?w=800&dpr=2&q=80",
+        "localPath": "/assets/images.unsplash.com/photo-1588345921523-c2dcdb7f1dcd__q-33428096.jpg",
+        "bytes": 93503,
+        "contentType": "image/jpeg"
+      },
+      {
+        "url": "https://github.com/vercel.png",
+        "localPath": "/assets/github.com/vercel.png",
+        "bytes": 4184,
+        "contentType": "image/png"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1465869185982-5a1a7522cbcb?auto=format&fit=crop&w=300&q=80",
+        "localPath": "/assets/images.unsplash.com/photo-1465869185982-5a1a7522cbcb__q-d8489d21.jpg",
+        "bytes": 33097,
+        "contentType": "image/jpeg"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1548516173-3cabfa4607e9?auto=format&fit=crop&w=300&q=80",
+        "localPath": "/assets/images.unsplash.com/photo-1548516173-3cabfa4607e9__q-d8489d21.jpg",
+        "bytes": 18989,
+        "contentType": "image/jpeg"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1494337480532-3725c85fd2ab?auto=format&fit=crop&w=300&q=80",
+        "localPath": "/assets/images.unsplash.com/photo-1494337480532-3725c85fd2ab__q-d8489d21.jpg",
+        "bytes": 33082,
+        "contentType": "image/jpeg"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1650804068570-7fb2e3dbf888?q=80&w=640&auto=format&fit=crop",
+        "localPath": "/assets/images.unsplash.com/photo-1650804068570-7fb2e3dbf888__q-07539949.jpg",
+        "bytes": 123854,
+        "contentType": "image/jpeg"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1610280777472-54133d004c8c?q=80&w=640&auto=format&fit=crop",
+        "localPath": "/assets/images.unsplash.com/photo-1610280777472-54133d004c8c__q-07539949.jpg",
+        "bytes": 82412,
+        "contentType": "image/jpeg"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1602146057681-08560aee8cde?q=80&w=640&auto=format&fit=crop",
+        "localPath": "/assets/images.unsplash.com/photo-1602146057681-08560aee8cde__q-07539949.jpg",
+        "bytes": 49490,
+        "contentType": "image/jpeg"
+      }
+    ]
+  },
+  "rewrites": {
+    "files_modified": 85,
+    "occurrences_replaced": 250
+  },
+  "verification": {
+    "remaining_bucket_B_urls_in_tree": [
+      {
+        "url": "https://picsum.photos/id/${ids[i",
+        "files": [
+          "registry/react-bits/DriftWall/DriftWall.jsx",
+          "registry/react-bits/DriftWall/DriftWall.tsx"
+        ],
+        "reason": "download failed or unresolvable (see bucket_B.failed) \u2014 left un-rewritten intentionally"
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/gh/justadudewhohacks/face-api.js@0.22.2/weights",
+        "files": [
+          "registry/react-bits/GridScan/GridScan.jsx",
+          "registry/react-bits/GridScan/GridScan.tsx"
+        ],
+        "reason": "download failed or unresolvable (see bucket_B.failed) \u2014 left un-rewritten intentionally"
+      },
+      {
+        "url": "https://pbs.twimg.com/profile_images/1927474594102784000/Al0g-I6o_400x400.jpg",
+        "files": [
+          "registry/animate-ui/registry/demo/primitives/animate/avatar-group/index.tsx",
+          "registry/animate-ui/registry/demo/components/animate/avatar-group/index.tsx",
+          "registry/animate-ui/registry/demo/components/community/radial-intro/index.tsx"
+        ],
+        "reason": "download failed or unresolvable (see bucket_B.failed) \u2014 left un-rewritten intentionally"
+      },
+      {
+        "url": "https://pbs.twimg.com/profile_images/1897311929028255744/otxpL-ke_400x400.jpg",
+        "files": [
+          "registry/animate-ui/registry/demo/components/community/radial-intro/index.tsx",
+          "registry/animate-ui/registry/components/community/user-presence-avatar/index.tsx"
+        ],
+        "reason": "download failed or unresolvable (see bucket_B.failed) \u2014 left un-rewritten intentionally"
+      },
+      {
+        "url": "https://pbs.twimg.com/profile_images/1909615404789506048/MTqvRsjo_400x400.jpg",
+        "files": [
+          "registry/animate-ui/registry/demo/components/radix/sidebar/index.tsx"
+        ],
+        "reason": "download failed or unresolvable (see bucket_B.failed) \u2014 left un-rewritten intentionally"
+      },
+      {
+        "url": "https://picsum.photos/seed/${i",
+        "files": [
+          "registry/magicui/registry/example/blur-fade-demo.tsx"
+        ],
+        "reason": "download failed or unresolvable (see bucket_B.failed) \u2014 left un-rewritten intentionally"
+      },
+      {
+        "url": "https://flagcdn.com/w80/${countryCode}.webp",
+        "files": [
+          "registry/magicui/registry/example/dotted-map-demo.tsx"
+        ],
+        "reason": "download failed or unresolvable (see bucket_B.failed) \u2014 left un-rewritten intentionally"
+      },
+      {
+        "url": "https://cdn.simpleicons.org/${slug}/${slug}",
+        "files": [
+          "registry/magicui/registry/example/icon-cloud-demo.tsx"
+        ],
+        "reason": "download failed or unresolvable (see bucket_B.failed) \u2014 left un-rewritten intentionally"
+      },
+      {
+        "url": "https://cdn.simpleicons.org/microsoft/000/fff",
+        "files": [
+          "registry/magicui/registry/example/marquee-logos.tsx"
+        ],
+        "reason": "download failed or unresolvable (see bucket_B.failed) \u2014 left un-rewritten intentionally"
+      },
+      {
+        "url": "https://cdn.simpleicons.org/apple/000/fff",
+        "files": [
+          "registry/magicui/registry/example/marquee-logos.tsx"
+        ],
+        "reason": "download failed or unresolvable (see bucket_B.failed) \u2014 left un-rewritten intentionally"
+      },
+      {
+        "url": "https://cdn.simpleicons.org/google/000/fff",
+        "files": [
+          "registry/magicui/registry/example/marquee-logos.tsx"
+        ],
+        "reason": "download failed or unresolvable (see bucket_B.failed) \u2014 left un-rewritten intentionally"
+      },
+      {
+        "url": "https://cdn.simpleicons.org/linkedin/000/fff",
+        "files": [
+          "registry/magicui/registry/example/marquee-logos.tsx"
+        ],
+        "reason": "download failed or unresolvable (see bucket_B.failed) \u2014 left un-rewritten intentionally"
+      },
+      {
+        "url": "https://cdn.simpleicons.org/twitter/000/fff",
+        "files": [
+          "registry/magicui/registry/example/marquee-logos.tsx"
+        ],
+        "reason": "download failed or unresolvable (see bucket_B.failed) \u2014 left un-rewritten intentionally"
+      },
+      {
+        "url": "https://avatar.vercel.sh/${song.title}",
+        "files": [
+          "registry/shadcn/new-york-v4/registry/new-york-v4/examples/item-image.tsx"
+        ],
+        "reason": "download failed or unresolvable (see bucket_B.failed) \u2014 left un-rewritten intentionally"
+      }
+    ]
+  },
+  "evidence_samples": [
+    {
+      "url": "http://www.w3.org/2000/svg",
+      "bucket": "A",
+      "file": "registry/magicui/registry/magicui/safari.tsx",
+      "snippet": "registry/magicui/registry/magicui/safari.tsx:90:        xmlns=\"http://www.w3.org/2000/svg\""
+    },
+    {
+      "url": "https://pbs.twimg.com/profile_images/1950218390741618688/72447Y7e_400x400.jpg",
+      "bucket": "B",
+      "file": "registry/animate-ui/registry/demo/primitives/animate/spring/index.tsx",
+      "snippet": "registry/animate-ui/registry/demo/primitives/animate/spring/index.tsx:13:          src=\"https://pbs.twimg.com/profile_images/1950218390741618688/72447Y7e_400x400.jpg\""
+    },
+    {
+      "url": "https://github.com/shadcn.png",
+      "bucket": "B",
+      "file": "registry/shadcn/new-york/examples/avatar-demo.tsx",
+      "snippet": "registry/shadcn/new-york/examples/avatar-demo.tsx:10:      <AvatarImage src=\"https://github.com/shadcn.png\" alt=\"@shadcn\" />"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400&h=400&fit=crop",
+      "bucket": "B",
+      "file": "registry/ai-elements/registry/default/examples/attachments-list.tsx",
+      "snippet": "registry/ai-elements/registry/default/examples/attachments-list.tsx:19:    url: \"https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400&h=400&fit=crop\","
+    },
+    {
+      "url": "https://react.dev/reference/react",
+      "bucket": "C",
+      "file": "registry/ai-elements/registry/default/examples/demo-claude.tsx",
+      "snippet": "registry/ai-elements/registry/default/examples/demo-claude.tsx:115:        href: \"https://react.dev/reference/react\","
+    },
+    {
+      "url": "https://twitter.com/animate_ui",
+      "bucket": "C",
+      "file": "registry/animate-ui/registry/demo/primitives/radix/hover-card/index.tsx",
+      "snippet": "registry/animate-ui/registry/demo/primitives/radix/hover-card/index.tsx:28:          href=\"https://twitter.com/animate_ui\""
+    },
+    {
+      "url": "https://codepen.io/JuanFuentes/pen/eYEeoyE",
+      "bucket": "C",
+      "file": "registry/react-bits/ASCIIText/ASCIIText.jsx",
+      "snippet": "registry/react-bits/ASCIIText/ASCIIText.jsx:1:// Component ported and enhanced from https://codepen.io/JuanFuentes/pen/eYEeoyE"
+    },
+    {
+      "url": "https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500;600&display=swap",
+      "bucket": "E",
+      "file": "registry/react-bits/ASCIIText/ASCIIText.jsx",
+      "snippet": "registry/react-bits/ASCIIText/ASCIIText.jsx:494:        @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500;600&display=swap');"
+    },
+    {
+      "url": "https://picsum.photos/id/1015/900/1200",
+      "bucket": "B",
+      "file": "registry/react-bits/AccordionGallery/AccordionGallery.tsx",
+      "snippet": "registry/react-bits/AccordionGallery/AccordionGallery.tsx:34:  { image: 'https://picsum.photos/id/1015/900/1200', label: 'Canyon', link: '#' },"
+    },
+    {
+      "url": "https://i.pravatar.cc/300?img=8",
+      "bucket": "B",
+      "file": "registry/react-bits/ChromaGrid/ChromaGrid.tsx",
+      "snippet": "registry/react-bits/ChromaGrid/ChromaGrid.tsx:42:      image: 'https://i.pravatar.cc/300?img=8',"
+    },
+    {
+      "url": "https://linkedin.com/in/",
+      "bucket": "C",
+      "file": "registry/react-bits/ChromaGrid/ChromaGrid.tsx",
+      "snippet": "registry/react-bits/ChromaGrid/ChromaGrid.tsx:57:      url: 'https://linkedin.com/in/'"
+    },
+    {
+      "url": "https://dribbble.com/",
+      "bucket": "C",
+      "file": "registry/react-bits/ChromaGrid/ChromaGrid.tsx",
+      "snippet": "registry/react-bits/ChromaGrid/ChromaGrid.tsx:66:      url: 'https://dribbble.com/'"
+    },
+    {
+      "url": "https://kaggle.com/",
+      "bucket": "C",
+      "file": "registry/react-bits/ChromaGrid/ChromaGrid.tsx",
+      "snippet": "registry/react-bits/ChromaGrid/ChromaGrid.tsx:75:      url: 'https://kaggle.com/'"
+    },
+    {
+      "url": "https://aws.amazon.com/",
+      "bucket": "C",
+      "file": "registry/react-bits/ChromaGrid/ChromaGrid.tsx",
+      "snippet": "registry/react-bits/ChromaGrid/ChromaGrid.tsx:93:      url: 'https://aws.amazon.com/'"
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/gh/justadudewhohacks/face-api.js@0.22.2/weights",
+      "bucket": "B",
+      "file": "registry/react-bits/GridScan/GridScan.jsx",
+      "snippet": "registry/react-bits/GridScan/GridScan.jsx:274:  modelsPath = 'https://cdn.jsdelivr.net/gh/justadudewhohacks/face-api.js@0.22.2/weights',"
+    },
+    {
+      "url": "https://google.com/",
+      "bucket": "C",
+      "file": "registry/react-bits/InfiniteMenu/InfiniteMenu.jsx",
+      "snippet": "registry/react-bits/InfiniteMenu/InfiniteMenu.jsx:907:    link: 'https://google.com/',"
+    },
+    {
+      "url": "https://x.com/dominikkoch",
+      "bucket": "C",
+      "file": "registry/react-bits/OrbitImages/OrbitImages.jsx",
+      "snippet": "registry/react-bits/OrbitImages/OrbitImages.jsx:2:// https://x.com/dominikkoch"
+    },
+    {
+      "url": "https://avatar.vercel.sh/jack",
+      "bucket": "B",
+      "file": "registry/magicui/registry/example/marquee-demo.tsx",
+      "snippet": "registry/magicui/registry/example/marquee-demo.tsx:9:    img: \"https://avatar.vercel.sh/jack\","
+    },
+    {
+      "url": "https://ejiidnob33g9ap1r.public.blob.vercel-storage.com/ElevenLabs_2025-11-10T22_07_46_Hayden_pvc_sp108_s50_sb75_se0_b_m2.mp3",
+      "bucket": "B",
+      "file": "registry/ai-elements/registry/default/examples/audio-player.tsx",
+      "snippet": "registry/ai-elements/registry/default/examples/audio-player.tsx:25:        \"https://ejiidnob33g9ap1r.public.blob.vercel-storage.com/ElevenLabs_2025-11-10T22_07_46_Hayden_pvc_sp108_s50_sb75_se0_b_m2.mp3\""
+    },
+    {
+      "url": "https://stripe.com/docs/api",
+      "bucket": "C",
+      "file": "registry/ai-elements/registry/default/examples/sources.tsx",
+      "snippet": "registry/ai-elements/registry/default/examples/sources.tsx:11:  { href: \"https://stripe.com/docs/api\", title: \"Stripe API Documentation\" },"
+    },
+    {
+      "url": "https://docs.github.com/en/rest",
+      "bucket": "C",
+      "file": "registry/ai-elements/registry/default/examples/sources.tsx",
+      "snippet": "registry/ai-elements/registry/default/examples/sources.tsx:12:  { href: \"https://docs.github.com/en/rest\", title: \"GitHub REST API\" },"
+    },
+    {
+      "url": "https://docs.aws.amazon.com/sdk-for-javascript/",
+      "bucket": "C",
+      "file": "registry/ai-elements/registry/default/examples/sources.tsx",
+      "snippet": "registry/ai-elements/registry/default/examples/sources.tsx:14:    href: \"https://docs.aws.amazon.com/sdk-for-javascript/\","
+    },
+    {
+      "url": "https://api.github.com/repos/${username}/${repo}",
+      "bucket": "D",
+      "file": "registry/animate-ui/registry/primitives/animate/github-stars/index.tsx",
+      "snippet": "registry/animate-ui/registry/primitives/animate/github-stars/index.tsx:83:      fetch(`https://api.github.com/repos/${username}/${repo}`)"
+    },
+    {
+      "url": "https://api.microlink.io/?${buildQueryString({",
+      "bucket": "D",
+      "file": "registry/animate-ui/registry/primitives/radix/preview-link-card/index.tsx",
+      "snippet": "registry/animate-ui/registry/primitives/radix/preview-link-card/index.tsx:49:    `https://api.microlink.io/?${buildQueryString({"
+    },
+    {
+      "url": "https://avatars.githubusercontent.com/u/81306489",
+      "bucket": "B",
+      "file": "registry/magicui/registry/example/magic-card-demo2.tsx",
+      "snippet": "registry/magicui/registry/example/magic-card-demo2.tsx:44:                  imageUrl: \"https://avatars.githubusercontent.com/u/81306489\","
+    },
+    {
+      "url": "https://www.youtube.com/embed/qh3NGpYRG3I?si=4rb-zSdDkVK9qxxb",
+      "bucket": "B",
+      "file": "registry/magicui/registry/example/hero-video-dialog-demo-top-in-bottom-out.tsx",
+      "snippet": "registry/magicui/registry/example/hero-video-dialog-demo-top-in-bottom-out.tsx:9:        videoSrc=\"https://www.youtube.com/embed/qh3NGpYRG3I?si=4rb-zSdDkVK9qxxb\""
+    },
+    {
+      "url": "https://startup-template-sage.vercel.app/hero-light.png",
+      "bucket": "B",
+      "file": "registry/magicui/registry/example/hero-video-dialog-demo-top-in-bottom-out.tsx",
+      "snippet": "registry/magicui/registry/example/hero-video-dialog-demo-top-in-bottom-out.tsx:10:        thumbnailSrc=\"https://startup-template-sage.vercel.app/hero-light.png\""
+    },
+    {
+      "url": "https://docs.example.com/api",
+      "bucket": "C",
+      "file": "registry/ai-elements/registry/default/examples/attachments-list.tsx",
+      "snippet": "registry/ai-elements/registry/default/examples/attachments-list.tsx:41:    url: \"https://docs.example.com/api\","
+    },
+    {
+      "url": "https://www.x.com",
+      "bucket": "C",
+      "file": "registry/ai-elements/registry/default/examples/chain-of-thought.tsx",
+      "snippet": "registry/ai-elements/registry/default/examples/chain-of-thought.tsx:33:            \"https://www.x.com\","
+    },
+    {
+      "url": "https://www.instagram.com",
+      "bucket": "C",
+      "file": "registry/ai-elements/registry/default/examples/chain-of-thought.tsx",
+      "snippet": "registry/ai-elements/registry/default/examples/chain-of-thought.tsx:34:            \"https://www.instagram.com\","
+    },
+    {
+      "url": "https://www.github.com",
+      "bucket": "C",
+      "file": "registry/ai-elements/registry/default/examples/chain-of-thought.tsx",
+      "snippet": "registry/ai-elements/registry/default/examples/chain-of-thought.tsx:35:            \"https://www.github.com\","
+    },
+    {
+      "url": "https://www.dribbble.com",
+      "bucket": "C",
+      "file": "registry/ai-elements/registry/default/examples/chain-of-thought.tsx",
+      "snippet": "registry/ai-elements/registry/default/examples/chain-of-thought.tsx:69:          {[\"https://www.github.com\", \"https://www.dribbble.com\"].map("
+    },
+    {
+      "url": "https://example.com/nlp-advances",
+      "bucket": "C",
+      "file": "registry/ai-elements/registry/default/examples/inline-citation.tsx",
+      "snippet": "registry/ai-elements/registry/default/examples/inline-citation.tsx:25:      url: \"https://example.com/nlp-advances\","
+    },
+    {
+      "url": "https://mlnews.org/breakthroughs",
+      "bucket": "C",
+      "file": "registry/ai-elements/registry/default/examples/inline-citation.tsx",
+      "snippet": "registry/ai-elements/registry/default/examples/inline-citation.tsx:31:      url: \"https://mlnews.org/breakthroughs\","
+    },
+    {
+      "url": "https://healthai.com/trends",
+      "bucket": "C",
+      "file": "registry/ai-elements/registry/default/examples/inline-citation.tsx",
+      "snippet": "registry/ai-elements/registry/default/examples/inline-citation.tsx:37:      url: \"https://healthai.com/trends\","
+    },
+    {
+      "url": "https://aiethics.org/overview",
+      "bucket": "C",
+      "file": "registry/ai-elements/registry/default/examples/inline-citation.tsx",
+      "snippet": "registry/ai-elements/registry/default/examples/inline-citation.tsx:43:      url: \"https://aiethics.org/overview\","
+    },
+    {
+      "url": "https://deeplearninghub.com/scaling-models",
+      "bucket": "C",
+      "file": "registry/ai-elements/registry/default/examples/inline-citation.tsx",
+      "snippet": "registry/ai-elements/registry/default/examples/inline-citation.tsx:49:      url: \"https://deeplearninghub.com/scaling-models\","
+    },
+    {
+      "url": "https://nlubenchmarks.com/latest",
+      "bucket": "C",
+      "file": "registry/ai-elements/registry/default/examples/inline-citation.tsx",
+      "snippet": "registry/ai-elements/registry/default/examples/inline-citation.tsx:55:      url: \"https://nlubenchmarks.com/latest\","
+    },
+    {
+      "url": "https://api.openai.com/v1/audio/transcriptions",
+      "bucket": "D",
+      "file": "registry/ai-elements/registry/default/examples/speech-input.tsx",
+      "snippet": "registry/ai-elements/registry/default/examples/speech-input.tsx:17:    \"https://api.openai.com/v1/audio/transcriptions\","
+    },
+    {
+      "url": "https://api.example.com/data",
+      "bucket": "D",
+      "file": "registry/ai-elements/registry/default/examples/tool-output-error.tsx",
+      "snippet": "registry/ai-elements/registry/default/examples/tool-output-error.tsx:22:    url: \"https://api.example.com/data\","
+    },
+    {
+      "url": "https://skills.sh/",
+      "bucket": "C",
+      "file": "registry/ai-elements/registry/default/examples/v0-clone.tsx",
+      "snippet": "registry/ai-elements/registry/default/examples/v0-clone.tsx:65:  demo: \"https://skills.sh/\","
+    },
+    {
+      "url": "https://preview-v0me-kzml7zc6fkcvbyhzrf47.vusercontent.net/",
+      "bucket": "B",
+      "file": "registry/ai-elements/registry/default/examples/web-preview.tsx",
+      "snippet": "registry/ai-elements/registry/default/examples/web-preview.tsx:108:      <WebPreviewBody src=\"https://preview-v0me-kzml7zc6fkcvbyhzrf47.vusercontent.net/\" />"
+    },
+    {
+      "url": "https://models.dev/logos/${provider}.svg",
+      "bucket": "D",
+      "file": "registry/ai-elements/registry/default/ai-elements/model-selector.tsx",
+      "snippet": "registry/ai-elements/registry/default/ai-elements/model-selector.tsx:186:    src={`https://models.dev/logos/${provider}.svg`}"
+    },
+    {
+      "url": "https://chatgpt.com/?${new",
+      "bucket": "C",
+      "file": "registry/ai-elements/registry/default/ai-elements/open-in-chat.tsx",
+      "snippet": "registry/ai-elements/registry/default/ai-elements/open-in-chat.tsx:24:      `https://chatgpt.com/?${new URLSearchParams({"
+    },
+    {
+      "url": "https://claude.ai/new?${new",
+      "bucket": "C",
+      "file": "registry/ai-elements/registry/default/ai-elements/open-in-chat.tsx",
+      "snippet": "registry/ai-elements/registry/default/ai-elements/open-in-chat.tsx:43:      `https://claude.ai/new?${new URLSearchParams({"
+    },
+    {
+      "url": "https://cursor.com/link/prompt",
+      "bucket": "C",
+      "file": "registry/ai-elements/registry/default/ai-elements/open-in-chat.tsx",
+      "snippet": "registry/ai-elements/registry/default/ai-elements/open-in-chat.tsx:65:      const url = new URL(\"https://cursor.com/link/prompt\");"
+    },
+    {
+      "url": "https://scira.ai/?${new",
+      "bucket": "C",
+      "file": "registry/ai-elements/registry/default/ai-elements/open-in-chat.tsx",
+      "snippet": "registry/ai-elements/registry/default/ai-elements/open-in-chat.tsx:96:      `https://scira.ai/?${new URLSearchParams({"
+    },
+    {
+      "url": "https://t3.chat/new?${new",
+      "bucket": "C",
+      "file": "registry/ai-elements/registry/default/ai-elements/open-in-chat.tsx",
+      "snippet": "registry/ai-elements/registry/default/ai-elements/open-in-chat.tsx:161:      `https://t3.chat/new?${new URLSearchParams({"
+    },
+    {
+      "url": "https://v0.app?${new",
+      "bucket": "C",
+      "file": "registry/ai-elements/registry/default/ai-elements/open-in-chat.tsx",
+      "snippet": "registry/ai-elements/registry/default/ai-elements/open-in-chat.tsx:169:      `https://v0.app?${new URLSearchParams({"
+    },
+    {
+      "url": "https://images.pexels.com/photos/34293571/pexels-photo-34293571.jpeg",
+      "bucket": "B",
+      "file": "registry/animate-ui/registry/demo/primitives/effects/image-zoom/index.tsx",
+      "snippet": "registry/animate-ui/registry/demo/primitives/effects/image-zoom/index.tsx:8:        src=\"https://images.pexels.com/photos/34293571/pexels-photo-34293571.jpeg\""
+    },
+    {
+      "url": "https://videos.pexels.com/video-files/14993748/14993748-uhd_1296_2304_30fps.mp4",
+      "bucket": "B",
+      "file": "registry/magicui/registry/example/android-demo-3.tsx",
+      "snippet": "registry/magicui/registry/example/android-demo-3.tsx:8:        videoSrc=\"https://videos.pexels.com/video-files/14993748/14993748-uhd_1296_2304_30fps.mp4\""
+    },
+    {
+      "url": "https://easings.net/#easeOutExpo",
+      "bucket": "C",
+      "file": "registry/magicui/registry/magicui/animated-beam.tsx",
+      "snippet": "registry/magicui/registry/magicui/animated-beam.tsx:172:            ease: [0.16, 1, 0.3, 1], // https://easings.net/#easeOutExpo"
+    },
+    {
+      "url": "https://plus.unsplash.com/premium_photo-1672201106204-58e9af7a2888?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "bucket": "B",
+      "file": "registry/magicui/registry/example/backlight-image-demo.tsx",
+      "snippet": "registry/magicui/registry/example/backlight-image-demo.tsx:9:          \"https://plus.unsplash.com/premium_photo-1672201106204-58e9af7a2888?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB"
+    },
+    {
+      "url": "https://flagcdn.com/w80/${countryCode}.webp",
+      "bucket": "B",
+      "file": "registry/magicui/registry/example/dotted-map-demo.tsx",
+      "snippet": "registry/magicui/registry/example/dotted-map-demo.tsx:40:          const href = `https://flagcdn.com/w80/${countryCode}.webp` // FlagCDN  [oai_citation:7\u2021Flagpedia](https://flagpedia.net/download/api)"
+    },
+    {
+      "url": "https://flagpedia.net/download/api",
+      "bucket": "C",
+      "file": "registry/magicui/registry/example/dotted-map-demo.tsx",
+      "snippet": "registry/magicui/registry/example/dotted-map-demo.tsx:40:          const href = `https://flagcdn.com/w80/${countryCode}.webp` // FlagCDN  [oai_citation:7\u2021Flagpedia](https://flagpedia.net/download/api)"
+    },
+    {
+      "url": "https://cdn.simpleicons.org/${slug}/${slug}",
+      "bucket": "B",
+      "file": "registry/magicui/registry/example/icon-cloud-demo.tsx",
+      "snippet": "registry/magicui/registry/example/icon-cloud-demo.tsx:38:    (slug) => `https://cdn.simpleicons.org/${slug}/${slug}`"
+    },
+    {
+      "url": "https://placehold.co/900x1600?text=Hello+World",
+      "bucket": "B",
+      "file": "registry/magicui/registry/example/iphone-demo-2.tsx",
+      "snippet": "registry/magicui/registry/example/iphone-demo-2.tsx:6:      <Iphone src=\"https://placehold.co/900x1600?text=Hello+World\" />"
+    },
+    {
+      "url": "https://cdn.magicui.design/ocean-small.webm",
+      "bucket": "B",
+      "file": "registry/magicui/registry/example/video-text-demo.tsx",
+      "snippet": "registry/magicui/registry/example/video-text-demo.tsx:6:      <VideoText src=\"https://cdn.magicui.design/ocean-small.webm\">"
+    },
+    {
+      "url": "https://ui.shadcn.com/docs/installation",
+      "bucket": "C",
+      "file": "registry/shadcn/new-york/examples/dialog-close-button.tsx",
+      "snippet": "registry/shadcn/new-york/examples/dialog-close-button.tsx:37:              defaultValue=\"https://ui.shadcn.com/docs/installation\""
+    }
+  ]
+}

@@ -1,0 +1,195 @@
+{
+  "ok": [
+    {
+      "slug": "microsoft",
+      "source": "simple-icons@9.21.0 (npm registry, via unpkg)",
+      "url": "https://unpkg.com/simple-icons@9.21.0/icons/microsoft.svg"
+    },
+    {
+      "slug": "apple",
+      "source": "simple-icons@current(node_modules)"
+    },
+    {
+      "slug": "google",
+      "source": "simple-icons@current(node_modules)"
+    },
+    {
+      "slug": "linkedin",
+      "source": "simple-icons@9.21.0 (npm registry, via unpkg)",
+      "url": "https://unpkg.com/simple-icons@9.21.0/icons/linkedin.svg"
+    },
+    {
+      "slug": "twitter",
+      "source": "simple-icons@9.21.0 (npm registry, via unpkg)",
+      "url": "https://unpkg.com/simple-icons@9.21.0/icons/twitter.svg"
+    },
+    {
+      "slug": "typescript",
+      "source": "simple-icons@current(node_modules)"
+    },
+    {
+      "slug": "javascript",
+      "source": "simple-icons@current(node_modules)"
+    },
+    {
+      "slug": "dart",
+      "source": "simple-icons@current(node_modules)"
+    },
+    {
+      "slug": "java",
+      "source": "simple-icons@6.0.0 (npm registry, via unpkg)",
+      "url": "https://unpkg.com/simple-icons@6.0.0/icons/java.svg"
+    },
+    {
+      "slug": "react",
+      "source": "simple-icons@current(node_modules)"
+    },
+    {
+      "slug": "flutter",
+      "source": "simple-icons@current(node_modules)"
+    },
+    {
+      "slug": "android",
+      "source": "simple-icons@current(node_modules)"
+    },
+    {
+      "slug": "html5",
+      "source": "simple-icons@current(node_modules)"
+    },
+    {
+      "slug": "css3",
+      "source": "simple-icons@9.21.0 (npm registry, via unpkg)",
+      "url": "https://unpkg.com/simple-icons@9.21.0/icons/css3.svg"
+    },
+    {
+      "slug": "nodedotjs",
+      "source": "simple-icons@current(node_modules)"
+    },
+    {
+      "slug": "express",
+      "source": "simple-icons@current(node_modules)"
+    },
+    {
+      "slug": "nextdotjs",
+      "source": "simple-icons@current(node_modules)"
+    },
+    {
+      "slug": "prisma",
+      "source": "simple-icons@current(node_modules)"
+    },
+    {
+      "slug": "amazonaws",
+      "source": "simple-icons@9.21.0 (npm registry, via unpkg)",
+      "url": "https://unpkg.com/simple-icons@9.21.0/icons/amazonaws.svg"
+    },
+    {
+      "slug": "postgresql",
+      "source": "simple-icons@current(node_modules)"
+    },
+    {
+      "slug": "firebase",
+      "source": "simple-icons@current(node_modules)"
+    },
+    {
+      "slug": "nginx",
+      "source": "simple-icons@current(node_modules)"
+    },
+    {
+      "slug": "vercel",
+      "source": "simple-icons@current(node_modules)"
+    },
+    {
+      "slug": "testinglibrary",
+      "source": "simple-icons@current(node_modules)"
+    },
+    {
+      "slug": "jest",
+      "source": "simple-icons@current(node_modules)"
+    },
+    {
+      "slug": "cypress",
+      "source": "simple-icons@current(node_modules)"
+    },
+    {
+      "slug": "docker",
+      "source": "simple-icons@current(node_modules)"
+    },
+    {
+      "slug": "git",
+      "source": "simple-icons@current(node_modules)"
+    },
+    {
+      "slug": "jira",
+      "source": "simple-icons@current(node_modules)"
+    },
+    {
+      "slug": "github",
+      "source": "simple-icons@current(node_modules)"
+    },
+    {
+      "slug": "gitlab",
+      "source": "simple-icons@current(node_modules)"
+    },
+    {
+      "slug": "visualstudiocode",
+      "source": "simple-icons@9.21.0 (npm registry, via unpkg)",
+      "url": "https://unpkg.com/simple-icons@9.21.0/icons/visualstudiocode.svg"
+    },
+    {
+      "slug": "androidstudio",
+      "source": "simple-icons@current(node_modules)"
+    },
+    {
+      "slug": "sonarqube",
+      "source": "simple-icons@9.21.0 (npm registry, via unpkg)",
+      "url": "https://unpkg.com/simple-icons@9.21.0/icons/sonarqube.svg"
+    },
+    {
+      "slug": "figma",
+      "source": "simple-icons@current(node_modules)"
+    }
+  ],
+  "failed": [],
+  "legacy_used": [
+    {
+      "slug": "microsoft",
+      "version": "9.21.0",
+      "reason": "removed from current simple-icons package (trademark-policy purge)"
+    },
+    {
+      "slug": "linkedin",
+      "version": "9.21.0",
+      "reason": "removed from current simple-icons package (trademark-policy purge)"
+    },
+    {
+      "slug": "twitter",
+      "version": "9.21.0",
+      "reason": "removed from current simple-icons package (trademark-policy purge)"
+    },
+    {
+      "slug": "java",
+      "version": "6.0.0",
+      "reason": "removed from current simple-icons package (trademark-policy purge)"
+    },
+    {
+      "slug": "css3",
+      "version": "9.21.0",
+      "reason": "removed from current simple-icons package (trademark-policy purge)"
+    },
+    {
+      "slug": "amazonaws",
+      "version": "9.21.0",
+      "reason": "removed from current simple-icons package (trademark-policy purge)"
+    },
+    {
+      "slug": "visualstudiocode",
+      "version": "9.21.0",
+      "reason": "removed from current simple-icons package (trademark-policy purge)"
+    },
+    {
+      "slug": "sonarqube",
+      "version": "9.21.0",
+      "reason": "removed from current simple-icons package (trademark-policy purge)"
+    }
+  ]
+}

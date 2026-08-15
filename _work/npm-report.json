@@ -1,0 +1,85 @@
+{
+  "packages_requested": 119,
+  "packages_installed": 117,
+  "unresolvable": [
+    {
+      "name": ": colorFrom,",
+      "reason": "Parser artifact from static import/string scanning of refs.json \u2014 not a valid npm package name, not a real dependency. Excluded."
+    },
+    {
+      "name": "@app/(auth)",
+      "reason": "Parser artifact \u2014 a local Next.js route-group path (app/(auth)) misidentified as a bare import specifier, not an npm package. Excluded."
+    }
+  ],
+  "renamed_or_corrected": [
+    {
+      "from": "@base-ui-components/react",
+      "to": "@base-ui/react",
+      "evidence": "npm view @base-ui-components/react deprecated -> \"Package was renamed to @base-ui/react\". Both packages share the same description/homepage (base-ui.com) and repository (github.com/mui/base-ui). Handled via a pnpm.overrides alias rather than dropping the name, so any archived source that still imports the literal string \"@base-ui-components/react\" resolves to the current package's code."
+    },
+    {
+      "name_note": "@shadcn/react and shadcn (CLI) were checked for legitimacy, not renamed",
+      "from": "@shadcn/react (bare import)",
+      "to": "@shadcn/react (subpath import required)",
+      "evidence": "@shadcn/react@0.3.0 is a real, currently-published package (repo github.com/shadcn-ui/ui, dir packages/react) but its package.json \"exports\" map has no root \".\" entry \u2014 only \"./message-scroller\" and \"./questionnaire\" subpaths. A bare `import \"@shadcn/react\"` fails to resolve at build time; archived code must import a specific subpath. Package itself is legitimate and was kept as a dependency."
+    }
+  ],
+  "overrides_added": [
+    {
+      "pkg": "@base-ui-components/react",
+      "override": "npm:@base-ui/react@^1.7.0",
+      "reason": "Deprecated/renamed upstream (see renamed_or_corrected). Aliasing keeps the old import specifier resolvable against current, maintained code instead of installing the abandoned 1.0.0-rc.0."
+    },
+    {
+      "pkg": "three",
+      "override": "^0.182.0 (was declared as ^0.180.0 in the archive)",
+      "reason": "@react-three/postprocessing@3.0.5 declares a peer requirement of three>=0.182.0. Because three is pre-1.0, a caret range on 0.180.0 only allows patch bumps (0.180.x) and cannot satisfy that peer. Bumped the constraint to the nearest range that clears the peer check; verified with `pnpm install` that the peer-dependency warning for @react-three/postprocessing disappeared afterward."
+    },
+    {
+      "pkg": "(workspace-wide) .npmrc",
+      "override": "strict-peer-dependencies=false, auto-install-peers=true",
+      "reason": "Archive spans 5 registries built at different times against React 18 and React 19; several packages (e.g. some @radix-ui/*, react-aria-components, chakra-ui ecosystem deps) still list react/react-dom ^18 in peerDependencies alongside ^19. pnpm's default behavior only warns (does not hard-fail) on peer mismatches, but this makes that lenience explicit and reproducible instead of relying on default CLI flags, and lets auto-install-peers pull in any missing shared peers (e.g. @types/react for peer-optional cases) without manual chasing."
+    },
+    {
+      "pkg": "recharts",
+      "override": "pinned to ^3.8.0 (archive declared both recharts@3.8.0 and recharts@2.15.4 from different registries)",
+      "reason": "A single package.json can only carry one version of a bare 'recharts' import. Picked 3.8.0 (newer major) for better React 19 compatibility. Components authored against the 2.15.4 API may see behavioral/type differences at runtime \u2014 this is a known, recorded gap rather than a silent drop; recharts itself installs successfully either way."
+    },
+    {
+      "pkg": "lucide-react",
+      "override": "pinned to ^0.542.0 (archive also had a bare 'lucide-react' entry with no version)",
+      "reason": "Chose the explicit archived constraint over the unconstrained one to match the icon set/API most components were built against (latest major is 1.31.0, a breaking jump)."
+    },
+    {
+      "pkg": "react-resizable-panels",
+      "override": "pinned to ^4 (archive also had a bare entry)",
+      "reason": "Honored the explicit archived constraint over resolving to whatever 'latest' would give unconstrained."
+    },
+    {
+      "pkg": "@tanstack/react-table",
+      "override": "pinned to ^8.0.0 (archive also had a bare entry; npm's current latest major is 9.x)",
+      "reason": "Archived components were written against the v8 API; installing v9 would resolve but likely break call sites. Honored the explicit archived constraint; pnpm printed an informational '(9.1.2 is available)' notice, not an error."
+    },
+    {
+      "pkg": "esbuild (via pnpm-workspace.yaml onlyBuiltDependencies)",
+      "override": "onlyBuiltDependencies: [esbuild]",
+      "reason": "pnpm 10 blocks postinstall/build scripts by default for supply-chain safety, which left esbuild's native-binary postinstall unrun and vite non-functional. Explicitly allow-listed esbuild's build script (the only one needed here) rather than disabling the protection globally."
+    }
+  ],
+  "lockfile": {
+    "path": "_verify/pnpm-lock.yaml",
+    "bytes": 424511
+  },
+  "offline_proof": {
+    "leak_check": "BLOCKED",
+    "leak_check_verbatim": "BLOCKED EPERM",
+    "offline_install_exit_code": 0,
+    "stdout_tail": "Lockfile is up to date, resolution step is skipped\nProgress: resolved 1013, reused 1013, downloaded 0, added 1013, done\n... (full package list, all showing 'downloaded 0') ...\n+ zod 4.4.3\n\ndevDependencies:\n+ @tailwindcss/vite 4.3.3\n+ @types/node 24.13.3\n+ @types/react 19.2.18\n+ @types/react-dom 19.2.4\n+ @vitejs/plugin-react 5.2.0\n+ tailwindcss 4.3.3\n+ typescript 5.9.3\n+ vite 7.3.6\n\nDone in 21.6s using pnpm v10.11.0",
+    "notes": "Command run: `sandbox-exec -f _work/verify.sb pnpm install --offline --frozen-lockfile` from _verify after `rm -rf node_modules`. Full log at /private/tmp/claude-501/-Users-vm-shadcn/07d7dcf1-c4a3-4ad4-bdf0-219d7bd34cfc/scratchpad/offline_install.log. Resolved 1013 total packages (116 direct deps + transitive), 'downloaded 0' throughout confirms zero network fetches; all satisfied from the local store at _verify/.pnpm-store."
+  },
+  "disk": {
+    "store": "1.4G (_verify/.pnpm-store)",
+    "node_modules": "1.4G (_verify/node_modules, reconstructed offline)",
+    "free_disk_after": "18Gi free of 123Gi (per `df -h /`)"
+  }
+}

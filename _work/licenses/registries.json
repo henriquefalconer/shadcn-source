@@ -1,0 +1,84 @@
+[
+  {
+    "project": "shadcn/ui",
+    "homepage": "https://ui.shadcn.com",
+    "license_name": "MIT License",
+    "spdx": "MIT",
+    "copyright": "Copyright (c) 2023 shadcn",
+    "redistribution_restricted": false,
+    "restrictive_clause_verbatim": null,
+    "redistributor_obligations": [
+      "Include the above copyright notice in all copies or substantial portions of the Software.",
+      "Include the permission notice (the full MIT license text) in all copies or substantial portions of the Software."
+    ],
+    "license_file": "shadcn-ui.txt",
+    "source_url_used": "https://raw.githubusercontent.com/shadcn-ui/ui/main/LICENSE.md"
+  },
+  {
+    "project": "React Bits",
+    "homepage": "https://reactbits.dev",
+    "license_name": "MIT + Commons Clause License Condition v1.0",
+    "spdx": null,
+    "copyright": "Copyright (c) 2026 David Haz",
+    "redistribution_restricted": true,
+    "restrictive_clause_verbatim": "You may use this Software, including for any commercial purpose, **so long as you do not sell, sublicense, or redistribute the components themselves-whether alone, in a bundle, or as a ported version.**",
+    "redistributor_obligations": [
+      "Include the above copyright notice and this permission notice in all copies or substantial portions of the Software.",
+      "Comply with the Commons Clause restriction: do not sell, sublicense, or redistribute the components themselves, whether alone, in a bundle, or as a ported version.",
+      "Software may still be used, including commercially, as part of an application, website, or product (per the granted-rights clause), just not sold/sublicensed/redistributed as standalone components."
+    ],
+    "license_file": "react-bits.txt",
+    "source_url_used": "https://raw.githubusercontent.com/DavidHDev/react-bits/main/LICENSE.md"
+  },
+  {
+    "project": "Magic UI",
+    "homepage": "https://magicui.design",
+    "license_name": "MIT License",
+    "spdx": "MIT",
+    "copyright": "Copyright (c) Magic UI",
+    "redistribution_restricted": false,
+    "restrictive_clause_verbatim": null,
+    "redistributor_obligations": [
+      "Include the above copyright notice in all copies or substantial portions of the Software.",
+      "Include the permission notice (the full MIT license text) in all copies or substantial portions of the Software."
+    ],
+    "license_file": "magic-ui.txt",
+    "source_url_used": "https://raw.githubusercontent.com/magicuidesign/magicui/main/LICENSE.md"
+  },
+  {
+    "project": "Animate UI",
+    "homepage": "https://animate-ui.com",
+    "license_name": "MIT + Commons Clause License Condition",
+    "spdx": null,
+    "copyright": "Copyright (c) 2025 Elliot Sutton",
+    "redistribution_restricted": true,
+    "restrictive_clause_verbatim": "You may use this Software, including for any commercial purpose, **so long as you do not sell or redistribute the components themselves in their original form—whether alone or in a bundle.**",
+    "redistributor_obligations": [
+      "Include the above copyright notice and this permission notice in all copies or substantial portions of the Software.",
+      "Comply with the Commons Clause restriction: do not sell or redistribute the components themselves in their original form, whether alone or in a bundle.",
+      "Software may still be used, including commercially, as part of an application, website, or product (per the granted-rights clause), just not sold/redistributed as standalone components in original form."
+    ],
+    "license_file": "animate-ui.txt",
+    "source_url_used": "https://raw.githubusercontent.com/imskyleen/animate-ui/main/LICENSE.md"
+  },
+  {
+    "project": "AI Elements (Vercel)",
+    "homepage": "https://ai-sdk.dev/elements",
+    "license_name": "Apache License, Version 2.0",
+    "spdx": "Apache-2.0",
+    "copyright": "Copyright 2023 Vercel, Inc.",
+    "redistribution_restricted": false,
+    "restrictive_clause_verbatim": null,
+    "redistributor_obligations": [
+      "Provide a copy of the Apache License 2.0 to recipients (e.g. include the LICENSE file), per License section 4(a).",
+      "Cause any modified files to carry prominent notices stating that changes were made (statement-of-changes requirement, License section 4(b)).",
+      "Retain, in the Source form of any redistributed derivative works, all copyright, patent, trademark, and attribution notices from the Source form of the Work, excluding notices that do not pertain to any part of the derivative works (License section 4(c)).",
+      "If the original work distribution includes a NOTICE text file, any derivative works must include a readable copy of the attribution notices contained within it, in at least one of the specified places (License section 4(d)); note this repository's bundled LICENSE file is the short-form Apache 2.0 header (copyright line + standard Apache boilerplate paragraph) referencing http://www.apache.org/licenses/LICENSE-2.0 for the full license terms, and no separate NOTICE file was found in the repo root at the time of this check.",
+      "State changes made to the Work if you distribute a modified version (covered by 4(b) above).",
+      "Apache-2.0 explicitly grants a patent license from contributors, and terminates that patent license for any entity that initiates patent litigation over the Work (License section 3)."
+    ],
+    "license_file": "ai-elements.txt",
+    "source_url_used": "https://raw.githubusercontent.com/vercel/ai-elements/main/LICENSE",
+    "note": "The repo's LICENSE file (ai-elements.txt, 552 bytes / 12 lines) is a short-form notice: the copyright line plus the standard Apache boilerplate paragraph, incorporating the full Apache License 2.0 by reference to http://www.apache.org/licenses/LICENSE-2.0. It does not itself reproduce all 9 sections of the license (definitions, grant of copyright/patent license, redistribution terms 4(a)-(d), etc.). The full referenced legal text was separately fetched and saved to apache-2.0-full-text.txt for completeness; the redistributor_obligations above are derived from that full text."
+  }
+]
