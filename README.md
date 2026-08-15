@@ -50,7 +50,7 @@ than write it from memory, which tends to be a version or two stale.
 
 ## License
 
-MIT. There is no third-party code in this repo.
+MIT.
 
 What you download keeps its own license. Mostly MIT and Apache-2.0; the fonts are
 OFL. React Bits and Animate UI add a Commons Clause: you can use their components
