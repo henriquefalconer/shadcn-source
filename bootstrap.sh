@@ -12,7 +12,7 @@ set -euo pipefail
 ARCHIVE="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 cd "$ARCHIVE"
 
-BOOT="_work/bootstrap"
+BOOT="bootstrap"
 STATE="$BOOT/state.json"
 FORCE=0
 CHECK=0
@@ -57,13 +57,16 @@ if [ "$FORCE" = 0 ] && [ -n "$REG_WANT" ] && [ "$REG_NOW" = "$REG_WANT" ] && [ "
 fi
 
 start=$(date +%s)
-echo "==> stage 1/3  registry"
+echo "==> stage 1/4  registry"
 OUT="$ARCHIVE/registry" node "$BOOT/fetch-registry.mjs"
 
-echo "==> stage 2/3  assets"
+echo "==> stage 2/4  assets"
 node "$BOOT/fetch-assets.mjs"
 
-echo "==> stage 3/3  indexes"
+echo "==> stage 3/4  docs"
+node "$BOOT/fetch-docs.mjs"
+
+echo "==> stage 4/4  indexes"
 node "$BOOT/build-indexes.mjs"
 
 # ---- record the resulting state --------------------------------------------

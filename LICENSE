@@ -1,25 +1,3 @@
-This archive contains material from several sources under different licenses.
-
-The MIT License below applies to this project's own contribution:
-
-  - the build, extraction and verification scripts in _work/ and _verify/
-  - the generated index files INDEX.tsv, INDEX.json, INDEX-compact.json
-    and manifest.json
-  - the documentation: README.md, CLAUDE.md, shadcn.md, COVERAGE.md,
-    GAPS.md, THIRD-PARTY.md, and skills/shadcn-archive/
-
-It does not apply to the bundled material, which remains under its original
-license: the component source in registry/, the documentation in docs/, the
-fonts, images and other media in assets/, the shadcn skill in
-skills/shadcn-ui/, and the license texts in licenses/. Some of that material
-is provided under terms that restrict redistribution. See THIRD-PARTY.md for
-the full list of sources, licenses and restrictions.
-
-The index files describe the bundled material and reproduce descriptions from
-it; those descriptions remain under the terms of their original sources.
-
----
-
 MIT License
 
 Copyright (c) 2026 Henrique Falconer
@@ -41,3 +19,10 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+---
+
+This license covers this repository's own contents. It does not cover the
+material `bootstrap.sh` downloads, which is not distributed here and keeps its
+own license. Bootstrap writes a NOTICE file into each directory it creates,
+recording the terms that apply to that directory's contents.
