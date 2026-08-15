@@ -2,15 +2,6 @@
 
 Bootstrappable shadcn resources library for designing projects you own.
 
-One command pulls the shadcn/ui registry and four community registries onto your
-machine — 2,098 components, blocks and examples across 27 styles, plus the fonts,
-images and docs they need — so an AI assistant can read the real source instead
-of recalling it.
-
-Nothing is stored in this repository. `bootstrap.sh` fetches everything directly
-from each project's own distribution, so what you get is current and comes from
-the people who publish it.
-
 ## Setup
 
 ```bash
@@ -19,54 +10,50 @@ cd shadcn
 ./bootstrap.sh
 ```
 
-First run takes a few minutes and about 200 MB. Later runs hash what you already
-have and exit immediately when nothing has changed.
+The first run takes a few minutes and about 200 MB. Nothing is stored in this
+repo; the script downloads it all from the upstream projects.
 
 ```bash
-./bootstrap.sh --check    # report status, write nothing
-./bootstrap.sh --force    # refetch regardless
+./bootstrap.sh --check   # anything missing or stale?
+./bootstrap.sh --force   # refetch regardless
 ```
 
-Requires `node` and, for the first run, a network connection.
+Re-running is cheap. It hashes what you already have and exits if nothing
+changed. Needs node.
 
-## What you get
+## What you end up with
 
-| path | contents |
-| --- | --- |
-| `registry/shadcn/<style>/` | 27 style trees: 3 component bases × 8 themes, plus 3 legacy |
-| `registry/{react-bits,magicui,animate-ui,ai-elements}/` | four community registries |
-| `assets/` | self-hosted fonts, images, icons and media the components reference |
-| `docs/` | per-component documentation |
-| `INDEX.tsv`, `INDEX.json` | searchable index: name, type, description, dependencies, file paths |
-
-## Using it
-
-Point your assistant at `skills/shadcn/SKILL.md`, or paste it into a prompt. It
-covers finding a component, choosing a style, and copying it out correctly.
-
-The short version: `grep` `INDEX.tsv` to find something, read the file it names,
-and copy it — along with everything in its `registryDependencies`.
+```
+registry/shadcn/<style>/    2,098 items across 27 styles
+registry/react-bits/        also magicui, animate-ui, ai-elements
+assets/                     fonts, images, icons, media
+docs/                       per-component docs
+INDEX.tsv, INDEX.json       searchable index of everything
+```
 
 ## Styles
 
-27 styles = **3 component bases × 8 themes**, plus 3 legacy styles.
+3 bases (`radix`, `base`, `aria`) x 8 themes (`vega`, `nova`, `maia`, `lyra`,
+`mira`, `luma`, `sera`, `rhea`), plus `new-york`, `default` and `new-york-v4`.
 
-- **Bases** (different primitive library): `radix`, `base` (Base UI), `aria` (React Aria)
-- **Themes**: `vega nova maia lyra mira luma sera rhea`
-- **Legacy**: `new-york`, `default` (Tailwind v3 era), `new-york-v4`
+Both axes change the source. Tailwind classes are baked into each file, so
+`base-vega` and `base-nova` differ in 57 of their 60 `ui/` components. Match
+whatever your project's `components.json` declares, or use `new-york-v4`.
 
-Both axes change the source — Tailwind utilities are baked into each component,
-so 57 of 60 `ui/` files differ between two themes of the same base. Use the style
-your project declares in `components.json`; otherwise `new-york-v4`, the only one
-carrying the complete example set.
+## Using it with an AI assistant
 
-## Licensing
+Point it at `skills/shadcn-source/SKILL.md`, or paste that file into a prompt.
 
-This repository is MIT (see `LICENSE`) and contains no third-party material.
+The gist: grep `INDEX.tsv`, open the file it points to, copy that plus anything
+listed in its `registryDependencies`. The point is to read the real source rather
+than write it from memory, which tends to be a version or two stale.
 
-What `bootstrap.sh` fetches keeps its own license. Most is MIT or Apache-2.0; the
-fonts are SIL OFL. **React Bits and Animate UI are MIT with a Commons Clause that
-forbids redistributing their components** — using them in something you build is
-expressly allowed, including commercially, but republishing the components
-themselves is not. Bootstrap writes a `NOTICE` file into each directory recording
-the terms that apply to it.
+## License
+
+MIT. There is no third-party code in this repo.
+
+What you download keeps its own license. Mostly MIT and Apache-2.0; the fonts are
+OFL. React Bits and Animate UI add a Commons Clause: you can use their components
+in what you build, including commercially, but you cannot republish the
+components themselves. `bootstrap.sh` drops a NOTICE in every directory it
+creates and writes a THIRD-PARTY.md listing all of it.
