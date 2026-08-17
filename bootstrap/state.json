@@ -1,8 +1,11 @@
 {
-  "registry": "93c5afdb5d257eccce9192db65e7b5626feb5324e35f4f241d7364c949c488f9",
-  "assets": "d18ace6e697b57ae7ddb02b27bc13fa05b84219bebc00235a9a813bc82c1810c",
+  "registry": "f242729a2635f8dc47bcd565a3a54e98a0995a9964fad0f3a83b5a5c57c87183",
+  "assets": "66b69bd9739e241ba362d633043586eb5c99e52df4b32d845fb8b8e2cd9617fa",
+  "dist": "built",
   "files": {
     "registry": 6603,
-    "assets": 374
-  }
+    "assets": 374,
+    "dist": 111
+  },
+  "bundles": "built"
 }

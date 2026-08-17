@@ -28,8 +28,28 @@ registry/shadcn/<style>/    components, blocks and examples
 registry/react-bits/        also magicui, animate-ui, ai-elements
 assets/                     fonts, images, icons, media
 docs/                       per-component docs
+dist/<style>.css            compiled stylesheet, one per style
+dist/<style>.map.tsv        class -> declarations, for inline-style targets
+dist/js/shadcn-ui.<style>.js  prebuilt components, one file, CSS included
 INDEX.tsv, INDEX.json       searchable index of everything
 ```
+
+`dist/` is what makes the components usable without a build step: Tailwind is
+run once over the registry, so a plain HTML file can inline `dist/<style>.css`
+(~36 KB gzipped) and use the real class strings verbatim. `dist/coverage.json`
+records the check that every utility appearing in the source resolves in its
+sheet. For hosts that mandate inline styles, `<style>.map.tsv` and
+`<style>.vars.css` give the same values without a stylesheet.
+
+`dist/js/` goes further: each style's components are prebuilt into a single
+IIFE that reads React from `window.React` and injects its own stylesheet, so a
+page with a React runtime gets the real components from one copied file.
+`./bootstrap.sh --validate-browser` mounts every block and example in headless
+Chromium and records the result in `dist/js/validation.json`.
+
+Stages 5 and 6 are the only ones needing an npm install; if they cannot run,
+the rest of the archive is unaffected and `bootstrap/{dist,bundles}-status.json`
+say why.
 
 ## Styles
 

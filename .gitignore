@@ -2,6 +2,7 @@
 registry/
 assets/
 docs/
+dist/
 INDEX.tsv
 INDEX.json
 INDEX-compact.json
@@ -10,6 +11,10 @@ THIRD-PARTY.md
 NOTICE
 
 # Bootstrap working state: fetch cache, resume manifest, run reports.
+bootstrap/node_modules/
+bootstrap/data/
+bootstrap/dist-status.json
+bootstrap/bundles-status.json
 bootstrap/raw/
 bootstrap/tmp-registry/
 bootstrap/manifest.jsonl
